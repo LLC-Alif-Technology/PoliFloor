@@ -1,0 +1,47 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Service.QuestionView
+
+<div class="bread">
+    <a asp-controller="Service" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Услуги
+    </a>
+    <p>Обновить услугу: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Service" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a asp-controller="Service" asp-action="MainPage" asp-route-id="@Model.Id">Доп страницы</a>
+    <a asp-controller="Service" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a asp-controller="Service" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a asp-controller="Service" asp-action="Material" asp-route-id="@Model.Id">Материалы</a>
+    <a asp-controller="Service" asp-action="Schema" asp-route-id="@Model.Id">Взрыв</a>
+    <a asp-controller="Service" asp-action="Calc" asp-route-id="@Model.Id">Кальк</a>
+    <a asp-controller="Service" asp-action="Object" asp-route-id="@Model.Id">Готовые</a>
+    <a asp-controller="Service" asp-action="Area" asp-route-id="@Model.Id">Область</a>
+    <a class="active">Вопросы</a>
+    <a asp-controller="Service" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Question" asp-controller="Service" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label>Вопросы</label>
+            <div class="flex-input">
+                <select asp-items="ViewBag.Questions"></select>
+                <a data-id="@Model.Id" class="btn-primary addQuestionForService">Добавить</a>
+            </div>
+        </div>
+        @await Component.InvokeAsync("ServiceQuestions", new { id = Model.Id })
+        <div class="input">
+            <label asp-for="TitleQuestion"></label>
+            <input type="text" asp-for="TitleQuestion" placeholder="Введите заголовок" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description9"></label>
+            <textarea asp-for="Description9" id="ck_editor_1"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Service" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

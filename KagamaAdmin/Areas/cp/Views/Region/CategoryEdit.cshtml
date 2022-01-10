@@ -1,0 +1,24 @@
+﻿@model KagamaModels.Entities.RegionCategory
+
+<div class="bread">
+    <a asp-controller="Region" asp-action="Category" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="CategoryEdit" asp-controller="Region" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Id" />
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Region" asp-action="Category" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

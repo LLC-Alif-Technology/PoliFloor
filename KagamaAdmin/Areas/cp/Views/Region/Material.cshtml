@@ -1,0 +1,41 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Region.ProductView
+
+<div class="bread">
+    <a asp-controller="Region" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить регион: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Region" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a asp-controller="Region" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a asp-controller="Region" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a class="active">Материалы</a>
+    <a asp-controller="Region" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Material" asp-controller="Region" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label>Выбор материала</label>
+            <div class="flex-input">
+                <select asp-items="ViewBag.Products"></select>
+                <a data-id="@Model.Id" class="btn-primary addProductForRegion">Добавить</a>
+            </div>
+        </div>
+        @await Component.InvokeAsync("RegionProducts", new { id = Model.Id })
+        <div class="input">
+            <label asp-for="TitleProducts"></label>
+            <input type="text" asp-for="TitleProducts" placeholder="Введите заголовок" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description4"></label>
+            <textarea asp-for="Description4" id="ck_editor_1"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Region" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

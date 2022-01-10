@@ -1,0 +1,110 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Calc.CalcCategoryView
+
+<div class="bread">
+    <p>Создание категории для калькулятора</p>
+</div>
+<div class="main-tabs-btn">
+    <a href="#main-tab" class="active">Основное</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Index" asp-controller="Calc" asp-area="cp" asp-antiforgery="true">
+        <div class="input">
+            <label asp-for="@Model.CalcCategory.Title"></label>
+            <input type="text" asp-for="@Model.CalcCategory.Title" placeholder="Введите заголовок" class="js_translate_get" onkeyup="translateUrl()" />
+            <span class="error" asp-validation-for="@Model.CalcCategory.Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="@Model.CalcCategory.TitleH1"></label>
+            <input type="text" asp-for="@Model.CalcCategory.TitleH1" placeholder="Заголовок h1" />
+        </div>
+        <div class="input">
+            <label asp-for="@Model.CalcCategory.Alias"></label>
+            <input type="text" asp-for="@Model.CalcCategory.Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="flex-block" style="display:flex;">
+            @*<div class="input" style="margin-right: 50px;">
+                <label asp-for="@Model.CalcCategory.Glossy"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.CalcCategory.Glossy" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input" style="margin-right: 50px;">
+                <label asp-for="@Model.CalcCategory.SemiMatt"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.CalcCategory.SemiMatt" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>*@
+            <div class="input">
+                <label asp-for="@Model.CalcCategory.Matt"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.CalcCategory.Matt" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="@Model.CalcCategory.Desc"></label>
+            <textarea asp-for="@Model.CalcCategory.Desc" id="ck_editor_1"></textarea>
+        </div>
+        @*<div class="flex-block" style="display:flex;">
+            <div class="input" style="margin-right: 50px;">
+                <label asp-for="@Model.CalcCategory.Smooth"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.CalcCategory.Smooth" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input">
+                <label asp-for="@Model.CalcCategory.Grungy"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.CalcCategory.Grungy" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Добавить" />
+        </div>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ int i = 1;}
+            @foreach (var c in Model.CalcCategories)
+            {
+                <tr>
+                    <td><i>@(i++)</i></td>
+                    <td>@c.Title</td>
+                    <td class="td_btns">
+                        <div class="wrap-btn">
+                            <a class="btn-table btn-edit" asp-controller="Calc" asp-action="Edit" asp-area="cp" asp-route-id="@c.Id">
+                                <img src="~/cp/img/edit.png" alt="">Изменить
+                            </a>
+                            <a class="btn-table btn-delete" asp-controller="Calc" , asp-action="Delete" asp-area="cp" asp-route-id="@c.Id">
+                                <img src="~/cp/img/delete.png" alt="">Удалить
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

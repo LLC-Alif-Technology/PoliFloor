@@ -1,0 +1,254 @@
+﻿@model KagamaAdmin.ViewModel.CatalogView
+
+@{
+    ViewData["SeoTitle"] = string.IsNullOrEmpty(Model.ProductOpen.SeoTitle) ? Model.ProductOpen.Title + " " + Model.ProductOpen.SubTitle + " купить от производителя" : Model.ProductOpen.SeoTitle;
+    ViewData["SeoKeywords"] = string.IsNullOrEmpty(Model.ProductOpen.SeoKeywords) ? Model.Page.SeoKeywords : Model.ProductOpen.SeoKeywords;
+    ViewData["SeoDescription"] = string.IsNullOrEmpty(Model.ProductOpen.SeoDescription) ? "Купить " + Model.ProductOpen.Title + " " + Model.ProductOpen.SubTitle + " в интернет-магазине Поли-флоор" : Model.ProductOpen.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    <a asp-controller="Home" asp-action="Catalog" asp-route-alias="">@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>
+</div>
+
+<div class="item-page">
+    <div class="flex-item">
+        <div class="item-sliders">
+            <div class="swiper-container item-gallery-thumbs">
+                <div class="swiper-wrapper">
+                    @if (!string.IsNullOrEmpty(Model.ProductOpen.Img1))
+                    {
+                        <div class="swiper-slide">
+                            <img src="@Model.ProductOpen.Img1" alt="">
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ProductOpen.Img2))
+                    {
+                        <div class="swiper-slide">
+                            <img src="@Model.ProductOpen.Img2" alt="">
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ProductOpen.Img3))
+                    {
+                        <div class="swiper-slide">
+                            <img src="@Model.ProductOpen.Img3" alt="">
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="wrap-item-gallery-top">
+                <a class="item-gallery-top-left"></a>
+                <div class="swiper-container item-gallery-top">
+                    <div class="swiper-wrapper">
+                        @if (!string.IsNullOrEmpty(Model.ProductOpen.Img1))
+                        {
+                            <div class="swiper-slide">
+                                <img src="@Model.ProductOpen.Img1" alt="">
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.ProductOpen.Img2))
+                        {
+                            <div class="swiper-slide">
+                                <img src="@Model.ProductOpen.Img2" alt="">
+                            </div>
+                        }
+                        @if (!string.IsNullOrEmpty(Model.ProductOpen.Img3))
+                        {
+                            <div class="swiper-slide">
+                                <img src="@Model.ProductOpen.Img3" alt="">
+                            </div>
+                        }
+                    </div>
+                </div>
+                <a class="item-gallery-top-right"></a>
+            </div>
+            @if (!string.IsNullOrEmpty(Model.ProductOpen.LinkVideo))
+            {
+                <a class="item-video-btn"></a>
+            }
+        </div>
+        <div data-item-id="@Model.ProductOpen.Id">
+            <h1>@Model.ProductOpen.Title</h1>
+            <p class="desc">
+                @Model.ProductOpen.SubTitle
+            </p>
+            <p class="stock">
+                @if (Model.ProductOpen.Stock)
+                {
+                    <img src="~/client/img/stock.png" alt="">
+                }
+                else
+                {
+                    <img src="~/client/img/no_stock.png" alt="">
+                }
+                <span>Есть в наличии</span>
+            </p>
+            <div class="price-block">
+                <p class="price">
+                    Цена за 1 кг
+                    <b>@((Model.ProductOpen.PriceKg * Model.EUR).Value.ToString("N0")) р.</b>
+                </p>
+                @if (Model.ProductOpen.PriceKit != null)
+                {
+                    <p class="price">
+                        Вес комплекта (кг)
+                        <b>@((Model.ProductOpen.PriceKit * Model.EUR).Value.ToString("N0")) р.</b>
+                    </p>
+                }
+            </div>
+            <div class="counter-block">
+                @if (Model.CartView.Items.Any(x => x.IdProduct == Model.ProductOpen.Id))
+                {
+                    <div class="counter counterIsCart">
+                        <span class="minus" data-item-id="@Model.ProductOpen.Id"></span>
+                        <input type="number" min="1" value="@(Model.CartView.Items.SingleOrDefault(x=>x.IdProduct == Model.ProductOpen.Id).Count)">
+                        <span class="plus" data-item-id="@Model.ProductOpen.Id"></span>
+                    </div>
+                    <a style="display: none;" data-product="@Model.ProductOpen.Id" class="btn_cart js_AddInCart">В корзину</a>
+                    <a data-product="@Model.ProductOpen.Id" class="btn_cart js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">Оформить заказ</a>
+                }
+                else
+                {
+                    <div class="counter counterNoCart">
+                        <span class="minus" data-item-id="@Model.ProductOpen.Id"></span>
+                        <input type="number" min="1" value="1">
+                        <span class="plus" data-item-id="@Model.ProductOpen.Id"></span>
+                    </div>
+                    <a data-product="@Model.ProductOpen.Id" class="btn_cart js_AddInCart">В корзину</a>
+                    <a style="display: none;" data-product="@Model.ProductOpen.Id" class="btn_cart js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">Оформить заказ</a>
+                }
+            </div>
+            <div class="btns-block">
+                <a class="js-open-call">Проконсультироваться со специалистом</a>
+                <a class="w240" asp-action="Calculator" asp-controller="Home" asp-route-alias="">Расчет стоимости по кв.м</a>
+                <a class="w195 js-open-order">Расчет менеджеру</a>
+            </div>
+            @if (!string.IsNullOrEmpty(Model.ProductOpen.Pdf))
+            {
+                <a class="pdf" href="@Model.ProductOpen.Pdf" target="_blank">
+                    <img src="~/client/img/pdf.png" alt="">
+                    <span>Все сертификаты в формате PDF</span>
+                </a>
+            }
+        </div>
+    </div>
+</div>
+<div class="item-page-details">
+    <h2>Детали</h2>
+    <div class="tab-btn">
+        <a href="#tab_1" class="active">Описание</a>
+        <a href="#tab_2">Технические характеристики</a>
+        <a href="#tab_3">Указания по применению</a>
+        <a href="#tab_4">Особенности</a>
+        <a href="#tab_5">Облости применения</a>
+    </div>
+    <div class="tab-block">
+        <div id="tab_1" class="active">
+            <div class="item_ck_editor">
+                @Html.Raw(Model.ProductOpen.Desc1)
+            </div>
+        </div>
+        <div id="tab_2">
+            <div class="item_ck_editor">
+                @Html.Raw(Model.ProductOpen.Desc2)
+            </div>
+        </div>
+        <div id="tab_3">
+            <div class="item_ck_editor">
+                @Html.Raw(Model.ProductOpen.Desc3)
+            </div>
+        </div>
+        <div id="tab_4">
+            <div class="item_ck_editor">
+                @Html.Raw(Model.ProductOpen.Desc4)
+            </div>
+        </div>
+        <div id="tab_5">
+            <div class="item_ck_editor">
+                @Html.Raw(Model.ProductOpen.Desc5)
+            </div>
+        </div>
+    </div>
+</div>
+@if (Model.ProductBuys.Any())
+{
+    <div class="main-materials">
+        <p class="block-title">C этим товаром покупают</p>
+        <div class="swiper-container swiper-main-materials">
+            <div class="swiper-wrapper">
+                @foreach (var product in Model.ProductBuys)
+                {
+                    <div class="swiper-slide" data-item-id="@product.Id">
+                        <div class="img" style="background-image: url(@product.Img1);"></div>
+                        <p class="caption"><a asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias">@product.Title</a></p>
+                        <p class="desc">@product.SubTitle</p>
+                        <p class="stock">
+                            @if (product.Stock)
+                            {
+                                <img src="~/client/img/stock.png" alt="">
+                            }
+                            else
+                            {
+                                <img src="~/client/img/no_stock.png" alt="">
+                            }
+                            <span>Есть в наличии</span>
+                        </p>
+                        <div class="price-block">
+                            <p class="price">
+                                Цена за 1 кг
+                                <b>@((product.PriceKg * Model.EUR).Value.ToString("N0")) р.</b>
+                            </p>
+                            @if (product.PriceKit != null)
+                            {
+                                <p class="price">
+                                    Вес комплекта (кг)
+                                    <b>@((product.PriceKit * Model.EUR).Value.ToString("N0")) р.</b>
+                                </p>
+                            }
+                        </div>
+                        <div class="flex-block">
+                            @if (Model.CartView.Items.Any(x => x.IdProduct == product.Id))
+                            {
+                                <div class="counter">
+                                    <span data-item-id="@product.Id" class="minus"></span>
+                                    <input type="number" min="1" value="@(Model.CartView.Items.SingleOrDefault(x => x.IdProduct == product.Id).Count + 1)">
+                                    <span data-item-id="@product.Id" class="plus"></span>
+                                </div>
+                                <a style="display: none;" data-product="@product.Id" class="cart_btn js_AddInCart">
+                                    <img src="~/client/img/cart.png" alt="">
+                                    <span>В корзину</span>
+                                </a>
+                                <a data-product="@product.Id" class="cart_btn js_DeleteInCart">
+                                    <img src="~/client/img/cart.png" alt="">
+                                    <span>В корзине</span>
+                                </a>
+                            }
+                            else
+                            {
+                                <div class="counter">
+                                    <span data-item-id="@product.Id" class="minus"></span>
+                                    <input type="number" min="1" value="1">
+                                    <span data-item-id="@product.Id" class="plus"></span>
+                                </div>
+                                <a data-product="@product.Id" class="cart_btn js_AddInCart">
+                                    <img src="~/client/img/cart.png" alt="">
+                                    <span>В корзину</span>
+                                </a>
+                                <a style="display: none;" data-product="@product.Id" class="cart_btn js_DeleteInCart">
+                                    <img src="~/client/img/cart.png" alt="">
+                                    <span>В корзине</span>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+}
+<div class="wrap-item_ck_editor">
+    <div class="item_ck_editor">@Html.Raw(Model.ProductOpen.Desc6)</div>
+</div>
+@await Component.InvokeAsync("MainMap")

@@ -1,0 +1,57 @@
+﻿@model KagamaAdmin.ViewModel.NewsView
+
+@{
+    ViewData["SeoTitle"] = string.IsNullOrEmpty(Model.ArticleOpen.SeoTitle) ? Model.Page.SeoTitle : Model.ArticleOpen.SeoTitle;
+    ViewData["SeoKeywords"] = string.IsNullOrEmpty(Model.ArticleOpen.SeoKeywords) ? Model.Page.SeoKeywords : Model.ArticleOpen.SeoKeywords;
+    ViewData["SeoDescription"] = string.IsNullOrEmpty(Model.ArticleOpen.SeoDescription) ? Model.Page.SeoDescription : Model.ArticleOpen.SeoDescription;
+}
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    <a asp-controller="Home" asp-action="News" asp-route-alias="">@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>
+</div>
+
+<div class="news-page">
+    @*<p class="block-title">@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</p>*@
+    <div class="articles-filter">
+        <a asp-action="News" asp-controller="Home" asp-route-alias="" class="all text_white">Все</a>
+        @foreach (var item in Model.ArticleCategories)
+        {
+            <a asp-action="News" asp-controller="Home" asp-route-alias="@item.Alias">@item.Title</a>
+        }
+    </div>
+    <div class="news-flex">
+        <div class="news">
+            <div class="img">
+                <img src="@Model.ArticleOpen.ImgOpenPage" alt="">
+                <p class="date">@Model.ArticleOpen.CreationDate.ToString("dd MMMM yyyy")</p>
+            </div>
+            <div class="ck-edit">
+                <h1>@(string.IsNullOrEmpty(Model.ArticleOpen.TitleH1) ? Model.ArticleOpen.Title : Model.ArticleOpen.TitleH1)</h1>
+                @Html.Raw(Model.ArticleOpen.Description)
+            </div>
+        </div>
+        <ul class="list last-news">
+            @foreach (var item in Model.Articles)
+            {
+                <li>
+                    <a asp-action="News" asp-controller="Home" asp-route-alias="@item.Alias">
+                        <div class="img" style="background-image: url(@item.Img);">
+                            <p class="date">@item.CreationDate.ToString("dd MMMM yyyy")</p>
+                        </div>
+                        <p class="caption">@item.Title</p>
+                        <p class="desc">
+                            @item.SubTitle
+                        </p>
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+<div id="questions-tab" class="questions-tab">
+    @await Component.InvokeAsync("QuestionsTab")
+</div>
+
+@await Component.InvokeAsync("MainMap")

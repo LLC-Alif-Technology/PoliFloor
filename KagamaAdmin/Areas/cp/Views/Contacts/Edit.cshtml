@@ -1,0 +1,64 @@
+﻿@model KagamaModels.Entities.Contact
+
+<div class="bread">
+    <a asp-controller="Contacts" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить контакт: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a class="active">Основное</a>
+</div>
+
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Edit" asp-controller="Contacts" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Id" />
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Anchor"></label>
+            <input type="text" asp-for="Anchor" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="UrltoPageRegion"></label>
+            <input type="text" asp-for="UrltoPageRegion" placeholder="Url" />
+        </div>
+        <div class="input">
+            <label asp-for="CodeMap"></label>
+            <textarea asp-for="CodeMap"></textarea>
+        </div>
+        <div class="input">
+            <label asp-for="Schedule"></label>
+            <input type="text" asp-for="Schedule" placeholder="График работы" />
+        </div>
+        <div class="input">
+            <label asp-for="Address"></label>
+            <input type="text" asp-for="Address" placeholder="Адрес" />
+        </div>
+        <div class="input">
+            <label asp-for="Email"></label>
+            <input type="text" asp-for="Email" placeholder="Почта" />
+        </div>
+        <div class="input">
+            <label asp-for="Phone"></label>
+            <input type="text" asp-for="Phone" placeholder="Номер телефона" />
+        </div>
+        <div class="input">
+            <label>Головной офис</label>
+            <div class="flex-switcher">
+                <p>Нет/Да</p>
+                <div class="switcher">
+                    <input type="checkbox" asp-for="IsMain" class="checkbox" />
+                    <div class="check"></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Contacts" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

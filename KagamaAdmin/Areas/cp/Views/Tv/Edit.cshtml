@@ -1,0 +1,74 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Tv.TvView
+
+<div class="bread">
+    <a asp-controller="Tv" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Мы на тв
+    </a>
+    <p>Обновить проект: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a class="active">Основное</a>
+    <a asp-controller="Tv" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a asp-controller="Tv" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a asp-controller="Tv" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Edit" asp-controller="Tv" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Icon" />
+        <input type="hidden" asp-for="Banner" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewbanner" asp-for="Banner" id="file_banner" />
+                <div class="check">Фото для банера</div>
+            </div>
+            <img id="previewbanner" style="height: 120px" src="@Model.Banner" />
+        </div>
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewthumb" asp-for="Icon" id="file_icon" />
+                <div class="check">Фото для иконки</div>
+            </div>
+            <img id="previewthumb" style="height: 120px" src="@Model.Icon" />
+        </div>
+        <div class="input">
+            <label asp-for="Caption"></label>
+            <input type="text" asp-for="Caption" placeholder="Надпись над заголовком" />
+        </div>
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="SubTitle"></label>
+            <input type="text" asp-for="SubTitle" placeholder="Введите подзаголовок" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок (h1)" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description1"></label>
+            <textarea asp-for="Description1" id="ck_editor_1"></textarea>
+        </div>
+        @*<div class="input">
+            <label>Если это обучение</label>
+            <div class="flex-switcher">
+                <p>Нет/Да</p>
+                <div class="switcher">
+                    <input type="checkbox" asp-for="IsTv" class="checkbox" />
+                    <div class="check"></div>
+                </div>
+            </div>
+        </div>*@
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Tv" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

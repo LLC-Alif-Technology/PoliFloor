@@ -1,0 +1,67 @@
+﻿@model KagamaAdmin.ViewModel.ProjectsView
+
+@{
+    ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    ViewData["SeoDescription"] = Model.Page.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @*<a>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>*@
+</div>
+
+<div class="projects-page">
+    <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    @if (Model.Projects.Any())
+    {
+        <ul class="list">
+            @foreach (var item in Model.Projects)
+            {
+                <li>
+                    <a asp-action="ProjectOpen" asp-controller="Home" asp-route-alias="@item.Alias" style="background-image:url(@item.Banner);">
+                        <div class="info">
+                            <p class="title">@item.Title</p>
+                            <ul>
+                                @if (!string.IsNullOrEmpty(item.Square))
+                                {
+                                <li>
+                                    <div class="img" style="background-image: url(client/img/projects_page_icon_1.png);"></div>
+                                    <p>
+                                        Площадь
+                                        <b>@item.Square <span>м2</span></b>
+                                    </p>
+                                </li>
+                                }
+                                @if (!string.IsNullOrEmpty(item.City))
+                                {
+                                <li>
+                                    <div class="img" style="background-image: url(client/img/projects_page_icon_2.png);"></div>
+                                    <p>
+                                        Город
+                                        <b>@item.City</b>
+                                    </p>
+                                </li>
+                                }
+                                @if (item.Price != null)
+                                {
+                                    <li>
+                                        <div class="img" style="background-image: url(client/img/projects_page_icon_3.png);"></div>
+                                        <p>
+                                            Стоимость материалов на м2
+                                            <b>@item.Price.Value.ToString("N0") руб.</b>
+                                        </p>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="arrow"></div>
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@await Component.InvokeAsync("MainMap")

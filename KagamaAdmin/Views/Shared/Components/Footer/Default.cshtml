@@ -1,0 +1,71 @@
+﻿@model IEnumerable<KagamaModels.Entities.Service>
+
+<footer>
+    <div>
+        <div class="menu">
+            <div>
+                <b>Главное меню</b>
+                <a asp-action="Index" asp-controller="Home" asp-route-alias=""><span>Главная</span></a>
+                <a asp-controller="Home" asp-action="About" asp-route-alias=""><span>О нас</span></a>
+                <a asp-controller="Home" asp-action="Services" asp-route-alias=""><span>Услуги</span></a>
+                <a asp-controller="Home" asp-action="Catalog" asp-route-alias="">Каталог</a>
+                <a asp-controller="Home" asp-action="Gallery" asp-route-alias="">Фотогалерея</a>
+                <a asp-action="Tv" asp-controller="Home" asp-route-alias=""><span>Видеогалерея</span></a>
+                <a asp-action="News" asp-controller="Home" asp-route-alias=""><span>Новости</span></a>
+                <a asp-action="Video" asp-controller="Home" asp-route-alias=""><span>Обучение</span></a>
+                <a asp-controller="Home" asp-action="Articles" asp-route-alias=""><span>Полезная информация</span></a>
+                <a asp-controller="Home" asp-action="Floors" asp-route-alias=""><span>Полы в помещениях</span></a>
+                <a asp-controller="Home" asp-action="Projects" asp-route-alias=""><span>Наши проекты</span></a>
+                <a asp-controller="Home" asp-action="Tv" asp-route-alias=""><span>Мы на ТВ</span></a>
+                <a asp-action="Regions" asp-controller="Home" asp-route-alias=""><span>Дилеры</span></a>
+                <a asp-controller="Home" asp-action="Contacts" asp-route-alias=""><span>Контакты</span></a>
+            </div>
+            <div>
+                <b>Услуги</b>
+                @if (Model.Any())
+                {
+                    foreach (var item in Model)
+                    {
+                        <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias"><span>@item.Title</span></a>
+                    }
+                }
+            </div>
+        </div>
+        <div>
+            <ul class="soc">
+                <li>
+                    <a href="https://vk.com/poli_floor" target="_blank"><img src="~/client/img/footer-soc-1.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://ok.ru/group/52108766675031" target="_blank"><img src="~/client/img/footer-soc-2.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/polifloor" target="_blank"><img src="~/client/img/footer-soc-3.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/polifloor" target="_blank"><img src="~/client/img/footer-soc-4.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/groups/polifloornomer1" target="_blank"><img src="~/client/img/footer-soc-5.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCa3jeJBt5wM-xY6MmPi4VfQ" target="_blank"><img src="~/client/img/footer-soc-6.png" alt=""></a>
+                </li>
+            </ul>
+            <div class="btns-block">
+                <a class="js-open-call-footer">Заказать звонок</a>
+                <a class="js-open-order-footer">Оставить заявку</a>
+                <a asp-action="Calculator" asp-controller="Home" asp-route-alias="">Расчет стоимости</a>
+            </div>
+            <div class="copyright">
+                <p>
+                    © <b>2008-@DateTime.Now.Year.</b> Компания «Поли-Флоор». Эксклюзивные и промышленные
+                    наливные полы.
+                </p>
+                <p>
+                    Цены носят информационный характер, не является публичной офертой.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

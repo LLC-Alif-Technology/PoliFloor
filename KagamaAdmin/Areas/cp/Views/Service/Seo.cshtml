@@ -1,0 +1,43 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Service.SeoView
+
+<div class="bread">
+    <a asp-controller="Service" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Услуги
+    </a>
+    <p>Обновить услугу: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Service" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a asp-controller="Service" asp-action="MainPage" asp-route-id="@Model.Id">Доп страницы</a>
+    <a asp-controller="Service" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a asp-controller="Service" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a asp-controller="Service" asp-action="Material" asp-route-id="@Model.Id">Материалы</a>
+    <a asp-controller="Service" asp-action="Schema" asp-route-id="@Model.Id">Взрыв</a>
+    <a asp-controller="Service" asp-action="Calc" asp-route-id="@Model.Id">Кальк</a>
+    <a asp-controller="Service" asp-action="Object" asp-route-id="@Model.Id">Готовые</a>
+    <a asp-controller="Service" asp-action="Area" asp-route-id="@Model.Id">Область</a>
+    <a asp-controller="Service" asp-action="Question" asp-route-id="@Model.Id">Вопросы</a>
+    <a class="active">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Seo" asp-controller="Service" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label asp-for="SeoTitle"></label>
+            <input type="text" asp-for="SeoTitle" placeholder="Seo title" />
+        </div>
+        <div class="input">
+            <label asp-for="SeoDescription"></label>
+            <textarea asp-for="SeoDescription" placeholder="Seo description"></textarea>
+        </div>
+        <div class="input">
+            <label asp-for="SeoKeywords"></label>
+            <input type="text" asp-for="SeoKeywords" placeholder="Seo keywords" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Service" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

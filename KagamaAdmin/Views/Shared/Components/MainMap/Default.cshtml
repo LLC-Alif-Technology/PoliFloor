@@ -1,0 +1,37 @@
+﻿@model KagamaAdmin.ViewModel.MainMapView
+
+<div class="main-map">
+    <div>
+        <a asp-action="Index" asp-controller="Home" asp-route-alias="" class="logo">
+            <img src="~/client/img/logo.png" alt="">
+            <span>poli floor</span>
+        </a>
+        <ul>
+            <li>
+                <img src="~/client/img/clock.png" alt="">
+                <p>
+                    @Model.Schedule
+                </p>
+            </li>
+            <li>
+                <img src="~/client/img/location.png" alt="">
+                <p>
+                    @Model.Address
+                </p>
+            </li>
+            <li>
+                <img src="~/client/img/email.png" alt="">
+                <p>
+                    <a href="mailto:@Model.Email">@Model.Email</a>
+                </p>
+            </li>
+            <li>
+                <img src="~/client/img/phone-call.png" alt="">
+                <p>
+                    <a href="tel:@Model.Phone">@Model.Phone</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div></div>
+</div>

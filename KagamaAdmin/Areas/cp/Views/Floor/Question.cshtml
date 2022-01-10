@@ -1,0 +1,41 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Floor.QuestionView
+
+<div class="bread">
+    <a asp-controller="Floor" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить пол: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Floor" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a asp-controller="Floor" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a asp-controller="Floor" asp-action="Material" asp-route-id="@Model.Id">Материалы</a>
+    <a class="active">Вопросы</a>
+    <a asp-controller="Floor" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Question" asp-controller="Floor" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label>Вопросы</label>
+            <div class="flex-input">
+                <select asp-items="ViewBag.Questions"></select>
+                <a data-id="@Model.Id" class="btn-primary addQuestionForFloor">Добавить</a>
+            </div>
+        </div>
+        @await Component.InvokeAsync("FloorQuestions", new { id = Model.Id })
+        <div class="input">
+            <label asp-for="TitleQuestion"></label>
+            <input type="text" asp-for="TitleQuestion" placeholder="Введите заголовок" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description4"></label>
+            <textarea asp-for="Description4" id="ck_editor_1"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Floor" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

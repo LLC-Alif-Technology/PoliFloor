@@ -1,0 +1,98 @@
+﻿@model KagamaAdmin.ViewModel.ContactsView
+
+@{
+    ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    ViewData["SeoDescription"] = Model.Page.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @*<a>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>*@
+</div>
+
+@if (Model.Contacts.Any())
+{
+    <div class="contacts-page">
+        <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+        <ul class="cities">
+            @foreach (var item in Model.Contacts)
+            {
+                <li><a href="@item.UrltoPageRegion" class="scroll_tab">@item.Title @(item.IsMain ? "(Головной офис)" : "")</a></li>
+            }
+            <li><a asp-action="Regions" asp-controller="Home" asp-route-alias="">Другие города и регионы</a></li>
+        </ul>
+        @foreach (var item in Model.Contacts)
+        {
+            if (item.IsMain)
+            {
+                <div id="@item.Anchor" class="city main-city">
+                    @Html.Raw(item.CodeMap)
+                    @if (string.IsNullOrEmpty(item.UrltoPageRegion))
+                    {
+                        <p class="caption">@item.Title</p>
+                    }
+                    else
+                    {
+                        <p class="caption"><a href="@item.UrltoPageRegion">@item.Title</a></p>
+                    }
+                    <ul class="main-city-info">
+                        <li>
+                            <div class="img" style="background-image: url(/client/img/schedule.png);"></div>
+                            <p>@item.Schedule</p>
+                        </li>
+                        <li>
+                            <div class="img" style="background-image: url(/client/img/location2.png);"></div>
+                            <p>@item.Address</p>
+                        </li>
+                        <li>
+                            <div class="img" style="background-image: url(/client/img/email2.png);"></div>
+                            <p>@item.Email</p>
+                        </li>
+                        <li>
+                            <div class="img" style="background-image: url(/client/img/phone-call2.png);"></div>
+                            <p>@item.Phone</p>
+                        </li>
+                    </ul>
+                </div>
+            }
+            else
+            {
+                <div id="@item.Anchor" class="city">
+                    @if (string.IsNullOrEmpty(item.UrltoPageRegion))
+                    {
+                        <p class="caption">@item.Title</p>
+                    }
+                    else
+                    {
+                        <p class="caption"><a href="@item.UrltoPageRegion">@item.Title</a></p>
+                    }
+                    <ul class="city-info">
+                        <li>
+                            <div class="img" style="background-image: url(/client/img/schedule2.png);"></div>
+                            <p>@item.Schedule</p>
+                        </li>
+                        <li>
+                            <div class="img" style="background-image: url(/client/img/location3.png);"></div>
+                            <p>@item.Address</p>
+                        </li>
+                        <li>
+                            <div class="img" style="background-image: url(/client/img/email3.png);"></div>
+                            <p>@item.Email</p>
+                        </li>
+                        <li>
+                            <div class="img" style="background-image: url(/client/img/phone-call3.png);"></div>
+                            <p>@item.Phone</p>
+                        </li>
+                    </ul>
+                    <div class="city-map">
+                        @Html.Raw(item.CodeMap)
+                    </div>
+                </div>
+            }
+        }
+    </div>
+}
+
+@await Component.InvokeAsync("MainMap")

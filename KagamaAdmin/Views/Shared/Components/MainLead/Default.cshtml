@@ -1,0 +1,47 @@
+﻿@model KagamaAdmin.ViewModel.MainLeadView
+
+<form class="lead">
+    @Html.AntiForgeryToken()
+    <h2>Оставить заявку</h2>
+    <div class="flex-input">
+        <div class="@(ViewData.ModelState["Name"]?.Errors.Count > 0 ? "input error" : "input")">
+            <input type="text" placeholder="Имя" asp-for="Name">
+            <i class="required">*</i>
+        </div>
+        <div class="@(ViewData.ModelState["Email"]?.Errors.Count > 0 ? "input error" : "input")">
+            <input type="text" placeholder="Почта" asp-for="Email">
+            <i class="required">*</i>
+        </div>
+        <div class="@(ViewData.ModelState["Phone"]?.Errors.Count > 0 ? "input error" : "input")">
+            <input type="text" placeholder="Телефон" asp-for="Phone">
+            <i class="required">*</i>
+        </div>
+    </div>
+    <div class="flex-input">
+        <div class="input">
+            <select id="Covering" name="Covering[]" multiple="multiple" class="multselect">
+                <option value="Эпоксидные полы">Эпоксидные полы</option>
+                <option value="Промышленные полы">Промышленные полы</option>
+                <option value="Спортивные покрытия">Спортивные покрытия</option>
+                <option value="Полированный бетон">Полированный бетон</option>
+                <option value="Микроцемент">Микроцемент</option>
+                <option value="Тераццо">Тераццо</option>
+                <option value="3d полы">3d полы</option>
+            </select>
+        </div>
+        <div class="w155 @(ViewData.ModelState["Square"]?.Errors.Count > 0 ? "input error" : "input")">
+            <input type="text" placeholder="Площадь" asp-for="Square">
+            <i class="required">*</i>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Город" asp-for="City">
+        </div>
+        <div class="input w490">
+            <input type="text" placeholder="Адрес" asp-for="Address">
+        </div>
+    </div>
+    <div class="input">
+        <input type="text" placeholder="Комментарии" asp-for="Description">
+    </div>
+    <input type="submit" value="Отправить">
+</form>

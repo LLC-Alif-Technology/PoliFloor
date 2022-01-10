@@ -1,0 +1,143 @@
+﻿@model KagamaAdmin.ViewModel.MaterialView
+@if (Model.Products.Any())
+{
+    <div class="main-materials">
+        <h2>Материалы</h2>
+        <ul>
+            @foreach (var product in Model.Products)
+            {
+                <li data-item-id="@product.Id">
+                    <a class="img" asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias" style="background-image: url(@product.Img1); display:block;"></a>
+                    <p class="caption"><a asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias">@product.Title</a></p>
+                    <p class="desc">@product.SubTitle</p>
+                    <p class="stock">
+                        @if (product.Stock)
+                        {
+                            <img src="~/client/img/stock.png" alt="">
+                        }
+                        else
+                        {
+                            <img src="~/client/img/no_stock.png" alt="">
+                        }
+                        <span>Есть в наличии</span>
+                    </p>
+                    <div class="price-block">
+                        <p class="price">
+                            Цена за 1 кг
+                            <b>@((product.PriceKg * Model.EUR).Value.ToString("N0")) р.</b>
+                        </p>
+                        @if (product.PriceKit != null)
+                        {
+                            <p class="price">
+                                Вес комплекта (кг)
+                                <b>@((product.PriceKit * Model.EUR).Value.ToString("N0")) р.</b>
+                            </p>
+                        }
+                    </div>
+                    <div class="flex-block">
+                        @if (Model.CartView.Items.Any(x => x.IdProduct == product.Id))
+                        {
+                            <div class="counter counterIsCart">
+                                <span class="minus" data-item-id="@product.Id"></span>
+                                <input type="number" min="1" value="@(Model.CartView.Items.SingleOrDefault(x=>x.IdProduct == product.Id).Count)">
+                                <span class="plus" data-item-id="@product.Id"></span>
+                            </div>
+                            <a style="display: none;" data-product="@product.Id" class="cart_btn js_AddInCart">
+                                <img src="~/client/img/cart.png" alt="">
+                                <span>В корзину</span>
+                            </a>
+                            <a data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">
+                                <span>Оформить заказ</span>
+                            </a>
+                        }
+                        else
+                        {
+                            <div class="counter counterNoCart">
+                                <span class="minus" data-item-id="@product.Id"></span>
+                                <input type="number" min="1" value="1">
+                                <span class="plus" data-item-id="@product.Id"></span>
+                            </div>
+                            <a data-product="@product.Id" class="cart_btn js_AddInCart">
+                                <img src="~/client/img/cart.png" alt="">
+                                <span>В корзину</span>
+                            </a>
+                            <a style="display: none;" data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">
+                                <span>Оформить заказ</span>
+                            </a>
+                        }
+                    </div>
+                </li>
+            }
+        </ul>
+        <div class="swiper-container swiper-main-materials main-page">
+            <div class="swiper-wrapper">
+                @foreach (var product in Model.Products)
+                {
+                    <div class="swiper-slide" data-item-id="@product.Id">
+                        <div class="img" style="background-image: url(@product.Img1);"></div>
+                        <p class="caption"><a asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias">@product.Title</a></p>
+                        <p class="desc">@product.SubTitle</p>
+                        <p class="stock">
+                            @if (product.Stock)
+                            {
+                                <img src="~/client/img/stock.png" alt="">
+                            }
+                            else
+                            {
+                                <img src="~/client/img/no_stock.png" alt="">
+                            }
+                            <span>Есть в наличии</span>
+                        </p>
+                        <div class="price-block">
+                            <p class="price">
+                                Цена за 1 кг
+                                <b>@((product.PriceKg * Model.EUR).Value.ToString("N0")) р.</b>
+                            </p>
+                            @if (product.PriceKit != null)
+                            {
+                                <p class="price">
+                                    Вес комплекта (кг)
+                                    <b>@((product.PriceKit * Model.EUR).Value.ToString("N0")) р.</b>
+                                </p>
+                            }
+                        </div>
+                        <div class="flex-block">
+                            @if (Model.CartView.Items.Any(x => x.IdProduct == product.Id))
+                            {
+                                <div class="counter counterIsCart">
+                                    <span class="minus" data-item-id="@product.Id"></span>
+                                    <input type="number" min="1" value="@(Model.CartView.Items.SingleOrDefault(x=>x.IdProduct == product.Id).Count)">
+                                    <span class="plus" data-item-id="@product.Id"></span>
+                                </div>
+                                <a style="display: none;" data-product="@product.Id" class="cart_btn js_AddInCart">
+                                    <img src="~/client/img/cart.png" alt="">
+                                    <span>В корзину</span>
+                                </a>
+                                <a data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">
+                                    <span>Оформить заказ</span>
+                                </a>
+                            }
+                            else
+                            {
+                                <div class="counter counterNoCart">
+                                    <span class="minus" data-item-id="@product.Id"></span>
+                                    <input type="number" min="1" value="1">
+                                    <span class="plus" data-item-id="@product.Id"></span>
+                                </div>
+                                <a data-product="@product.Id" class="cart_btn js_AddInCart">
+                                    <img src="~/client/img/cart.png" alt="">
+                                    <span>В корзину</span>
+                                </a>
+                                <a style="display: none;" data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">
+                                    <span>Оформить заказ</span>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <a class="all_link" asp-controller="Home" asp-action="Catalog" asp-route-alias="">Перейти в магазин</a>
+    </div>
+}

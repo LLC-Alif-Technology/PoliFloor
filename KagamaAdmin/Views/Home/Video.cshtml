@@ -1,0 +1,48 @@
+﻿@model KagamaAdmin.ViewModel.VideosView
+
+@{
+    ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    ViewData["SeoDescription"] = Model.Page.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @if (ViewContext.RouteData.Values["alias"] != null)
+    {
+        <a asp-action="Video" asp-controller="Home" asp-route-alias="">@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>
+    }
+</div>
+
+<div class="videos-page">
+    <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    <div class="video-filter">
+        <a asp-action="Video" asp-controller="Home" asp-route-alias="" class="@(ViewContext.RouteData.Values["alias"] == null ? "all text_white" : "")">Все</a>
+        @foreach (var item in Model.VideoCategories)
+        {
+            <a class="@((ViewContext.RouteData.Values["alias"] != null && ViewContext.RouteData.Values["alias"].ToString().ToLower() == item.Alias.ToLower()) ? "all text_white" : "" )"
+               asp-action="Video"
+               asp-controller="Home"
+               asp-route-alias="@item.Alias">@item.Title</a>
+        }
+    </div>
+    @if (Model.Videos.Any())
+    {
+        <ul>
+            @foreach (var video in Model.Videos)
+            {
+                <li>
+                    <a asp-action="Video" asp-controller="Home" asp-route-alias="@video.Alias">
+                        <div>
+                            <img src="@video.Thumb" alt="">
+                        </div>
+                        @video.Title
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@await Component.InvokeAsync("MainMap")

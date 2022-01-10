@@ -1,0 +1,79 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Calc.CalcProductView
+
+<div class="bread">
+    <a asp-controller="Calc" asp-action="Product" asp-route-id="@Model.Id" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+</div>
+<div class="main-tab active">
+    <form asp-action="CalcProdEdit" asp-controller="Calc" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="ThisId" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label>Выбор материала</label>
+            <div class="flex-input">
+                <select asp-for="ProductId" asp-items="ViewBag.Products"></select>
+            </div>
+        </div>
+        <div class="flex-block" style="display:flex;">
+            @*<div class="input" style="margin-right: 50px;">
+                <label asp-for="Glossy"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="Glossy" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input" style="margin-right: 50px;">
+                <label asp-for="SemiMatt"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="SemiMatt" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>*@
+            <div class="input">
+                <label asp-for="Matt"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="Matt" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="flex-block" style="display:flex;">
+            <div class="input" style="margin-right: 50px;">
+                <label asp-for="Smooth"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="Smooth" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input">
+                <label asp-for="Grungy"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="Grungy" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        @for (var i = 0; i < Model.CalcThicks.Count(); i++)
+        {
+            <div class="input">
+                <label>при толщине @Model.CalcThicks.ElementAt(i).Mm мм</label>
+                <input type="text" asp-for="Kg[i]" placeholder="Реком. расход на 1 м2:" />
+            </div>
+        }
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Сохранить" />
+        </div>
+    </form>
+</div>

@@ -1,0 +1,39 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Article.ImageView
+
+<div class="bread">
+    <a asp-controller="Article" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить статью: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Article" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a class="active">Изображения</a>
+    <a asp-controller="Article" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Image" asp-controller="Article" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Img" />
+        <input type="hidden" asp-for="ImgOpenPage" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewbanner" asp-for="ImgOpenPage" id="file_ImgOpenPage" />
+                <div class="check">Баннер</div>
+            </div>
+            <img id="previewbanner" style="height: 120px" src="@Model.ImgOpenPage" />
+        </div>
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewthumb" asp-for="Img" id="file_img" />
+                <div class="check">Превью</div>
+            </div>
+            <img id="previewthumb" style="height: 120px" src="@Model.Img" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Article" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

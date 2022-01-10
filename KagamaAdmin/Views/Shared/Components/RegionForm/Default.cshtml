@@ -1,0 +1,39 @@
+﻿@model KagamaAdmin.ViewModel.RegionFormView
+
+<form>
+    @Html.AntiForgeryToken()
+    <p class="caption">Просчитаем быстро стоимость материала, доставку и устройство пола</p>
+    <div class="flex-input">
+        <div class="input">
+            <input type="text" asp-for="ReName" placeholder="Имя">
+        </div>
+        <div class="input">
+            <input type="text" asp-for="ReEmail" placeholder="Email">
+        </div>
+    </div>
+    <div class="flex-input">
+        <div class="input">
+            <select id="ReCovering" name="Covering[]" multiple="multiple" class="multselect">
+                <option value="Эпоксидные полы">Эпоксидные полы</option>
+                <option value="Промышленные полы">Промышленные полы</option>
+                <option value="Спортивные покрытия">Спортивные покрытия</option>
+                <option value="Полированный бетон">Полированный бетон</option>
+                <option value="Микроцемент">Микроцемент</option>
+                <option value="Тераццо">Тераццо</option>
+                <option value="3d полы">3d полы</option>
+            </select>
+        </div>
+        <div class="@(ViewData.ModelState["RePhone"]?.Errors.Count > 0 ? "input error" : "input")">
+            <input type="text" asp-for="RePhone" placeholder="Телефон">
+            <i class="required">*</i>
+        </div>
+    </div>
+    <div class="flex-input">
+        <div class="input">
+            <input type="text" asp-for="ReCount" placeholder="Количество м2">
+        </div>
+        <div>
+            <input type="submit" value="Рассчитать стоимость">
+        </div>
+    </div>
+</form>

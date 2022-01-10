@@ -1,0 +1,67 @@
+﻿@model KagamaModels.Entities.GalleryAlbum
+
+<div class="bread">
+    <a asp-controller="Gallery" asp-action="AlbumCreate" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>@Model.Title</p>
+</div>
+
+<div class="main-tab active">
+    <form asp-action="AlbumEdit" asp-controller="Gallery" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок h1" />
+        </div>
+        <div class="input">
+            <label asp-for="GalleryCategoryId"></label>
+            <select asp-for="GalleryCategoryId" asp-items="ViewBag.Categories">
+                <option value="0">Не выбрана</option>
+            </select>
+            <span class="error" asp-validation-for="GalleryCategoryId"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите заголовок (Url)" class="js_translate_set" />
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Description"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display:none">
+                <textarea asp-for="Description" id="ck_editor_1"></textarea>
+            </div>
+        </div>
+        <div class="input">
+            <label>Статус</label>
+            <div class="flex-switcher">
+                <p>Показать</p>
+                <div class="switcher">
+                    <input type="checkbox" asp-for="Show" class="checkbox" />
+                    <div class="check"></div>
+                </div>
+            </div>
+        </div>
+        <div class="input">
+            <label asp-for="SeoTitle"></label>
+            <input type="text" asp-for="SeoTitle" placeholder="Seo title" />
+        </div>
+        <div class="input">
+            <label asp-for="SeoDescription"></label>
+            <input type="text" asp-for="SeoDescription" placeholder="Seo description" />
+        </div>
+        <div class="input">
+            <label asp-for="SeoKeywords"></label>
+            <input type="text" asp-for="SeoKeywords" placeholder="Seo keywords" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Сохранить" />
+        </div>
+    </form>
+</div>

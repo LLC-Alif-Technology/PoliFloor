@@ -1,0 +1,67 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Gallery.GalleryView
+
+<div class="bread">
+    <a asp-controller="Gallery" asp-action="ItemList" asp-route-page="@Model.PreviousPage" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+</div>
+
+<div class="main-tab active">
+    <form asp-action="ItemEdit" asp-controller="Gallery" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Icon" />
+        <input type="hidden" asp-for="PreviousPage" />
+        <div class="input">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" />
+        </div>
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" asp-for="Icon" id="file_icon" />
+                <div class="check">Добавить фото</div>
+            </div>
+        </div>
+        <div class="validation-summary" asp-validation-summary="ModelOnly"></div>
+        <img style="height: 120px" src="@Model.Icon" id="previewImg" />
+        <table class="table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ int i = 1;}
+                @foreach (var c in Model.GalleryAlbums)
+            {
+                <tr>
+                    <td><i>@(i++)</i></td>
+                    <td>@c.Title</td>
+                    <td>
+                        <div class="flex-switcher">
+                            <p>Связать</p>
+                            <div class="switcher">
+                                @{
+                                    bool isSelected = Model.MyCheck != null && Model.MyCheck.Any(x => x == c.Id);
+                                }
+                                @if (isSelected)
+                                {
+                                    <input type="checkbox" id="@c.Id" name="MyCheck" value="@c.Id" class="checkbox" checked>
+                                }
+                                else
+                                {
+                                    <input type="checkbox" id="@c.Id" name="MyCheck" value="@c.Id" class="checkbox">
+                                }
+                                <div class="check"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+        </div>
+    </form>
+</div>

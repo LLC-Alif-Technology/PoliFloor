@@ -1,0 +1,65 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Video.VideoView
+
+<div class="bread">
+    <a asp-controller="Video" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Видео-отзывы
+    </a>
+    <p>Обновить видео-отзыв: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a class="active">Основное</a>
+    <a asp-controller="Video" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Edit" asp-controller="Video" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Thumb" />
+        <input type="hidden" asp-for="Banner" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewbanner" asp-for="Banner" id="file_banner" />
+                <div class="check">Фото для банера</div>
+            </div>
+            <img id="previewbanner" style="height: 120px" src="@Model.Banner" />
+        </div>
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewthumb" asp-for="Thumb" id="file_thumb" />
+                <div class="check">Фото Thumb</div>
+            </div>
+            <img id="previewthumb" style="height: 120px" src="@Model.Thumb" />
+        </div>
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок (h1)" />
+        </div>
+        <div class="input">
+            <label asp-for="LinkVideo"></label>
+            <input type="text" asp-for="LinkVideo" placeholder="Ссылка на видео" />
+        </div>
+        <div class="input">
+            <label asp-for="CategoryId"></label>
+            <select asp-for="CategoryId" asp-items="ViewBag.VideoCategories">
+                <option value="0">Не выбрана</option>
+            </select>
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" id="ck_editor_1"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Video" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

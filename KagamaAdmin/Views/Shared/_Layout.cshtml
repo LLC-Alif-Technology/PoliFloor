@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    @await Component.InvokeAsync("CounterMetaTag")
+    <meta name="description" content="@ViewData["SeoDescription"]" />
+    <meta name="keywords" content="@ViewData["SeoKeywords"]" />
+    <title>@ViewData["SeoTitle"]</title>
+    <link rel="icon" type="image/png" href="~/client/img/favicon.png" />
+    <link rel="stylesheet" href="~/client/css/libs.min.css">
+    <link rel="stylesheet" href="~/client/css/main.css">
+    @await Component.InvokeAsync("CounterCodeTop")
+    <style>
+        .main-news .swiper-main-news a {
+            min-height: 290px;
+        }
+    </style>
+</head>
+<body>
+    @await Component.InvokeAsync("Header")
+    @RenderBody()
+    @await Component.InvokeAsync("Footer")
+    <div class="wrap-modal">
+        <div class="close-block">
+            <a class="close-modal">
+                <img src="~/client/img/close-modal.png" alt="">
+                <span>Закрыть</span>
+            </a>
+        </div>
+        <div class="modal modal-call" id="modalCartLink">
+            <partial name="_ModalCartLink" />
+        </div>
+        <div class="modal modal-call" id="modalCall">
+            @await Component.InvokeAsync("ModalCall")
+        </div>
+        <div class="modal modal-lead" id="modalLead">
+            @await Component.InvokeAsync("ModalLead")
+        </div>
+    </div>
+    <script src="~/client/js/scripts.min.js"></script>
+    <script src="~/client/js/common.js"></script>
+    @await Component.InvokeAsync("CounterCodeBottom")
+</body>
+</html>

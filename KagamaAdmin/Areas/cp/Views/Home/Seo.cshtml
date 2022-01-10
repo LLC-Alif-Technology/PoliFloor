@@ -1,0 +1,34 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Page.SeoView
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить страницу: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Home" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a class="active">Seo</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Seo" asp-controller="Home" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label asp-for="SeoTitle"></label>
+            <input type="text" asp-for="SeoTitle" placeholder="Seo title" />
+        </div>
+        <div class="input">
+            <label asp-for="SeoDescription"></label>
+            <textarea asp-for="SeoDescription" placeholder="Seo description"></textarea>
+        </div>
+        <div class="input">
+            <label asp-for="SeoKeywords"></label>
+            <input type="text" asp-for="SeoKeywords" placeholder="Seo keywords" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Home" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

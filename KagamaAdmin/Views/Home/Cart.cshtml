@@ -1,0 +1,61 @@
+﻿@model KagamaAdmin.ViewModel.CartPageView
+
+@{
+    ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    ViewData["SeoDescription"] = Model.Page.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    <a>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>
+</div>
+<div class="cart-page">
+    <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    <div class="cart-flex">
+        @if (Model.CartView.Items.Any())
+        {
+            <ul class="cart-list">
+                @foreach (var product in Model.CartView.Items)
+                {
+                    <li class="cartli" data-item-id="@product.IdProduct">
+                        <img class="img" src="@product.Img" alt="">
+                        <p class="caption">@product.ProductName</p>
+                        <p class="price">
+                            <b>@((product.PriceKit * Model.EUR).Value.ToString("N0")) р.</b> шт.
+                        </p>
+                        <div class="counter counterIsCart">
+                            <span class="plus" data-item-id="@product.IdProduct" data-page="cart"></span>
+                            <input type="number" min="1" value="@product.Count">
+                            <span class="minus" data-item-id="@product.IdProduct" data-page="cart"></span>
+                        </div>
+                        <p class="price">
+                            <b><span>@product.TotalSum.Value.ToString("N0")</span> р.</b> шт.
+                        </p>
+                        <p class="stock">
+                            @if (product.Stock)
+                            {
+                                <img src="~/client/img/stock.png" alt="">
+                            }
+                            else
+                            {
+                                <img src="~/client/img/no_stock.png" alt="">
+                            }
+                            <span>Есть в наличии</span>
+                        </p>
+                        <a data-product="@product.IdProduct" class="delete js_CartDeleteInCart"><img src="~/client/img/garbage.png" alt=""></a>
+                    </li>
+                }
+            </ul>
+            <div class="cart-total">
+                <p>Товаров в корзине на сумму <b><span>@Model.CartView.TotalSumProducts.Value.ToString("N0")</span> руб.</b></p>
+                <button><span>Оформить заказ</span> <img src="~/client/img/right-arrow3.png" alt=""></button>
+            </div>
+        }
+    </div>
+</div>
+<div class="cart-order" id="cartOrder">
+    @await Component.InvokeAsync("CartOrder")
+</div>
+@await Component.InvokeAsync("MainMap")

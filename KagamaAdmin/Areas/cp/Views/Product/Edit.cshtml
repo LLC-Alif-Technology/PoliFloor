@@ -1,0 +1,122 @@
+﻿@model KagamaModels.Entities.Product
+
+<div class="bread">
+    <a asp-controller="Product" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить материал: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a class="active">Основное</a>
+    <a asp-controller="Product" asp-action="Image" asp-route-id="@Model.Id">Изображения</a>
+    <a asp-controller="Product" asp-action="Buy" asp-route-id="@Model.Id">С этим товаром покупают</a>
+    <a asp-controller="Product" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Edit" asp-controller="Product" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="Pdf" />
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="SubTitle"></label>
+            <input type="text" asp-for="SubTitle" placeholder="Введите подзаголовок" />
+        </div>
+        <div class="input">
+            <label>В наличии</label>
+            <div class="flex-switcher">
+                <p>Да/Нет</p>
+                <div class="switcher">
+                    <input type="checkbox" asp-for="Stock" class="checkbox" />
+                    <div class="check"></div>
+                </div>
+            </div>
+        </div>
+        <div class="input">
+            <label asp-for="PriceKg"></label>
+            <input type="text" asp-for="PriceKg" placeholder="Цена за 1 кг" />
+        </div>
+        <div class="input">
+            <label asp-for="PriceKit"></label>
+            <input type="text" asp-for="PriceKit" placeholder="Цена за комплект" />
+        </div>
+        <div class="input">
+            <label asp-for="LinkVideo"></label>
+            <input type="text" asp-for="LinkVideo" placeholder="Ссылка на видео" />
+        </div>
+        <div class="input">
+            <label asp-for="Pdf"></label>
+            <div class="input">
+                <div class="fileinput">
+                    <input type="file" asp-for="Pdf" accept="application/pdf" />
+                    <div class="check">Загрузить pdf</div>
+                </div>
+            </div>
+            <span class="error" asp-validation-for="Pdf"></span>
+        </div>
+        <div class="input">
+            <label asp-for="ProductCategoryId"></label>
+            <select asp-for="ProductCategoryId" asp-items="ViewBag.ProductCategories">
+                <option value="0">Не выбрана</option>
+            </select>
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Desc1"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display: none">
+                <textarea asp-for="Desc1" id="ck_editor_1"></textarea>
+            </div>
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Desc2"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display: none">
+                <textarea asp-for="Desc2" id="ck_editor_2"></textarea>
+            </div>
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Desc3"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display: none">
+                <textarea asp-for="Desc3" id="ck_editor_3"></textarea>
+            </div>
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Desc4"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display: none">
+                <textarea asp-for="Desc4" id="ck_editor_4"></textarea>
+            </div>
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Desc5"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display: none">
+                <textarea asp-for="Desc5" id="ck_editor_5"></textarea>
+            </div>
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Desc6"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display: none">
+                <textarea asp-for="Desc6" id="ck_editor_6"></textarea>
+            </div>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Product" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

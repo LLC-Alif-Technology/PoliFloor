@@ -1,0 +1,22 @@
+﻿@model KagamaAdmin.ViewModel.ServiceFormView
+
+<form>
+    @Html.AntiForgeryToken()
+    <p class="title">Срочный расчет</p>
+    <div class="input">
+        <input type="text" asp-for="SoName" placeholder="Имя">
+    </div>
+    <div class="input">
+        <input type="text" asp-for="SoEmail" placeholder="Email">
+    </div>
+    <div class="flex-input">
+        <div class="@(ViewData.ModelState["SoPhone"]?.Errors.Count > 0 ? "input error" : "input")">
+            <input type="text" asp-for="SoPhone" placeholder="Телефон">
+            <i class="required">*</i>
+        </div>
+        <div class="input">
+            <input type="text" asp-for="SoCount" placeholder="Количество м2">
+        </div>
+    </div>
+    <input type="submit" value="Срочный расчет">
+</form>

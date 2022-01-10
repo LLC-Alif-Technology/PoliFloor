@@ -1,0 +1,32 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Sign.InView
+
+@using (Html.BeginForm(FormMethod.Post, new { @class = "sign-form" }))
+{
+    <p class="page-title">Вход в админ панель</p>
+    <div class="input">
+        @Html.TextBoxFor(x => x.Login, new { placeholder = "Логин" })
+        @if (ViewData.ModelState["Login"]?.Errors.Count > 0)
+        {
+            <i class="error">@ViewData.ModelState["Login"].Errors[0].ErrorMessage</i>
+        }
+    </div>
+    <div class="input">
+        @Html.PasswordFor(x => x.Password, new { placeholder = "Пароль" })
+        @if (ViewData.ModelState["Password"]?.Errors.Count > 0)
+        {
+            <i class="error">@ViewData.ModelState["Password"].Errors[0].ErrorMessage</i>
+        }
+    </div>
+    <div class="checkbox">
+        @Html.CheckBoxFor(x => x.IsPersistent)
+        @Html.LabelFor(x => x.IsPersistent)
+        <div class="check"></div>
+    </div>
+    <input type="submit" value="Войти" class="btn-primary">
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div>
+            @Html.ValidationSummary(true)
+        </div>
+    }
+}

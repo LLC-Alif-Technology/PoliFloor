@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\user\Desktop\websitee</_PublishTargetUrl>
+    <History>True|2021-05-24T16:41:26.8564455Z;True|2021-05-24T17:39:23.6248290+03:00;True|2021-05-24T16:36:22.9380711+03:00;False|2021-05-24T16:31:40.4427000+03:00;False|2021-05-24T16:27:42.5460987+03:00;False|2021-05-24T16:26:27.6508287+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=localhost%3bDatabase=u1116978_polifloor%3bIntegrated Security=False%3bUser ID=u1116978_poliflooruser%3bPassword=poliflooruser%40123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

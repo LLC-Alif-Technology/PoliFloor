@@ -1,0 +1,29 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Product.ProductBuyView
+
+<div class="bread">
+    <a asp-controller="Product" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить материал: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Product" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a asp-controller="Product" asp-action="Image" asp-route-id="@Model.Id">Изображения</a>
+    <a class="active">С этим товаром покупают</a>
+    <a asp-controller="Product" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Buy" asp-controller="Product" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label asp-for="ProductId"></label>
+            <select asp-for="ProductId" asp-items="ViewBag.Products"></select>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Добавить" />
+            <a class="btn-primary btn-secondary" asp-controller="Product" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>
+@await Component.InvokeAsync("ProductBuy", new { id = Model.Id })

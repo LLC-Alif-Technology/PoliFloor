@@ -1,0 +1,49 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Project.ProjectView
+
+<div class="bread">
+    <a asp-controller="Project" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Проекты
+    </a>
+    <p>Обновить проект: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a class="active">Основное</a>
+    <a asp-controller="Project" asp-action="Image" asp-route-id="@Model.Id">Изображения</a>
+    <a asp-controller="Project" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a asp-controller="Project" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a asp-controller="Project" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Edit" asp-controller="Project" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Id" />
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок (h1)" />
+        </div>
+        <div class="input">
+            <label asp-for="Square"></label>
+            <input type="text" asp-for="Square" placeholder="Площадь" />
+        </div>
+        <div class="input">
+            <label asp-for="City"></label>
+            <input type="text" asp-for="City" placeholder="Город" />
+        </div>
+        <div class="input">
+            <label asp-for="Price"></label>
+            <input type="number" asp-for="Price" asp-format="{0:0}" placeholder="Стоимость материалов на м2" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Project" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

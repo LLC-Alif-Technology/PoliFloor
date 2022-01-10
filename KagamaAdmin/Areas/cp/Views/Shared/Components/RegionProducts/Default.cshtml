@@ -1,0 +1,28 @@
+﻿@model IEnumerable<KagamaAdmin.Areas.cp.ViewModels.Region.AddProductView>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ int i = 1;}
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td><i>@(i++)</i></td>
+                <td>@c.Title</td>
+                <td class="td_btns">
+                    <div class="wrap-btn">
+                        <a class="btn-table btn-delete" asp-controller="Region" asp-action="RegionProductDelete" asp-area="cp" asp-route-productId="@c.Id" asp-route-regionId="@c.RegionId">
+                            <img src="~/cp/img/delete.png" alt="">Удалить
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

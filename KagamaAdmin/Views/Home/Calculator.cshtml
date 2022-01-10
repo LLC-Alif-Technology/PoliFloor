@@ -1,0 +1,177 @@
+﻿@model KagamaAdmin.ViewModel.CalculatorView
+@using System.Globalization
+@{
+    @if (ViewContext.RouteData.Values["alias"] != null && !string.IsNullOrEmpty(Model.CalcCategory.SeoTitle))
+    {
+        ViewData["SeoTitle"] = Model.CalcCategory.SeoTitle;
+    }
+    else
+    {
+        ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    }
+
+    @if (ViewContext.RouteData.Values["alias"] != null && !string.IsNullOrEmpty(Model.CalcCategory.SeoDescription))
+    {
+        ViewData["SeoDescription"] = Model.CalcCategory.SeoDescription;
+    }
+    else
+    {
+        ViewData["SeoDescription"] = Model.Page.SeoDescription;
+    }
+
+    @if (ViewContext.RouteData.Values["alias"] != null && !string.IsNullOrEmpty(Model.CalcCategory.SeoKeywords))
+    {
+        ViewData["SeoKeywords"] = Model.CalcCategory.SeoKeywords;
+    }
+    else
+    {
+        ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    }
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @if (ViewContext.RouteData.Values["alias"] != null)
+    {
+        <a asp-action="Calculator" asp-controller="Home" asp-route-alias="">@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>
+    }
+</div>
+<div class="price-page">
+    @if (ViewContext.RouteData.Values["alias"] != null && !string.IsNullOrEmpty(Model.CalcCategory.TitleH1))
+    {
+        <h1>@Model.CalcCategory.TitleH1</h1>
+    }
+    else
+    {
+        <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    }
+</div>
+
+<div class="price-calc">
+    <div>
+        <div class="btns-block">
+            @foreach (var item in Model.CalcCategories)
+            {
+                <a class="@((ViewContext.RouteData.Values["alias"] != null && ViewContext.RouteData.Values["alias"].ToString().ToLower() == item.Alias.ToLower()) ? "active" : "")"
+                   asp-action="Calculator"
+                   asp-controller="Home"
+                   asp-route-alias="@item.Alias">@item.Title</a>
+            }
+        </div>
+        @if (Model.CalcCategory != null)
+        {
+
+            <form asp-action="Calculator" asp-controller="home" asp-route-alias="@Model.CalcCategory.Alias" class="inputs-block">
+                <input type="hidden" asp-for="@Model.CalcCategory.Id" />
+                <input type="hidden" asp-for="@Model.CalcCategory.Alias" />
+                <div class="input">
+                    <label>Площадь</label>
+                    <input type="text" asp-for="Area">
+                    <p class="ph">м2</p>
+                </div>
+                <div class="select">
+                    <label>Толщина</label>
+                    <select asp-items="ViewBag.CalcThicks" asp-for="Thick"></select>
+                    <p class="ph">мм</p>
+                </div>
+                <div class="radios-block w190">
+                    <label>Лак</label>
+                    <div class="radios">
+                        @if (Model.CalcCategory.Matt)
+                        {
+                            <div class="checkbox">
+                                <input type="checkbox" id="radio_3" name="Varnish" @(!string.IsNullOrEmpty(Model.Varnish) ? "checked" : "") value="Матовый">
+                                <label for="radio_3">Матовый</label>
+                                <div class="check"></div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="checkbox" style="opacity: 0.5">
+                                <input type="checkbox" id="radio_3" disabled>
+                                <label for="radio_3">Матовый</label>
+                                <div class="check"></div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div>
+                    <button>Рассчитать</button>
+                </div>
+            </form>
+
+        }
+    </div>
+</div>
+<div class="price-page">
+    @if (Model.CalcProducts != null && Model.CalcProducts.Any())
+    {
+        <table>
+            <tr>
+                <th>Наименование</th>
+                <th>Реком-й расход на 1 м2 (кг)</th>
+                <th>Необх-е кол-во (кг)</th>
+                <th>Цена на 1 м2 (руб.)</th>
+                <th>Всего</th>
+            </tr>
+            @foreach (var product in Model.CalcProducts)
+            {
+                <tr>
+                    <td>@product.PrTitle</td>
+                    <td>@(Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000)</td>
+                    @{ float kg = float.Parse(product.Kg, CultureInfo.InvariantCulture); }
+                    <td>@(((kg / 1000) * Model.Area).ToString("N1").TrimEnd('0').TrimEnd(','))</td>
+                    <td>@(((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg * Model.EUR).Value).ToString("N1").TrimEnd('0').TrimEnd(','))</td>
+                    <td>@((((kg / 1000) * Model.Area) * (float)(product.PrPriceKg * Model.EUR)).ToString("N1").TrimEnd('0').TrimEnd(','))</td>
+                    @{ Model.TotalSum_1m2 += (Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg * Model.EUR).Value; }
+                </tr>
+            }
+        </table>
+        <ul class="talbe">
+            @foreach (var product in Model.CalcProducts)
+            {
+
+                <li>
+                    <p>Наименование</p>
+                    <p class="val">@product.PrTitle</p>
+                    <p>Реком-й расход на 1 м2 (кг)</p>
+                    <p class="val">@((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000))</p>
+                    <p>Необх-е кол-во (кг)</p>
+                    @{ float kg = float.Parse(product.Kg, CultureInfo.InvariantCulture); }
+                    <p class="val">@(((kg / 1000) * Model.Area).ToString("N1").TrimEnd('0').TrimEnd(','))</p>
+                    <p>Цена на 1 м2 (руб.)</p>
+                    <p class="val">@(((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg * Model.EUR).Value).ToString("N1").TrimEnd('0').TrimEnd(','))</p>
+                    <p>Всего</p>
+                    <p class="val">@((((kg / 1000) * Model.Area) * (float)(product.PrPriceKg * Model.EUR)).ToString("N1").TrimEnd('0').TrimEnd(','))</p>
+                </li>
+            }
+        </ul>
+        <div class="price-result">
+            <p>
+                <span style="width: 200px; display: inline-block;">Итого за материал:</span>
+                <i style="font-style: normal;" class="price-result-1">1 м2 - на сумму @Model.TotalSum_1m2.ToString("N1").TrimEnd('0').TrimEnd(',') руб.</i>
+            </p>
+            <p>
+                <span style="width: 200px; display: inline-block;"></span>
+                <i style="font-style: normal;" class="price-result-2">@Model.Area м2 - на сумму @Model.TotalSum.ToString("N1").TrimEnd('0').TrimEnd(',') руб.</i>
+            </p>
+            <div class="btns-block">
+                <a class="js_calc_open_form">Оформить заказ</a>
+                <a class="js_calc_open_form2">Узнать сроки и стоимость выполнения работ</a>
+            </div>
+        </div>
+        <p class="lbl">Калькулятор поможет вам сориентироваться в стоимости полов. Стоимость складывается, как из работы по устройству полов, так и из материалов.</p>
+        <div class="cart-order" id="calcOrder">
+            @await Component.InvokeAsync("CalcOrder")
+        </div>
+    }
+</div>
+@if (Model.CalcCategory != null)
+{
+    <div class="services-page">
+        <div class="ck-edit">@Html.Raw(Model.CalcCategory.Desc)</div>
+    </div>
+}
+
+@await Component.InvokeAsync("MainMap")

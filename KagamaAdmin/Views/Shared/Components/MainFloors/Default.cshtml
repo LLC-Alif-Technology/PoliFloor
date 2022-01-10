@@ -1,0 +1,19 @@
+﻿@model IEnumerable<KagamaModels.Entities.Floor>
+@if (Model.Any())
+{
+    <div class="main-floors">
+        <h2>Полы в помещениях</h2>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>
+                    <a asp-action="FloorOpen" asp-controller="Home" asp-route-alias="@item.Alias">
+                        <div class="img" style="background-image: url(@item.Icon);"></div>
+                        <p>@item.Title</p>
+                    </a>
+                </li>
+            }
+        </ul>
+        <a class="all_floors" asp-action="Floors" asp-controller="Home" asp-route-alias="">Все помещения</a>
+    </div>
+}

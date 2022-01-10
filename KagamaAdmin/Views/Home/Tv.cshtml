@@ -1,0 +1,38 @@
+﻿@model KagamaAdmin.ViewModel.TvView
+
+@{
+    ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    ViewData["SeoDescription"] = Model.Page.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @*<a>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>*@
+</div>
+
+<div class="tv-page">
+    <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    @if (Model.Tvs.Any())
+    {
+        <ul class="list">
+            @foreach (var tv in Model.Tvs)
+            {
+                <li>
+                    <a asp-action="TvOpen" asp-controller="Home" asp-route-alias="@tv.Alias" style="background-image: url(@tv.Banner);">
+                        <div class="info">
+                            <img src="@tv.Icon" alt="">
+                            <p class="caption">@tv.Caption</p>
+                            <p class="title">@tv.Title</p>
+                            <p class="desc">@tv.SubTitle</p>
+                        </div>
+                        <div class="arrow"></div>
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@await Component.InvokeAsync("MainMap")

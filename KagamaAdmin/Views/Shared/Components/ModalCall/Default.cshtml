@@ -1,0 +1,15 @@
+﻿@model KagamaAdmin.ViewModel.ModalCallView
+
+<p class="block-title">Заказать звонок</p>
+<form>
+    @Html.AntiForgeryToken()
+    <div class="@(ViewData.ModelState["ModalCallName"]?.Errors.Count > 0 ? "input error" : "input")">
+        <input type="text" asp-for="ModalCallName" placeholder="Имя">
+        <i class="required">*</i>
+    </div>
+    <div class="@(ViewData.ModelState["ModalCallPhone"]?.Errors.Count > 0 ? "input error" : "input")">
+        <input type="text" asp-for="ModalCallPhone" placeholder="Телефон">
+        <i class="required">*</i>
+    </div>
+    <input type="submit" value="Оформить заказ">
+</form>

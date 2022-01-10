@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Admin panel</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="~/cp/js/scripts.min.js"></script>
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script src="~/cp/js/common.js"></script>
+    <style>
+        #fileExplorer {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+
+            #fileExplorer .thumb {
+                width: 120px;
+                padding: 10px;
+                overflow: hidden;
+            }
+    </style>
+</head>
+<body>
+    <script>
+    $(document).ready(function() {
+        var funcNum = @(Context.Request.Query["CKEditorFuncNum"] + ";");
+        $('#fileExplorer').on('click', 'img', function() {
+            var fileUrl = '/ck_uploads/' + $(this).attr('title');
+            window.opener.CKEDITOR.tools.callFunction(funcNum, fileUrl);
+            window.close();
+        }).hover(function() {
+            $(this).css('cursor', 'pointer');
+        });
+    });
+    </script>
+    <div id="fileExplorer">
+        @foreach (var fileInfo in ViewBag.fileInfos)
+        {
+            <div class="thumb">
+                <img src="~/ck_uploads/@fileInfo.Name" alt="thumb" title="@fileInfo.Name" width="120" height="100" />
+                <br>
+                @fileInfo.Name
+            </div>
+        }
+    </div>
+</body>
+</html>

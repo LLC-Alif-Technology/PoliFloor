@@ -1,0 +1,59 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Calc.CalcThickView
+
+<div class="bread">
+    <a asp-controller="Calc" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить услугу калькулятора: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Calc" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a class="active">Толщина</a>
+    <a asp-controller="Calc" asp-action="Product" asp-route-id="@Model.Id">Материалы</a>
+    <a asp-controller="Calc" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Thick" asp-controller="Calc" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label asp-for="@Model.CalcThick.Mm"></label>
+            <input type="number" asp-for="@Model.CalcThick.Mm" placeholder="Введите толщину в мм" />
+            <span class="error" asp-validation-for="@Model.CalcThick.Mm"></span>
+        </div>
+        <div class="input">
+            <label asp-for="@Model.CalcThick.Comment"></label>
+            <input type="text" asp-for="@Model.CalcThick.Comment" placeholder="Введите комментарий" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Добавить" />
+        </div>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ int i = 1;}
+            @foreach (var c in Model.CalcThicks)
+            {
+                <tr>
+                    <td><i>@(i++)</i></td>
+                    <td>@c.Mm</td>
+                    <td>@c.Comment</td>
+                    <td class="td_btns">
+                        <div class="wrap-btn">
+                            <a class="btn-table btn-delete" asp-controller="Calc" , asp-action="DeleteTh" asp-area="cp" asp-route-id="@Model.Id" asp-route-thId="@c.Id">
+                                <img src="~/cp/img/delete.png" alt="">Удалить
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

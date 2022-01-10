@@ -1,0 +1,42 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Tv.AlbumView
+
+<div class="bread">
+    <a asp-controller="Tv" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Мы на тв
+    </a>
+    <p>Обновить проект: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Tv" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a class="active">Альбом</a>
+    <a asp-controller="Tv" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a asp-controller="Tv" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Album" asp-controller="Tv" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label asp-for="TitleAlbum"></label>
+            <input type="text" asp-for="TitleAlbum" placeholder="Заголовок" />
+        </div>
+        <div class="input">
+            <label asp-for="AlbumId"></label>
+            <select asp-for="AlbumId" asp-items="ViewBag.AlbumsList">
+                <option value="0">Не выбран</option>
+            </select>
+        </div>
+        <div class="input">
+            <label asp-for="LinkAlbum"></label>
+            <input type="text" asp-for="LinkAlbum" placeholder="Ссылка на альбом" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description2"></label>
+            <textarea asp-for="Description2" id="ck_editor_1"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Tv" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

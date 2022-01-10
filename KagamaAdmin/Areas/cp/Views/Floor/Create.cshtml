@@ -1,0 +1,43 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Floor.FloorView
+
+<div class="bread">
+    <a asp-controller="Floor" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Создание пола</p>
+</div>
+<div class="main-tabs-btn">
+    <a href="#main-tab" class="active">Основное</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Create" asp-controller="Floor" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" asp-for="Icon" />
+                <div class="check">Добавить фото</div>
+            </div>
+            <img id="previewImg" style="height: 120px" />
+        </div>
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" onkeyup="translateUrl()" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок (h1)" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description1"></label>
+            <textarea asp-for="Description1" id="ck_editor_1"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Добавить" />
+            <a class="btn-primary btn-secondary" asp-controller="Floor" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

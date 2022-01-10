@@ -1,0 +1,43 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Gallery.GalleryItemView
+
+@addTagHelper *, KagamaAdmin
+
+<div class="main-tabs-btn">
+    <a asp-controller="Gallery" asp-action="Index">Основное</a>
+    <a asp-controller="Gallery" asp-action="CategoryCreate">Категории</a>
+    <a asp-controller="Gallery" asp-action="AlbumCreate">Альбомы</a>
+    <a class="active">Список изображений</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model.GalleryItems)
+        {
+            <tr>
+                <td><i>@c.Id</i></td>
+                <td>@c.Title</td>
+                <td><img src="@c.Icon" style="height: 90px;" /></td>
+                <td class="td_btns">
+                    <div class="wrap-btn">
+                        <a class="btn-table btn-edit" asp-controller="Gallery" asp-action="ItemEdit" asp-area="cp" asp-route-id="@c.Id" asp-route-page="@ViewContext.RouteData.Values["page"]">
+                            <img src="~/cp/img/edit.png" alt="">Изменить
+                        </a>
+                        <a class="btn-table btn-delete" asp-controller="Gallery" , asp-action="ItemDelete" asp-area="cp" asp-route-id="@c.Id" asp-route-page="@ViewContext.RouteData.Values["page"]">
+                            <img src="~/cp/img/delete.png" alt="">Удалить
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="pagination-block">
+    <pager list="Model.GalleryItems" asp-action="ItemList" asp-controller="Gallery" />
+</div>

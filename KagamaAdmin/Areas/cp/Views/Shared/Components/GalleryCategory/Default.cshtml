@@ -1,0 +1,31 @@
+﻿@model IEnumerable<KagamaModels.Entities.GalleryCategory>
+<table class="table">
+    <thead>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @{ int i = 1;}
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td><i>@(i++)</i></td>
+            <td>@c.Title</td>
+            <td><img src="@c.Icon" /></td>
+            <td class="td_btns">
+                <div class="wrap-btn">
+                    <a class="btn-table btn-edit" asp-controller="Gallery" asp-action="CategoryEdit" asp-area="cp" asp-route-id="@c.Id">
+                        <img src="~/cp/img/edit.png" alt="">Изменить
+                    </a>
+                    <a class="btn-table btn-delete" asp-controller="Gallery" , asp-action="CategoryDelete" asp-area="cp" asp-route-id="@c.Id">
+                        <img src="~/cp/img/delete.png" alt="">Удалить
+                    </a>
+                </div>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<KagamaModels.Entities.Counter>
+
+<p class="page-title">Счетчики</p>
+<div class="filtr-block">
+    <a asp-controller="Counter" asp-action="Create" asp-area="cp" class="btn-primary">
+        <img src="~/cp/img/create.png" alt="">
+        Создать
+    </a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ int i = 1;}
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td><i>@(i++)</i></td>
+                <td>@c.MetaTag</td>
+                <td>@c.CodeTop</td>
+                <td>@c.CodeBottom</td>
+                <td class="td_btns">
+                    <div class="wrap-btn">
+                        <a class="btn-table btn-edit" asp-controller="Counter" asp-action="Edit" asp-area="cp" asp-route-id="@c.Id">
+                            <img src="~/cp/img/edit.png" alt="">Изменить
+                        </a>
+                        <a class="btn-table btn-delete" asp-controller="Counter" , asp-action="Delete" asp-area="cp" asp-route-id="@c.Id">
+                            <img src="~/cp/img/delete.png" alt="">Удалить
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

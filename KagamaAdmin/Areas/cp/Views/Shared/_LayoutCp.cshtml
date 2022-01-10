@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Admin panel</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" href="~/cp/img/favicon.png" />
+    <link rel="stylesheet" href="~/cp/css/libs.min.css">
+    <link rel="stylesheet" href="~/cp/css/main.css">
+    <style>
+        .cke_source {
+            max-width: 100% !important;
+            max-height: 100% !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+            <a class="user-name">@User.Identity.Name</a>
+            <div class="logo-block">
+                <a asp-controller="Home" asp-action="Index" asp-area="cp"><img src="~/cp/img/logo.png" alt=""></a>
+            </div>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a href="@Url.Action("Out", "Sign", new {area = "cp"})" class="logout"></a>
+            }
+            else
+            {
+                <a style="width: 0" class="logout"></a>
+            }
+        </header>
+        <div class="main-flex">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div class="toolbar">
+                    <ul class="menu">
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "page" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Home" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Страницы</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "gallery" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Gallery" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Фотогалерея</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "product" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Product" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Материалы</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "project" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Project" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Проекты</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "floor" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Floor" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Полы</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "article" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Article" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Статьи/Новости</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "service" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Service" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Услуги</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "tv" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Tv" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Мы на тв</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "video" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Video" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Обучение</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "region" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Region" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Регионы</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "contacts" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Contacts" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Контакты</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "сounter" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Counter" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Счетчики</span>
+                            </a>
+                        </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "calc" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Calc" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Калькулятор</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            }
+            <div class="content" @(User.Identity.IsAuthenticated ? "" : "style=padding:0")>
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="~/cp/js/scripts.min.js"></script>
+    <script src="~/ckeditor/ckeditor.js"></script>
+    <script src="~/cp/js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿@model KagamaModels.Entities.RegionCategory
+
+<div class="bread">
+    <a asp-controller="Region" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Создание категорий для регионов</p>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Category" asp-controller="Region" asp-area="cp" asp-antiforgery="true">
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" onkeyup="translateUrl()" />
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Добавить" />
+            <a class="btn-primary btn-secondary" asp-controller="Region" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>
+@await Component.InvokeAsync("RegionCategory")

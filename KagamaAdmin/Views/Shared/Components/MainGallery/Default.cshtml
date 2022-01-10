@@ -1,0 +1,111 @@
+﻿@model KagamaAdmin.ViewModel.MainGalleryView
+
+<div class="main-gallery">
+    @if (Model.GalleryItems.Any())
+    {
+        <div class="photos">
+            <h2>Фото готовых объектов</h2>
+            <div class="swiper-container main-photos-top">
+                <div class="swiper-wrapper">
+                    @foreach (var item in Model.GalleryItems)
+                    {
+                        <div class="swiper-slide">
+                            <img src="@item.Icon" alt="">
+                            @if (!string.IsNullOrEmpty(item.Title))
+                            {
+                                <p>@item.Title</p>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="wrap-main-photos-thumb">
+                <div class="swiper-container main-photos-thumb">
+                    <div class="swiper-wrapper">
+                        @foreach (var item in Model.GalleryItems)
+                        {
+                            <div class="swiper-slide">
+                                <img src="@item.Icon" alt="">
+                            </div>
+                        }
+                    </div>
+                </div>
+                <a asp-controller="home" asp-action="Gallery" asp-route-alias="" class="all_link"><span>Смотреть <br> все</span></a>
+            </div>
+            <div class="gallery-description">@Html.Raw(Model.GalleryAlbum.Description)</div>
+            <div class="wrap-modal-slider">
+                <div class="modal-slider">
+                    <div class="soc-block">
+                        <a class="share"><img src="~/client/img/share.png" alt="">Поделиться</a>
+                        <a><img src="~/client/img/vk.png" alt=""></a>
+                        <a><img src="~/client/img/odnokl.png" alt=""></a>
+                        <a><img src="~/client/img/instagram.png" alt=""></a>
+                        <a><img src="~/client/img/twitter.png" alt=""></a>
+                        <a><img src="~/client/img/facebook.png" alt=""></a>
+                        <a><img src="~/client/img/google-plus.png" alt=""></a>
+                    </div>
+                    <div class="swiper-container swiper-modal">
+                        <div class="swiper-wrapper">
+                            @foreach (var item in Model.GalleryItems)
+                            {
+                                <div class="swiper-slide">
+                                    <img src="@item.Icon" alt="">
+                                    @if (!string.IsNullOrEmpty(item.Title))
+                                    {
+                                        <p>@item.Title</p>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <a class="close-modal">
+                        <img src="~/client/img/close-modal.png" alt="">
+                        <span>Закрыть</span>
+                    </a>
+                    <a class="right-swiper"></a>
+                    <a class="left-swiper"></a>
+                </div>
+            </div>
+        </div>
+    }
+    @if (Model.Videos.Any())
+    {
+        <div class="videos">
+            <div class="gallery-description">
+                <div>
+                    @Html.Raw(Model.VideoDesc)
+                </div>
+                <h2>Обучение</h2>
+            </div>
+            <div class="swiper-container main-videos-top">
+                <div class="swiper-wrapper">
+                    @foreach (var item in Model.Videos)
+                    {
+                        <div class="swiper-slide">
+                            <img src="@item.Thumb" alt="">
+                            <p>@item.Title</p>
+                            <iframe src="@item.LinkVideo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <a class="play-button"><img src="~/client/img/play-button.png" alt=""></a>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="wrap-main-videos-thumb">
+                <div class="swiper-container main-videos-thumb">
+                    <div class="swiper-wrapper">
+                        @foreach (var item in Model.Videos)
+                        {
+                            <div class="swiper-slide">
+                                <img src="@item.Thumb" alt="">
+                            </div>
+                        }
+                    </div>
+                </div>
+                <a asp-controller="home" asp-action="Video" asp-route-alias="" class="all_link"><span>Смотреть <br> все</span></a>
+            </div>
+            <div class="gallery-description gallery-description-m">
+                @Html.Raw(Model.VideoDesc)
+            </div>
+        </div>
+    }
+</div>

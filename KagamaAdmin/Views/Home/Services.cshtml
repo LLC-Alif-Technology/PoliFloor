@@ -1,0 +1,36 @@
+﻿@model KagamaAdmin.ViewModel.ServicesView
+
+@{
+    ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    ViewData["SeoDescription"] = Model.Page.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @*<a>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>*@
+</div>
+
+<div class="services-page">
+    <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    @if (Model.Services.Any())
+    {
+        <ul>
+            @foreach (var service in Model.Services)
+            {
+                @if (service.Hide != "999")
+                {
+                    <li>
+                        <a asp-action="Index" asp-controller="Home" asp-route-alias="@service.Alias">
+                            <img src="@service.ImgServiceList" />
+                            <p>@service.Title</p>
+                        </a>
+                    </li>
+                }
+            }
+        </ul>
+    }
+</div>
+
+@await Component.InvokeAsync("MainMap")

@@ -1,0 +1,77 @@
+﻿@model KagamaModels.Entities.Article
+
+<div class="bread">
+    <a asp-controller="Article" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить статью: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a class="active">Основное</a>
+    <a asp-controller="Article" asp-action="Image" asp-route-id="@Model.Id">Изображения</a>
+    <a asp-controller="Article" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Edit" asp-controller="Article" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Id" />
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок h1" />
+        </div>
+        <div class="input">
+            <label asp-for="SubTitle"></label>
+            <input type="text" asp-for="SubTitle" placeholder="Введите подзаголовок" />
+        </div>
+        <div class="input">
+            <label>Отображать на главной</label>
+            <div class="flex-switcher">
+                <p>Нет/Да</p>
+                <div class="switcher">
+                    <input type="checkbox" asp-for="IsMainPage" class="checkbox" />
+                    <div class="check"></div>
+                </div>
+            </div>
+        </div>
+        <div class="input">
+            <label asp-for="CategoryId"></label>
+            <select asp-for="CategoryId" asp-items="ViewBag.ArticleCategories">
+                <option value="0">Не выбрана</option>
+            </select>
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Description"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display:none">
+                <textarea asp-for="Description" id="ck_editor_1"></textarea>
+            </div>
+        </div>
+        <div class="input">
+            <label asp-for="CreationDate"></label>
+            <input type="text" asp-for="CreationDate" placeholder="Дата публикации" />
+        </div>
+        <div class="input">
+            <label>Если это новость</label>
+            <div class="flex-switcher">
+                <p>Нет/Да</p>
+                <div class="switcher">
+                    <input type="checkbox" asp-for="IsNews" class="checkbox" />
+                    <div class="check"></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Article" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

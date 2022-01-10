@@ -1,0 +1,35 @@
+﻿@model KagamaModels.Entities.Page
+
+@{
+    ViewData["SeoTitle"] = Model.SeoTitle;
+    ViewData["SeoKeywords"] = Model.SeoKeywords;
+    ViewData["SeoDescription"] = Model.SeoDescription;
+}
+
+@await Component.InvokeAsync("MainBanner")
+
+@await Component.InvokeAsync("MainMaterials")
+
+<div class="main-description">
+    <div class="ck-edit">@Html.Raw(Model.Description)</div>
+</div>
+
+@await Component.InvokeAsync("MainGallery")
+
+@await Component.InvokeAsync("MainProjects")
+
+@await Component.InvokeAsync("MainQuestions")
+
+@await Component.InvokeAsync("MainFloors")
+
+<partial name="_MainSoc" />
+
+<div class="main-lead" id="mainLead">
+    @await Component.InvokeAsync("MainLead")
+</div>
+
+<partial name="_MainCalc" />
+
+@await Component.InvokeAsync("MainNews")
+
+@await Component.InvokeAsync("MainMap")

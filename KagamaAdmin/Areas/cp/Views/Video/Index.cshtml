@@ -1,0 +1,61 @@
+﻿@model IEnumerable<KagamaModels.Entities.Video>
+
+    <p class="page-title">Видео-отзывы</p>
+    <div class="filtr-block">
+        <a asp-controller="Video" asp-action="Create" asp-area="cp" class="btn-primary">
+            <img src="~/cp/img/create.png" alt="">
+            Создать
+        </a>
+        <a asp-controller="Video" asp-action="Category" asp-area="cp" class="btn-primary">
+            <img src="~/cp/img/create.png" alt="">
+            Хэштеги/Категории
+        </a>
+        <div class="filtr-input">
+            <label>Поиск по заголовку</label>
+            <div class="arrows">
+                <a class="filtr_arrow_up" asp-route-sortOrder="nameasc" asp-controller="Video" asp-action="index" asp-area="cp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z" />
+                    </svg>
+                </a>
+                <a class="filtr_arrow_down" asp-route-sortOrder="namedesc" asp-controller="Video" asp-action="index" asp-area="cp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z" />
+                    </svg>
+                </a>
+            </div>
+            <form asp-action="index" asp-controller="Video" asp-area="cp" method="get"><input type="text" id="search" name="search" placeholder="Введите заголовок"></form>
+        </div>
+        <a class="btn-primary" asp-controller="Video" asp-action="index" asp-area="cp">
+            <img src="~/cp/img/refresh.png" alt="">Сбросить поиск
+        </a>
+    </div>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ int i = 1;}
+        @foreach (var c in Model)
+        {
+        <tr>
+            <td><i>@(i++)</i></td>
+            <td>@c.Title</td>
+            <td class="td_btns">
+                <div class="wrap-btn">
+                    <a class="btn-table btn-edit" asp-controller="Video" asp-action="Edit" asp-area="cp" asp-route-id="@c.Id">
+                        <img src="~/cp/img/edit.png" alt="">Изменить
+                    </a>
+                    <a class="btn-table btn-delete" asp-controller="Video" asp-action="Delete" asp-area="cp" asp-route-id="@c.Id">
+                        <img src="~/cp/img/delete.png" alt="">Удалить
+                    </a>
+                </div>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

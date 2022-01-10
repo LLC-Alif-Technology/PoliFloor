@@ -1,0 +1,33 @@
+﻿@model KagamaAdmin.ViewModel.FloorsView
+
+@{
+    ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    ViewData["SeoDescription"] = Model.Page.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @*<a>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>*@
+</div>
+
+<div class="main-floors page-floors">
+    <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    @if (Model.Floors.Any())
+    {
+        <ul>
+            @foreach (var item in Model.Floors)
+            {
+                <li>
+                    <a asp-action="FloorOpen" asp-controller="Home" asp-route-alias="@item.Alias">
+                        <div class="img" style="background-image: url(@item.Icon);"></div>
+                        <p>@item.Title</p>
+                    </a>
+                </li>
+            }
+        </ul>
+    }
+    <div class="ck-edit">@Html.Raw(Model.Page.Description)</div>
+</div>
+@await Component.InvokeAsync("MainMap")

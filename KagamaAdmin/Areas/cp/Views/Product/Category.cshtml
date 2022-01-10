@@ -1,0 +1,48 @@
+﻿@model KagamaModels.Entities.ProductCategory
+<div class="bread">
+    <a asp-controller="Product" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Создание категорий для материалов</p>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Category" asp-controller="Product" asp-area="cp" asp-antiforgery="true">
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" onkeyup="translateUrl()" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок h1" />
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="SeoTitle"></label>
+            <input type="text" asp-for="SeoTitle" placeholder="Seo title" />
+        </div>
+        <div class="input">
+            <label asp-for="SeoDescription"></label>
+            <input type="text" asp-for="SeoDescription" placeholder="Seo description" />
+        </div>
+        <div class="input">
+            <label asp-for="SeoKeywords"></label>
+            <input type="text" asp-for="SeoKeywords" placeholder="Seo keywords" />
+        </div>
+        <div class="input ck-block" style="max-width: 100%">
+            <div class="flex-input">
+                <label asp-for="Desc"></label><a class="btn-primary bth-ck-editor">Показать / Скрыть</a>
+            </div>
+            <div class="hide-block" style="display: none">
+                <textarea asp-for="Desc" id="ck_editor_1"></textarea>
+            </div>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Добавить" />
+            <a class="btn-primary btn-secondary" asp-controller="Product" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>
+@await Component.InvokeAsync("ProductCategory")

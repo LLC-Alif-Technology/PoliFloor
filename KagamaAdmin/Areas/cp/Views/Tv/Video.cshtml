@@ -1,0 +1,44 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Tv.VideoView
+
+<div class="bread">
+    <a asp-controller="Tv" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Мы на тв
+    </a>
+    <p>Обновить проект: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Tv" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a asp-controller="Tv" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a class="active">Видео</a>
+    <a asp-controller="Tv" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Video" asp-controller="Tv" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="PreviewVideo" />
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" asp-for="PreviewVideo" id="file_previewvideo" />
+                <div class="check">Добавить фото</div>
+            </div>
+            <img id="previewImg" style="height: 120px" src="@Model.PreviewVideo" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleVideo"></label>
+            <input type="text" asp-for="TitleVideo" placeholder="Введите заголовок" />
+        </div>
+        <div class="input">
+            <label asp-for="LinkVideo"></label>
+            <input type="text" asp-for="LinkVideo" placeholder="Ссылка на видео" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description3"></label>
+            <textarea asp-for="Description3" id="ck_editor_1"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Tv" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

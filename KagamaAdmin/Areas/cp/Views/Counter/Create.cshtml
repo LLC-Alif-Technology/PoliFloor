@@ -1,0 +1,31 @@
+﻿@model KagamaModels.Entities.Counter
+
+<div class="bread">
+    <a asp-controller="Counter" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Счетчики
+    </a>
+    <p>Создание счетчика</p>
+</div>
+<div class="main-tabs-btn">
+    <a href="#main-tab" class="active">Основное</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Create" asp-controller="Counter" asp-area="cp" asp-antiforgery="true">
+        <div class="input">
+            <label asp-for="MetaTag"></label>
+            <textarea asp-for="MetaTag"></textarea>
+        </div>
+        <div class="input">
+            <label asp-for="CodeTop"></label>
+            <textarea asp-for="CodeTop"></textarea>
+        </div>
+        <div class="input">
+            <label asp-for="CodeBottom"></label>
+            <textarea asp-for="CodeBottom"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Добавить" />
+            <a class="btn-primary btn-secondary" asp-controller="Home" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

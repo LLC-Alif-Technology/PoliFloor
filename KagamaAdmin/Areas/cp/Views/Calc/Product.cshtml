@@ -1,0 +1,123 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Calc.CalcProductView
+
+<div class="bread">
+    <a asp-controller="Calc" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить услугу калькулятора: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Calc" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a asp-controller="Calc" asp-action="Thick" asp-route-id="@Model.Id">Толщина</a>
+    <a class="active">Материалы</a>
+    <a asp-controller="Calc" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Product" asp-controller="Calc" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label>Выбор материала</label>
+            <div class="flex-input">
+                <select asp-for="ProductId" asp-items="ViewBag.Products"></select>
+            </div>
+        </div>
+        <div class="flex-block" style="display:flex;">
+            @*<div class="input" style="margin-right: 50px;">
+                <label asp-for="Glossy"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="Glossy" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input" style="margin-right: 50px;">
+                <label asp-for="SemiMatt"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="SemiMatt" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>*@
+            <div class="input">
+                <label asp-for="Matt"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="Matt" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*<div class="flex-block" style="display:flex;">
+            <div class="input" style="margin-right: 50px;">
+                <label asp-for="Smooth"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="Smooth" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input">
+                <label asp-for="Grungy"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="Grungy" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        @for (var i = 0; i < Model.CalcThicks.Count(); i++)
+        {
+            <div class="input">
+                <label>при толщине @Model.CalcThicks.ElementAt(i).Mm мм</label>
+                <input type="text" asp-for="Kg[i]" placeholder="Реком. расход на 1 м2:" />
+            </div>
+        }
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Добавить" />
+        </div>
+    </form>
+    @if (Model.CalcProducts.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Продукт</th>
+                    <th>Лак</th>
+                    <th>Поверхность</th>
+                    <th>Реком. расход на 1 м2:</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ int j = 1;}
+                @foreach (var c in Model.CalcProducts)
+                {
+                    <tr>
+                        <td><i>@(j++)</i></td>
+                        <td>@c.PrTitle</td>
+                        <td>@(c.Glossy ? "Глянцевый лак" : "") @(c.SemiMatt ? "Полуматовый лак" : "") @(c.Matt ? "Матовый лак" : "")</td>
+                        <td>@(c.Smooth ? "Гладкая" : "") @(c.Grungy ? "Шероховатая" : "")</td>
+                        <td>@c.Kg</td>
+                        <td class="td_btns">
+                            <div class="wrap-btn">
+                                <a class="btn-table btn-edit" asp-controller="Calc" asp-action="CalcProdEdit" asp-area="cp" asp-route-id="@Model.Id" asp-route-calcProdId="@c.Id">
+                                    <img src="~/cp/img/edit.png" alt="">Изменить
+                                </a>
+                                <a class="btn-table btn-delete" asp-controller="Calc" , asp-action="CalcProdDelete" asp-area="cp" asp-route-id="@Model.Id" asp-route-calcProdId="@c.Id">
+                                    <img src="~/cp/img/delete.png" alt="">Удалить
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

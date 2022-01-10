@@ -1,0 +1,25 @@
+﻿@model IEnumerable<KagamaModels.Entities.Article>
+@if (Model.Any())
+{
+    <div class="main-news">
+        <h2>Новости</h2>
+        <div class="swiper-container swiper-main-news">
+            <div class="swiper-wrapper">
+                @foreach (var item in Model)
+                {
+                    <div class="swiper-slide">
+                        <a asp-controller="Home" asp-action="News" asp-route-alias="@item.Alias">
+                            <img src="@item.Img" alt="">
+                            <p class="prop">@item.CreationDate.ToString("dd MMMM yyyy")</p>
+                            <p class="desc">@item.Title</p>
+                        </a>
+                    </div>
+                }
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="btns-block">
+            <a asp-controller="Home" asp-action="News" asp-route-alias="">Смотреть все</a>
+        </div>
+    </div>
+}

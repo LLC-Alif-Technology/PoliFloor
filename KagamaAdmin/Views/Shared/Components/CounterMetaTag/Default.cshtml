@@ -1,0 +1,9 @@
+﻿@model IEnumerable<KagamaModels.Entities.Counter>
+
+@if (Model.Any())
+{
+    foreach (var counter in Model)
+    {
+        @Html.Raw(counter.MetaTag)
+    }
+}

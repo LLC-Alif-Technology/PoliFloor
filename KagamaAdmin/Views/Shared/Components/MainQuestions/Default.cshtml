@@ -1,0 +1,24 @@
+﻿@model IEnumerable<KagamaModels.Entities.Article>
+@if (Model.Any())
+{
+    <div class="main-questions">
+        <h2>Популярные вопросы</h2>
+        <div class="swiper-container swiper-main-questions">
+            <div class="swiper-wrapper">
+                @foreach (var item in Model)
+                {
+                    <div class="swiper-slide">
+                        <p class="date">@item.CreationDate.ToString("dd MMMM yyyy")</p>
+                        <a asp-controller="Home" asp-action="Articles" asp-route-alias="@item.Alias" class="caption">@item.Title</a>
+                        <p class="desc">@item.SubTitle</p>
+                    </div>
+                }
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="btns-block">
+            <a asp-controller="Home" asp-action="Articles" asp-route-alias="">Смотреть все</a>
+            <a asp-controller="Home" asp-action="Articles" asp-route-alias="" asp-fragment="questions-tab">Задать вопрос</a>
+        </div>
+    </div>
+}

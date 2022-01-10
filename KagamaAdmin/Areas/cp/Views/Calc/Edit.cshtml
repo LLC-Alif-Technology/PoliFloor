@@ -1,0 +1,89 @@
+﻿@model KagamaModels.Entities.CalcCategory
+
+<div class="bread">
+    <a asp-controller="Calc" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Назад
+    </a>
+    <p>Обновить услугу калькулятора: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a class="active">Основное</a>
+    <a asp-controller="Calc" asp-action="Thick" asp-route-id="@Model.Id">Толщина</a>
+    <a asp-controller="Calc" asp-action="Product" asp-route-id="@Model.Id">Материалы</a>
+    <a asp-controller="Calc" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Edit" asp-controller="Calc" asp-area="cp" asp-antiforgery="true">
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label asp-for="@Model.Title"></label>
+            <input type="text" asp-for="@Model.Title" placeholder="Введите заголовок" class="js_translate_get" />
+            <span class="error" asp-validation-for="@Model.Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="@Model.TitleH1"></label>
+            <input type="text" asp-for="@Model.TitleH1" placeholder="Заголовок h1" />
+        </div>
+        <div class="input">
+            <label asp-for="@Model.Alias"></label>
+            <input type="text" asp-for="@Model.Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="flex-block" style="display:flex;">
+            @*<div class="input" style="margin-right: 50px;">
+                <label asp-for="@Model.Glossy"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.Glossy" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input" style="margin-right: 50px;">
+                <label asp-for="@Model.SemiMatt"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.SemiMatt" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>*@
+            <div class="input">
+                <label asp-for="@Model.Matt"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.Matt" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="@Model.Desc"></label>
+            <textarea asp-for="@Model.Desc" id="ck_editor_1"></textarea>
+        </div>
+        @*<div class="flex-block" style="display:flex;">
+            <div class="input" style="margin-right: 50px;">
+                <label asp-for="@Model.Smooth"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.Smooth" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="input">
+                <label asp-for="@Model.Grungy"></label>
+                <div class="flex-switcher">
+                    <div class="switcher">
+                        <input type="checkbox" asp-for="@Model.Grungy" class="checkbox" />
+                        <div class="check"></div>
+                    </div>
+                </div>
+            </div>
+        </div>*@
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Calc" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

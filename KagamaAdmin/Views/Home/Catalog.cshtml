@@ -1,0 +1,126 @@
+﻿@model KagamaAdmin.ViewModel.CatalogView
+
+@{
+    ViewData["SeoTitle"] = Model.Page.SeoTitle;
+    ViewData["SeoKeywords"] = Model.Page.SeoKeywords;
+    ViewData["SeoDescription"] = Model.Page.SeoDescription;
+}
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @if (ViewContext.RouteData.Values["alias"] != null)
+    {
+        <a asp-controller="Home" asp-action="Catalog" asp-route-alias="">@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>
+    }
+</div>
+
+<div class="catalog-page">
+    <div class="flex-title">
+        @if (ViewContext.RouteData.Values["alias"] == null)
+        {
+            <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+            <p class="lbl">Все необходимое для заливки эпоксидных, декоративных и промышленных наливных полов</p>
+        }
+        else
+        {
+            <h1>@Model.ProductCategoryH1</h1>
+        }
+    </div>
+    <p class="title">Быстрая доставка по РФ и странам СНГ</p>
+    <ul class="filter">
+        <li class="@(ViewContext.RouteData.Values["alias"] == null ? "active" : "")"><a asp-action="Catalog" asp-controller="Home" asp-route-alias="">Все</a></li>
+        @foreach (var item in Model.ProductCategories)
+        {
+            if (ViewContext.RouteData.Values["alias"] != null)
+            {
+                <li class="@(ViewContext.RouteData.Values["alias"].ToString() == item.Alias.ToLower() ? "active" : "")">
+                    <a asp-action="Catalog" asp-controller="Home" asp-route-alias="@item.Alias">@item.Title</a>
+                </li>
+            }
+            else
+            {
+                <li>
+                    <a asp-action="Catalog" asp-controller="Home" asp-route-alias="@item.Alias">@item.Title</a>
+                </li>
+            }
+        }
+    </ul>
+    <ul class="catalog-list">
+        @foreach (var product in Model.Products)
+        {
+            <li data-item-id="@product.Id">
+                <a asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias" class="img" style="background-image: url(@product.Img1); display:block;"></a>
+                <p class="caption"><a asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias">@product.Title</a></p>
+                <p class="desc">@product.SubTitle</p>
+                <p class="stock">
+                    @if (product.Stock)
+                    {
+                        <img src="~/client/img/stock.png" alt="">
+                    }
+                    else
+                    {
+                        <img src="~/client/img/no_stock.png" alt="">
+                    }
+                    <span>Есть в наличии</span>
+                </p>
+                <div class="price-block">
+                    <p class="price">
+                        Цена за 1 кг
+                        <b>@((product.PriceKg * Model.EUR).Value.ToString("N0")) р.</b>
+                    </p>
+                    @if (product.PriceKit != null)
+                    {
+                        <p class="price">
+                            За комплект
+                            <b>@((product.PriceKit * Model.EUR).Value.ToString("N0")) р.</b>
+                        </p>
+                    }
+                </div>
+                <div class="flex-block">
+                    @if (Model.CartView.Items.Any(x => x.IdProduct == product.Id))
+                    {
+                        <div class="counter counterIsCart">
+                            <span class="minus" data-item-id="@product.Id"></span>
+                            <input type="number" min="1" value="@(Model.CartView.Items.SingleOrDefault(x=>x.IdProduct == product.Id).Count)">
+                            <span class="plus" data-item-id="@product.Id"></span>
+                        </div>
+                        <a style="display: none;" data-product="@product.Id" class="cart_btn js_AddInCart">
+                            <img src="~/client/img/cart.png" alt="">
+                            <span>В корзину</span>
+                        </a>
+                        <a data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">
+                            <span>Оформить заказ</span>
+                        </a>
+                    }
+                    else
+                    {
+                        <div class="counter counterNoCart">
+                            <span class="minus" data-item-id="@product.Id"></span>
+                            <input type="number" min="1" value="1">
+                            <span class="plus" data-item-id="@product.Id"></span>
+                        </div>
+                        <a data-product="@product.Id" class="cart_btn js_AddInCart">
+                            <img src="~/client/img/cart.png" alt="">
+                            <span>В корзину</span>
+                        </a>
+                        <a style="display: none;" data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">
+                            <span>Оформить заказ</span>
+                        </a>
+                    }
+                </div>
+            </li>
+        }
+    </ul>
+    <div class="catalog-desc">
+        @if (ViewContext.RouteData.Values["alias"] == null)
+        {
+            @Html.Raw(Model.Page.Description)
+        }
+        else
+        {
+            @Html.Raw(Model.ProductCategoryDesc)
+        }
+    </div>
+</div>
+
+@await Component.InvokeAsync("MainMap")

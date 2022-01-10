@@ -1,0 +1,75 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Service.MainView
+
+<div class="bread">
+    <a asp-controller="Service" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Услуги
+    </a>
+    <p>Обновить услугу: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Service" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a class="active">Доп страницы</a>
+    <a asp-controller="Service" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a asp-controller="Service" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a asp-controller="Service" asp-action="Material" asp-route-id="@Model.Id">Материалы</a>
+    <a asp-controller="Service" asp-action="Schema" asp-route-id="@Model.Id">Взрыв</a>
+    <a asp-controller="Service" asp-action="Calc" asp-route-id="@Model.Id">Кальк</a>
+    <a asp-controller="Service" asp-action="Object" asp-route-id="@Model.Id">Готовые</a>
+    <a asp-controller="Service" asp-action="Area" asp-route-id="@Model.Id">Область</a>
+    <a asp-controller="Service" asp-action="Question" asp-route-id="@Model.Id">Вопросы</a>
+    <a asp-controller="Service" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="MainPage" asp-controller="Service" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Banner" />
+        <input type="hidden" asp-for="Thumb" />
+        <input type="hidden" asp-for="ImgServiceList" />
+        <input type="hidden" asp-for="ProductImg" />
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewbanner" asp-for="Banner" id="file_banner" />
+                <div class="check">Фото для банера</div>
+            </div>
+            <img id="previewbanner" style="height: 120px" src="@Model.Banner" />
+        </div>
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewthumb" asp-for="Thumb" id="file_thumb" />
+                <div class="check">Фото для thumb</div>
+            </div>
+            <img id="previewthumb" style="height: 120px" src="@Model.Thumb" />
+        </div>
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewlist" asp-for="ImgServiceList" id="file_ImgServiceList" />
+                <div class="check">Фото для услуг</div>
+            </div>
+            <img id="previewlist" style="height: 120px" src="@Model.ImgServiceList" />
+        </div>
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" data-id="previewproduct" asp-for="ProductImg" id="file_ProductImg" />
+                <div class="check">Фото для товара</div>
+            </div>
+            <img id="previewproduct" style="height: 120px" src="@Model.ProductImg" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleBanner"></label>
+            <input type="text" asp-for="TitleBanner" placeholder="Заголовок на банере" />
+        </div>
+        <div class="input">
+            <label asp-for="SubTitleBanner"></label>
+            <input type="text" asp-for="SubTitleBanner" placeholder="ПодЗаголовок на банере" />
+        </div>
+        <div class="input">
+            <label asp-for="LinkProduct"></label>
+            <input type="text" asp-for="LinkProduct" placeholder="Ссылка на продукт" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Service" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

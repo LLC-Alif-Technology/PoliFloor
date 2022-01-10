@@ -1,0 +1,75 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Service.ServiceView
+
+<div class="bread">
+    <a asp-controller="Service" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Услуги
+    </a>
+    <p>Обновить услугу: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a class="active">Основное</a>
+    <a asp-controller="Service" asp-action="MainPage" asp-route-id="@Model.Id">Доп страницы</a>
+    <a asp-controller="Service" asp-action="Album" asp-route-id="@Model.Id">Альбом</a>
+    <a asp-controller="Service" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a asp-controller="Service" asp-action="Material" asp-route-id="@Model.Id">Материалы</a>
+    <a asp-controller="Service" asp-action="Schema" asp-route-id="@Model.Id">Взрыв</a>
+    <a asp-controller="Service" asp-action="Calc" asp-route-id="@Model.Id">Кальк</a>
+    <a asp-controller="Service" asp-action="Object" asp-route-id="@Model.Id">Готовые</a>
+    <a asp-controller="Service" asp-action="Area" asp-route-id="@Model.Id">Область</a>
+    <a asp-controller="Service" asp-action="Question" asp-route-id="@Model.Id">Вопросы</a>
+    <a asp-controller="Service" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Edit" asp-controller="Service" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="ImgServicePage" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <div class="fileinput">
+                <input type="file" onchange="readURL(this);" asp-for="ImgServicePage" id="file_ImgServicePage" />
+                <div class="check">Добавить фото</div>
+            </div>
+        </div>
+        <img id="previewImg" style="height: 120px" src="@Model.ImgServicePage" />
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок (h1)" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH2"></label>
+            <input type="text" asp-for="TitleH2" placeholder="Введите заголовок (h2)" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH3"></label>
+            <input type="text" asp-for="TitleH3" placeholder="Введите заголовок (h3)" />
+        </div>
+        <div class="input">
+            <label asp-for="BannerLinkName"></label>
+            <input type="text" asp-for="BannerLinkName" placeholder="Название ссылки на банере" />
+        </div>
+        <div class="input">
+            <label asp-for="BannerLink"></label>
+            <input type="text" asp-for="BannerLink" placeholder="Ссылка на банере" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description1"></label>
+            <textarea asp-for="Description1" id="ck_editor_1"></textarea>
+        </div>
+        <div class="input">
+            <label asp-for="SortHeader"></label>
+            <input type="text" asp-for="SortHeader" placeholder="Сортировка" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Service" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

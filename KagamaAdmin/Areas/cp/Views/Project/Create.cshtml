@@ -1,0 +1,44 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Project.ProjectView
+
+<div class="bread">
+    <a asp-controller="Project" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Проекты
+    </a>
+    <p>Создание проекта</p>
+</div>
+<div class="main-tabs-btn">
+    <a href="#main-tab" class="active">Основное</a>
+</div>
+<div id="main-tab" class="main-tab active">
+    <form asp-action="Create" asp-controller="Project" asp-area="cp" asp-antiforgery="true">
+        <div class="input js_translit">
+            <label asp-for="Title"></label>
+            <input type="text" asp-for="Title" placeholder="Введите заголовок" class="js_translate_get" onkeyup="translateUrl()" />
+            <span class="error" asp-validation-for="Title"></span>
+        </div>
+        <div class="input">
+            <label asp-for="Alias"></label>
+            <input type="text" asp-for="Alias" placeholder="Введите Url" class="js_translate_set" />
+        </div>
+        <div class="input">
+            <label asp-for="TitleH1"></label>
+            <input type="text" asp-for="TitleH1" placeholder="Введите заголовок (h1)" />
+        </div>
+        <div class="input">
+            <label asp-for="Square"></label>
+            <input type="text" asp-for="Square" placeholder="Площадь" />
+        </div>
+        <div class="input">
+            <label asp-for="City"></label>
+            <input type="text" asp-for="City" placeholder="Город" />
+        </div>
+        <div class="input">
+            <label asp-for="Price"></label>
+            <input type="number" asp-for="Price" placeholder="Стоимость материалов на м2" />
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary" type="submit" value="Добавить" />
+            <a class="btn-primary btn-secondary" asp-controller="Project" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

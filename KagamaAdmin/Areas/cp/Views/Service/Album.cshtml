@@ -1,0 +1,49 @@
+﻿@model KagamaAdmin.Areas.cp.ViewModels.Service.AlbumView
+
+<div class="bread">
+    <a asp-controller="Service" asp-action="Index" asp-area="cp" class="back">
+        <img src="~/cp/img/back.png" alt="">Услуги
+    </a>
+    <p>Обновить услугу: @Model.Title</p>
+</div>
+<div class="main-tabs-btn">
+    <a asp-controller="Service" asp-action="Edit" asp-route-id="@Model.Id">Основное</a>
+    <a asp-controller="Service" asp-action="MainPage" asp-route-id="@Model.Id">Доп страницы</a>
+    <a class="active">Альбом</a>
+    <a asp-controller="Service" asp-action="Video" asp-route-id="@Model.Id">Видео</a>
+    <a asp-controller="Service" asp-action="Material" asp-route-id="@Model.Id">Материалы</a>
+    <a asp-controller="Service" asp-action="Schema" asp-route-id="@Model.Id">Взрыв</a>
+    <a asp-controller="Service" asp-action="Calc" asp-route-id="@Model.Id">Кальк</a>
+    <a asp-controller="Service" asp-action="Object" asp-route-id="@Model.Id">Готовые</a>
+    <a asp-controller="Service" asp-action="Area" asp-route-id="@Model.Id">Область</a>
+    <a asp-controller="Service" asp-action="Question" asp-route-id="@Model.Id">Вопросы</a>
+    <a asp-controller="Service" asp-action="Seo" asp-route-id="@Model.Id">Seo</a>
+</div>
+<div class="main-tab active">
+    <form asp-action="Album" asp-controller="Service" asp-area="cp" asp-antiforgery="true" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Title" />
+        <input type="hidden" asp-for="Id" />
+        <div class="input">
+            <label asp-for="TitleAlbum"></label>
+            <input type="text" asp-for="TitleAlbum" placeholder="Заголовок" />
+        </div>
+        <div class="input">
+            <label asp-for="AlbumId"></label>
+            <select asp-for="AlbumId" asp-items="ViewBag.AlbumsList">
+                <option value="0">Не выбран</option>
+            </select>
+        </div>
+        <div class="input">
+            <label asp-for="LinkAlbum"></label>
+            <input type="text" asp-for="LinkAlbum" placeholder="Ссылка на альбом" />
+        </div>
+        <div class="input" style="max-width: 100%">
+            <label asp-for="Description2"></label>
+            <textarea asp-for="Description2" id="ck_editor_1"></textarea>
+        </div>
+        <div class="flex-button">
+            <input class="btn-primary btn-fix" type="submit" value="Сохранить" />
+            <a class="btn-primary btn-secondary" asp-controller="Service" asp-action="Index" asp-area="cp">Отмена</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,352 @@
+﻿@model KagamaModels.Entities.Page
+
+@{
+    ViewData["SeoTitle"] = Model.SeoTitle;
+    ViewData["SeoKeywords"] = Model.SeoKeywords;
+    ViewData["SeoDescription"] = Model.SeoDescription;
+}
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    @*<a>@(string.IsNullOrEmpty(Model.TitleH1) ? Model.Title : Model.TitleH1)</a>*@
+</div>
+
+<div class="about-page">
+    <h1>@(string.IsNullOrEmpty(Model.TitleH1) ? Model.Title : Model.TitleH1)</h1>
+    <div class="about-banner">
+        <div>
+            <p class="caption">
+                Здравствуй, <br> уважаемый друг
+            </p>
+            <p class="desc">
+                Расскажем немного о себе <br>
+                и наших преимуществах
+            </p>
+        </div>
+    </div>
+    <div class="ck-edit">
+        @Html.Raw(Model.Description)
+    </div>
+    <div class="team">
+        <h2>Команда</h2>
+        <p class="subtitle">Каждый из наших сотрудников нацелен на максимальный результат как в качестве реализации труда так и в скорости</p>
+        <div class="swiper-container swiper-about-team">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="~/client/img/team_1.jpg" alt="">
+                    <div class="info">
+                        <span>Директор</span>
+                        <p>Абдулаев Шамиль</p>
+                        <i>06.03.80@mail.ru</i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="~/client/img/team_2.jpg" alt="">
+                    <div class="info">
+                        <span>Коммерческий директор</span>
+                        <p>Додуева Соня</p>
+                        <i>sonia@poli-floor.ru</i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="~/client/img/team_3.jpg" alt="">
+                    <div class="info">
+                        <span>Бухгалтер</span>
+                        <p>Цыганков Алексей</p>
+                        <i>poli-floor@poli-floor.ru</i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <h2>Преимущества</h2>
+    <div class="advantages">
+        <div>
+            <img src="~/client/img/maze.png" alt="">
+            <div>
+                <p class="caption">Большой опыт</p>
+                <p>
+                    <b>10</b> лет развития
+                </p>
+                <p>
+                    <b>< 1000</b> выполненых объектов
+                </p>
+            </div>
+        </div>
+        <div>
+            <img src="~/client/img/price-tag.png" alt="">
+            <div>
+                <p class="caption">Оптимальная цена</p>
+                <p>
+                    Узнайте стоимость наших услуг, <br>
+                    у нас очень хорошее соотношение цены <br>
+                    и качества
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="work">
+        <h2>Как мы работаем?</h2>
+        <div class="swiper-container swiper-about-work">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="caption">
+                        <div class="img" style="background-image: url(/client/img/about-work-1.png);"></div>
+                        <b>
+                            Консультирование
+                            и расчет стоимости
+                        </b>
+                    </div>
+                    <div class="desc">
+                        Если Вы хотите заказать наливной пол, но
+                        сомневаетесь – смело звоните к нам!
+                        Специалисты проконсультируют Вас и ответят
+                        на все вопросы. Также, получить необходимую
+                        консультацию можно у нас в офисе.
+                        Преимуществом является - выбор образца
+                        пола или изготовление по Вашим требованиям.
+                        После консультации можно получить
+                        предварительный расчет стоимости наливного
+                        пола и всех работ. Цена формируется
+                        основываясь на количестве используемого
+                        материала, квадратуре помещения, вида пола
+                        (декоративный пол, 3d пол или промышленные
+                        полы), подготовительных работ и расхода
+                        инструментов.
+                    </div>
+                    <a class="lead js-open-call">Заказать звонок</a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="caption">
+                        <div class="img" style="background-image: url(/client/img/about-work-2.png);"></div>
+                        <b>
+                            Бесплатный выезд
+                            специалиста
+                        </b>
+                    </div>
+                    <div class="desc">
+                        Выезд осуществляется бесплатно по всей
+                        Москве в пределах МКАД. При выезде за
+                        пределы МКАД идет оплата в зависимости
+                        от отдаленности, но при заключении договора -
+                        бесплатно! На данном этапе проводится
+                        окончательный расчет стоимости и согласуются
+                        сроки и график выполнения работ. Вы можете
+                        оставить заявку прямо сейчас!
+                    </div>
+                    <a class="lead js-open-order">Оставить заявку</a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="caption">
+                        <div class="img" style="background-image: url(/client/img/about-work-3.png);"></div>
+                        <b>
+                            Адекватная цена
+                            и разумные сроки
+                        </b>
+                    </div>
+                    <div class="desc">
+                        Цена наливного пола за м2 варьируется от 999 руб., 
+                        в зависимости от площади (чем больше площадь, тем меньше стоимость за кв. метр), 
+                        вида напольного покрытия и толщины слоя заливки. 
+                        После согласования всех условий заключается договор и выставляется счет. 
+                        Сроки заливки пола от 3 дней!
+                    </div>
+                    <a class="lead" asp-action="Calculator" asp-controller="Home" asp-route-alias="">Калькулятор</a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <h2>Сроки</h2>
+    <div class="deadlines">
+        <ul>
+            <li>
+                <div>
+                    <b>5</b>
+                    <p>минут</p>
+                </div>
+                <i>1</i>
+                <strong>Произведем <br> расчет</strong>
+            </li>
+            <li>
+                <div>
+                    <b>1</b>
+                    <p>день</p>
+                </div>
+                <i>2</i>
+                <strong>Выполним <br> замеры</strong>
+            </li>
+            <li>
+                <div>
+                    <b>3</b>
+                    <p>дня</p>
+                </div>
+                <i>4</i>
+                <strong>Зальем вам <br> полы</strong>
+            </li>
+            <li>
+                <div>
+                    <b>3</b>
+                    <p>года</p>
+                </div>
+                <i>5</i>
+                <strong>Реальная <br> гарантия</strong>
+            </li>
+        </ul>
+        <div class="swiper-container swiper-about-deadlines">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div>
+                        <b>5</b>
+                        <p>минут</p>
+                    </div>
+                    <i>1</i>
+                    <strong>Произведем <br> расчет</strong>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <b>1</b>
+                        <p>день</p>
+                    </div>
+                    <i>2</i>
+                    <strong>Выполним <br> замеры</strong>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <b>3</b>
+                        <p>дня</p>
+                    </div>
+                    <i>4</i>
+                    <strong>Зальем вам <br> полы</strong>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <b>3</b>
+                        <p>года</p>
+                    </div>
+                    <i>5</i>
+                    <strong>Реальная <br> гарантия</strong>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="clients">
+        <h2>Нам доверяют</h2>
+        <ul>
+            <li>
+                <img src="~/client/img/clients_1.jpg" alt="">
+                <div class="info">
+                    <p>Алла Борисовна Пугачёва</p>
+                    <span>Проект</span>
+                    <i>Family Club</i>
+                </div>
+            </li>
+            <li>
+                <img src="~/client/img/clients_2.jpg" alt="">
+                <div class="info">
+                    <p>Иосиф Давыдович Кобзон</p>
+                    <span>Проект</span>
+                    <i>Имперский минимализм</i>
+                </div>
+            </li>
+            <li>
+                <img src="~/client/img/clients_3.jpg" alt="">
+                <div class="info">
+                    <p>Tetra Pak</p>
+                    <span>Проект</span>
+                    <i>Tetra Pak</i>
+                </div>
+            </li>
+            <li>
+                <img src="~/client/img/clients_4.jpg" alt="">
+                <div class="info">
+                    <p>Кофе Хауз</p>
+                    <span>Проект</span>
+                    <i>Кофе Хауз</i>
+                </div>
+            </li>
+            <li>
+                <img src="~/client/img/clients_5.jpg" alt="">
+                <div class="info">
+                    <p>Parker</p>
+                    <span>Проект</span>
+                    <i>Parker</i>
+                </div>
+            </li>
+        </ul>
+        <div class="swiper-container swiper-about-clients">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="~/client/img/clients_1.jpg" alt="">
+                    <div class="info">
+                        <p>Алла Борисовна Пугачёва</p>
+                        <span>Проект</span>
+                        <i>Family Club</i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="~/client/img/clients_2.jpg" alt="">
+                    <div class="info">
+                        <p>Иосиф Давыдович Кобзон</p>
+                        <span>Проект</span>
+                        <i>Имперский минимализм</i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="~/client/img/clients_3.jpg" alt="">
+                    <div class="info">
+                        <p>Tetra Pak</p>
+                        <span>Проект</span>
+                        <i>Tetra Pak</i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="~/client/img/clients_4.jpg" alt="">
+                    <div class="info">
+                        <p>Кофе Хауз</p>
+                        <span>Проект</span>
+                        <i>Кофе Хауз</i>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="~/client/img/clients_5.jpg" alt="">
+                    <div class="info">
+                        <p>Parker</p>
+                        <span>Проект</span>
+                        <i>Parker</i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="partners">
+        <h2>Постоянные партнеры телепроектов</h2>
+        <div class="swiper-container swiper-about-partners">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="img" style="background-image: url(/client/img/partners_1.png);"></div>
+                    <p>«Школа ремонта»</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img" style="background-image: url(/client/img/partners_2.png);"></div>
+                    <p>«Дачный ответ»</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img" style="background-image: url(/client/img/partners_3.png);"></div>
+                    <p>«Чистая работа»</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img" style="background-image: url(/client/img/partners_4.png);"></div>
+                    <p>«Квартирный вопрос»</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+@await Component.InvokeAsync("MainMap")

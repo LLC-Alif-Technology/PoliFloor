@@ -1,0 +1,42 @@
+﻿@model IEnumerable<KagamaModels.Entities.Project>
+@if (Model.Any())
+{
+    <div class="main-projects">
+        <h2>Наши проекты</h2>
+        <ul>
+            @foreach (var project in Model)
+            {
+                <li>
+                    <a asp-action="ProjectOpen" asp-controller="Home" asp-route-alias="@project.Alias">
+                        <img src="@project.Img"/>
+                        <p class="prop">@project.City, @project.Square м2</p>
+                        <p class="desc">@project.Title</p>
+                    </a>
+                </li>
+            }
+            <li>
+                <a asp-action="Projects" asp-controller="Home" asp-route-alias="" class="all_projects">
+                    <p>
+                        <span>Смотреть все <br> проекты</span>
+                    </p>
+                </a>
+            </li>
+        </ul>
+        <div class="swiper-container swiper-main-projects">
+            <div class="swiper-wrapper">
+                @foreach (var project in Model)
+                {
+                    <div class="swiper-slide">
+                        <a asp-action="ProjectOpen" asp-controller="Home" asp-route-alias="@project.Alias">
+                            <img src="@project.Img" alt="">
+                            <p class="prop">@project.City, @project.Square м2</p>
+                            <p class="desc">@project.Title</p>
+                        </a>
+                    </div>
+                }
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <a asp-controller="Home" asp-action="Projects" asp-route-alias="" class="m-all-projects">Смотреть все проекты</a>
+    </div>
+}

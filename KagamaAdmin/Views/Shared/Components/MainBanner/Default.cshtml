@@ -1,0 +1,66 @@
+﻿@model IEnumerable<KagamaModels.Entities.Service>
+@if (Model.Any())
+{
+    <div class="main-banner">
+        <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+                @foreach (var item in Model.OrderBy(x => x.SortHeader))
+                {
+                    <div class="swiper-slide" style="background-image: url(@item.Banner);">
+                        <div class="slide-content">
+                            <div>
+                                <p class="subtitle">@item.SubTitleBanner</p>
+                                <p class="title">@(string.IsNullOrEmpty(item.TitleBanner) ? item.Title : item.TitleBanner)</p>
+                                @if (!string.IsNullOrEmpty(item.TitleH2))
+                                {
+                                    <p class="title title-small">@item.TitleH2</p>
+                                }
+                                @if (!string.IsNullOrEmpty(item.TitleH3))
+                                {
+                                    <p class="title title-small">@item.TitleH3</p>
+                                }
+                                @if (!string.IsNullOrEmpty(item.BannerLinkName))
+                                {
+                                    <a class="link" href="@item.BannerLink">@item.BannerLinkName</a>
+                                }
+                                <a class="calc_btn" asp-action="Calculator" asp-controller="Home" asp-route-alias="">
+                                    <img src="~/client/img/calculator.png" alt="">
+                                    <span>Расчет стоимости</span>
+                                </a>
+                            </div>
+                            <div>
+                                @if (!string.IsNullOrEmpty(item.ProductImg))
+                                {
+                                    <img src="@item.ProductImg" alt="">
+                                }
+                                @if (!string.IsNullOrEmpty(item.LinkProduct))
+                                {
+                                    <a href="@item.LinkProduct" class="link_store">Перейти в магазин</a>
+                                }
+                                <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias" class="link_store m-link_store">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-container gallery-thumbs">
+            <div class="swiper-wrapper">
+                @foreach (var item in Model.OrderBy(x => x.SortHeader))
+                {
+                    <div class="swiper-slide" style="background-image: url(@item.Thumb);">
+                        @if (item.Hide == "999")
+                        {
+                            <a>@item.Title</a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias">@item.Title</a>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
