@@ -81,3 +81,14 @@ D:\AlifTech\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.csproj.CoreCompile
 D:\AlifTech\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.dll
 D:\AlifTech\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.pdb
 D:\AlifTech\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.genruntimeconfig.cache
+D:\projects\workProjects\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.deps.json
+D:\projects\workProjects\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.runtimeconfig.json
+D:\projects\workProjects\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.runtimeconfig.dev.json
+D:\projects\workProjects\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.dll
+D:\projects\workProjects\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.pdb
+D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.csprojAssemblyReference.cache
+D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.csproj.CoreCompileInputs.cache
+D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.AssemblyInfoInputs.cache
+D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.AssemblyInfo.cs
+D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.dll
+D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.pdb
