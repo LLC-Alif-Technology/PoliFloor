@@ -14,25 +14,48 @@
 
 <div class="tv-page">
     <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
-    @if (Model.Tvs.Any())
-    {
-        <ul class="list">
-            @foreach (var tv in Model.Tvs)
+    <div class="tv-page-cards">
+        <div class="slider-lists-prev" id="sliderListsPrev"></div>
+        <div class="slider-lists" id="tvScrollLists">
+            @if (Model.Tvs.Any())
             {
-                <li>
-                    <a asp-action="TvOpen" asp-controller="Home" asp-route-alias="@tv.Alias" style="background-image: url(@tv.Banner);">
-                        <div class="info">
-                            <img src="@tv.Icon" alt="">
-                            <p class="caption">@tv.Caption</p>
-                            <p class="title">@tv.Title</p>
-                            <p class="desc">@tv.SubTitle</p>
-                        </div>
-                        <div class="arrow"></div>
-                    </a>
-                </li>
+                <ul class="tv_lists" id="UnListsTv">
+                    @foreach (var tv in Model.Tvs)
+                    {
+                        <li>
+                            <div class="tv-lists-contain-list" style="background-image: url(@tv.Banner);">
+                                <a asp-action="TvOpen" asp-controller="Home" asp-route-alias="@tv.Alias">
+                                    <div class="tv_lists-info">
+                                        <p class="caption">
+                                            @tv.Caption
+                                        </p>
+                                        <p class="title">
+                                            @tv.Title
+                                        </p>
+                                    </div>
+                                    <div class="tv-lists-navigation-bottom">
+                                        <div class="info-img-contain">
+                                                <img src="@tv.Icon" />
+                                        </div>
+                                        <div class="arrow"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    }
+                </ul>
             }
-        </ul>
-    }
+        </div>
+        <div class="slider-lists-next" id="sliderListsNext"></div>
+    </div>
+    <div class="slider-select-card" id="sliderSelectCard">
+        @{
+            int Index = 0;
+            @foreach (var tv in Model.Tvs) {
+                <input type="radio" name="card" />   
+            }
+        }
+    </div>
 </div>
 
 @await Component.InvokeAsync("MainMap")
