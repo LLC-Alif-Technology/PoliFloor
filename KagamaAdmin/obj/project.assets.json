@@ -15219,23 +15219,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\black\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+      "projectUniqueName": "D:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
       "projectName": "KagamaAdmin",
-      "projectPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\obj\\",
+      "projectPath": "D:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+      "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -15246,8 +15246,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj"
+            "D:\\projects\\workProjects\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
+              "projectPath": "D:\\projects\\workProjects\\PoliFloor\\KagamaModels\\KagamaModels.csproj"
             }
           }
         }
@@ -15309,13 +15309,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Ошибка чтения файла кэша C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\obj\\KagamaAdmin.csproj.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
