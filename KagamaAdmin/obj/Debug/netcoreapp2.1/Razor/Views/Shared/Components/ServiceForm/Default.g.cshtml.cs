@@ -61,7 +61,11 @@ using KagamaAdmin.Models;
             EndContext();
             BeginContext(48, 736, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7274da7a66ce4d05a8833a440a73fe14", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ccf9ff00f7d84305a2d5bfad00b579d9", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ccf9ff00f7d84305a2d5bfad00b579d9", async() => {
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -80,7 +84,11 @@ Write(Html.AntiForgeryToken());
                 EndContext();
                 BeginContext(160, 54, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "89512f94967e47769d11ce7bfb4f33dd", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "362f77958cf24d41ae25bc2aa2225adf", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "362f77958cf24d41ae25bc2aa2225adf", async() => {
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -110,7 +118,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 EndContext();
                 BeginContext(261, 57, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5604205411ef4abdafca22fc7c886010", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0995ce1a7b6b412bbe2f7eed61a19e9f", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0995ce1a7b6b412bbe2f7eed61a19e9f", async() => {
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -150,7 +162,11 @@ WriteAttributeValue("", 382, ViewData.ModelState["SoPhone"]?.Errors.Count > 0 ? 
                 EndContext();
                 BeginContext(475, 59, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "eccb6e8809774165a37add6feb0233ff", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d1e241276f0c4c9890121c09662ea963", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d1e241276f0c4c9890121c09662ea963", async() => {
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -180,7 +196,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 EndContext();
                 BeginContext(632, 65, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0b802d19cd1a41e8b256c6f8102a509c", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "22998a9e70da4b5ca0c1b9e362936afb", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "22998a9e70da4b5ca0c1b9e362936afb", async() => {
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333

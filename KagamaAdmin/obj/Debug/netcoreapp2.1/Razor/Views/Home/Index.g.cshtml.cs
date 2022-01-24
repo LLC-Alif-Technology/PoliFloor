@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4dea8e341657a34b9141c916ce4a9ea8c24c76e9"
+=======
+#pragma checksum "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "b870acad6202ee8161319577695adf68066f5439"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #pragma checksum "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "b870acad6202ee8161319577695adf68066f5439"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -28,7 +32,11 @@ using KagamaAdmin.Models;
 #line default
 #line hidden
 <<<<<<< HEAD
+<<<<<<< HEAD
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4dea8e341657a34b9141c916ce4a9ea8c24c76e9", @"/Views/Home/Index.cshtml")]
+=======
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b870acad6202ee8161319577695adf68066f5439", @"/Views/Home/Index.cshtml")]
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b870acad6202ee8161319577695adf68066f5439", @"/Views/Home/Index.cshtml")]
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -74,9 +82,12 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(197, 44, false);
 #line 9 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             BeginContext(197, 41, false);
 #line 9 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 Write(await Component.InvokeAsync("MainBanner"));
@@ -89,6 +100,9 @@ Write(await Component.InvokeAsync("MainBanner"));
             EndContext();
             BeginContext(243, 44, false);
 #line 11 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("MainMaterials"));
 
@@ -104,6 +118,9 @@ Write(await Component.InvokeAsync("MainMaterials"));
 =======
             BeginContext(349, 27, false);
 #line 14 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                     Write(Html.Raw(Model.Description));
 
@@ -119,6 +136,9 @@ Write(await Component.InvokeAsync("MainMaterials"));
 =======
             BeginContext(395, 42, false);
 #line 17 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("MainGallery"));
 
@@ -134,6 +154,9 @@ Write(await Component.InvokeAsync("MainGallery"));
 =======
             BeginContext(442, 43, false);
 #line 19 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("MainProjects"));
 
@@ -144,9 +167,12 @@ Write(await Component.InvokeAsync("MainProjects"));
             WriteLiteral("\r\n\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(444, 44, false);
 #line 19 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             BeginContext(490, 45, false);
 #line 21 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 Write(await Component.InvokeAsync("MainProperties"));
@@ -199,12 +225,16 @@ Write(await Component.InvokeAsync("MainQNA"));
             EndContext();
             BeginContext(729, 44, false);
 #line 31 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("MainQuestions"));
 
 #line default
 #line hidden
             EndContext();
+<<<<<<< HEAD
 <<<<<<< HEAD
             BeginContext(488, 4, true);
             WriteLiteral("\r\n\r\n");
@@ -218,11 +248,19 @@ Write(await Component.InvokeAsync("MainQuestions"));
             BeginContext(778, 38, false);
 #line 33 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+            BeginContext(773, 4, true);
+            WriteLiteral("\r\n\r\n");
+            EndContext();
+            BeginContext(778, 38, false);
+#line 33 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("MainCTA"));
 
 #line default
 #line hidden
             EndContext();
+<<<<<<< HEAD
 <<<<<<< HEAD
             BeginContext(531, 4, true);
             WriteLiteral("\r\n\r\n");
@@ -236,11 +274,19 @@ Write(await Component.InvokeAsync("MainCTA"));
             BeginContext(821, 42, false);
 #line 35 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+            BeginContext(816, 4, true);
+            WriteLiteral("\r\n\r\n");
+            EndContext();
+            BeginContext(821, 42, false);
+#line 35 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("MainOurTeam"));
 
 #line default
 #line hidden
             EndContext();
+<<<<<<< HEAD
 <<<<<<< HEAD
             BeginContext(578, 4, true);
             WriteLiteral("\r\n\r\n");
@@ -254,11 +300,19 @@ Write(await Component.InvokeAsync("MainOurTeam"));
             BeginContext(868, 42, false);
 #line 37 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+            BeginContext(863, 4, true);
+            WriteLiteral("\r\n\r\n");
+            EndContext();
+            BeginContext(868, 42, false);
+#line 37 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("StageOfWork"));
 
 #line default
 #line hidden
             EndContext();
+<<<<<<< HEAD
 <<<<<<< HEAD
             BeginContext(625, 4, true);
             WriteLiteral("\r\n\r\n");
@@ -272,11 +326,19 @@ Write(await Component.InvokeAsync("StageOfWork"));
             BeginContext(915, 38, false);
 #line 39 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+            BeginContext(910, 4, true);
+            WriteLiteral("\r\n\r\n");
+            EndContext();
+            BeginContext(915, 38, false);
+#line 39 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("FormCTA"));
 
 #line default
 #line hidden
             EndContext();
+<<<<<<< HEAD
 <<<<<<< HEAD
             BeginContext(668, 4, true);
             WriteLiteral("\r\n\r\n");
@@ -298,6 +360,11 @@ Write(await Component.InvokeAsync("MainFloors"));
             BeginContext(953, 4, true);
             WriteLiteral("\r\n\r\n");
             EndContext();
+=======
+            BeginContext(953, 4, true);
+            WriteLiteral("\r\n\r\n");
+            EndContext();
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             BeginContext(958, 41, false);
 #line 41 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 Write(await Component.InvokeAsync("MainRegion"));
@@ -310,9 +377,12 @@ Write(await Component.InvokeAsync("MainRegion"));
             WriteLiteral("\r\n\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(764, 27, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fa4b1ee532a34e6f8c0b08ea34a05f7c", async() => {
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             BeginContext(1004, 41, false);
 #line 43 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
 Write(await Component.InvokeAsync("MainFloors"));
@@ -355,6 +425,9 @@ Write(await Component.InvokeAsync("MainRewards"));
             EndContext();
             BeginContext(1193, 27, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c3a876112bd64b1fbf55088c565336a6", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -371,11 +444,19 @@ Write(await Component.InvokeAsync("MainRewards"));
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(791, 47, true);
             WriteLiteral("\r\n\r\n<div class=\"main-lead\" id=\"mainLead\">\r\n    ");
             EndContext();
             BeginContext(839, 39, false);
 #line 36 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+=======
+            BeginContext(1220, 47, true);
+            WriteLiteral("\r\n\r\n<div class=\"main-lead\" id=\"mainLead\">\r\n    ");
+            EndContext();
+            BeginContext(1268, 39, false);
+#line 56 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(1220, 47, true);
             WriteLiteral("\r\n\r\n<div class=\"main-lead\" id=\"mainLead\">\r\n    ");
@@ -389,11 +470,19 @@ Write(await Component.InvokeAsync("MainLead"));
 #line hidden
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(878, 12, true);
             WriteLiteral("\r\n</div>\r\n\r\n");
             EndContext();
             BeginContext(890, 28, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fc772ef425b14dfd9c45e964a8a7e4c5", async() => {
+=======
+            BeginContext(1307, 12, true);
+            WriteLiteral("\r\n</div>\r\n\r\n");
+            EndContext();
+            BeginContext(1319, 28, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b9b0a9cc03ab45d79df8818a9924c7cc", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(1307, 12, true);
             WriteLiteral("\r\n</div>\r\n\r\n");
@@ -416,11 +505,19 @@ Write(await Component.InvokeAsync("MainLead"));
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(918, 4, true);
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(923, 39, false);
 #line 41 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+=======
+            BeginContext(1347, 4, true);
+            WriteLiteral("\r\n\r\n");
+            EndContext();
+            BeginContext(1352, 39, false);
+#line 61 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(1347, 4, true);
             WriteLiteral("\r\n\r\n");
@@ -434,11 +531,19 @@ Write(await Component.InvokeAsync("MainNews"));
 #line hidden
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(962, 6, true);
             WriteLiteral("\r\n\r\n\r\n");
             EndContext();
             BeginContext(969, 38, false);
 #line 44 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+=======
+            BeginContext(1391, 6, true);
+            WriteLiteral("\r\n\r\n\r\n");
+            EndContext();
+            BeginContext(1398, 38, false);
+#line 64 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Index.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(1391, 6, true);
             WriteLiteral("\r\n\r\n\r\n");

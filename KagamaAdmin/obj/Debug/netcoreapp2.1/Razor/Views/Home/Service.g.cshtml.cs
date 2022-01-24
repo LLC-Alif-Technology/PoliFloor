@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1dc5a5fc1724f8b017ef6b1975c953ef0bb57f04"
+=======
+#pragma checksum "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "938e513b37a5c4b495c16b1e92a00a9141b1af69"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #pragma checksum "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "938e513b37a5c4b495c16b1e92a00a9141b1af69"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -434,6 +438,9 @@ WriteAttributeValue("", 4506, Model.Service.ImgServicePage, 4506, 29, false);
 =======
             BeginContext(967, 89, false);
 #line 18 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             Write(string.IsNullOrEmpty(Model.Service.TitleH1) ? Model.Service.Title : Model.Service.TitleH1);
 
@@ -444,7 +451,11 @@ WriteAttributeValue("", 4506, Model.Service.ImgServicePage, 4506, 29, false);
             WriteLiteral("</h1>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 103 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 19 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 19 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -462,6 +473,9 @@ WriteAttributeValue("", 4506, Model.Service.ImgServicePage, 4506, 29, false);
 =======
             BeginContext(1189, 21, false);
 #line 21 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                         Write(Model.Service.TitleH2);
 
@@ -472,7 +486,11 @@ WriteAttributeValue("", 4506, Model.Service.ImgServicePage, 4506, 29, false);
             WriteLiteral("</p>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 106 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 22 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 22 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -484,7 +502,11 @@ WriteAttributeValue("", 4506, Model.Service.ImgServicePage, 4506, 29, false);
             WriteLiteral("            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 107 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 23 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 23 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -502,6 +524,9 @@ WriteAttributeValue("", 4506, Model.Service.ImgServicePage, 4506, 29, false);
 =======
             BeginContext(1356, 21, false);
 #line 25 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                         Write(Model.Service.TitleH3);
 
@@ -512,7 +537,11 @@ WriteAttributeValue("", 4506, Model.Service.ImgServicePage, 4506, 29, false);
             WriteLiteral("</p>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 110 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 26 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 26 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -524,7 +553,11 @@ WriteAttributeValue("", 4506, Model.Service.ImgServicePage, 4506, 29, false);
             WriteLiteral("            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 111 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 27 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 27 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -558,6 +591,9 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
 =======
             BeginContext(1550, 28, false);
 #line 29 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                             Write(Model.Service.BannerLinkName);
 
@@ -568,7 +604,11 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             WriteLiteral("</a>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 114 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 30 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 30 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -580,7 +620,11 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             WriteLiteral("            <div class=\"btns-block\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 116 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 32 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 32 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -644,6 +688,9 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             EndContext();
             BeginContext(2183, 42, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f8f5af133a3f4f43bf29fde47c47eae1", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -663,6 +710,7 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             WriteLiteral("\r\n                        <i>");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(5509, 26, false);
 #line 120 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
                       Write(Model.GalleryItems.Count());
@@ -677,6 +725,9 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
 =======
 #line 46 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+#line 46 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                 }
 
 #line default
@@ -685,9 +736,12 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             WriteLiteral("                ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 124 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
                  if (Model.Products.Any())
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 #line 47 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
                  if (Model.Service.CalcId != null)
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -704,6 +758,9 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
 =======
             BeginContext(2487, 46, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2a99e4d449c347d185c72562f9404b2b", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -723,7 +780,11 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             WriteLiteral("\r\n                        <span>Материал</span>\r\n                    </a>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 130 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 53 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 53 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -776,6 +837,9 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
 =======
             BeginContext(2751, 36, false);
 #line 58 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(Html.Raw(Model.Service.Description1));
 
@@ -791,6 +855,9 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
 =======
             BeginContext(2840, 42, false);
 #line 60 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
        Write(await Component.InvokeAsync("ServiceForm"));
 
@@ -801,7 +868,11 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             WriteLiteral("\r\n        </div>\r\n    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 147 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 63 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 63 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -819,6 +890,9 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
 =======
             BeginContext(3022, 82, false);
 #line 66 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             Write(string.IsNullOrEmpty(Model.Service.TitleAlbum) ? "Фото" : Model.Service.TitleAlbum);
 
@@ -829,7 +903,11 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             WriteLiteral("</h2>\r\n            <ul class=\"list\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 152 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 68 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 68 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -843,7 +921,11 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
             WriteLiteral("                ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 155 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 71 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 71 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -861,6 +943,9 @@ WriteAttributeValue("", 1522, Model.Service.BannerLink, 1522, 25, false);
 =======
             BeginContext(3369, 3, false);
 #line 74 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                 Write(i++);
 
@@ -887,7 +972,11 @@ WriteAttributeValue("", 3415, item.Icon, 3415, 10, false);
             WriteLiteral(" alt=\"\">\r\n                        </a>\r\n                    </li>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 162 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 78 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 78 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -933,6 +1022,9 @@ WriteAttributeValue("", 3836, Model.Service.LinkAlbum, 3836, 24, false);
             EndContext();
             BeginContext(3907, 47, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "78f0746e64a7451ca467656b2bcb1041", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1013,6 +1105,9 @@ WriteAttributeValue("", 7459, Model.Service.LinkAlbum, 7459, 24, false);
             EndContext();
             BeginContext(4332, 38, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "533ed5e1e7d04a72966fb6cc4b6ee397", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1037,6 +1132,9 @@ WriteAttributeValue("", 7459, Model.Service.LinkAlbum, 7459, 24, false);
 =======
             BeginContext(4403, 42, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "825dc33bd6ca4f10b8cd8d4ebf8ad08a", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1061,6 +1159,9 @@ WriteAttributeValue("", 7459, Model.Service.LinkAlbum, 7459, 24, false);
 =======
             BeginContext(4478, 45, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "00d95d616b9c4b94ae4d9013b1f8a06f", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1085,6 +1186,9 @@ WriteAttributeValue("", 7459, Model.Service.LinkAlbum, 7459, 24, false);
 =======
             BeginContext(4556, 43, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6266ea29411540f5abd4cb5ba7e9c2fd", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1109,6 +1213,9 @@ WriteAttributeValue("", 7459, Model.Service.LinkAlbum, 7459, 24, false);
 =======
             BeginContext(4632, 44, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ef78cf6fb625460b8e7cad2ab946409d", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1133,6 +1240,9 @@ WriteAttributeValue("", 7459, Model.Service.LinkAlbum, 7459, 24, false);
 =======
             BeginContext(4709, 47, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e0273439ff26439696b3ceb351fbc263", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1152,9 +1262,12 @@ WriteAttributeValue("", 7459, Model.Service.LinkAlbum, 7459, 24, false);
             WriteLiteral("</a>\r\n                        <a>");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(8332, 47, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "27fe1d58fe87427e906421dc1af796d8", async() => {
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 #line 103 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
                              foreach (var item in Model.GalleryItems)
                             {
@@ -1214,6 +1327,9 @@ WriteAttributeValue("", 5098, item.Icon, 5098, 10, false);
             EndContext();
             BeginContext(5529, 47, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "974ac13753e048fdac2fc6fec7c7b938", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1233,10 +1349,13 @@ WriteAttributeValue("", 5098, item.Icon, 5098, 10, false);
             WriteLiteral("</a>\r\n                    </div>\r\n                    <div class=\"swiper-container swiper-modal\">\r\n                        <div class=\"swiper-wrapper\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 187 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
                              foreach (var item in Model.GalleryItems)
                             {
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 #line 123 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
     }
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1341,6 +1460,9 @@ WriteAttributeValue("", 6292, Model.Service.LinkVideo, 6292, 24, false);
 =======
             BeginContext(6480, 47, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6f639e7844fc4262ba0cb3e1572ca2b8", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1422,6 +1544,9 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
 =======
             BeginContext(6607, 43, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "31a9d2acfbe94a8cb12e305b1e676bdc", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1446,6 +1571,9 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
 =======
             BeginContext(6815, 46, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b729812d897f40629a137a9499bf9941", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1489,6 +1617,9 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
 =======
             BeginContext(6998, 36, false);
 #line 147 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(Html.Raw(Model.Service.Description3));
 
@@ -1499,7 +1630,11 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
             WriteLiteral("</div>\r\n    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 233 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 149 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 149 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1511,7 +1646,11 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 235 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 151 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 151 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1529,6 +1668,9 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
 =======
             BeginContext(7159, 107, false);
 #line 154 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
         Write(string.IsNullOrEmpty(Model.Service.TitleProducts) ? "C этим товаром покупают" : Model.Service.TitleProducts);
 
@@ -1539,7 +1681,11 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
             WriteLiteral("</h2>\r\n        <div class=\"swiper-container swiper-main-materials\">\r\n            <div class=\"swiper-wrapper\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 241 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 157 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 157 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1557,6 +1703,9 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
 =======
             BeginContext(7516, 10, false);
 #line 159 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                        Write(product.Id);
 
@@ -1572,6 +1721,9 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
 =======
             BeginContext(7554, 156, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "09821de14fda4e0686bf032427bd890b", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1587,7 +1739,11 @@ WriteAttributeValue("", 9915, Model.Service.LinkVideo, 9915, 24, false);
             }
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 244 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 160 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 160 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1638,6 +1794,9 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6590c6169bf649b4af36bcf8f3097c40", async() => {
                 BeginContext(7835, 13, false);
 #line 161 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                                                                      Write(product.Title);
 
@@ -1658,7 +1817,11 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
             }
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 245 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 161 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 161 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1686,6 +1849,9 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
 =======
             BeginContext(7899, 16, false);
 #line 162 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                    Write(product.SubTitle);
 
@@ -1696,7 +1862,11 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
             WriteLiteral("</p>\r\n                        <p class=\"stock\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 248 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 164 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 164 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1714,6 +1884,9 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
 =======
             BeginContext(8076, 41, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "86e731f09cbe45f3be5c90f5865b4113", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1733,7 +1906,11 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 251 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 167 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 167 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1752,6 +1929,9 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
 =======
             BeginContext(8247, 44, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "017d549bfbfa40cf9135f4e223aaf2c8", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1771,7 +1951,11 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 255 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 171 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 171 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1793,6 +1977,9 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
 =======
             BeginContext(8592, 50, false);
 #line 177 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                Write((product.PriceKg * Model.EUR).Value.ToString("N0"));
 
@@ -1803,7 +1990,11 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
             WriteLiteral(" р.</b>\r\n                            </p>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 263 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 179 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 179 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1821,6 +2012,9 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
 =======
             BeginContext(8925, 51, false);
 #line 183 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                    Write((product.PriceKit * Model.EUR).Value.ToString("N0"));
 
@@ -1831,7 +2025,11 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
             WriteLiteral(" р.</b>\r\n                                </p>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 269 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 185 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 185 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1843,7 +2041,11 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
             WriteLiteral("                        </div>\r\n                        <div class=\"flex-block\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 272 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 188 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 188 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1861,6 +2063,9 @@ AddHtmlAttributeValue("", 7674, product.Img1, 7674, 13, false);
 =======
             BeginContext(9400, 10, false);
 #line 191 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                  Write(product.Id);
 
@@ -1892,6 +2097,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(9642, 10, false);
 #line 193 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                 Write(product.Id);
 
@@ -1907,6 +2115,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(9776, 10, false);
 #line 195 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                    Write(product.Id);
 
@@ -1922,6 +2133,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(9856, 40, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "dddef069161b4460a2e2d571e686f9ab", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -1957,7 +2171,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper);
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 283 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 199 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 199 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -1990,7 +2208,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 286 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 202 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 202 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2009,6 +2231,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(10491, 10, false);
 #line 206 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                  Write(product.Id);
 
@@ -2024,6 +2249,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(10659, 10, false);
 #line 208 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                 Write(product.Id);
 
@@ -2039,6 +2267,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(10770, 10, false);
 #line 210 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                             Write(product.Id);
 
@@ -2054,6 +2285,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(10850, 40, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e01526b6a945465ba4af13b2aa2a5c9b", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             }
             );
@@ -2090,7 +2324,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_30);
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 298 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 214 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 214 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2123,7 +2361,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 301 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 217 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 217 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2135,7 +2377,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("                        </div>\r\n                    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 304 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 220 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 220 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2200,6 +2446,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(11878, 36, false);
 #line 232 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(Html.Raw(Model.Service.Description4));
 
@@ -2210,7 +2459,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("</div>\r\n    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 318 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 234 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 234 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2222,7 +2475,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 320 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 236 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 236 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2240,6 +2497,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(12045, 91, false);
 #line 239 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
         Write(string.IsNullOrEmpty(Model.Service.TitleSchema) ? "Взрыв схема" : Model.Service.TitleSchema);
 
@@ -2255,6 +2515,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(12153, 34, false);
 #line 240 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
    Write(Html.Raw(Model.Service.SchemaCode));
 
@@ -2270,6 +2533,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(12258, 36, false);
 #line 242 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                             Write(Html.Raw(Model.Service.Description5));
 
@@ -2280,7 +2546,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("</div>\r\n        </div>\r\n    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 329 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 245 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 245 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2292,7 +2562,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 331 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 247 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 247 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2310,6 +2584,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(12432, 106, false);
 #line 250 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
         Write(string.IsNullOrEmpty(Model.Service.TitleCalc) ? "Расчет стоимости по квадратуре" : Model.Service.TitleCalc);
 
@@ -2320,7 +2597,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("</h2>\r\n    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 336 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 252 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 252 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2338,6 +2619,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
 =======
             BeginContext(12744, 15, false);
 #line 256 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                Write(ViewBag.Section);
 
@@ -2348,7 +2632,11 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\");\r\n                elmnt.scrollIntoView();\r\n            });\r\n        </script>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 344 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 260 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 260 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2375,6 +2663,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
                 EndContext();
                 BeginContext(12991, 55, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a4791ab696f24bfe91dcba726c549599", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                 }
                 );
@@ -2388,6 +2679,9 @@ WriteAttributeValue("", 9493, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.InputTypeName = (string)__tagHelperAttribute_31.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_31);
 #line 264 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => Model.Service.CalcId);
 
@@ -2411,6 +2705,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
 =======
                 BeginContext(13149, 34, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "813ba279e283403bad23c2506c81c859", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                 }
                 );
@@ -2424,6 +2721,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.InputTypeName = (string)__tagHelperAttribute_32.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_32);
 #line 267 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.Area);
 
@@ -2447,13 +2747,20 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
 =======
                 BeginContext(13353, 64, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "190c4624ad574f59bb22eed6866c3468", async() => {
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 356 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 272 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 272 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2463,7 +2770,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = ViewBag.CalcThicks
 #line hidden
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-items", __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 356 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 272 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 272 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2484,7 +2795,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
                 WriteLiteral("\r\n                    <p class=\"ph\">мм</p>\r\n                </div>\r\n                <div class=\"radios-block w190\">\r\n                    <label>Лак</label>\r\n                    <div class=\"radios\">\r\n");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 362 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 278 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 278 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2502,6 +2817,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
                 BeginContext(13835, 53, false);
 #line 281 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                                Write(!string.IsNullOrEmpty(Model.Varnish) ? "checked" : "");
 
@@ -2512,7 +2830,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
                 WriteLiteral(" value=\"Матовый\">\r\n                                <label for=\"radio_3\">Матовый</label>\r\n                                <div class=\"check\"></div>\r\n                            </div>\r\n");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 369 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 285 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 285 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2531,7 +2853,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 377 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 293 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 293 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2565,7 +2891,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("\r\n        </div>\r\n    </div>\r\n    <div class=\"price-page\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 387 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 303 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 303 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2586,7 +2916,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 397 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 313 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 313 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2604,6 +2938,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(15248, 15, false);
 #line 316 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                        Write(product.PrTitle);
 
@@ -2619,6 +2956,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(15300, 66, false);
 #line 317 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000);
 
@@ -2629,7 +2969,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("</td>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 402 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 318 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 318 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2646,6 +2990,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(15500, 67, false);
 #line 319 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(((kg / 1000) * Model.Area).ToString("N1").TrimEnd('0').TrimEnd(','));
 
@@ -2661,6 +3008,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(15605, 151, false);
 #line 320 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg * Model.EUR).Value).ToString("N1").TrimEnd('0').TrimEnd(','));
 
@@ -2676,6 +3026,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(15794, 110, false);
 #line 321 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write((((kg / 1000) * Model.Area) * (float)(product.PrPriceKg * Model.EUR)).ToString("N1").TrimEnd('0').TrimEnd(','));
 
@@ -2686,7 +3039,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("</td>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 406 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 322 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 322 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2698,7 +3055,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("                    </tr>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 408 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 324 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 324 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2710,7 +3071,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("            </table>\r\n            <ul class=\"talbe\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 411 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 327 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 327 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2729,6 +3094,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(16368, 15, false);
 #line 332 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                   Write(product.PrTitle);
 
@@ -2744,6 +3112,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(16490, 68, false);
 #line 334 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                    Write((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000));
 
@@ -2754,7 +3125,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("</p>\r\n                        <p>Необх-е кол-во (кг)</p>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 420 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 336 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 336 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2771,6 +3146,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(16754, 67, false);
 #line 337 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                    Write(((kg / 1000) * Model.Area).ToString("N1").TrimEnd('0').TrimEnd(','));
 
@@ -2786,6 +3164,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(16921, 151, false);
 #line 339 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                    Write(((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg * Model.EUR).Value).ToString("N1").TrimEnd('0').TrimEnd(','));
 
@@ -2801,6 +3182,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(17158, 110, false);
 #line 341 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                    Write((((kg / 1000) * Model.Area) * (float)(product.PrPriceKg * Model.EUR)).ToString("N1").TrimEnd('0').TrimEnd(','));
 
@@ -2811,7 +3195,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("</p>\r\n                    </li>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 427 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 343 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 343 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2832,6 +3220,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(17590, 59, false);
 #line 348 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                                      Write(Model.TotalSum_1m2.ToString("N1").TrimEnd('0').TrimEnd(','));
 
@@ -2847,6 +3238,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(17858, 10, false);
 #line 352 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                      Write(Model.Area);
 
@@ -2862,6 +3256,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(17884, 55, false);
 #line 352 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                                                Write(Model.TotalSum.ToString("N1").TrimEnd('0').TrimEnd(','));
 
@@ -2886,6 +3283,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(18465, 40, false);
 #line 361 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
            Write(await Component.InvokeAsync("CalcOrder"));
 
@@ -2896,7 +3296,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("\r\n            </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 447 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 363 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 363 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2908,7 +3312,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 449 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 365 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 365 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2920,7 +3328,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 451 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 367 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 367 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2938,6 +3350,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
 =======
             BeginContext(18639, 95, false);
 #line 370 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
         Write(string.IsNullOrEmpty(Model.Service.TitleObject) ? "Готовые объекты" : Model.Service.TitleObject);
 
@@ -2948,7 +3363,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
             WriteLiteral("</h2>\r\n        <div class=\"swiper-container swiper-projects-block\">\r\n            <div class=\"swiper-wrapper\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 457 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 373 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 373 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -2992,6 +3411,9 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
 =======
                 BeginContext(19186, 12, false);
 #line 378 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                        Write(project.City);
 
@@ -3007,6 +3429,9 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
 =======
                 BeginContext(19201, 14, false);
 #line 378 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                       Write(project.Square);
 
@@ -3022,6 +3447,9 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
 =======
                 BeginContext(19269, 13, false);
 #line 379 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                        Write(project.Title);
 
@@ -3045,7 +3473,11 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
             }
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 460 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 376 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 376 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3068,7 +3500,11 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
             WriteLiteral("\r\n                    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 466 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 382 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 382 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3085,6 +3521,9 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
 =======
             BeginContext(19482, 36, false);
 #line 386 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(Html.Raw(Model.Service.Description7));
 
@@ -3095,7 +3534,11 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
             WriteLiteral("</div>\r\n    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 472 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 388 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 388 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3107,7 +3550,11 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 474 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 390 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 390 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3125,6 +3572,9 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
 =======
             BeginContext(19617, 97, false);
 #line 393 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
         Write(string.IsNullOrEmpty(Model.Service.TitleOblast) ? "Полы в помещениях" : Model.Service.TitleOblast);
 
@@ -3135,7 +3585,11 @@ WriteAttributeValue("", 19118, project.Img, 19118, 12, false);
             WriteLiteral("</h2>\r\n        <ul>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 479 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 395 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 395 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3184,6 +3638,9 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
 =======
                 BeginContext(20042, 10, false);
 #line 400 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                       Write(item.Title);
 
@@ -3207,7 +3664,11 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             }
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 482 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 398 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 398 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3230,7 +3691,11 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             WriteLiteral("\r\n                </li>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 487 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 403 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 403 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3250,6 +3715,9 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
 =======
             BeginContext(20281, 36, false);
 #line 406 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(Html.Raw(Model.Service.Description8));
 
@@ -3260,7 +3728,11 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             WriteLiteral("</div>\r\n    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 492 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 408 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 408 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3272,7 +3744,11 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 494 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 410 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 410 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3290,6 +3766,9 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
 =======
             BeginContext(20421, 102, false);
 #line 413 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
         Write(string.IsNullOrEmpty(Model.Service.TitleQuestion) ? "Популярные вопросы" : Model.Service.TitleQuestion);
 
@@ -3300,7 +3779,11 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             WriteLiteral("</h2>\r\n        <div class=\"swiper-container swiper-main-questions\">\r\n            <div class=\"swiper-wrapper\">\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 500 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 416 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 416 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3318,6 +3801,9 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
 =======
             BeginContext(20798, 37, false);
 #line 419 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                    Write(item.CreationDate.ToString("dd MMMM"));
 
@@ -3337,6 +3823,9 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36f81f894e7242e1b3f4a9214aad7c9e", async() => {
                 BeginContext(20959, 10, false);
 #line 420 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                                                                                                 Write(item.Title);
 
@@ -3357,7 +3846,11 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             }
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 504 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 420 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 420 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3386,6 +3879,9 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
 =======
             BeginContext(21016, 13, false);
 #line 421 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                                    Write(item.SubTitle);
 
@@ -3396,7 +3892,11 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             WriteLiteral("</p>\r\n                    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 507 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 423 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 423 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3413,6 +3913,9 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
 =======
             BeginContext(21199, 36, false);
 #line 427 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                         Write(Html.Raw(Model.Service.Description9));
 
@@ -3423,7 +3926,11 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
             WriteLiteral("</div>\r\n    </div>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 513 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+=======
+#line 429 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 429 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -3440,6 +3947,9 @@ WriteAttributeValue("", 19992, item.Icon, 19992, 10, false);
 =======
             BeginContext(21261, 38, false);
 #line 431 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Home\Service.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("MainMap"));
 

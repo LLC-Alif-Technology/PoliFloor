@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "eec0a33b878437cab73417b6f351ac27947fd910"
+=======
+#pragma checksum "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "6eb744d723ee9ee6552dab844b4bb8b3aabbfe17"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #pragma checksum "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "6eb744d723ee9ee6552dab844b4bb8b3aabbfe17"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -28,7 +32,11 @@ using KagamaAdmin.Models;
 #line default
 #line hidden
 <<<<<<< HEAD
+<<<<<<< HEAD
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"eec0a33b878437cab73417b6f351ac27947fd910", @"/Views/Shared/_Layout.cshtml")]
+=======
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6eb744d723ee9ee6552dab844b4bb8b3aabbfe17", @"/Views/Shared/_Layout.cshtml")]
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6eb744d723ee9ee6552dab844b4bb8b3aabbfe17", @"/Views/Shared/_Layout.cshtml")]
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -80,8 +88,13 @@ using KagamaAdmin.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(25, 783, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "220800302e624b45944d6faea2b4dd7c", async() => {
+=======
+            BeginContext(25, 1045, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "94ce157b941a42a0b6a663a941b530f1", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(25, 1045, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "94ce157b941a42a0b6a663a941b530f1", async() => {
@@ -130,8 +143,13 @@ WriteAttributeValue("", 371, ViewData["SeoKeywords"], 371, 24, false);
                 WriteLiteral("</title>\r\n\r\n    ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(447, 68, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8efd6204fe3f4ccc9143aa682fc47e78", async() => {
+=======
+                BeginContext(449, 68, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b577d916041d439c92266cd7c6b0b3ff", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(449, 68, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b577d916041d439c92266cd7c6b0b3ff", async() => {
@@ -159,8 +177,13 @@ WriteAttributeValue("", 371, ViewData["SeoKeywords"], 371, 24, false);
     ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(521, 56, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "cf506a05cd51426f888449fa6c517769", async() => {
+=======
+                BeginContext(777, 56, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a4fb8fa021c64f77a496072caa4b9e87", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(777, 56, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a4fb8fa021c64f77a496072caa4b9e87", async() => {
@@ -183,8 +206,13 @@ WriteAttributeValue("", 371, ViewData["SeoKeywords"], 371, 24, false);
                 WriteLiteral("\r\n    ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(583, 52, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "45a950f457c44ebe87960443da6bf67a", async() => {
+=======
+                BeginContext(839, 52, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "dc93592b2a8343a7a7c619355fb04cac", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(839, 52, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "dc93592b2a8343a7a7c619355fb04cac", async() => {
@@ -232,15 +260,21 @@ Write(await Component.InvokeAsync("CounterCodeTop"));
             WriteLiteral("\r\n");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(810, 1055, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ccbecdad4350458fbb7694b34dea19aa", async() => {
                 BeginContext(816, 6, true);
                 WriteLiteral("\r\n    ");
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             BeginContext(1072, 1454, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e6d0e0e5720453f91a92b4284708a97", async() => {
                 BeginContext(1078, 77, true);
                 WriteLiteral("\r\n    <script src=\"https://code.jquery.com/jquery-3.6.0.js\"></script>\r\n\r\n    ");
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                 EndContext();
                 BeginContext(1156, 37, false);
@@ -253,6 +287,7 @@ Write(await Component.InvokeAsync("Header"));
                 BeginContext(1193, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
+<<<<<<< HEAD
 <<<<<<< HEAD
                 BeginContext(867, 41, false);
 #line 23 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
@@ -270,11 +305,16 @@ Write(await Component.InvokeAsync("MainBanner"));
                 BeginContext(1200, 12, false);
 #line 30 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+                BeginContext(1200, 12, false);
+#line 30 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(RenderBody());
 
 #line default
 #line hidden
                 EndContext();
+<<<<<<< HEAD
 <<<<<<< HEAD
                 BeginContext(927, 6, true);
                 WriteLiteral("\r\n    ");
@@ -288,17 +328,32 @@ Write(RenderBody());
                 BeginContext(1219, 37, false);
 #line 31 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+                BeginContext(1212, 6, true);
+                WriteLiteral("\r\n    ");
+                EndContext();
+                BeginContext(1219, 37, false);
+#line 31 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("Footer"));
 
 #line default
 #line hidden
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(971, 120, true);
                 WriteLiteral("\r\n    <div class=\"wrap-modal\">\r\n        <div class=\"close-block\">\r\n            <a class=\"close-modal\">\r\n                ");
                 EndContext();
                 BeginContext(1091, 47, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "30ffca25f74a4a668ee4890e67daddc7", async() => {
+=======
+                BeginContext(1256, 120, true);
+                WriteLiteral("\r\n    <div class=\"wrap-modal\">\r\n        <div class=\"close-block\">\r\n            <a class=\"close-modal\">\r\n                ");
+                EndContext();
+                BeginContext(1376, 47, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ac5197e2f20a4ff69d3696077d5d2b7d", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(1256, 120, true);
                 WriteLiteral("\r\n    <div class=\"wrap-modal\">\r\n        <div class=\"close-block\">\r\n            <a class=\"close-modal\">\r\n                ");
@@ -321,11 +376,19 @@ Write(await Component.InvokeAsync("Footer"));
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1138, 145, true);
                 WriteLiteral("\r\n                <span>Закрыть</span>\r\n            </a>\r\n        </div>\r\n        <div class=\"modal modal-call\" id=\"modalCartLink\">\r\n            ");
                 EndContext();
                 BeginContext(1283, 33, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "726aac474de248d7ac1db29f6a580719", async() => {
+=======
+                BeginContext(1423, 145, true);
+                WriteLiteral("\r\n                <span>Закрыть</span>\r\n            </a>\r\n        </div>\r\n        <div class=\"modal modal-call\" id=\"modalCartLink\">\r\n            ");
+                EndContext();
+                BeginContext(1568, 33, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7cb6c8ef894049338d4c6ee107840331", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(1423, 145, true);
                 WriteLiteral("\r\n                <span>Закрыть</span>\r\n            </a>\r\n        </div>\r\n        <div class=\"modal modal-call\" id=\"modalCartLink\">\r\n            ");
@@ -348,11 +411,19 @@ Write(await Component.InvokeAsync("Footer"));
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1316, 85, true);
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"modal modal-call\" id=\"modalCall\">\r\n            ");
                 EndContext();
                 BeginContext(1402, 40, false);
 #line 37 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
+=======
+                BeginContext(1601, 85, true);
+                WriteLiteral("\r\n        </div>\r\n        <div class=\"modal modal-call\" id=\"modalCall\">\r\n            ");
+                EndContext();
+                BeginContext(1687, 40, false);
+#line 43 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(1601, 85, true);
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"modal modal-call\" id=\"modalCall\">\r\n            ");
@@ -366,11 +437,19 @@ Write(await Component.InvokeAsync("Footer"));
 #line hidden
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1442, 85, true);
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"modal modal-lead\" id=\"modalLead\">\r\n            ");
                 EndContext();
                 BeginContext(1528, 40, false);
 #line 40 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
+=======
+                BeginContext(1727, 85, true);
+                WriteLiteral("\r\n        </div>\r\n        <div class=\"modal modal-lead\" id=\"modalLead\">\r\n            ");
+                EndContext();
+                BeginContext(1813, 40, false);
+#line 46 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(1727, 85, true);
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"modal modal-lead\" id=\"modalLead\">\r\n            ");
@@ -384,11 +463,19 @@ Write(await Component.InvokeAsync("Footer"));
 #line hidden
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1568, 34, true);
                 WriteLiteral("\r\n        </div>\r\n    </div>\r\n    ");
                 EndContext();
                 BeginContext(1602, 50, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c993344bbbe40fcb4a6434c88f85dba", async() => {
+=======
+                BeginContext(1853, 38, true);
+                WriteLiteral("\r\n        </div>\r\n    </div>\r\n\r\n\r\n    ");
+                EndContext();
+                BeginContext(1891, 50, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae911e49fdb7485f9d671d5929bd2333", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(1853, 38, true);
                 WriteLiteral("\r\n        </div>\r\n    </div>\r\n\r\n\r\n    ");
@@ -410,11 +497,19 @@ Write(await Component.InvokeAsync("Footer"));
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1652, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1658, 45, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7261d938eef14cd0958720f40e03bc0e", async() => {
+=======
+                BeginContext(1941, 6, true);
+                WriteLiteral("\r\n    ");
+                EndContext();
+                BeginContext(1947, 45, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee89140e1f2d4bd08fe360e78e09da6d", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(1941, 6, true);
                 WriteLiteral("\r\n    ");
@@ -436,11 +531,19 @@ Write(await Component.InvokeAsync("Footer"));
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1703, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1709, 41, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b68345c5dbb54ceaac7de4ac557193e6", async() => {
+=======
+                BeginContext(1992, 124, true);
+                WriteLiteral("\r\n<<<<<<< HEAD\r\n\r\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js\"></script>\r\n    ");
+                EndContext();
+                BeginContext(2116, 41, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c2cc508089d0492385feab694a6b6927", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(1992, 124, true);
                 WriteLiteral("\r\n<<<<<<< HEAD\r\n\r\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js\"></script>\r\n    ");
@@ -462,11 +565,19 @@ Write(await Component.InvokeAsync("Footer"));
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1750, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1756, 45, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "173af93865194d6696042b0c9ba99a9a", async() => {
+=======
+                BeginContext(2157, 6, true);
+                WriteLiteral("\r\n    ");
+                EndContext();
+                BeginContext(2163, 41, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "368b045ce863485787472ff86d38daff", async() => {
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(2157, 6, true);
                 WriteLiteral("\r\n    ");
@@ -488,6 +599,7 @@ Write(await Component.InvokeAsync("Footer"));
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1801, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
@@ -497,6 +609,11 @@ Write(await Component.InvokeAsync("Footer"));
                 BeginContext(2204, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
+=======
+                BeginContext(2204, 6, true);
+                WriteLiteral("\r\n    ");
+                EndContext();
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                 BeginContext(2210, 40, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "602337ed2dcc4baebd96a4968604ecf6", async() => {
                 }
@@ -563,6 +680,9 @@ Write(RenderSection("Scripts",false/*required*/));
                 EndContext();
                 BeginContext(2469, 48, false);
 #line 67 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\_Layout.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 Write(await Component.InvokeAsync("CounterCodeBottom"));
 
@@ -570,7 +690,11 @@ Write(await Component.InvokeAsync("CounterCodeBottom"));
 #line hidden
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1856, 2, true);
+=======
+                BeginContext(2517, 2, true);
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
                 BeginContext(2517, 2, true);
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -589,7 +713,11 @@ Write(await Component.InvokeAsync("CounterCodeBottom"));
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(1865, 11, true);
+=======
+            BeginContext(2526, 11, true);
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(2526, 11, true);
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333

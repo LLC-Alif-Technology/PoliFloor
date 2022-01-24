@@ -92,6 +92,7 @@ using KagamaAdmin.Models;
                             <div>");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(474, 108, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d73f780c23e5437eb15b983c3f051b65", async() => {
                 BeginContext(568, 10, false);
@@ -142,6 +143,11 @@ using KagamaAdmin.Models;
 #line 24 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainQuestions\Default.cshtml"
                             Write(item.SubTitle);
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+            BeginContext(1075, 13, false);
+#line 24 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainQuestions\Default.cshtml"
+                            Write(item.SubTitle);
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 
 #line default
 #line hidden
@@ -158,15 +164,21 @@ using KagamaAdmin.Models;
             WriteLiteral("           </div>\r\n        </div>\r\n        <div class=\"footer\">\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(824, 82, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "db6e0f09d3b64be0b64cad67fe8b065f", async() => {
                 BeginContext(890, 12, true);
                 WriteLiteral("Смотреть все");
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             BeginContext(1252, 113, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee888b99b1774ba08bc721e3ead18517", async() => {
                 BeginContext(1318, 43, true);
                 WriteLiteral("\r\n                все вопросы\r\n            ");
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                 EndContext();
             }
@@ -200,15 +212,21 @@ using KagamaAdmin.Models;
                 ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(920, 112, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dfc948e691314d4d8145512909fa469c", async() => {
                 BeginContext(1015, 13, true);
                 WriteLiteral("Задать вопрос");
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
             BeginContext(2024, 143, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ad910675333c46d5a0812533ef34b677", async() => {
                 BeginContext(2145, 18, true);
                 WriteLiteral("задать свой вопрос");
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                 EndContext();
             }
