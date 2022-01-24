@@ -78,7 +78,7 @@ using KagamaAdmin.Models;
             WriteLiteral("<div class=\"bread\">\r\n    ");
             EndContext();
             BeginContext(241, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "127f0e8b09fa465487d4f01caa8368be", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f24210527099497fb4fdd8cee2197283", async() => {
                 BeginContext(304, 7, true);
                 WriteLiteral("Главная");
                 EndContext();
@@ -108,7 +108,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(321, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5fc46f0a25d8472b9f159233c0d27e86", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "82a57d9599934b5eaba4f40a8e37a076", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -136,7 +136,7 @@ using KagamaAdmin.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(436, 152, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e14c8613401449c1befe3e3df1a823a4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "274a6a8f9cc54002b02a0a2ba08106d7", async() => {
                 BeginContext(503, 80, false);
 #line 13 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Catalog.cshtml"
                                                                      Write(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1);
@@ -235,7 +235,7 @@ WriteAttributeValue("", 1171, ViewContext.RouteData.Values["alias"] == null ? "a
             WriteLiteral(">");
             EndContext();
             BeginContext(1237, 72, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "83aad6afedcc432486aeaa857bab5fa7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e379dd1afd5492d96c227ba88586eb9", async() => {
                 BeginContext(1302, 3, true);
                 WriteLiteral("Все");
                 EndContext();
@@ -286,7 +286,7 @@ WriteAttributeValue("", 1489, ViewContext.RouteData.Values["alias"].ToString() =
             WriteLiteral(">\r\n                    ");
             EndContext();
             BeginContext(1604, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ba37b193ce44d7f914bbc62f123c6f2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aec03d1135c049caa20a024690e497bd", async() => {
                 BeginContext(1681, 10, false);
 #line 37 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Catalog.cshtml"
                                                                                            Write(item.Title);
@@ -337,7 +337,7 @@ WriteAttributeValue("", 1489, ViewContext.RouteData.Values["alias"].ToString() =
             WriteLiteral("                <li>\r\n                    ");
             EndContext();
             BeginContext(1810, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "193e9a07159848959d1341df0a172df8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a95b12fe8ae4d4cb2d52d9feb1dc5b0", async() => {
                 BeginContext(1887, 10, false);
 #line 43 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Catalog.cshtml"
                                                                                            Write(item.Title);
@@ -406,7 +406,7 @@ WriteAttributeValue("", 1489, ViewContext.RouteData.Values["alias"].ToString() =
             WriteLiteral("\">\r\n                ");
             EndContext();
             BeginContext(2116, 156, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e3ff0f199a99490cbb5e34c1598c527f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44df8e6e648047c88d42dab5dad86728", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper>();
@@ -452,7 +452,7 @@ AddHtmlAttributeValue("", 2236, product.Img1, 2236, 13, false);
             WriteLiteral("\r\n                <p class=\"caption\">");
             EndContext();
             BeginContext(2309, 97, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d3e4042b5cff48269c2ee17902d80b0d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "716487adda8841429f70f8eca40ffa69", async() => {
                 BeginContext(2389, 13, false);
 #line 53 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Home\Catalog.cshtml"
                                                                                                              Write(product.Title);
@@ -512,7 +512,7 @@ AddHtmlAttributeValue("", 2236, product.Img1, 2236, 13, false);
             WriteLiteral("                        ");
             EndContext();
             BeginContext(2590, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ea533a8df75d455496b9b61b20968cb2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "e2f8d5e8bbe1492bbaabcfc20c36e6c0", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -541,7 +541,7 @@ AddHtmlAttributeValue("", 2236, product.Img1, 2236, 13, false);
             WriteLiteral("                        ");
             EndContext();
             BeginContext(2729, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5b2891078b2545a799fbe58cb139d6d8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "077faf4687a14d53961e3654a8627b1a", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -654,7 +654,7 @@ WriteAttributeValue("", 3792, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\" class=\"cart_btn js_AddInCart\">\r\n                            ");
             EndContext();
             BeginContext(4123, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "41fbb572a0d542e299598376f31e4605", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5144f662ca4248258ab065d48e8d9871", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -673,7 +673,7 @@ WriteAttributeValue("", 3792, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\r\n                            <span>В корзину</span>\r\n                        </a>\r\n                        ");
             EndContext();
             BeginContext(4271, 209, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "84ebd23b494742539c10d04d6dac5d63", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "098a009e1ac843779b46b8de48630eb7", async() => {
                 BeginContext(4393, 83, true);
                 WriteLiteral("\r\n                            <span>Оформить заказ</span>\r\n                        ");
                 EndContext();
@@ -752,7 +752,7 @@ WriteAttributeValue("", 3792, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\" class=\"cart_btn js_AddInCart\">\r\n                            ");
             EndContext();
             BeginContext(4997, 40, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8f764544d5294c119d2d575fde0e84af", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f5527e897459445887aea5b2fd5455c5", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -771,7 +771,7 @@ WriteAttributeValue("", 3792, Model.CartView.Items.SingleOrDefault(x=>x.IdProduc
             WriteLiteral("\r\n                            <span>В корзину</span>\r\n                        </a>\r\n                        ");
             EndContext();
             BeginContext(5145, 232, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e294b19b16346eba4bf48c4ff786384", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e987c7687d142888705266b9cf07ea4", async() => {
                 BeginContext(5290, 83, true);
                 WriteLiteral("\r\n                            <span>Оформить заказ</span>\r\n                        ");
                 EndContext();

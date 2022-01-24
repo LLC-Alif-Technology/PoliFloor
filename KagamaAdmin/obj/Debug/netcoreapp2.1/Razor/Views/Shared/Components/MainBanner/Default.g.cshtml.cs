@@ -125,7 +125,7 @@ WriteAttributeValue("", 500, Model.First().Banner, 500, 21, false);
             WriteLiteral("                                                <li>\r\n                                                    ");
             EndContext();
             BeginContext(1770, 201, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae4623fa1e4c434185ecfbdc01ba84ef", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dab13139c40f4debaaee1fac2adb55d8", async() => {
                 BeginContext(1844, 58, true);
                 WriteLiteral("\r\n                                                        ");
                 EndContext();
@@ -187,7 +187,7 @@ WriteAttributeValue("", 500, Model.First().Banner, 500, 21, false);
                                 ");
             EndContext();
             BeginContext(2443, 192, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8137b63adde4c5ca16bc34435741cff", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00a1daffe53e4e958d645562a130ea9e", async() => {
                 BeginContext(2507, 124, true);
                 WriteLiteral("\r\n                                    Получить коммерческое предложение в течение 14 часов\r\n                                ");
                 EndContext();
@@ -247,7 +247,7 @@ WriteAttributeValue("", 500, Model.First().Banner, 500, 21, false);
             WriteLiteral("                                    <li>\r\n                                        ");
             EndContext();
             BeginContext(3395, 177, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb7d28fbc5454470ab8793caae30d4ff", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "26dbc0976a0849aa94f102759ddd5c46", async() => {
                 BeginContext(3469, 46, true);
                 WriteLiteral("\r\n                                            ");
                 EndContext();
@@ -314,7 +314,7 @@ WriteAttributeValue("", 500, Model.First().Banner, 500, 21, false);
                         ");
             EndContext();
             BeginContext(4179, 176, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1b140416f0aa425e836484753d4d1eb6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d0748262432493782a1d89c1496ea86", async() => {
                 BeginContext(4243, 108, true);
                 WriteLiteral("\r\n                            Получить коммерческое предложение в течение 14 часов\r\n                        ");
                 EndContext();

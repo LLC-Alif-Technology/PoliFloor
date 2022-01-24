@@ -1355,3 +1355,4 @@ D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Vie
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainRewards\Default.g.cshtml.cs
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainSellingVideo\Default.g.cshtml.cs
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OurTeam\Default.g.cshtml.cs
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333

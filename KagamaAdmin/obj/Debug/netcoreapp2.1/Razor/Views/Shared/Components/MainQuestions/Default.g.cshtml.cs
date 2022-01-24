@@ -110,7 +110,7 @@ using KagamaAdmin.Models;
             WriteLiteral("           </div>\r\n        </div>\r\n        <div class=\"footer\">\r\n            ");
             EndContext();
             BeginContext(1252, 113, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61246f99dc3d4ee8a5f095f7dd04fa39", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8a37e07098904453affa73d9a63195a3", async() => {
                 BeginContext(1318, 43, true);
                 WriteLiteral("\r\n                все вопросы\r\n            ");
                 EndContext();
@@ -145,7 +145,7 @@ using KagamaAdmin.Models;
                 ");
             EndContext();
             BeginContext(2024, 143, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "483f5beefb4f464593a6c6a6046b6cab", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a0acb56eb2ac4a2281ec1bd7288757e5", async() => {
                 BeginContext(2145, 18, true);
                 WriteLiteral("задать свой вопрос");
                 EndContext();

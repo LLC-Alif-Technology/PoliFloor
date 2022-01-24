@@ -71,7 +71,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n<div class=\"main-tabs-btn\">\r\n    ");
             EndContext();
             BeginContext(131, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dc5319c5bf604b68b7e8d7fd8b0f1e77", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "92b049ed139443fc8a8408cf599cb945", async() => {
                 BeginContext(178, 8, true);
                 WriteLiteral("Основное");
                 EndContext();
@@ -95,7 +95,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(196, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1aa6cfe0a6294455b909cd4f240a0495", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "104e8a6fbe4944439a563eba76dcc2f2", async() => {
                 BeginContext(252, 9, true);
                 WriteLiteral("Категории");
                 EndContext();
@@ -119,7 +119,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(271, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2cf26a429ed6485bacc980acf5e1dd0f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f4bf88c944a14e7285489db8d32568bc", async() => {
                 BeginContext(324, 7, true);
                 WriteLiteral("Альбомы");
                 EndContext();
@@ -182,12 +182,12 @@ WriteAttributeValue("", 735, c.Icon, 735, 7, false);
             WriteLiteral(" style=\"height: 90px;\" /></td>\r\n                <td class=\"td_btns\">\r\n                    <div class=\"wrap-btn\">\r\n                        ");
             EndContext();
             BeginContext(881, 271, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7a3cb93c2f8f4a318ae0a213c154ae42", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be35885d676b4de391a84cdee618ff51", async() => {
                 BeginContext(1048, 30, true);
                 WriteLiteral("\r\n                            ");
                 EndContext();
                 BeginContext(1078, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "44c54fc9aa204e6a8e50fc405ebaf7e0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a8b8d042fd2c48ddb72fd07fab5a565f", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -250,12 +250,12 @@ WriteAttributeValue("", 735, c.Icon, 735, 7, false);
             WriteLiteral("\r\n                        ");
             EndContext();
             BeginContext(1178, 278, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b595aebfc73c4cd89d8e1bc4d8cae3b5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1fea3740f24903bd6e67c7984b4b48", async() => {
                 BeginContext(1351, 30, true);
                 WriteLiteral("\r\n                            ");
                 EndContext();
                 BeginContext(1381, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5daa4e31f7f04810bf6d427e005b7c1d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8b1112b7c6eb452c8445575e77740815", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -329,7 +329,7 @@ WriteAttributeValue("", 735, c.Icon, 735, 7, false);
             WriteLiteral("    </tbody>\r\n</table>\r\n<div class=\"pagination-block\">\r\n    ");
             EndContext();
             BeginContext(1599, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("pager", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "573a5f4c23c24b1694a57b400239a503", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("pager", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "51324b2f903f433a8f2a6c0abb09009c", async() => {
             }
             );
             __PagedList_Core_Mvc_PagerTagHelper = CreateTagHelper<global::PagedList.Core.Mvc.PagerTagHelper>();
