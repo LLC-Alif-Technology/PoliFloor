@@ -6,6 +6,90 @@
     ViewData["SeoKeywords"] = string.IsNullOrEmpty(Model.Service.SeoKeywords) ? Model.Page.SeoKeywords : Model.Service.SeoKeywords;
     ViewData["SeoDescription"] = string.IsNullOrEmpty(Model.Service.SeoDescription) ? Model.Page.SeoDescription : Model.Service.SeoDescription;
 }
+
+<div>
+    <div class="main-banner" style="background-image: url(@Model.Service.ImgServicePage);">
+        <div class="main-background-opacity"></div>
+        <div class="swiper-container" id="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="main-swiper-video" style="background-image: url(@Model.Service.ImgServicePage);">
+                        <div class="main-swiper-video-action">
+                            <div class="main-swiper-video-action-button">
+                            </div>
+                            <p>
+                                Смотрите видеоотзыв клиента
+                            </p>
+                        </div>
+                        <iframe id="">
+                            Test
+                        </iframe>
+                    </div>
+                    <div class="reference-data">
+                        <div class="keys-reference-data">
+                            <h2>
+                                Производим и монтируем декоративные и промышленные наливные полы под ключ
+                            </h2>
+                            <ul>
+                                <li>
+                                    @(string.IsNullOrEmpty(Model.Service.TitleH1) ? Model.Service.Title : Model.Service.TitleH1)
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sentence-reference-data">
+                            <div class="sentence-before">
+                            </div>
+                            <p>
+                                <a asp-controller="Home" asp-action="Index" asp-route-alias="#">
+                                    Получить коммерческое предложение в течение 14 часов
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <div class="mobi-swiper-wrapper">
+                <div class="keys-reference-data">
+                    <h2>
+                        Производим и монтируем всю линейку бесшовных полов ключ:
+                    </h2>
+                    <ul>
+                    </ul>
+                </div>
+                <div class="main-swiper-video-action">
+                    <div class="main-swiper-video-action-button"></div>
+                    <p>
+                        Смотрите видеоотзыв клиента
+                    </p>
+                </div>
+                <div class="sentence-reference-data">
+                    <div class="sentence-before"></div>
+                    <p>
+                        <a asp-controller="Home" asp-action="Index" asp-route-alias="#">
+                            Получить коммерческое предложение в течение 14 часов
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="main-bottom-static-items">
+                <div class="item before-url1">
+                    <p>
+                        Воплощаем самые сложные задачи дизайна в реальности
+                    </p>
+                </div>
+                <div class="item before-url2">
+                    <p>
+                        Опыт укладки полов более 13 лет
+                    </p>
+                </div>
+                <div class="item before-url3">
+                    <p>
+                        2020 цветов на выбор и вкус
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="bread">
     <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
     <img src="~/client/img/bread.png" alt="">
@@ -21,7 +105,7 @@
                 <p class="title title-small">@Model.Service.TitleH2</p>
             }
             @if (!string.IsNullOrEmpty(Model.Service.TitleH3))
-            {
+            {   
                 <p class="title title-small">@Model.Service.TitleH3</p>
             }
             @if (!string.IsNullOrEmpty(Model.Service.BannerLinkName))

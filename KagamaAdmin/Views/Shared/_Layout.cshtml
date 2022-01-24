@@ -20,6 +20,7 @@
 </head>
 <body>
     @await Component.InvokeAsync("Header")
+    @await Component.InvokeAsync("MainBanner")
     @RenderBody()
     @await Component.InvokeAsync("Footer")
     <div class="wrap-modal">

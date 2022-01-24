@@ -83,7 +83,7 @@ using KagamaAdmin.Models;
             WriteLiteral("</p>\r\n                        ");
             EndContext();
             BeginContext(474, 108, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d3b2b6d685a428086eb32ea42e7abf8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d73f780c23e5437eb15b983c3f051b65", async() => {
                 BeginContext(568, 10, false);
 #line 12 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainQuestions\Default.cshtml"
                                                                                                                 Write(item.Title);
@@ -143,7 +143,7 @@ using KagamaAdmin.Models;
             WriteLiteral("            </div>\r\n            <div class=\"swiper-pagination\"></div>\r\n        </div>\r\n        <div class=\"btns-block\">\r\n            ");
             EndContext();
             BeginContext(824, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b38130c19c24c40be3782f503534590", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "db6e0f09d3b64be0b64cad67fe8b065f", async() => {
                 BeginContext(890, 12, true);
                 WriteLiteral("Смотреть все");
                 EndContext();
@@ -173,7 +173,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n            ");
             EndContext();
             BeginContext(920, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a183a45f462f4b86895e7adc33f2698b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dfc948e691314d4d8145512909fa469c", async() => {
                 BeginContext(1015, 13, true);
                 WriteLiteral("Задать вопрос");
                 EndContext();
