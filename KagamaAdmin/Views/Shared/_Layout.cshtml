@@ -8,9 +8,14 @@
     <meta name="description" content="@ViewData["SeoDescription"]" />
     <meta name="keywords" content="@ViewData["SeoKeywords"]" />
     <title>@ViewData["SeoTitle"]</title>
+
     <link rel="icon" type="image/png" href="~/client/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+
     <link rel="stylesheet" href="~/client/css/libs.min.css">
     <link rel="stylesheet" href="~/client/css/main.css">
+    
     @await Component.InvokeAsync("CounterCodeTop")
     <style>
         .main-news .swiper-main-news a {
@@ -19,6 +24,8 @@
     </style>
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
     @await Component.InvokeAsync("Header")
     @await Component.InvokeAsync("MainBanner")
     @RenderBody()
@@ -40,10 +47,24 @@
             @await Component.InvokeAsync("ModalLead")
         </div>
     </div>
+
+
     <script src="~/client/js/scripts.min.js"></script>
     <script src="~/client/js/common.js"></script>
+<<<<<<< HEAD
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="~/cp/js/slider.js"></script>
+    <script src="~/cp/js/accord.js"></script>
+    <script src="~/cp/js/slick.js"></script>
+
+
+    @RenderSection("Scripts",false/*required*/)
+
+=======
     <script src="~/client/js/Tv.js"></script>
     <script src="~/client/js/Header.js"></script>
+>>>>>>> f57877b84775f1394b361716c6d9fa9af9e61f32
     @await Component.InvokeAsync("CounterCodeBottom")
 </body>
 </html>

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj": {}
+    "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj": {}
   },
   "projects": {
-    "D:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj": {
+    "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
         "projectName": "KagamaAdmin",
-        "projectPath": "D:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
-        "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "D:\\projects\\workProjects\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
-                "projectPath": "D:\\projects\\workProjects\\PoliFloor\\KagamaModels\\KagamaModels.csproj"
+              "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
+                "projectPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj"
               }
             }
           }
@@ -92,20 +92,20 @@
         }
       }
     },
-    "D:\\projects\\workProjects\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
+    "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\workProjects\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
         "projectName": "KagamaModels",
-        "projectPath": "D:\\projects\\workProjects\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
-        "packagesPath": "C:\\Users\\black\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\workProjects\\PoliFloor\\KagamaModels\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\black\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"

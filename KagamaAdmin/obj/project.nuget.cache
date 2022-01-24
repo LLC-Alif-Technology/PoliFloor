@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OPBYvTRYCiuDJujohZ5XZArj/nyu/qulYjlsqazIQ+WMN2JbVSQwvNLgGBNT11iOhzLLOjC9CdOkIcgfDmaefg==",
+  "dgSpecHash": "Ugqg1MvPXEDLI3Ka0fgNYjwmzBh3RVyUYM9gl0T194mxUHu1heQyWkx9EMduh+7v1tWY1Bjecb/XYEenoJi27g==",
   "success": true,
-  "projectFilePath": "D:\\AlifTech\\KagamaAdmin\\KagamaAdmin.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
