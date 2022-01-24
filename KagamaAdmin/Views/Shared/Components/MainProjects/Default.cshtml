@@ -5,11 +5,17 @@
         <h2 style="margin:0">Кейсы</h2>
         <div class='description'>За 12 лет выполнили и сдали более 700 объектов.</div>
         <div class="content">
-            <div class="cards slider">
+            <div class="cards">
                 @foreach (var project in Model)
                 {
-                    <div class="card">
+                    <div class="card ">
                         <div class="card-image">
+                            <div class="play-content">
+                                <div class="play-button">
+                                    <img src="~/client/img/play-button.png" />
+                                </div>
+                                <div class="text">Смотрите видеоотзыв клиента</div>
+                            </div>
                             <img src="@project.Img" />
                         </div>
                         <div class="card-title">
@@ -22,10 +28,12 @@
                         </div>
                     </div>
                 }
+                
+                <div class="swiper-pagination"></div>
             </div>
             <div class="control-bar">
                 <div class="control-pag">
-                  <div id="prev" class="button-prev">
+                  <div class="prev" class="button-prev">
                     <img src="~/client/img/arrowLeft.png" />
                   </div>  
                   <div class='panel'>
@@ -33,7 +41,7 @@
                     <span class="slash"> / </span>
                     <span id="total">0</span>
                   </div>
-                  <div id="next" class="button-next">
+                  <div class="next" class="button-next">
                     <img src="~/client/img/arrowRight.png" />
                   </div>
                 </div>
@@ -45,7 +53,7 @@
                         <div class="text">У меня подобная задача, Получить КП</div>
                     </div>
                     <div style="position:relative">
-                        <a href-"#" style="background-color:#EDEDED">подробнее</a>
+                        <a href-"#" style="background-color:transparent">подробнее</a>
                     </div>
                 </div>
             </div>   
@@ -75,7 +83,7 @@
             <div class="swiper-wrapper">
                 @foreach (var project in Model)
                 {
-                    <div class="swiper-slide">
+                    <div class="swiper- ">
                         <a asp-action="ProjectOpen" asp-controller="Home" asp-route-alias="@project.Alias">
                             <img src="@project.Img" alt="">
                             <p class="prop">@project.City, @project.Square м2</p>

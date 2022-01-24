@@ -1139,3 +1139,10 @@ C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\K
 C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\KagamaAdmin.pdb
 C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Areas\cp\Views\Shared\Components\MainProperties\Default.g.cshtml.cs
 C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainProperties\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainReviews\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainCatalog\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainCalculator\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OurTeam\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainQNA\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainRewards\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainSellingVideo\Default.g.cshtml.cs

@@ -201,12 +201,12 @@ WriteAttributeValue("", 1310, item.BannerLink, 1310, 16, false);
             WriteLiteral("                                ");
             EndContext();
             BeginContext(1421, 274, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c32439703dc04b86aa066f9ad260ad63", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e5d7cbf5b614339b3e4d3701a16341b", async() => {
                 BeginContext(1506, 38, true);
                 WriteLiteral("\r\n                                    ");
                 EndContext();
                 BeginContext(1544, 46, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a0e97d49a6a149db9a71d8d816cf5b08", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c941b8fcfd4349e0820143ecc38c26b2", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -305,7 +305,7 @@ WriteAttributeValue("", 2148, item.LinkProduct, 2148, 17, false);
             WriteLiteral("                                ");
             EndContext();
             BeginContext(2276, 119, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d0b6535552624665b03c234d1286c5ea", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bfc77034d0594cb1b6adc330f14c9961", async() => {
                 BeginContext(2382, 9, true);
                 WriteLiteral("Подробнее");
                 EndContext();
@@ -402,7 +402,7 @@ WriteAttributeValue("", 2863, item.Thumb, 2863, 11, false);
             WriteLiteral("                            ");
             EndContext();
             BeginContext(3117, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3f428f1829d74759a5dbc1c9416ed690", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "87cfc2828de149f4a66441ddffe7f45c", async() => {
                 BeginContext(3192, 10, false);
 #line 59 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
                                                                                                  Write(item.Title);
