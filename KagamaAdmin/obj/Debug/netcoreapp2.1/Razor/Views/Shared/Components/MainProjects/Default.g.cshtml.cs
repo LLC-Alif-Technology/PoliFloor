@@ -74,7 +74,7 @@ using KagamaAdmin.Models;
             WriteLiteral("                <li>\r\n                    ");
             EndContext();
             BeginContext(253, 299, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ff9af740d9464297bbe6ebb67285ac21", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c49a6b851c5044b3b17b58623d30a02a", async() => {
                 BeginContext(336, 30, true);
                 WriteLiteral("\r\n                        <img");
                 EndContext();
@@ -159,7 +159,7 @@ WriteAttributeValue("", 372, project.Img, 372, 12, false);
             WriteLiteral("            <li>\r\n                ");
             EndContext();
             BeginContext(626, 224, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0454549539c84a4f92f5d167766935ee", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4094ac3c7cad4b308dee11a1d7de0df5", async() => {
                 BeginContext(713, 133, true);
                 WriteLiteral("\r\n                    <p>\r\n                        <span>Смотреть все <br> проекты</span>\r\n                    </p>\r\n                ");
                 EndContext();
@@ -199,7 +199,7 @@ WriteAttributeValue("", 372, project.Img, 372, 12, false);
             WriteLiteral("                    <div class=\"swiper-slide\">\r\n                        ");
             EndContext();
             BeginContext(1129, 321, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c1ec74421924d3a8ab139aba462cabe", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1be4909a8f4c4ae2b989e5208cf42ed0", async() => {
                 BeginContext(1212, 34, true);
                 WriteLiteral("\r\n                            <img");
                 EndContext();
@@ -284,7 +284,7 @@ WriteAttributeValue("", 1252, project.Img, 1252, 12, false);
             WriteLiteral("            </div>\r\n            <div class=\"swiper-pagination\"></div>\r\n        </div>\r\n        ");
             EndContext();
             BeginContext(1594, 113, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02b59f3176774137bf0bd6ebcdb69778", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ee6f4e32f10432dbe6ee0ec98ebc084", async() => {
                 BeginContext(1683, 20, true);
                 WriteLiteral("Смотреть все проекты");
                 EndContext();

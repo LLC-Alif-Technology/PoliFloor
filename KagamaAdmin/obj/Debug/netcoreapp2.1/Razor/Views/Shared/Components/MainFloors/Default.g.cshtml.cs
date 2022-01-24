@@ -73,7 +73,7 @@ using KagamaAdmin.Models;
             WriteLiteral("                <li>\r\n                    ");
             EndContext();
             BeginContext(251, 240, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f8e6257d0c1422e8ecc3c9320ad7bda", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "84218b697bf94347b8d4413548556fc2", async() => {
                 BeginContext(329, 42, true);
                 WriteLiteral("\r\n                        <div class=\"img\"");
                 EndContext();
@@ -141,7 +141,7 @@ WriteAttributeValue("", 401, item.Icon, 401, 10, false);
             WriteLiteral("        </ul>\r\n        ");
             EndContext();
             BeginContext(554, 100, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ef19bb134a53424aa413865b324b52a8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e7523ed9f014e4c9a512fd9a019092f", async() => {
                 BeginContext(637, 13, true);
                 WriteLiteral("Все помещения");
                 EndContext();

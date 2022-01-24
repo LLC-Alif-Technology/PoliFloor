@@ -3,16 +3,18 @@
 @if (ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["alias"] == null)
 {
     <header>
+        <div class="top-block-menu" id="top-block-menu">
+            <img src="~/client/img/top-menu-open.png" />
+        </div>
         <div class="top-block">
-            <a asp-action="Index" asp-controller="Home" class="logo" asp-route-alias="">
-                <img src="~/client/img/logo2.jpg" alt="">
-            </a>
-            @* <a class="menu-btn">
-                <div class="img"></div>
-                Меню
-                </a> *@
 
-            <div class="header-lists">
+            <div  class="logo" id="logo">
+                <a asp-action="Index" asp-controller="Home" asp-route-alias="">
+                    <img src="~/client/img/logo2.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="header-lists" id="header-lists">
                 <div class="header-contact">
                     <a asp-action="Regions" asp-controller="Home" class="region" asp-route-alias="">Мы в регионах</a>
                     <a class="call" href="tel:@Model.Phone">@Model.Phone</a>
@@ -30,10 +32,18 @@
             </div>
 
             <div class="bottom-block">
-                <a asp-action="Cart" asp-controller="Home" class="cart" asp-route-alias=""><img src="~/client/img/cart.png"
-                    alt=""><i>@Model.CartView.CountProducts</i></a>
+                <a asp-action="Cart" asp-controller="Home" class="cart" asp-route-alias="">
+                <span class="cart-block">
+                <span class="cart-image">
+                    <img src="~/client/img/new-cart.png" alt="" />
+                </span>
+                        <span class="CartIcon">
+                                @Model.CartView.CountProducts
+                        </span>
+                </span>
+                </a>
                 <a asp-action="Calculator" asp-controller="Home" asp-route-alias="" class="calc"><img
-                    src="~/client/img/calculator.png" alt=""></a>
+                    src="~/client/img/new-calc.png" alt=""></a>
             </div>
 
         </div>

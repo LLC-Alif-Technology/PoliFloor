@@ -946,3 +946,8 @@ D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\KagamaAdm
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\KagamaAdmin.csproj.CopyComplete
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\KagamaAdmin.dll
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\KagamaAdmin.pdb
+D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainCTA\Default.g.cshtml.cs
+D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainOurTeam\Default.g.cshtml.cs
+D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\StageOfWork\Default.g.cshtml.cs
+D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\FormCTA\Default.g.cshtml.cs
+D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainRegion\Default.g.cshtml.cs

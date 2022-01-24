@@ -56,12 +56,12 @@ using KagamaAdmin.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 178, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20e6be4918d845b489fe52b089f90736", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "98cf76286cbb468dae2ac5ea6efddc44", async() => {
                 BeginContext(6, 65, true);
                 WriteLiteral("\r\n    <a class=\"back js_close_modal\">Продолжить покупки</a>\r\n    ");
                 EndContext();
                 BeginContext(71, 98, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4099381cf194d998c682e90d9328af4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bc4736cfd158476889fd1547ada09c00", async() => {
                     BeginContext(148, 17, true);
                     WriteLiteral("Перейти в корзину");
                     EndContext();
