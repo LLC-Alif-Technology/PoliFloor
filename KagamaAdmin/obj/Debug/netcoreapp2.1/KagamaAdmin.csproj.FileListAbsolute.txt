@@ -1341,3 +1341,8 @@ D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Vie
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\FormCTA\Default.g.cshtml.cs
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainRegion\Default.g.cshtml.cs
 >>>>>>> f57877b84775f1394b361716c6d9fa9af9e61f32
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\FormCTA\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainCTA\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainOurTeam\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainRegion\Default.g.cshtml.cs
+C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\StageOfWork\Default.g.cshtml.cs
