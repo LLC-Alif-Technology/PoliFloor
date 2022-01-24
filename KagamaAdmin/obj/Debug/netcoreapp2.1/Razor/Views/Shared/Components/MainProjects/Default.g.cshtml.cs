@@ -218,9 +218,15 @@ WriteAttributeValue("", 852, project.Img, 852, 12, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(253, 299, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1909ed0bd1b2488bb09188f3b927a7b8", async() => {
                 BeginContext(336, 30, true);
+=======
+            BeginContext(2721, 299, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "838ac18ab98f4ab1a42289344f1e2ca4", async() => {
+                BeginContext(2804, 30, true);
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(2721, 299, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "838ac18ab98f4ab1a42289344f1e2ca4", async() => {
@@ -326,6 +332,7 @@ WriteAttributeValue("", 2840, project.Img, 2840, 12, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(626, 224, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c38f7c610e554d21a9e2eb6566800811", async() => {
                 BeginContext(713, 133, true);
@@ -364,6 +371,9 @@ WriteAttributeValue("", 2840, project.Img, 2840, 12, false);
 =======
 #line 84 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainProjects\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
+#line 84 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainProjects\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
                  foreach (var project in Model)
                 {
 
@@ -374,9 +384,15 @@ WriteAttributeValue("", 2840, project.Img, 2840, 12, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(1129, 321, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8fc6b06849404e95985a853d5fdca1b7", async() => {
                 BeginContext(1212, 34, true);
+=======
+            BeginContext(3599, 321, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13a86781deb3432084dad78389f320e0", async() => {
+                BeginContext(3682, 34, true);
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(3599, 321, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13a86781deb3432084dad78389f320e0", async() => {
@@ -471,9 +487,15 @@ WriteAttributeValue("", 3722, project.Img, 3722, 12, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(1594, 113, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36aa752b0b0c45ba84eda195e34f87d4", async() => {
                 BeginContext(1683, 20, true);
+=======
+            BeginContext(4064, 113, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f385f0112d014bf2a7046a6aa6821987", async() => {
+                BeginContext(4153, 20, true);
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
             BeginContext(4064, 113, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f385f0112d014bf2a7046a6aa6821987", async() => {

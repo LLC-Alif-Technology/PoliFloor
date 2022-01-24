@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "5a1ac7b75fe80110048d218c7866e2d21841525c"
+=======
+#pragma checksum "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "21570cb9199967f17a3ef274be024cdd874ccaf6"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #pragma checksum "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "21570cb9199967f17a3ef274be024cdd874ccaf6"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -62,12 +66,15 @@ using KagamaAdmin.Models;
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 2 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
  if (ViewContext.RouteData.Values["action"].ToString() == "Service" && ViewContext.RouteData.Values["alias"] == null)
 {
 }
 else
 =======
+=======
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 #line 2 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
@@ -142,7 +149,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 29 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 26 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 26 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -157,7 +168,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
 #line hidden
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 31 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 28 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 28 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -192,6 +207,9 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
                 BeginContext(1802, 10, false);
 #line 35 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -218,7 +236,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 37 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 34 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 34 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -245,7 +267,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 41 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 38 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 38 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -315,7 +341,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 63 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 60 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 60 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -330,7 +360,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
 #line hidden
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 65 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 62 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 62 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -365,6 +399,9 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
                 BeginContext(3415, 10, false);
 #line 69 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+=======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -391,7 +428,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 71 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 68 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 68 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -418,7 +459,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 75 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 72 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 72 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
@@ -505,7 +550,11 @@ WriteAttributeValue("", 399, Model.First().Banner, 399, 21, false);
             EndContext();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 114 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+=======
+#line 111 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 #line 111 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
