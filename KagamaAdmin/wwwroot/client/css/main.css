@@ -5349,6 +5349,8 @@ select {
 	content: url("../img/TV/left-arrow.png");
 }
 
+/* updatae */
+
 .slider-lists {
 	overflow: hidden;
 	scroll-behavior: smooth;
@@ -9714,9 +9716,13 @@ h3 {
   }
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
   header ul li {
     margin-right: 35px;
   }
+=======
+>>>>>>> f57877b84775f1394b361716c6d9fa9af9e61f32
+>>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 =======
 >>>>>>> f57877b84775f1394b361716c6d9fa9af9e61f32
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
