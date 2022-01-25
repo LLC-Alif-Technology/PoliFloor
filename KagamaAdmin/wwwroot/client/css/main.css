@@ -9709,34 +9709,6 @@ h3 {
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 1680px) {
-<<<<<<< HEAD
-  header ul li {
-    margin-right: 35px;
-  }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  header ul li {
-    margin-right: 35px;
-  }
-=======
->>>>>>> f57877b84775f1394b361716c6d9fa9af9e61f32
->>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
-=======
->>>>>>> f57877b84775f1394b361716c6d9fa9af9e61f32
->>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
-
-  .header2 .top-block ul li {
-    margin-right: 35px;
-  }
-
-	.wrap-modal .modal {
-		padding: 15px;
-	}
-
-}
-
 @media only screen and (max-width: 1480px) {
 	
 	.slider-lists-prev, .slider-lists-next {
