@@ -3005,6 +3005,11 @@ select {
   margin-right: 17px;
 }
 
+.fileInput input {
+  display: block;
+  margin: 0 auto;
+}
+
 .my .slider-container {
   width: 100%;
   position: relative;
@@ -3016,6 +3021,29 @@ select {
 .reviews-main {
   margin-bottom: 4rem;
 }
+
+.fileInput input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+
+.fileInput input {
+  visibility: hidden;
+}
+
+.fileInput label {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 2rem;
+  align-items: center;
+}
+
+.fileInput label img {
+  padding-right: .5rem;
+}
+
 
 .reviews-main .reviews {
   display: flex;
