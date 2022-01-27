@@ -1359,7 +1359,10 @@ D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Vie
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
 =======
 >>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
 =======
@@ -1382,6 +1385,9 @@ C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Ra
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Home\Review.cshtml.g.cs
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
+=======
 >>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
 =======
 >>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
