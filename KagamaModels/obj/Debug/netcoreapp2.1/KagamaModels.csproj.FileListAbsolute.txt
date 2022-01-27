@@ -106,3 +106,4 @@ D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaMo
 D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.dll
 D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.pdb
 >>>>>>> f57877b84775f1394b361716c6d9fa9af9e61f32
+D:\projects\workProjects\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.genruntimeconfig.cache
