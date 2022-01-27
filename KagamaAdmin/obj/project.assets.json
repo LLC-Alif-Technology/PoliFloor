@@ -15219,23 +15219,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
       "projectName": "KagamaAdmin",
-      "projectPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaAdmin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -15245,9 +15245,10 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj"
+            "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaModels\\KagamaModels.csproj"
             }
           }
         }
@@ -15260,6 +15261,7 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -15285,6 +15287,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -15303,10 +15306,20 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
       }
     }
   }
