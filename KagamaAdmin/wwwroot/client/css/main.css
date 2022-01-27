@@ -98,6 +98,7 @@
 .main-news,
 .bread,
 .about-page,
+.reviews-main,
 .services-page,
 .catalog-page,
 .gallery-page,
@@ -126,7 +127,6 @@
 .projects-block-page,
 .item-page,
 .item-page-details,
-.review_page_content,
 .wrap-item_ck_editor,
 .cart-page,
 .cart-order form {
@@ -2943,7 +2943,7 @@ select {
   margin-bottom: 4rem;
 }
 
-.main-reviews .slide {
+.main-reviews .slide, .reviews-main .slide {
   min-width: 609px;
   padding: 0 1rem;
   -webkit-user-select: none;
@@ -2957,46 +2957,51 @@ select {
   margin-right: 59px;
 }
 
-.main-reviews .margin:last-child {
+.main-reviews .margin:last-child, .reviews-main .margin:last-child {
   margin-right: 0;
 }
 
-.main-reviews .slide .rate img {
+.main-reviews .slide .rate img, .reviews-main .slide .rate img {
   width: 24px;
 }
 
-.main-reviews .slide .info {
+.main-reviews .slide .info, .reviews-main .slide .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 1.5rem;
 }
 
-.main-reviews .slide .info .name {
+.main-reviews .slide .info .name, .reviews-main .slide .info .name {
   font-weight: bold;
   font-size: 19px;
 }
 
-.main-reviews .slide .info .city_name {
+.main-reviews .slide .info .city_name, 
+.reviews-main .slide .info .city_name {
   font-weight: bold;
 }
 
-.main-reviews .slide .info .date {
+.main-reviews .slide .info .date,
+.reviews-main .slide .info .date {
   font-size: 18px;
   color: grey;
 }
 
-.main-reviews .slide .description {
+.main-reviews .slide .description,
+.reviews-main .slide .description {
   margin-top: 2.2rem;
   line-height: 1.2rem;
 }
 
-.main-reviews .slide .image_desc {
+.main-reviews .slide .image_desc,
+.reviews-main .slide .image_desc {
   display: flex;
   margin-top: 1rem;
 }
 
-.main-reviews .slide .image_desc img {
+.main-reviews .slide .image_desc img,
+.reviews-main .slide .image_desc img {
   margin-right: 17px;
 }
 
@@ -3006,6 +3011,20 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.reviews-main {
+  margin-bottom: 4rem;
+}
+
+.reviews-main .reviews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews-main .reviews .slide {
+  width: 50%;
+  padding: 3rem;
 }
 
 .my .slider {
@@ -4098,11 +4117,39 @@ select {
 }
 
 .review_page_content {
-<<<<<<< HEAD
-    background-color: #E5E5E5;
-=======
   background-color: #e5e5e5;
->>>>>>> 88230bd4c74b1d8a502fa51758acc9a406efdc63
+}
+
+.review_page_content .flex-input {
+  justify-content: space-between;
+}
+.review_page_content .text {
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 1rem;
+}
+
+.review_page_content .area textarea {
+  width: 100%;
+  padding: 18px 30px;
+  font-family: sans-serif;
+  min-height: 188px;
+  font-size: 18px;
+}
+
+.review_page_content .rate {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.review_page_content .rate img {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.filled {
+  filter: none !important;
 }
 
 .main-soc ul a:hover {
@@ -4115,13 +4162,8 @@ select {
 
 .main-lead {
   padding: 40px 0;
-<<<<<<< HEAD
-    background-color: #f4f4f4
-  margin-bottom: 75px;  
-=======
   background-color: #f4f4f4;
   margin-bottom: 75px;
->>>>>>> 88230bd4c74b1d8a502fa51758acc9a406efdc63
 }
 
 .main-lead .flex-input {
@@ -9845,212 +9887,6 @@ h3 {
 }
 
 @media only screen and (max-width: 1440px) {
-<<<<<<< HEAD
-=======
-  .header2 {
-    width: 100%;
-    font-size: 12px;
-  }
-
-  .header2 .top-btns-block {
-    padding-right: 20px;
-  }
-
-  .header2 .top-btns-block a {
-    margin-left: 25px;
-  }
-
-  .header2 .top-block .call {
-    font-size: 14px;
-  }
-
-  .header2 .top-block .logo {
-    font-size: 24px;
-  }
-
-  .header2 .top-block .logo img {
-    width: 42px;
-  }
-
-  .header2 .bottom-block .btns-block .cart span {
-    font-size: 14px;
-  }
-
-  .header2 .bottom-block .services {
-    font-size: 14px;
-  }
-
-  .header2 .bottom-block .services li a {
-    height: 84px;
-  }
-
-  .main-banner .gallery-thumbs .swiper-slide {
-    height: 96px;
-  }
-
-  .main-banner .gallery-thumbs .swiper-slide a {
-    height: 96px;
-    line-height: 96px;
-  }
-
-  .main-materials {
-    margin-bottom: 20px;
-  }
-
-  .main-description {
-    margin-bottom: 30px;
-  }
-
-  .ck-edit {
-    font-size: 14px;
-  }
-
-  .main-gallery {
-    margin-bottom: 40px;
-  }
-
-  .main-gallery .gallery-description {
-    padding-right: 20px;
-  }
-
-  .main-gallery .gallery-description p {
-    padding: 10px 0;
-  }
-
-  .main-gallery > div:last-child .gallery-description {
-    padding-left: 20px;
-  }
-
-  .main-gallery .gallery-description {
-    font-size: 16px;
-    line-height: 2;
-  }
-
-  .main-projects {
-    margin-bottom: 40px;
-  }
-
-  .main-projects .desc {
-    font-size: 18px;
-  }
-
-  .main-projects .prop {
-    font-size: 14px;
-  }
-
-  .main-projects .all_projects {
-    font-size: 22px;
-  }
-
-  .main-questions {
-    margin-bottom: 40px;
-  }
-
-  .main-questions .btns-block a {
-    max-width: 160px;
-  }
-
-  .main-floors {
-    margin-bottom: 20px;
-  }
-
-  .main-floors ul li a {
-    font-size: 14px;
-  }
-
-  .main-lead {
-    margin-bottom: 30px;
-  }
-
-  .main-calc {
-    margin-bottom: 40px;
-  }
-
-  .main-news .desc {
-    font-size: 16px;
-  }
-
-  .main-news .prop {
-    font-size: 14px;
-  }
-
-  .main-map > div {
-    padding: 40px;
-  }
-
-  .about-page .block-title,
-  .about-page h1 {
-    margin-bottom: 30px;
-  }
-
-  .about-page .flex-description {
-    font-size: 14px;
-  }
-
-  .about-page .flex-description p {
-    padding-right: 15px;
-  }
-
-  .about-page .work .desc {
-    font-size: 14px;
-  }
-
-  .services-page ul li p {
-    font-size: 40px;
-  }
-
-  .catalog-page {
-    margin-bottom: 30px;
-  }
-
-  .catalog-page .filter {
-    font-size: 12px;
-  }
-
-  .catalog-page .catalog-desc p {
-    font-size: 14px;
-  }
-
-  .price-page table td {
-    padding: 25px 15px;
-    font-size: 16px;
-  }
-
-  .price-page .price-result p {
-    font-size: 16px;
-  }
-
-  .price-page .price-result .btns-block {
-    font-size: 16px;
-  }
-
-  .price-calc .btns-block a {
-    font-size: 16px;
-  }
-
-  .price-calc button {
-    font-size: 16px;
-  }
-
-  .price-calc .input input,
-  .price-calc .input select,
-  .price-calc .select input,
-  .price-calc .select select {
-    font-size: 16px;
-  }
-
-  .contacts-page .cities li {
-    margin-right: 15px;
-  }
-
-  .contacts-page .city.main-city .caption {
-    font-size: 52px;
-  }
-
-  .contacts-page .city .main-city-info p {
-    font-size: 16px;
-  }
->>>>>>> 88230bd4c74b1d8a502fa51758acc9a406efdc63
 
   .contacts-page .city .city-info p {
     font-size: 16px;

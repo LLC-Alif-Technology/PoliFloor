@@ -23,3 +23,5 @@ for (let i = date; i <= currentDate; i++) {
 }
 
 console.log(hours);
+
+

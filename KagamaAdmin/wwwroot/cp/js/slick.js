@@ -21,8 +21,8 @@ window.onload = function () {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: true,
-      nextArrow: $('.main-projects .next img'),
-      prevArrow: $('.main-projects .prev img')
+      nextArrow: $(".main-projects .next img"),
+      prevArrow: $(".main-projects .prev img"),
     });
   } else {
     $(".rewards-wrapper").slick({
@@ -52,3 +52,21 @@ $(() => {
     $(this).hide();
   });
 });
+
+const rateImages = $("#mainLead .rate img");
+
+for (let i = 0; i < rateImages.length; i++) {
+  rateImages.eq(i).on("click", function () {
+    fill(i);
+  });
+}
+
+function fill(n) {
+  for (let i = 0; i < rateImages.length; i++) {
+    if (i <= n) {
+      rateImages.eq(i).addClass("filled");
+    } else {
+      rateImages.eq(i).removeClass("filled");
+    }
+  }
+}
