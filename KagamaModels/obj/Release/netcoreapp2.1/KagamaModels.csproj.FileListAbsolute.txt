@@ -56,3 +56,16 @@ C:\Users\user\Desktop\Acer_KagamaAdmin\KagamaModels\obj\Release\netcoreapp2.1\Ka
 C:\Users\user\Desktop\Acer_KagamaAdmin\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.dll
 C:\Users\user\Desktop\Acer_KagamaAdmin\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.pdb
 C:\Users\user\Desktop\Acer_KagamaAdmin\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.genruntimeconfig.cache
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\bin\Release\netcoreapp2.1\KagamaModels.deps.json
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\bin\Release\netcoreapp2.1\KagamaModels.runtimeconfig.json
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\bin\Release\netcoreapp2.1\KagamaModels.runtimeconfig.dev.json
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\bin\Release\netcoreapp2.1\KagamaModels.dll
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\bin\Release\netcoreapp2.1\KagamaModels.pdb
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.AssemblyInfo.cs
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.dll
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.pdb
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Release\netcoreapp2.1\KagamaModels.genruntimeconfig.cache

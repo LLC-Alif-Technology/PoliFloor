@@ -1,0 +1,8 @@
+﻿User-Agent: *
+Host: https://www.poli-floor.ru
+
+Disallow: /cp
+Disallow: /*?*
+
+
+Sitemap: https://www.poli-floor.ru/sitemap.xml

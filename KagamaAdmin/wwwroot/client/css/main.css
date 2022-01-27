@@ -126,6 +126,7 @@
 .projects-block-page,
 .item-page,
 .item-page-details,
+.review_page_content,
 .wrap-item_ck_editor,
 .cart-page,
 .cart-order form {
@@ -3972,6 +3973,10 @@ select {
   transition: all 0.2s;
 }
 
+.review_page_content {
+    background-color: #E5E5E5;
+}
+
 .main-soc ul a:hover {
   color: #a4be27;
 }
@@ -3981,9 +3986,9 @@ select {
 }
 
 .main-lead {
-  background-color: #f4f4f4;
   padding: 40px 0;
-  margin-bottom: 75px;
+    background-color: #f4f4f4
+  margin-bottom: 75px;  
 }
 
 .main-lead .flex-input {

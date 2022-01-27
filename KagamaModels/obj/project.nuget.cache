@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lRLgOXfo7qaLbvGoR2zyJ4Zg0ghrWaQaGXACJdAtP6EQkYTRLRjA68AZxAJyC4d69/gD/b5XvIyK4g37TclqNw==",
+  "dgSpecHash": "T98yc+9vbpHMNxZLAAfwgLTxO//+TKj4kwg9jmB8ERz9pc/ZDZFCXF6xHORAq5Yn7E1AEmfs8cxQzJoCzGdReQ==",
   "success": true,
-  "projectFilePath": "D:\\AlifTech\\KagamaModels\\KagamaModels.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\messagepack\\1.7.3.4\\messagepack.1.7.3.4.nupkg.sha512",
