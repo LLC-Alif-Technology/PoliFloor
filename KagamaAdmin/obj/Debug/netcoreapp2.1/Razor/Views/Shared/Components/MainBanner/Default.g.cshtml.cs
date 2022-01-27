@@ -23,8 +23,13 @@ using KagamaAdmin.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\Views\_ViewImports.cshtml"
+using KagamaModels.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f4b13b26bec2f2a897f897013013784373999281", @"/Views/Shared/Components/MainBanner/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f178e43f036298d8fda4253f835f9f902367c944", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dacd68af6debffd15778304c53d74c21cdea7ff1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_MainBanner_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<KagamaModels.Entities.Service>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -125,7 +130,7 @@ WriteAttributeValue("", 500, Model.First().Banner, 500, 21, false);
             WriteLiteral("                                                <li>\r\n                                                    ");
             EndContext();
             BeginContext(1770, 201, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1f5a37fa54d4410dbc2b02e5cf881014", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c92caeb86a7415993e351db8c9f6ab9", async() => {
                 BeginContext(1844, 58, true);
                 WriteLiteral("\r\n                                                        ");
                 EndContext();
@@ -187,7 +192,7 @@ WriteAttributeValue("", 500, Model.First().Banner, 500, 21, false);
                                 ");
             EndContext();
             BeginContext(2443, 192, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52de53d3d1ba471bbd66bff9ad58d5cb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4710006648c04e199321226a3058e558", async() => {
                 BeginContext(2507, 124, true);
                 WriteLiteral("\r\n                                    Получить коммерческое предложение в течение 14 часов\r\n                                ");
                 EndContext();
@@ -247,7 +252,7 @@ WriteAttributeValue("", 500, Model.First().Banner, 500, 21, false);
             WriteLiteral("                                    <li>\r\n                                        ");
             EndContext();
             BeginContext(3395, 177, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9a0b926a3f6b48dc9de60154934ed7b2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4d9829ccde08415a8f78ab1ac990b9e3", async() => {
                 BeginContext(3469, 46, true);
                 WriteLiteral("\r\n                                            ");
                 EndContext();
@@ -314,7 +319,7 @@ WriteAttributeValue("", 500, Model.First().Banner, 500, 21, false);
                         ");
             EndContext();
             BeginContext(4179, 176, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2addcaacbc140a4b2e33f848a0c95b6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b6bab4bc89354b06952b85e408c64a89", async() => {
                 BeginContext(4243, 108, true);
                 WriteLiteral("\r\n                            Получить коммерческое предложение в течение 14 часов\r\n                        ");
                 EndContext();
