@@ -72,11 +72,7 @@ using KagamaAdmin.Models;
                 ");
             EndContext();
             BeginContext(698, 594, false);
-<<<<<<< HEAD
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "46b4b21db518444787e4c07cfa2dafeb", async() => {
-=======
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8f61a8cd05e748c99324ebc7a17fbe3a", async() => {
->>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96b45207c6684f9e80017f2c4c9be73f", async() => {
                 BeginContext(704, 581, true);
                 WriteLiteral(@"
                     <div class=""form-cta-form-name"">
