@@ -560,5 +560,14 @@ namespace KagamaModels
         void CalcSeo(int id, string seoTitle, string seoKeywords, string seoDescription);
 
         #endregion
+        
+        #region Review
+        void ReviewCreat(Review model);
+        
+        Task<List<Review>> GetAllReview();
+        Review ReviewGet(int id);
+
+        #endregion
+
     }
 }
