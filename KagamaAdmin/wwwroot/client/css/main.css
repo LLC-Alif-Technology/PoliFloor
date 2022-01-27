@@ -126,6 +126,7 @@
 .projects-block-page,
 .item-page,
 .item-page-details,
+.review_page_content,
 .wrap-item_ck_editor,
 .cart-page,
 .cart-order form {
@@ -2709,59 +2710,6 @@ select {
   text-transform: initial;
 }
 
-/* .main-qna-modal-input > form {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.main-qna-modal-input > form > div:last-child {
-  margin: 0;
-}
-
-.main-qna-modal-input > form > div {
-  margin-right: 20px;
-  max-width: 333px;
-  width: 100%;
-  height: 56px;
-}
-
-.main-qna-modal-input > form > div > input {
-  width: 100%;
-  height: 100%;
-  padding: 0 25px;
-  font-size: 18px;
-  font-weight: 600;
-  border: 1px solid black;
-}
-
-.main-qna-modal-input > form > div > input[type="text"]::after {
-  content: "";
-  background: center / 20px no-repeat #a4be27;
-  width: 20px;
-  height: 20px;
-}
-
-.main-qna-modal-input > ul li {
-  margin: 10px 0;
-}
-
-.main-qna-modal-input > ul li > label {
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.main-qna-modal-input > ul li > input {
-  width: 100%;
-  height: 50px;
-  padding: 0 25px;
-  margin: 10px 0;
-  font-size: 18px;
-  font-weight: 600;
-  border: 1px solid black;
-} */
-
 .main-qna-modal-input {
   max-width: 1100px;
   width: 100%;
@@ -2794,20 +2742,16 @@ select {
 }
 
 .main-qna-modal-input > form > ul {
-
 }
-
 
 .main-qna-modal-input > form > ul > li {
   padding-bottom: 20px;
 }
 
-
 .main-qna-modal-input > form > ul > li > label {
   font-weight: 600;
   font-size: 14px;
 }
-
 
 .main-qna-modal-input > form > ul > li > input {
   width: 100%;
@@ -4153,6 +4097,10 @@ select {
   transition: all 0.2s;
 }
 
+.review_page_content {
+  background-color: #e5e5e5;
+}
+
 .main-soc ul a:hover {
   color: #a4be27;
 }
@@ -4162,8 +4110,8 @@ select {
 }
 
 .main-lead {
-  background-color: #f4f4f4;
   padding: 40px 0;
+  background-color: #f4f4f4;
   margin-bottom: 75px;
 }
 

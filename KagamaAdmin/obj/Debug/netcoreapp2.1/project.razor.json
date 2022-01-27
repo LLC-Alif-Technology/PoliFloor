@@ -3464,6 +3464,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\Views\\Home\\Review.cshtml",
+      "TargetPath": "Views\\Home\\Review.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\Views\\Shared\\Components\\MainMaterials\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\MainMaterials\\Default.cshtml",
       "FileKind": "mvc"
@@ -3476,6 +3481,11 @@
     {
       "FilePath": "d:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\Areas\\cp\\Pages\\Review\\Index.cshtml",
+      "TargetPath": "Areas\\cp\\Pages\\Review\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

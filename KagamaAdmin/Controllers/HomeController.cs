@@ -9,13 +9,16 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 using System;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
 
 namespace KagamaAdmin.Controllers
 {
     public class HomeController : Controller
     {
+        private IHostingEnvironment _appEnvironment;
         private IKagamaRepository _repository;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private ISession _session => _httpContextAccessor.HttpContext.Session;
@@ -1289,6 +1292,77 @@ namespace KagamaAdmin.Controllers
                 model.TotalSum += Convert.ToDecimal(p.PrPriceKg * model.EUR) * ((Convert.ToDecimal(p.Kg, CultureInfo.InvariantCulture) / 1000) * model.Area);
             }
             return View(model);
+        }
+        
+         [Route("Review")]
+        //[HttpPost("Review")]
+        public async Task<IActionResult> Review(IFormFile img1, IFormFile img2, IFormFile img3, Review model)
+        {
+            Page page = await _repository.GetPageAsync("Otzyv");
+            if (ModelState.IsValid)
+            {
+               
+                try
+                {
+                    if (img1 != null)
+                    {
+                        string fullPath = _appEnvironment.WebRootPath + model.Img;
+
+                        if (System.IO.File.Exists(fullPath))
+                            System.IO.File.Delete(fullPath);
+
+                        var path = "/uploads/" + Guid.NewGuid() + img1.FileName.ToLower();
+                        path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
+                        using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                        {
+                            img1.CopyTo(stream);
+                        }
+
+                        model.Img = path;
+                    }
+
+                    if (img2 != null)
+                    {
+                        string fullPath = _appEnvironment.WebRootPath + model.Img2;
+
+                        if (System.IO.File.Exists(fullPath))
+                            System.IO.File.Delete(fullPath);
+
+                        var path = "/uploads/" + Guid.NewGuid() + img2.FileName.ToLower();
+                        path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
+                        using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                        {
+                            img2.CopyTo(stream);
+                        }
+
+                        model.Img2 = path;
+                    }
+
+                    if (img3 != null)
+                    {
+                        string fullPath = _appEnvironment.WebRootPath + model.Img3;
+
+                        if (System.IO.File.Exists(fullPath))
+                            System.IO.File.Delete(fullPath);
+
+                        var path = "/uploads/" + Guid.NewGuid() + img3.FileName.ToLower();
+                        path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
+                        using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                        {
+                            img3.CopyTo(stream);
+                        }
+
+                        model.Img3 = path;
+                    }
+
+                    _repository.ProductImage(model.Id, model.Img, model.Img2, model.Img3);
+                }
+                catch (Exception e)
+                {
+                    ModelState.AddModelError("", e.Message);
+                }
+            }
+            return View();
         }
     }
 }

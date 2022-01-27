@@ -1952,6 +1952,19 @@ namespace KagamaModels
             _dbContext.SaveChanges();
         }
 
+        public void ReviewCreat(Review model)
+        {
+            _dbContext.Reviews.Add(model);
+            _dbContext.SaveChanges();
+        }
+
+        public async Task<List<Review>> GetAllReview()
+        {
+            return await _dbContext.Reviews.ToListAsync();
+        } 
+
+        public Review ReviewGet(int id)=>_dbContext.Reviews.SingleOrDefault(x => x.Id == id);
+
         #endregion
     }
 }

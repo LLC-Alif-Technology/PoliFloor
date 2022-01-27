@@ -37,6 +37,8 @@ namespace KagamaModels
         public DbSet<CalcThick> CalcThicks { get; set; }
         public DbSet<CalcProduct> CalcProducts { get; set; }
         public DbSet<EurCourse> EurCourses { get; set; }
+        
+        public DbSet<Review> Reviews { get; set; }
 
         public EFDBContext(DbContextOptions<EFDBContext> options) : base(options)
         {
