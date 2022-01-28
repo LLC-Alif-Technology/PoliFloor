@@ -11,217 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d727b012-c132-46a4-a788-5c6ea67add00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/KagamaAdmin/Areas/cp/Views/Review/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KagamaAdmin/wwwroot/client/js/review.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KagamaAdmin/.idea/dataSources/c324e37a-c77a-4937-825f-e21df44fa589.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KagamaAdmin/.idea/dataSources/c324e37a-c77a-4937-825f-e21df44fa589.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KagamaAdmin/.idea/dataSources/c324e37a-c77a-4937-825f-e21df44fa589/storage_v2/_src_/database/u1116978_polifloor.sTwzOg/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KagamaAdmin/.idea/dataSources/c324e37a-c77a-4937-825f-e21df44fa589/storage_v2/_src_/database/u1116978_polifloor.sTwzOg/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KagamaAdmin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KagamaAdmin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/Areas/cp/Controllers/ReviewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/Areas/cp/Controllers/ReviewController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/Areas/cp/Pages/Review/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/Areas/cp/Pages/Review/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/Areas/cp/Views/Shared/_LayoutCp.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/Areas/cp/Views/Shared/_LayoutCp.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/ViewModel/ReviewView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/ViewModel/ReviewView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/Views/Home/Review.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/Views/Home/Review.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaAdmin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaAdmin.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaAdmin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaAdmin.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaAdmin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaAdmin.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaAdmin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaAdmin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaModels.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaModels.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/bin/Debug/netcoreapp2.1/KagamaModels.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.RazorCoreGenerate.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.TagHelpers.output.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.TagHelpers.output.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/KagamaAdmin.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Article/Category.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Article/CategoryEdit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Article/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Article/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Article/Image.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Article/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Article/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Base/FileBrowse.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Calc/CalcProdEdit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Calc/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Calc/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Calc/Product.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Calc/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Calc/Thick.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Contacts/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Contacts/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Contacts/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Counter/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Counter/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Counter/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Floor/Album.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Floor/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Floor/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Floor/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Floor/Material.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Floor/Question.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Floor/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Gallery/AlbumCreate.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Gallery/AlbumEdit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Gallery/CategoryCreate.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Gallery/CategoryEdit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Gallery/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Gallery/ItemEdit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Gallery/ItemList.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Home/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Home/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Home/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Product/Buy.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Product/Category.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Product/CategoryEdit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Product/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Product/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Product/Image.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Product/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Product/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Project/Album.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Project/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Project/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Project/Image.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Project/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Project/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Project/Video.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/Album.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/Category.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/CategoryEdit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/Material.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Region/Video.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Album.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Area.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Calc.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/MainPage.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Material.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Object.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Question.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Schema.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Service/Video.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/ArticleCategory/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/FloorProducts/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/FloorQuestions/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/GalleryAlbum/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/GalleryCategory/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/ProductBuy/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/ProductCategory/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/RegionCategory/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/RegionProducts/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/ServiceFloors/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/ServiceProducts/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/ServiceProjects/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/ServiceQuestions/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/Components/VideoCategory/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Shared/_LayoutCp.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Tv/Album.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Tv/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Tv/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Tv/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Tv/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Tv/Video.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Video/Category.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Video/CategoryEdit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Video/Create.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Video/Edit.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Video/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Areas/cp/Views/Video/Seo.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/ArticleOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Articles.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Calculator.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Cart.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Catalog.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/CatalogOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contacts.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/FloorOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Floors.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Gallery.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/News.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/NewsOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Obuchenie.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/ObuchenieOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/ProjectOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Projects.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/RegionOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Regions.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Service.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Services.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Tv.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/TvOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/Video.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/VideoOpen.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/_MainCalc.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/_MainSoc.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Home/_ModalCartLink.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/CalcOrder/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/CartOrder/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/Footer/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/FormCTA/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/Header/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainBanner/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainCalculator/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainCatalog/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainFloors/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainGallery/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainLead/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainMap/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainMaterials/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainNews/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainProjects/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainProperties/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainQuestions/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainRegion/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainReviews/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/MainSellingVideo/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/ModalCall/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/ModalLead/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/QuestionsTab/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/RegionForm/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/ServiceForm/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Components/StageOfWork/Default.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/UserSecretsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/Debug/netcoreapp2.1/UserSecretsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/KagamaAdmin.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/KagamaAdmin.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/KagamaAdmin.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/KagamaAdmin.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaAdmin/wwwroot/cp/js/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaAdmin/wwwroot/cp/js/slick.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/Entities/Review.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/Entities/Review.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/IKagamaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/IKagamaRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/MsSqlDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/MsSqlDataService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/bin/Debug/netcoreapp2.1/KagamaModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/bin/Debug/netcoreapp2.1/KagamaModels.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/bin/Debug/netcoreapp2.1/KagamaModels.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/bin/Debug/netcoreapp2.1/KagamaModels.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/Debug/netcoreapp2.1/KagamaModels.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/KagamaModels.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/KagamaModels.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/KagamaModels.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/KagamaModels.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KagamaModels/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/KagamaModels/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +133,7 @@
       <updated>1643113698742</updated>
       <workItem from="1643113707935" duration="700000" />
       <workItem from="1643187714868" duration="25161000" />
-      <workItem from="1643272953441" duration="32060000" />
+      <workItem from="1643272953441" duration="36888000" />
     </task>
     <servers />
   </component>
@@ -350,19 +150,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/KagamaAdmin/Controllers/HomeController.cs</url>
-          <line>1322</line>
-          <properties documentPath="C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Controllers\HomeController.cs" initialLine="1299" containingFunctionPresentation="method 'Review'">
-            <startOffsets>
-              <option value="49537" />
-            </startOffsets>
-            <endOffsets>
-              <option value="49538" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/KagamaModels/MsSqlDataService.cs</url>
           <line>744</line>
           <properties documentPath="C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\MsSqlDataService.cs" initialLine="753" containingFunctionPresentation="method 'ReviewImages'">
@@ -377,13 +164,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/KagamaAdmin/Controllers/HomeController.cs</url>
-          <line>1359</line>
+          <line>1362</line>
           <properties documentPath="C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Controllers\HomeController.cs" initialLine="1344" containingFunctionPresentation="method 'ReviewPost'">
             <startOffsets>
-              <option value="51077" />
+              <option value="51269" />
             </startOffsets>
             <endOffsets>
-              <option value="51078" />
+              <option value="51270" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
@@ -402,18 +189,17 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/KagamaAdmin/Views/Home/Review.cshtml</url>
-          <line>6</line>
-          <properties documentPath="C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\Review.cshtml" initialLine="6" isMultiMethodBreakpoint="true">
-            <option name="multiMethodBreakpoint" value="true" />
+          <url>file://$PROJECT_DIR$/KagamaAdmin/Controllers/HomeController.cs</url>
+          <line>1346</line>
+          <properties documentPath="C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Controllers\HomeController.cs" initialLine="1346" containingFunctionPresentation="method 'ReviewPost'">
             <startOffsets>
-              <option value="-1" />
+              <option value="50551" />
             </startOffsets>
             <endOffsets>
-              <option value="-1" />
+              <option value="51147" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1348,6 +1348,9 @@ namespace KagamaAdmin.Controllers
                     {
                         City = model.City,
                         Img = imgs.Count > 0 ? imgs[0] : null,
+                        Img2 = imgs.Count > 0 ? imgs[1] : null,
+                        Img3 = imgs.Count > 0 ? imgs[2] : null,
+                        Img4 = imgs.Count > 0 ? imgs[3] : null,
                         Name = model.Name,
                         CreationData = DateTime.Now,
                         Title = model.Title,

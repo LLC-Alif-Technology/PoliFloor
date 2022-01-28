@@ -21,6 +21,14 @@ namespace KagamaAdmin.ViewModel
         public  List<Review> Review { get; set; }
 
         public IFormFileCollection Images { get; set; }
+        
+        
+        public string Img2 { get; set; }
+
+        public string Img3 { get; set; }
+        
+        public string Img4 { get; set; }
+        
 
         public DateTime CreationData { get; set; }
         
