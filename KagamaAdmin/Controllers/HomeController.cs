@@ -1318,6 +1318,8 @@ namespace KagamaAdmin.Controllers
             
         }
         
+        
+        
          [Route("ReviewPost")]
          public async Task<IActionResult> ReviewPost(ReviewView model)
         {
@@ -1327,30 +1329,32 @@ namespace KagamaAdmin.Controllers
                 List<string> imgs = new List<string>();
                 try
                 {
-                    foreach (var image in model.Images)  
+                    if (model.Images != null)
                     {
-                        string fullPath = _appEnvironment.WebRootPath + image.FileName;
-
-                        if (System.IO.File.Exists(fullPath))
-                            System.IO.File.Delete(fullPath);
-
-                        var path = "/uploads/" + Guid.NewGuid() + image.FileName.ToLower();
-                        path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
-                        using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                        foreach (var image in model.Images)  
                         {
-                            image.CopyTo(stream);
+                            string fullPath = _appEnvironment.WebRootPath + image.FileName;
+
+                            if (System.IO.File.Exists(fullPath))
+                                System.IO.File.Delete(fullPath);
+
+                            var path = "/uploads/" + Guid.NewGuid() + image.FileName.ToLower();
+                            path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
+                            using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                            {
+                                image.CopyTo(stream);
+                            }
+
+                            imgs.Add(path);
                         }
-
-                        imgs.Add(path);
                     }
-
                     var review = new Review
                     {
                         City = model.City,
                         Img = imgs.Count > 0 ? imgs[0] : null,
-                        Img2 = imgs.Count > 0 ? imgs[1] : null,
-                        Img3 = imgs.Count > 0 ? imgs[2] : null,
-                        Img4 = imgs.Count > 0 ? imgs[3] : null,
+                        Img2 = imgs.Count > 1 ? imgs[1] : null,
+                        Img3 = imgs.Count > 2 ? imgs[2] : null,
+                        Img4 = imgs.Count > 3 ? imgs[3] : null,
                         Name = model.Name,
                         CreationData = DateTime.Now,
                         Title = model.Title,

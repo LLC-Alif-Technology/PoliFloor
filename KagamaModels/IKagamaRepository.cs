@@ -566,6 +566,8 @@ namespace KagamaModels
         void ReviewCreat(Review model);
         
         Task<List<Review>> GetAllReview();
+        Task<List<Service>> GetAllServices();
+        Task<Review> GetReviewById(int Id);
         Task<List<Review>> GetOnlyFalseReview();
         Review ReviewGet(int id);
 

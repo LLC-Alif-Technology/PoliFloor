@@ -1972,6 +1972,16 @@ namespace KagamaModels
         public async Task<List<Review>> GetAllReview()
         {
             return await _dbContext.Reviews.ToListAsync();
+        }
+        public Task<List<Service>> GetAllServices()
+        {
+            return _dbContext.Services.ToListAsync();
+        }
+
+        public async Task<Review> GetReviewById(int Id)
+        {
+            var Find = await _dbContext.Reviews.FirstOrDefaultAsync(x=>x.Id == Id);
+            return Find;
         } 
         public async Task<List<Review>> GetOnlyFalseReview()
         {

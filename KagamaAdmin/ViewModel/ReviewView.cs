@@ -19,6 +19,7 @@ namespace KagamaAdmin.ViewModel
         public string Title { get; set; }
         public bool IsAllowed { get; set; }
         public  List<Review> Review { get; set; }
+        public  List<Service> Services { get; set; }
 
         public IFormFileCollection Images { get; set; }
         

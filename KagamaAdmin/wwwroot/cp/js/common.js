@@ -308,5 +308,3 @@ var transliterate = function (text) {
 
     return text;
 };
-
-alert("worked")
