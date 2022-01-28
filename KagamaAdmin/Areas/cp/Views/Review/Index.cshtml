@@ -1,0 +1,11 @@
+﻿@model KagamaAdmin.ViewModel.ReviewView
+
+
+<h1>
+    @foreach (var item in Model.Review)
+    {
+        <tr>
+            <th scope="row">@item.Name</th>
+        </tr>
+    }
+</h1>

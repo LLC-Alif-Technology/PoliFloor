@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -24,11 +25,12 @@ namespace KagamaAdmin.Controllers
         private ISession _session => _httpContextAccessor.HttpContext.Session;
         readonly IMapper _mapper;
 
-        public HomeController(IKagamaRepository repository, IHttpContextAccessor httpContextAccessor, IMapper mapper)
+        public HomeController(IKagamaRepository repository, IHttpContextAccessor httpContextAccessor, IMapper mapper, IHostingEnvironment appEnvironment)
         {
             _repository = repository;
             _httpContextAccessor = httpContextAccessor;
             _mapper = mapper;
+            _appEnvironment = appEnvironment;
         }
 
         protected T GetSession<T>(ISession session, string name)
@@ -1293,76 +1295,74 @@ namespace KagamaAdmin.Controllers
             }
             return View(model);
         }
-        
-         [Route("Review")]
-        //[HttpPost("Review")]
-        public async Task<IActionResult> Review(IFormFile img1, IFormFile img2, IFormFile img3, Review model)
+
+        [Route("ReviewGet")]
+        public async Task<List<Review>> GetReview()
+        {
+            var list = await _repository.GetAllReview();
+            return list;
+        }
+        [HttpGet("Review")]
+        public async Task<IActionResult> Review()
         {
             Page page = await _repository.GetPageAsync("Otzyv");
+            if (page == null)
+                return NotFound();
+            ReviewView model = new ReviewView
+            {
+                Review =await _repository.GetOnlyFalseReview()
+            };
+            
+            
+            return View(model);
+            
+        }
+        
+         [Route("ReviewPost")]
+         public async Task<IActionResult> ReviewPost(ReviewView model)
+        {
+           // Page page = await _repository.GetPageAsync("Otzyv");
             if (ModelState.IsValid)
             {
-               
+                List<string> imgs = new List<string>();
                 try
                 {
-                    if (img1 != null)
+                    foreach (var image in model.Images)  
                     {
-                        string fullPath = _appEnvironment.WebRootPath + model.Img;
+                        string fullPath = _appEnvironment.WebRootPath + image.FileName;
 
                         if (System.IO.File.Exists(fullPath))
                             System.IO.File.Delete(fullPath);
 
-                        var path = "/uploads/" + Guid.NewGuid() + img1.FileName.ToLower();
+                        var path = "/uploads/" + Guid.NewGuid() + image.FileName.ToLower();
                         path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
                         using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
                         {
-                            img1.CopyTo(stream);
+                            image.CopyTo(stream);
                         }
 
-                        model.Img = path;
+                        imgs.Add(path);
                     }
 
-                    if (img2 != null)
+                    var review = new Review
                     {
-                        string fullPath = _appEnvironment.WebRootPath + model.Img2;
-
-                        if (System.IO.File.Exists(fullPath))
-                            System.IO.File.Delete(fullPath);
-
-                        var path = "/uploads/" + Guid.NewGuid() + img2.FileName.ToLower();
-                        path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
-                        using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
-                        {
-                            img2.CopyTo(stream);
-                        }
-
-                        model.Img2 = path;
-                    }
-
-                    if (img3 != null)
-                    {
-                        string fullPath = _appEnvironment.WebRootPath + model.Img3;
-
-                        if (System.IO.File.Exists(fullPath))
-                            System.IO.File.Delete(fullPath);
-
-                        var path = "/uploads/" + Guid.NewGuid() + img3.FileName.ToLower();
-                        path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
-                        using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
-                        {
-                            img3.CopyTo(stream);
-                        }
-
-                        model.Img3 = path;
-                    }
-
-                    _repository.ProductImage(model.Id, model.Img, model.Img2, model.Img3);
+                        City = model.City,
+                        Img = imgs.Count > 0 ? imgs[0] : null,
+                        Name = model.Name,
+                        CreationData = DateTime.Now,
+                        Title = model.Title,
+                        Rating = model.Rating,
+                        IsAllowed = false
+                    };
+                    _repository.AddReview(review);
                 }
                 catch (Exception e)
                 {
                     ModelState.AddModelError("", e.Message);
                 }
             }
-            return View();
+
+           return RedirectToAction("Review");
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using KagamaModels.Entities;
+using Microsoft.AspNetCore.Http;
 
 namespace KagamaAdmin.ViewModel
 {
@@ -15,14 +17,10 @@ namespace KagamaAdmin.ViewModel
         public int Rating { get; set; }
 
         public string Title { get; set; }
-        
-        public string Img { get; set; }
-        
-        public string Img2 { get; set; }
+        public bool IsAllowed { get; set; }
+        public  List<Review> Review { get; set; }
 
-        public string Img3 { get; set; }
-        
-        public string Img4 { get; set; }
+        public IFormFileCollection Images { get; set; }
 
         public DateTime CreationData { get; set; }
         

@@ -200,6 +200,7 @@ namespace KagamaModels
         void ProductDelete(Product model);
 
         void ProductImage(int id, string img1, string img2, string img3);
+        void AddReview(Review review);
 
         void ProductSeo(int id, string seoTitle, string seoKeywords, string seoDescription);
 
@@ -565,6 +566,7 @@ namespace KagamaModels
         void ReviewCreat(Review model);
         
         Task<List<Review>> GetAllReview();
+        Task<List<Review>> GetOnlyFalseReview();
         Review ReviewGet(int id);
 
         #endregion

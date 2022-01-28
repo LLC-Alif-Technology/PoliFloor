@@ -1179,7 +1179,6 @@ C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\R
 C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainOurTeam\Default.g.cshtml.cs
 C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainRegion\Default.g.cshtml.cs
 C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\StageOfWork\Default.g.cshtml.cs
-<<<<<<< HEAD
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Areas\cp\Views\Shared\Components\MainProperties\Default.g.cshtml.cs
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainCalculator\Default.g.cshtml.cs
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainCatalog\Default.g.cshtml.cs
@@ -1191,9 +1190,6 @@ D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Vie
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OurTeam\Default.g.cshtml.cs
 >>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
 >>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
-=======
->>>>>>> 8fbfbd7eab0ab85d209300a945cc8ef1ba277333
-<<<<<<< HEAD
 D:\projects\workProjects\PoliFloor\KagamaAdmin\bin\Debug\netcoreapp2.1\appsettings.Development.json
 D:\projects\workProjects\PoliFloor\KagamaAdmin\bin\Debug\netcoreapp2.1\appsettings.json
 D:\projects\workProjects\PoliFloor\KagamaAdmin\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
@@ -1375,7 +1371,6 @@ D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Vie
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\KagamaAdmin.genruntimeconfig.cache
 D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\LeaveFeedback\Default.cshtml.g.cs
-=======
 >>>>>>> 88230bd4c74b1d8a502fa51758acc9a406efdc63
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Areas\cp\Views\Shared\Components\MainProperties\Default.cshtml.g.cs
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\FormCTA\Default.cshtml.g.cs
@@ -1393,9 +1388,6 @@ C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Ra
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\StageOfWork\Default.cshtml.g.cs
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Areas\cp\Pages\Review\Index.cshtml.g.cs
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Home\Review.cshtml.g.cs
-<<<<<<< HEAD
 C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Areas\cp\Pages\Review\Index.g.cshtml.cs
 C:\Users\admin\Desktop\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Home\Review.g.cshtml.cs
-=======
->>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
->>>>>>> 88230bd4c74b1d8a502fa51758acc9a406efdc63
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Areas\cp\Views\Review\Index.cshtml.g.cs

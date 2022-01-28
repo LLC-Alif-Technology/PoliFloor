@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using KagamaAdmin.ViewModel;
 
 namespace KagamaAdmin.Areas.cp.Controllers
 {
@@ -28,10 +29,13 @@ namespace KagamaAdmin.Areas.cp.Controllers
             _appEnvironment = appEnvironment;
         }
 
-        public async Task<List<Review>> Test()
+        public async Task<IActionResult> Index()
         {
-            var run = await _repository.GetAllReview();
-            return run;
+            ReviewView model = new ReviewView
+            {
+                Review = await _repository.GetAllReview()
+            };
+            return View(model);
         }
 
     }

@@ -21,6 +21,8 @@ namespace KagamaModels.Entities
         public string Img3 { get; set; }
         
         public string Img4 { get; set; }
+        
+        public bool IsAllowed { get; set; }
 
         public DateTime CreationData { get; set; }
         

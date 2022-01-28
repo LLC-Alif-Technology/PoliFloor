@@ -116,6 +116,12 @@
                                 <span>Калькулятор</span>
                             </a>
                         </li>
+                        <li class="@(ViewContext.RouteData.Values["controller"].ToString() == "review" ? "active" : "")">
+                            <a asp-area="cp" asp-controller="Review" asp-action="Index">
+                                <div class="img" style="background-image: url(/cp/img/toolbar_1.png)"></div>
+                                <span>Отзыви</span>
+                            </a>
+                            </li>
                     </ul>
                 </div>
             }
