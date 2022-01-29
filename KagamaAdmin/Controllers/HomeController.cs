@@ -1310,20 +1310,18 @@ namespace KagamaAdmin.Controllers
                 return NotFound();
             ReviewView model = new ReviewView
             {
-                Review =await _repository.GetOnlyFalseReview()
+                Review = await _repository.GetOnlyFalseReview()
             };
-            
-            
+
+
             return View(model);
-            
+
         }
-        
-        
-        
-         [Route("ReviewPost")]
-         public async Task<IActionResult> ReviewPost(ReviewView model)
+
+        [Route("ReviewPost")]
+        public async Task<IActionResult> ReviewPost(ReviewView model)
         {
-           // Page page = await _repository.GetPageAsync("Otzyv");
+            // Page page = await _repository.GetPageAsync("Otzyv");
             if (ModelState.IsValid)
             {
                 List<string> imgs = new List<string>();
@@ -1331,7 +1329,7 @@ namespace KagamaAdmin.Controllers
                 {
                     if (model.Images != null)
                     {
-                        foreach (var image in model.Images)  
+                        foreach (var image in model.Images)
                         {
                             string fullPath = _appEnvironment.WebRootPath + image.FileName;
 
@@ -1348,6 +1346,8 @@ namespace KagamaAdmin.Controllers
                             imgs.Add(path);
                         }
                     }
+
+
                     var review = new Review
                     {
                         City = model.City,
@@ -1356,7 +1356,7 @@ namespace KagamaAdmin.Controllers
                         Img3 = imgs.Count > 2 ? imgs[2] : null,
                         Img4 = imgs.Count > 3 ? imgs[3] : null,
                         Name = model.Name,
-                        CreationData = DateTime.Now,
+                        CreationData = DateTime.Now.Date,
                         Title = model.Title,
                         Rating = model.Rating,
                         IsAllowed = false
@@ -1369,7 +1369,7 @@ namespace KagamaAdmin.Controllers
                 }
             }
 
-           return RedirectToAction("Review");
+            return RedirectToAction("Review");
         }
     }
 }

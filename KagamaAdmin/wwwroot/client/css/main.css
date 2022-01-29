@@ -2998,6 +2998,8 @@ select {
 .reviews-main .slide .image_desc {
   display: flex;
   margin-top: 1rem;
+  width: 134px;
+  height: 83px;
 }
 
 .main-reviews .slide .image_desc img,

@@ -1,22 +1,51 @@
 ﻿@model KagamaAdmin.ViewModel.ReviewView
 
 
-<h1>
-    @foreach (var item in Model.Review)
-    {
-        <tr>
-            <th scope="row">@item.Name</th>
-            <th scope="row">@item.City</th>
-            <th scope="row">@item.Title</th>
-        </tr>
-    }
-</h1>
-<h1>
-    @foreach (var item in Model.Services)
-    {
-        <tr>
-            <th scope="row">@item.Id</th>
-            <th scope="row">@item.Title</th>
-        </tr>
-    }
-</h1>
+<div class="reviews-admin">
+    <table>
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Город</th>
+                <th>Оценка</th>
+                <th>Отзыв</th>
+                <th>Фото</th>
+                <th>Запрос</th>
+                <th>Дата</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Review)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.City</td>
+                    <td>@item.Rating</td>
+                    <td>@item.Title</td>
+                    <td class="reviews-admin-img">
+                        @if (@item.Img != null)
+                        {
+                            <img src="@item.Img" />
+                            <img src="@item.Img2" />
+                            <img src="@item.Img3" />
+                            <img src="@item.Img4" />
+                        }
+                    </td>
+                    @if (!item.IsAllowed)
+                    {
+                        <td class="reviews-admin-allow">
+                            <button>Подтвердить</button>
+                        </td>
+                    }
+                    else
+                    {
+                        <td class="reviews-admin-cancle">
+                            <button>Откланить</button>
+                        </td>
+                    }
+                    <td>@item.CreationData</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
