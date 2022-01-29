@@ -31,17 +31,22 @@
                             <img src="@item.Img4" />
                         }
                     </td>
+                     
                     @if (!item.IsAllowed)
                     {
-                        <td class="reviews-admin-allow">
-                            <button>Подтвердить</button>
-                        </td>
+                        <form class="form"  enctype="multipart/form-data" method="post">
+                            <td class="reviews-admin-cancle">
+                                <input asp-action="UpdateReview" asp-controller="Review" type="submit" asp-route-ReviewId="@item.Id" value="Подтвердить">
+                            </td>
+                        </form>
                     }
                     else
                     {
-                        <td class="reviews-admin-cancle">
-                            <button>Откланить</button>
-                        </td>
+                        <form class="form"  enctype="multipart/form-data" method="post">
+                            <td class="reviews-admin-cancle">
+                                <input asp-action="UpdateReview" asp-controller="Review" type="submit" asp-route-ReviewId="@item.Id" value="Отклонить">
+                                </td>
+                            </form>
                     }
                     <td>@item.CreationData</td>
                 </tr>

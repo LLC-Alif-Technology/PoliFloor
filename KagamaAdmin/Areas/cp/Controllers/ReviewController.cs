@@ -36,20 +36,26 @@ namespace KagamaAdmin.Areas.cp.Controllers
         {
             ReviewView model = new ReviewView
             {
+                
                 Review = await _repository.GetAllReview(),
                 Services = await _repository.GetAllServices()
                 
             };
+            
+            
             return View(model);
         }
-
-        [HttpPost("UpdateReview")]
-        public async Task Update(int ServiceId, int ReviewId)
+        [HttpPost]
+        public async Task<IActionResult> UpdateReview(int  ReviewId, int ServiceId, ReviewView model)
         {
-            var FindReview = await _repository.GetReviewById(ReviewId);
-            FindReview.IsAllowed = true;
-            FindReview.ServiceId = ServiceId;
+            
+             var FindReview = await _repository.GetReviewById(ReviewId);
+             
+             // Alternate between true and false
+            FindReview.IsAllowed = !FindReview.IsAllowed;
+            //FindReview.ServiceId = ServiceId;
             await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
         
     }
