@@ -23,8 +23,13 @@ using KagamaAdmin.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\_ViewImports.cshtml"
+using KagamaModels.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"63f4db72018de2e63f15262073ad47481dfcc8d5", @"/Views/Shared/Components/RegionForm/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f178e43f036298d8fda4253f835f9f902367c944", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dacd68af6debffd15778304c53d74c21cdea7ff1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_RegionForm_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<KagamaAdmin.ViewModel.RegionFormView>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "text", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -70,7 +75,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(47, 1601, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d57700", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d57852", async() => {
                 BeginContext(53, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
@@ -85,7 +90,7 @@ Write(Html.AntiForgeryToken());
                 WriteLiteral("\r\n    <p class=\"caption\">Просчитаем быстро стоимость материала, доставку и устройство пола</p>\r\n    <div class=\"flex-input\">\r\n        <div class=\"input\">\r\n            ");
                 EndContext();
                 BeginContext(250, 54, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63f4db72018de2e63f15262073ad47481dfcc8d58633", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63f4db72018de2e63f15262073ad47481dfcc8d58785", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -111,7 +116,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n        </div>\r\n        <div class=\"input\">\r\n            ");
                 EndContext();
                 BeginContext(363, 57, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63f4db72018de2e63f15262073ad47481dfcc8d510625", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63f4db72018de2e63f15262073ad47481dfcc8d510777", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -137,7 +142,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n        </div>\r\n    </div>\r\n    <div class=\"flex-input\">\r\n        <div class=\"input\">\r\n            <select id=\"ReCovering\" name=\"Covering[]\" multiple=\"multiple\" class=\"multselect\">\r\n                ");
                 EndContext();
                 BeginContext(620, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d512778", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d512930", async() => {
                     BeginContext(652, 15, true);
                     WriteLiteral("Эпоксидные полы");
                     EndContext();
@@ -159,7 +164,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(694, 60, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d514267", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d514419", async() => {
                     BeginContext(728, 17, true);
                     WriteLiteral("Промышленные полы");
                     EndContext();
@@ -181,7 +186,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(772, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d515758", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d515910", async() => {
                     BeginContext(808, 19, true);
                     WriteLiteral("Спортивные покрытия");
                     EndContext();
@@ -203,7 +208,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(854, 62, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d517251", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d517403", async() => {
                     BeginContext(889, 18, true);
                     WriteLiteral("Полированный бетон");
                     EndContext();
@@ -225,7 +230,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(934, 48, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d518743", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d518895", async() => {
                     BeginContext(962, 11, true);
                     WriteLiteral("Микроцемент");
                     EndContext();
@@ -247,7 +252,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(1000, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d520229", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d520381", async() => {
                     BeginContext(1024, 7, true);
                     WriteLiteral("Тераццо");
                     EndContext();
@@ -269,7 +274,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(1058, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d521712", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63f4db72018de2e63f15262073ad47481dfcc8d521864", async() => {
                     BeginContext(1082, 7, true);
                     WriteLiteral("3d полы");
                     EndContext();
@@ -301,7 +306,7 @@ WriteAttributeValue("", 1159, ViewData.ModelState["RePhone"]?.Errors.Count > 0 ?
                 WriteLiteral(">\r\n            ");
                 EndContext();
                 BeginContext(1252, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63f4db72018de2e63f15262073ad47481dfcc8d523755", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63f4db72018de2e63f15262073ad47481dfcc8d523907", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -327,7 +332,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n            <i class=\"required\">*</i>\r\n        </div>\r\n    </div>\r\n    <div class=\"flex-input\">\r\n        <div class=\"input\">\r\n            ");
                 EndContext();
                 BeginContext(1451, 65, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63f4db72018de2e63f15262073ad47481dfcc8d525845", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63f4db72018de2e63f15262073ad47481dfcc8d525997", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

@@ -23,8 +23,13 @@ using KagamaAdmin.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\_ViewImports.cshtml"
+using KagamaModels.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1d6b9cbabc066496740134c0960c97de90c2470e", @"/Views/Home/Video.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f178e43f036298d8fda4253f835f9f902367c944", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dacd68af6debffd15778304c53d74c21cdea7ff1", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Video : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<KagamaAdmin.ViewModel.VideosView>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -73,7 +78,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n<div class=\"bread\">\r\n    ");
             EndContext();
             BeginContext(242, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e5751", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e5903", async() => {
                 BeginContext(305, 7, true);
                 WriteLiteral("Главная");
                 EndContext();
@@ -103,7 +108,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(322, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "1d6b9cbabc066496740134c0960c97de90c2470e7847", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "1d6b9cbabc066496740134c0960c97de90c2470e7999", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -131,7 +136,7 @@ using KagamaAdmin.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(437, 150, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e9392", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e9544", async() => {
                 BeginContext(502, 80, false);
 #line 14 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\Video.cshtml"
                                                                    Write(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1);
@@ -183,7 +188,7 @@ using KagamaAdmin.Models;
             WriteLiteral("</h1>\r\n    <div class=\"video-filter\">\r\n        ");
             EndContext();
             BeginContext(771, 151, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e12442", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e12594", async() => {
                 BeginContext(915, 3, true);
                 WriteLiteral("Все");
                 EndContext();
@@ -229,7 +234,7 @@ AddHtmlAttributeValue("", 841, ViewContext.RouteData.Values["alias"] == null ? "
             WriteLiteral("            ");
             EndContext();
             BeginContext(1001, 307, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e15308", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e15460", async() => {
                 BeginContext(1294, 10, false);
 #line 27 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\Video.cshtml"
                                         Write(item.Title);
@@ -303,7 +308,7 @@ AddHtmlAttributeValue("", 1011, (ViewContext.RouteData.Values["alias"] != null &
             WriteLiteral("                <li>\r\n                    ");
             EndContext();
             BeginContext(1491, 263, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e19402", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d6b9cbabc066496740134c0960c97de90c2470e19554", async() => {
                 BeginContext(1566, 65, true);
                 WriteLiteral("\r\n                        <div>\r\n                            <img");
                 EndContext();

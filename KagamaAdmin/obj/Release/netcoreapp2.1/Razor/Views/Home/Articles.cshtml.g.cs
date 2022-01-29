@@ -23,8 +23,13 @@ using KagamaAdmin.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\_ViewImports.cshtml"
+using KagamaModels.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b84b3256ea8636029c898c4e7f47a387d6f122c9", @"/Views/Home/Articles.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f178e43f036298d8fda4253f835f9f902367c944", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dacd68af6debffd15778304c53d74c21cdea7ff1", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Articles : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<KagamaAdmin.ViewModel.NewsView>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -73,7 +78,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n<div class=\"bread\">\r\n    ");
             EndContext();
             BeginContext(240, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c95776", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c95928", async() => {
                 BeginContext(303, 7, true);
                 WriteLiteral("Главная");
                 EndContext();
@@ -103,7 +108,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(320, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b84b3256ea8636029c898c4e7f47a387d6f122c97872", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b84b3256ea8636029c898c4e7f47a387d6f122c98024", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -131,7 +136,7 @@ using KagamaAdmin.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(435, 153, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c99420", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c99572", async() => {
                 BeginContext(503, 80, false);
 #line 14 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\Articles.cshtml"
                                                                       Write(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1);
@@ -183,7 +188,7 @@ using KagamaAdmin.Models;
             WriteLiteral("</h1>\r\n    <div class=\"articles-filter\">\r\n        ");
             EndContext();
             BeginContext(773, 154, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c912483", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c912635", async() => {
                 BeginContext(920, 3, true);
                 WriteLiteral("Все");
                 EndContext();
@@ -229,7 +234,7 @@ AddHtmlAttributeValue("", 846, ViewContext.RouteData.Values["alias"] == null ? "
             WriteLiteral("            ");
             EndContext();
             BeginContext(1008, 262, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c915357", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c915509", async() => {
                 BeginContext(1256, 10, false);
 #line 24 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\Articles.cshtml"
                                                                                                                                                                                                                                                               Write(item.Title);
@@ -303,7 +308,7 @@ AddHtmlAttributeValue("", 1018, (ViewContext.RouteData.Values["alias"] != null &
             WriteLiteral("                <li>\r\n                    ");
             EndContext();
             BeginContext(1550, 489, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c920002", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b84b3256ea8636029c898c4e7f47a387d6f122c920154", async() => {
                 BeginContext(1627, 42, true);
                 WriteLiteral("\r\n                        <div class=\"img\"");
                 EndContext();

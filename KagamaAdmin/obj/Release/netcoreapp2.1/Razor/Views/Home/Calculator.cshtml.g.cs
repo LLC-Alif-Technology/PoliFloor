@@ -23,13 +23,18 @@ using KagamaAdmin.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\_ViewImports.cshtml"
+using KagamaModels.Entities;
+
+#line default
+#line hidden
 #line 2 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\Calculator.cshtml"
 using System.Globalization;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"96c9eb3e6e2f4b7d86e1bde498613b1187b0acd3", @"/Views/Home/Calculator.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f178e43f036298d8fda4253f835f9f902367c944", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dacd68af6debffd15778304c53d74c21cdea7ff1", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Calculator : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<KagamaAdmin.ViewModel.CalculatorView>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -111,7 +116,7 @@ using System.Globalization;
             WriteLiteral("\r\n<div class=\"bread\">\r\n    ");
             EndContext();
             BeginContext(946, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd38556", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd38708", async() => {
                 BeginContext(1009, 7, true);
                 WriteLiteral("Главная");
                 EndContext();
@@ -141,7 +146,7 @@ using System.Globalization;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(1026, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd310655", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd310807", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -169,7 +174,7 @@ using System.Globalization;
             WriteLiteral("        ");
             EndContext();
             BeginContext(1141, 155, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd312209", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd312361", async() => {
                 BeginContext(1211, 80, false);
 #line 37 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\Calculator.cshtml"
                                                                         Write(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1);
@@ -267,7 +272,7 @@ using System.Globalization;
             WriteLiteral("                ");
             EndContext();
             BeginContext(1804, 315, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd316844", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd316996", async() => {
                 BeginContext(2105, 10, false);
 #line 59 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\Calculator.cshtml"
                                             Write(item.Title);
@@ -333,12 +338,12 @@ AddHtmlAttributeValue("", 1814, (ViewContext.RouteData.Values["alias"] != null &
             WriteLiteral("            ");
             EndContext();
             BeginContext(2219, 1890, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd320654", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd320806", async() => {
                 BeginContext(2336, 18, true);
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(2354, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd321055", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd321207", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -363,7 +368,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
                 BeginContext(2428, 59, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd322902", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd323054", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -388,7 +393,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                <div class=\"input\">\r\n                    <label>Площадь</label>\r\n                    ");
                 EndContext();
                 BeginContext(2590, 34, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd324844", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd324996", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -413,7 +418,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                    <p class=\"ph\">м2</p>\r\n                </div>\r\n                <div class=\"select\">\r\n                    <label>Толщина</label>\r\n                    ");
                 EndContext();
                 BeginContext(2794, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd326848", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96c9eb3e6e2f4b7d86e1bde498613b1187b0acd327000", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();

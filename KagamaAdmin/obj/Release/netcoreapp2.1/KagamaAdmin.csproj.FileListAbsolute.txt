@@ -584,3 +584,5 @@ C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\KagamaAdmin.pdb
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\KagamaAdmin.genruntimeconfig.cache
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\Razor\Areas\cp\Pages\Review\Index.cshtml.g.cs
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\Razor\Areas\cp\Views\Review\Index.cshtml.g.cs
+C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\Razor\Views\Home\Review.cshtml.g.cs

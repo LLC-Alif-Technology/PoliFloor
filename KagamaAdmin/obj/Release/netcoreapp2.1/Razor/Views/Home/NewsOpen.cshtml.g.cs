@@ -23,8 +23,13 @@ using KagamaAdmin.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\_ViewImports.cshtml"
+using KagamaModels.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc4", @"/Views/Home/NewsOpen.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f178e43f036298d8fda4253f835f9f902367c944", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dacd68af6debffd15778304c53d74c21cdea7ff1", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_NewsOpen : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<KagamaAdmin.ViewModel.NewsView>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -74,7 +79,7 @@ using KagamaAdmin.Models;
             WriteLiteral("<div class=\"bread\">\r\n    ");
             EndContext();
             BeginContext(496, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc46380", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc46532", async() => {
                 BeginContext(559, 7, true);
                 WriteLiteral("Главная");
                 EndContext();
@@ -104,7 +109,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(576, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc48476", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc48628", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -123,7 +128,7 @@ using KagamaAdmin.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(623, 149, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc49733", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc49885", async() => {
                 BeginContext(687, 80, false);
 #line 11 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\NewsOpen.cshtml"
                                                               Write(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1);
@@ -160,7 +165,7 @@ using KagamaAdmin.Models;
             WriteLiteral("    <div class=\"articles-filter\">\r\n        ");
             EndContext();
             BeginContext(972, 92, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc412252", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc412404", async() => {
                 BeginContext(1057, 3, true);
                 WriteLiteral("Все");
                 EndContext();
@@ -200,7 +205,7 @@ using KagamaAdmin.Models;
             WriteLiteral("            ");
             EndContext();
             BeginContext(1145, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc414731", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc414883", async() => {
                 BeginContext(1219, 10, false);
 #line 20 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\Home\NewsOpen.cshtml"
                                                                                 Write(item.Title);
@@ -300,7 +305,7 @@ WriteAttributeValue("", 1372, Model.ArticleOpen.ImgOpenPage, 1372, 30, false);
             WriteLiteral("                <li>\r\n                    ");
             EndContext();
             BeginContext(1932, 485, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc420120", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70d3d0a2d22c2f8f8db25cb01b7d0c331baadbc420272", async() => {
                 BeginContext(2005, 42, true);
                 WriteLiteral("\r\n                        <div class=\"img\"");
                 EndContext();

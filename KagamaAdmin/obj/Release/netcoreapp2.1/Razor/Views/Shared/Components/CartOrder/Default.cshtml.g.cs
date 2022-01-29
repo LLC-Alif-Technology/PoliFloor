@@ -23,8 +23,13 @@ using KagamaAdmin.Models;
 
 #line default
 #line hidden
+#line 3 "C:\Users\Admin\Documents\Github\PoliFloor\KagamaAdmin\Views\_ViewImports.cshtml"
+using KagamaModels.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3360552bd96a7ab55a4fe9bf09fad1424e29f81e", @"/Views/Shared/Components/CartOrder/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f178e43f036298d8fda4253f835f9f902367c944", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dacd68af6debffd15778304c53d74c21cdea7ff1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_CartOrder_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<KagamaAdmin.ViewModel.CartOrderView>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "text", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -59,7 +64,7 @@ using KagamaAdmin.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(44, 1165, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e5330", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e5482", async() => {
                 BeginContext(50, 56, true);
                 WriteLiteral("\r\n    <p class=\"block-title\">Оформление заказа</p>\r\n    ");
                 EndContext();
@@ -84,7 +89,7 @@ WriteAttributeValue("", 182, ViewData.ModelState["Name"]?.Errors.Count > 0 ? "in
                 WriteLiteral(">\r\n            ");
                 EndContext();
                 BeginContext(272, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e6698", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e6850", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -120,7 +125,7 @@ WriteAttributeValue("", 401, ViewData.ModelState["Email"]?.Errors.Count > 0 ? "i
                 WriteLiteral(">\r\n            ");
                 EndContext();
                 BeginContext(492, 55, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e9210", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e9362", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -156,7 +161,7 @@ WriteAttributeValue("", 624, ViewData.ModelState["Phone"]?.Errors.Count > 0 ? "i
                 WriteLiteral(">\r\n            ");
                 EndContext();
                 BeginContext(715, 57, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e11724", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e11876", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -182,7 +187,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n            <i class=\"required\">*</i>\r\n        </div>\r\n    </div>\r\n    <div class=\"flex-input\">\r\n        <div class=\"input\">\r\n            ");
                 EndContext();
                 BeginContext(912, 67, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e13808", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3360552bd96a7ab55a4fe9bf09fad1424e29f81e13960", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
