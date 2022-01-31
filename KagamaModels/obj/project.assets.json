@@ -14033,11 +14033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
       "projectName": "KagamaModels",
-      "projectPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaModels\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\PoliFloor\\KagamaModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -32,6 +32,15 @@ namespace KagamaAdmin.Areas.cp.Controllers
             _context = context;
         }
 
+        [HttpGet]
+        public async Task<int> UpdateTitle(int id,int reviewId) 
+        {
+            var review = await _context.Reviews.FindAsync(reviewId);
+            review.ServiceId = id;
+            await _context.SaveChangesAsync();
+            return id;
+        }
+
         public async Task<IActionResult> Index()
         {
             ReviewView model = new ReviewView
@@ -46,14 +55,15 @@ namespace KagamaAdmin.Areas.cp.Controllers
             return View(model);
         }
         [HttpPost]
-        public async Task<IActionResult> UpdateReview(int  ReviewId, int ServiceId, ReviewView model)
+        public async Task<IActionResult> UpdateReview(ReviewView model)
         {
             
-             var FindReview = await _repository.GetReviewById(ReviewId);
+             var FindReview = await _repository.GetReviewById(model.ReviewId);
              
              // Alternate between true and false
             FindReview.IsAllowed = !FindReview.IsAllowed;
-            //FindReview.ServiceId = ServiceId;
+            Console.WriteLine($"ALLALAJDLKAS:DJASL:DKJAS:DLJKASLKDJ {model.SelectedId}");
+            FindReview.ServiceId = model.SelectedId;
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");
         }

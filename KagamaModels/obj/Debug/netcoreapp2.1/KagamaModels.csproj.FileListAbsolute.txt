@@ -121,3 +121,16 @@ C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\K
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.pdb
 C:\Users\Admin\Documents\Github\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.genruntimeconfig.cache
 >>>>>>> 6ec8fec0cd469867c871bc76e9c324e3b80d5ac0
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.deps.json
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.runtimeconfig.json
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.runtimeconfig.dev.json
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.dll
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\bin\Debug\netcoreapp2.1\KagamaModels.pdb
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.AssemblyInfo.cs
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.dll
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.pdb
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaModels\obj\Debug\netcoreapp2.1\KagamaModels.genruntimeconfig.cache

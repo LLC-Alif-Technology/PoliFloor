@@ -7,6 +7,8 @@ namespace KagamaAdmin.ViewModel
 {
     public class ReviewView
     {
+        public int ReviewId { get; set; }
+        public int SelectedId { get; set; } = 12;
         public Page Page { get; set; }
         public int Id { get; set; }
 

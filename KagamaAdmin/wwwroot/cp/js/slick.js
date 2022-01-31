@@ -53,22 +53,3 @@ $(() => {
   });
 });
 
-const rateImages = $("#mainLead .rate img");
-
-for (let i = 0; i < rateImages.length; i++) {
-  rateImages.eq(i).on("click", function () {
-      fill(i);
-      $("#rating").val(i+1)
-  });
-}
-
-function fill(n) {
-  for (let i = 0; i < rateImages.length; i++) {
-    if (i <= n) {
-      rateImages.eq(i).addClass("filled");
-    } else {
-      rateImages.eq(i).removeClass("filled");
-    }
-  }
-}
-

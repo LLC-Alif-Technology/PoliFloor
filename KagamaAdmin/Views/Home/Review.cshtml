@@ -16,11 +16,25 @@
                 </div>
                 <div class="info">
                     <div class="rate">
-                        <img src="~/client/img/fullfilled.png" />
-                        <img src="~/client/img/fullfilled.png" />
-                        <img src="~/client/img/fullfilled.png" />
-                        <img src="~/client/img/fullfilled.png" />
-                        <img src="~/client/img/empty.png" />
+                        @if (item.Rating == 0)
+                        {
+                           <img src="~/client/img/empty.png"/>
+                           <img src="~/client/img/empty.png"/>
+                           <img src="~/client/img/empty.png"/>
+                           <img src="~/client/img/empty.png"/>
+                           <img src="~/client/img/empty.png"/>
+                       }
+                       else
+                       {
+                           @for (var i = 1; i <= @item.Rating; i++)
+                           {
+                               <img src="~/client/img/fullfilled.png"/>
+                           }
+                           @for (var i = 1; i <= 5-@item.Rating; i++)
+                           {
+                               <img src="~/client/img/empty.png"/>
+                           }
+                       }
                     </div>
                     <div class="date">@item.CreationData.ToString("dd/MM/yyyy")</div>
                 </div>

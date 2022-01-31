@@ -15305,11 +15305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
       "projectName": "KagamaAdmin",
-      "projectPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaAdmin\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\PoliFloor\\KagamaAdmin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15327,8 +15327,8 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\KagamaModels\\KagamaModels.csproj"
+            "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\Github\\PoliFloor\\PoliFloor\\KagamaModels\\KagamaModels.csproj"
             }
           }
         }

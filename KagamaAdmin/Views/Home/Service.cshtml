@@ -11,41 +11,41 @@
     <div class="main-banner" style="background-image: url(@Model.Service.ImgServicePage);">
         <div class="main-background-opacity"></div>
         <div class="swiper-container" id="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="main-swiper-video" style="background-image: url(@Model.Service.ImgServicePage);">
-                        <div class="main-swiper-video-action">
-                            <div class="main-swiper-video-action-button">
-                            </div>
-                            <p>
-                                Смотрите видеоотзыв клиента
-                            </p>
+            <div class="swiper-wrapper">
+                <div class="main-swiper-video" style="background-image: url(@Model.Service.ImgServicePage);">
+                    <div class="main-swiper-video-action">
+                        <div class="main-swiper-video-action-button">
                         </div>
-                        <iframe id="">
-                            Test
-                        </iframe>
+                        <p>
+                            Смотрите видеоотзыв клиента
+                        </p>
                     </div>
-                    <div class="reference-data">
-                        <div class="keys-reference-data">
-                            <h2>
-                                Производим и монтируем декоративные и промышленные наливные полы под ключ
-                            </h2>
-                            <ul>
-                                <li>
-                                    @(string.IsNullOrEmpty(Model.Service.TitleH1) ? Model.Service.Title : Model.Service.TitleH1)
-                                </li>
-                            </ul>
+                    <iframe id="">
+                        Test
+                    </iframe>
+                </div>
+                <div class="reference-data">
+                    <div class="keys-reference-data">
+                        <h2>
+                            Производим и монтируем декоративные и промышленные наливные полы под ключ
+                        </h2>
+                        <ul>
+                            <li>
+                                @(string.IsNullOrEmpty(Model.Service.TitleH1) ? Model.Service.Title : Model.Service.TitleH1)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sentence-reference-data">
+                        <div class="sentence-before">
                         </div>
-                        <div class="sentence-reference-data">
-                            <div class="sentence-before">
-                            </div>
-                            <p>
-                                <a asp-controller="Home" asp-action="Index" asp-route-alias="#">
-                                    Получить коммерческое предложение в течение 14 часов
-                                </a>
-                            </p>
-                        </div>
+                        <p>
+                            <a asp-controller="Home" asp-action="Index" asp-route-alias="#">
+                                Получить коммерческое предложение в течение 14 часов
+                            </a>
+                        </p>
                     </div>
                 </div>
+            </div>
             <div class="mobi-swiper-wrapper">
                 <div class="keys-reference-data">
                     <h2>
@@ -511,5 +511,19 @@
         <div class="ck-edit">@Html.Raw(Model.Service.Description9)</div>
     </div>
 }
+
+@if (Model.Services.Any())
+{
+    <div class="main-reviews" style="margin: 6rem auto">
+        <h1>Отзывы услуги</h1>
+        <div>
+            <div class="prev"></div>
+            <div class="reviews main-slider" id="reviews" data-serviceId="@Model.Service.Id">
+            </div>
+            <div class="next"></div>
+        </div>
+    </div>
+}
+
 
 @await Component.InvokeAsync("MainMap")

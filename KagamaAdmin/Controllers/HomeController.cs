@@ -14,6 +14,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace KagamaAdmin.Controllers
 {
@@ -22,15 +23,18 @@ namespace KagamaAdmin.Controllers
         private IHostingEnvironment _appEnvironment;
         private IKagamaRepository _repository;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly EFDBContext _context;
+
         private ISession _session => _httpContextAccessor.HttpContext.Session;
         readonly IMapper _mapper;
 
-        public HomeController(IKagamaRepository repository, IHttpContextAccessor httpContextAccessor, IMapper mapper, IHostingEnvironment appEnvironment)
+        public HomeController(IKagamaRepository repository, IHttpContextAccessor httpContextAccessor, IMapper mapper, IHostingEnvironment appEnvironment, EFDBContext context)
         {
             _repository = repository;
             _httpContextAccessor = httpContextAccessor;
             _mapper = mapper;
             _appEnvironment = appEnvironment;
+            _context = context;
         }
 
         protected T GetSession<T>(ISession session, string name)
@@ -1317,7 +1321,18 @@ namespace KagamaAdmin.Controllers
             return View(model);
 
         }
-
+        
+        [HttpGet]
+        public async Task<List<Review>> GetServicId(int id,int reviewId)
+        {
+            //var review = await _context.Reviews.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+            var ServiceList = await _context.Reviews.Where(x=>x.ServiceId == id).ToListAsync();
+            
+            //review.ServiceId = await _context.Reviews.ToList();
+            // await _context.SaveChangesAsync();
+            
+            return ServiceList;
+        }
         [Route("ReviewPost")]
         public async Task<IActionResult> ReviewPost(ReviewView model)
         {
