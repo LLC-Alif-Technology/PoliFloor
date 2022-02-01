@@ -359,6 +359,7 @@ header ul li {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
+  font-size: 12px;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
@@ -5562,7 +5563,6 @@ select {
 /* updatae */
 
 .slider-lists {
-  overflow: hidden;
   scroll-behavior: smooth;
   transition: 500ms all;
 }
@@ -5570,10 +5570,12 @@ select {
 .tv-page .tv_lists {
   display: flex;
   width: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tv-page .tv_lists li {
-  padding-right: 22px;
+  padding: .5rem;
 }
 
 .tv-page .tv_lists li .tv-lists-contain-list {

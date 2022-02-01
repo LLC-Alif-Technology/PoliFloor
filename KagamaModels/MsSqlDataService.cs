@@ -1986,7 +1986,12 @@ namespace KagamaModels
         public async Task<List<Review>> GetOnlyFalseReview()
         {
             return await _dbContext.Reviews.Where(x => x.IsAllowed == true).ToListAsync();
-        } 
+        }
+
+        public async Task<List<Tv>> GetAllTv()
+        {
+            return await _dbContext.Tvs.ToListAsync();
+        }
 
         public Review ReviewGet(int id)=>_dbContext.Reviews.SingleOrDefault(x => x.Id == id);
 
