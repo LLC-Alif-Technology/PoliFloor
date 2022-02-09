@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+  "FilePath": "c:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2247,23 +2247,6 @@
         }
       },
       {
-        "HashCode": 307586485,
-        "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__MainCalculatorViewComponentTagHelper",
-        "AssemblyName": "KagamaAdmin",
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:main-calculator"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__MainCalculatorViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "MainCalculator"
-        }
-      },
-      {
         "HashCode": 2092664963,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__MainPropertiesViewComponentTagHelper",
@@ -2859,26 +2842,41 @@
         }
       },
       {
+<<<<<<< HEAD
         "HashCode": 491246883,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__MainTvViewComponentTagHelper",
+=======
+        "HashCode": 307586485,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainCalculatorViewComponentTagHelper",
+>>>>>>> ff5ef22fbe152d6ece94551e06eb91c5e247dfe2
         "AssemblyName": "KagamaAdmin",
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
+<<<<<<< HEAD
             "TagName": "vc:main-tv"
+=======
+            "TagName": "vc:main-calculator"
+>>>>>>> ff5ef22fbe152d6ece94551e06eb91c5e247dfe2
           }
         ],
         "Metadata": {
           "Runtime.Name": "ITagHelper",
+<<<<<<< HEAD
           "Common.TypeName": "__Generated__MainTvViewComponentTagHelper",
           "MVC.ViewComponent.Name": "MainTv"
+=======
+          "Common.TypeName": "__Generated__MainCalculatorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainCalculator"
+>>>>>>> ff5ef22fbe152d6ece94551e06eb91c5e247dfe2
         }
       }
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "KagamaAdmin",
+  "RootNamespace": null,
   "Documents": [],
   "SerializationFormat": "0.2"
 }
