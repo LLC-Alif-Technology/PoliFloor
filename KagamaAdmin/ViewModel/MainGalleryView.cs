@@ -9,5 +9,6 @@ namespace KagamaAdmin.ViewModel
         public IEnumerable<GalleryItem> GalleryItems { get; set; } 
         public IEnumerable<Video> Videos { get; set; }
         public string VideoDesc { get; set; }
+        
     }
 }

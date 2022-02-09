@@ -39,5 +39,6 @@ buttonPrev.onclick = (evt) => {
 cards.forEach((o, i) => {
   o.onclick = () => {
     Slider.scrollLeft = children[i]?.offsetLeft;
+    
   };
 });

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<KagamaModels.Entities.Tv>
+
+<div class="tv-page">
+
+    <h1 style="margin-bottom: 1rem">МЫ НА ТВ</h1>
+    <h4>На постоянной основе выступаем в качестве эксперта и партнера на ТВ-передачах</h4>
+    <div class="tv-page-cards">
+        <div class="slider-lists-prev" id="sliderListsPrev"></div>
+        <div class="slider-lists" id="tvScrollLists">
+            @if (Model.Any())
+            {
+                var Card = 0;
+
+                <ul class="tv_lists" id="UnListsTv">
+                    @foreach (var tv in Model)
+                    {
+                        Card++;
+                        if (Card <= 8)
+                        {
+                            <li>
+                                <div class="tv-lists-contain-list" style="background-image: url(@tv.Banner);">
+                                    <a asp-action="TvOpen" asp-controller="Home" asp-route-alias="@tv.Alias">
+                                        <div class="tv_lists-info">
+                                            <p class="caption">
+                                                @tv.Caption
+                                            </p>
+                                            <p class="title">
+                                                @tv.Title
+                                            </p>
+                                        </div>
+                                        <div class="tv-lists-navigation-bottom">
+                                            <div class="info-img-contain">
+                                                <img src="@tv.Icon" />
+                                            </div>
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        }
+                    }
+                </ul>
+            }
+        </div>
+        <div class="slider-lists-next" id="sliderListsNext"></div>
+    </div>
+    <div class="slider-select-card" id="sliderSelectCard">
+        @{
+            int Index = 0;
+            @foreach (var tv in Model)
+            {
+                Index++;
+                if (Index <= 8)
+                {   
+                    <input type="radio" name="card" />
+                }
+            }
+        }
+    </div>
+</div>

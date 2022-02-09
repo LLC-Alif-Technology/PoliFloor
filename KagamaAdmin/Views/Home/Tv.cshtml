@@ -13,13 +13,13 @@
 </div>
 
 <div class="tv-page">
-    <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    <h1 style="margin-bottom: 1rem">@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
+    <h4 >На постоянной основе выступаем в качестве эксперта и партнера на ТВ-передачах</h4>
     <div class="tv-page-cards">
-        <div class="slider-lists-prev" id="sliderListsPrev"></div>
-        <div class="slider-lists" id="tvScrollLists">
+        <div class="slider-lists" id="tvScrollLists" style="overflow: visible;">
             @if (Model.Tvs.Any())
             {
-                <ul class="tv_lists" id="UnListsTv">
+                <ul class="tv_lists" id="UnListsTv" style="flex-wrap: wrap">
                     @foreach (var tv in Model.Tvs)
                     {
                         <li>
@@ -46,15 +46,6 @@
                 </ul>
             }
         </div>
-        <div class="slider-lists-next" id="sliderListsNext"></div>
-    </div>
-    <div class="slider-select-card" id="sliderSelectCard">
-        @{
-            int Index = 0;
-            @foreach (var tv in Model.Tvs) {
-                <input type="radio" name="card" />   
-            }
-        }
     </div>
 </div>
 

@@ -794,3 +794,4 @@ C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Release\netc
 C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\KagamaAdmin.dll
 C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\KagamaAdmin.pdb
 C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\KagamaAdmin.genruntimeconfig.cache
+C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Release\netcoreapp2.1\Razor\Views\Shared\Components\MainTv\Default.cshtml.g.cs

@@ -1,9 +1,4 @@
-﻿// const bathUrl = window.location.origin;
-//
-// const test = fetch(`${bathUrl}/ReviewGet`).then(data => data.json());
-//
-
-const getReviewsByServiceId = (serviceId) => {
+﻿const getReviewsByServiceId = (serviceId) => {
     $.ajax({
         url: `Home/GetServicId?id=${serviceId}`,
         method: 'GET',
@@ -12,7 +7,6 @@ const getReviewsByServiceId = (serviceId) => {
                 const {name, city, rating, creationData, title, img, img2, img3, img4} = review
                 return makeDynamicReview(name, city, rating, creationData, title, img, img2, img3,img4)
             })
-            console.log(parsed)
             $('#reviews').html(parsed.join('\n'))
         }
     })
@@ -54,7 +48,6 @@ $(function () {
 })
 
 const rateImages = $("#mainLead2 .rate img");
-console.log(rateImages)
 for (let i = 0; i < rateImages.length; i++) {
     rateImages.eq(i).on("click", function () {
         fill(i);

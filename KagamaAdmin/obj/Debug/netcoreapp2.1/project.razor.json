@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\admin\\Desktop\\PoliFloor\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+  "FilePath": "d:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2247,6 +2247,23 @@
         }
       },
       {
+        "HashCode": 307586485,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainCalculatorViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-calculator"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainCalculatorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainCalculator"
+        }
+      },
+      {
         "HashCode": 2092664963,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__MainPropertiesViewComponentTagHelper",
@@ -2842,26 +2859,26 @@
         }
       },
       {
-        "HashCode": 307586485,
+        "HashCode": 491246883,
         "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__MainCalculatorViewComponentTagHelper",
+        "Name": "__Generated__MainTvViewComponentTagHelper",
         "AssemblyName": "KagamaAdmin",
         "CaseSensitive": false,
         "TagMatchingRules": [
           {
-            "TagName": "vc:main-calculator"
+            "TagName": "vc:main-tv"
           }
         ],
         "Metadata": {
           "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__MainCalculatorViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "MainCalculator"
+          "Common.TypeName": "__Generated__MainTvViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainTv"
         }
       }
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": null,
+  "RootNamespace": "KagamaAdmin",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

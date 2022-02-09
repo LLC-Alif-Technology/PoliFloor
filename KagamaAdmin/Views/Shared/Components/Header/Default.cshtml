@@ -1,6 +1,7 @@
 ﻿@model KagamaAdmin.ViewModel.HeaderView
 
-@if (ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["alias"] == null)
+@if (ViewContext.RouteData.Values["action"].ToString() == "Index" ||
+ViewContext.RouteData.Values["action"].ToString() == "Service" && ViewContext.RouteData.Values["alias"] == null)
 {
     <header>
         <div class="top-block-menu" id="top-block-menu">
@@ -8,7 +9,7 @@
         </div>
         <div class="top-block">
 
-            <div  class="logo" id="logo">
+            <div class="logo" id="logo">
                 <a asp-action="Index" asp-controller="Home" asp-route-alias="">
                     <img src="~/client/img/logo2.jpg" alt="">
                 </a>
@@ -28,24 +29,25 @@
                     <li><a asp-action="Projects" asp-controller="Home" asp-route-alias="">Наши проекты</a></li>
                     <li><a asp-action="Video" asp-controller="Home" asp-route-alias="">Обучение</a></li>
                     <li><a asp-controller="Home" asp-action="Contacts" asp-route-alias="">Контакты</a></li>
+                    <li><a asp-controller="Home" asp-action="Review" asp-route-alias="">Отзывы</a></li>
                 </ul>
             </div>
 
             <div class="bottom-block">
                 <a asp-action="Cart" asp-controller="Home" class="cart" asp-route-alias="">
-                <span class="cart-block">
-                <span class="cart-image">
-                    <img src="~/client/img/new-cart.png" alt="" />
-                </span>
-                        <span class="CartIcon">
-                                @Model.CartView.CountProducts
+                    <span class="cart-block">
+                        <span class="cart-image">
+                            <img src="~/client/img/new-cart.png" alt="" />
                         </span>
-                </span>
+                        <span class="CartIcon">
+                            @Model.CartView.CountProducts
+                        </span>
+                    </span>
                 </a>
                 <a asp-action="Calculator" asp-controller="Home" asp-route-alias="" class="calc"><img
-                    src="~/client/img/new-calc.png" alt=""></a>
+                    src="~/client/img/new-calc.png" alt="">
+                </a>
             </div>
-
         </div>
     </header>
 }
@@ -57,7 +59,7 @@ else
         </div>
         <div class="top-block">
 
-            <div  class="logo" id="logo">
+            <div class="logo-other" id="logo">
                 <a asp-action="Index" asp-controller="Home" asp-route-alias="">
                     <img src="~/client/img/logo2.jpg" alt="">
                 </a>
@@ -77,19 +79,20 @@ else
                     <li><a asp-action="Projects" asp-controller="Home" asp-route-alias="">Наши проекты</a></li>
                     <li><a asp-action="Video" asp-controller="Home" asp-route-alias="">Обучение</a></li>
                     <li><a asp-controller="Home" asp-action="Contacts" asp-route-alias="">Контакты</a></li>
+                    <li><a asp-controller="Home" asp-action="Review" asp-route-alias="">Отзывы</a></li>
                 </ul>
             </div>
 
             <div class="bottom-block">
                 <a asp-action="Cart" asp-controller="Home" class="cart" asp-route-alias="">
-                <span class="cart-block">
-                <span class="cart-image">
-                    <img src="~/client/img/new-cart.png" alt="" />
-                </span>
-                        <span class="CartIcon">
-                                @Model.CartView.CountProducts
+                    <span class="cart-block">
+                        <span class="cart-image">
+                            <img src="~/client/img/new-cart.png" alt="" />
                         </span>
-                </span>
+                        <span class="CartIcon">
+                            @Model.CartView.CountProducts
+                        </span>
+                    </span>
                 </a>
                 <a asp-action="Calculator" asp-controller="Home" asp-route-alias="" class="calc"><img
                     src="~/client/img/new-calc.png" alt=""></a>
