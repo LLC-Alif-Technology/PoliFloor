@@ -1,4 +1,5 @@
-﻿@model KagamaModels.Entities.Page
+﻿@using KagamaAdmin.Components
+@model KagamaModels.Entities.Page
 
 @{
     ViewData["SeoTitle"] = Model.SeoTitle;
@@ -6,57 +7,36 @@
     ViewData["SeoDescription"] = Model.SeoDescription;
 }
 
-@await Component.InvokeAsync("MainMaterials")
-
-<div class="main-description">
-    <div class="ck-edit">@Html.Raw(Model.Description)</div>
-</div>
-
-@await Component.InvokeAsync("MainGallery")
-
 @await Component.InvokeAsync("MainProjects")
-
-@await Component.InvokeAsync("MainProperties")
 
 @await Component.InvokeAsync("MainCatalog")
 
+@await Component.InvokeAsync("MainMaterials")
+
+@await Component.InvokeAsync("MainGallery")
+
 @await Component.InvokeAsync("MainSellingVideo")
 
+@await Component.InvokeAsync("MainTv");
+
 @await Component.InvokeAsync("MainReviews")
-
-@await Component.InvokeAsync("MainQNA")
-
-@await Component.InvokeAsync("MainQuestions")
 
 @await Component.InvokeAsync("MainCTA")
 
 @await Component.InvokeAsync("MainOurTeam")
 
-@await Component.InvokeAsync("StageOfWork")
-
-@await Component.InvokeAsync("FormCTA")
-
-@await Component.InvokeAsync("MainRegion")
+@await Component.InvokeAsync("MainCalculator")
 
 @await Component.InvokeAsync("MainFloors")
 
-@await Component.InvokeAsync("MainCalculator")
+@await Component.InvokeAsync("MainQNA")
 
-@await Component.InvokeAsync("OurTeam")
-
-@await Component.InvokeAsync("MainRewards")
-
-
+@await Component.InvokeAsync("MainQuestions")
 
 <partial name="_MainSoc" />
 
 <div class="main-lead" id="mainLead">
     @await Component.InvokeAsync("MainLead")
 </div>
-
-<partial name="_MainCalc" />
-
-@await Component.InvokeAsync("MainNews")
-
 
 @await Component.InvokeAsync("MainMap")

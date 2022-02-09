@@ -1589,3 +1589,4 @@ C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcor
 C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\KagamaAdmin.pdb
 C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\KagamaAdmin.genruntimeconfig.cache
 C:\Users\Admin\Documents\Github\PoliFloor\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainTv\Default.cshtml.g.cs
+D:\projects\workProjects\PoliFloor\KagamaAdmin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\MainTv\Default.g.cshtml.cs

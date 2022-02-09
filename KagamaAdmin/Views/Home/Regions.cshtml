@@ -12,31 +12,33 @@
     @*<a>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>*@
 </div>
 
-<div class="region-page">
-    <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1>
-    <ul>
-        @foreach (var category in Model.RegionCategories)
-        {
-        <li>
-            <div class="count">
-                <p>
-                    <b>@Model.Regions.Count(x=>x.CategoryId == category.Id)</b>
-                    городов
-                </p>
-            </div>
-            <div class="info">
-                <p class="caption">@category.Title</p>
-                <ul>
-                    @foreach (var region in Model.Regions.Where(x=>x.CategoryId == category.Id))
-                        {
-                    <li><a asp-action="RegionOpen" asp-controller="Home" asp-route-alias="@region.Alias">@region.Title</a></li>
-                        }
-                </ul>
-            </div>
-        </li>
-        }
-    </ul>
-    <div class="ck-edit">@Html.Raw(Model.Page.Description)</div>
-</div>
+@* <div class="region-page"> *@
+@*     <h1>@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</h1> *@
+@*     <ul> *@
+@*         @foreach (var category in Model.RegionCategories) *@
+@*         { *@
+@*         <li> *@
+@*             <div class="count"> *@
+@*                 <p> *@
+@*                     <b>@Model.Regions.Count(x=>x.CategoryId == category.Id)</b> *@
+@*                     городов *@
+@*                 </p> *@
+@*             </div> *@
+@*             <div class="info"> *@
+@*                 <p class="caption">@category.Title</p> *@
+@*                 <ul> *@
+@*                     @foreach (var region in Model.Regions.Where(x=>x.CategoryId == category.Id)) *@
+@*                         { *@
+@*                     <li><a asp-action="RegionOpen" asp-controller="Home" asp-route-alias="@region.Alias">@region.Title</a></li> *@
+@*                         } *@
+@*                 </ul> *@
+@*             </div> *@
+@*         </li> *@
+@*         } *@
+@*     </ul> *@
+@*     <div class="ck-edit">@Html.Raw(Model.Page.Description)</div> *@
+@* </div> *@
+
+@await Component.InvokeAsync("MainRegion")
 
 @await Component.InvokeAsync("MainMap")
