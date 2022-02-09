@@ -102,7 +102,7 @@ WriteAttributeValue("", 661, item.Banner, 661, 12, false);
             WriteLiteral(">\r\n                            ");
             EndContext();
             BeginContext(707, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4f28dca585af4b51899e84477945a906", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1aa0fe035437499b9900b509e37a5780", async() => {
                 BeginContext(782, 10, false);
 #line 13 "D:\projects\workProjects\PoliFloor\KagamaAdmin\Views\Shared\Components\MainBanner\Default.cshtml"
                                                                                                  Write(item.Title);
@@ -178,7 +178,7 @@ WriteAttributeValue("", 661, item.Banner, 661, 12, false);
             WriteLiteral("                                    <li>\r\n                                        ");
             EndContext();
             BeginContext(1535, 177, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79eb285e07e5438dab809753df949e2a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7df9fffe79e94488bb245529fd6794e3", async() => {
                 BeginContext(1609, 46, true);
                 WriteLiteral("\r\n                                            ");
                 EndContext();
@@ -398,7 +398,7 @@ WriteAttributeValue("", 4591, Model.First().Banner, 4591, 21, false);
             WriteLiteral("                                        <li>\r\n                                            ");
             EndContext();
             BeginContext(5441, 185, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d4c545afc6d46bca3c7587e61a40b29", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d1d651b2d8ce4db2a6160cb60c1fa1ac", async() => {
                 BeginContext(5515, 50, true);
                 WriteLiteral("\r\n                                                ");
                 EndContext();
@@ -492,7 +492,7 @@ WriteAttributeValue("", 4591, Model.First().Banner, 4591, 21, false);
             WriteLiteral("                                    <li>\r\n                                        ");
             EndContext();
             BeginContext(6923, 177, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c06b615f0e1d464b8c1513d60fa3c2a0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9818f5b8808743bf8de212e895688037", async() => {
                 BeginContext(6997, 46, true);
                 WriteLiteral("\r\n                                            ");
                 EndContext();

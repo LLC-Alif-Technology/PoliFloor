@@ -61,7 +61,7 @@ using KagamaModels.Entities;
             WriteLiteral("<div class=\"main-calc\">\r\n    ");
             EndContext();
             BeginContext(29, 150, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5d3e49903e3b4153b21194782e499777", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e482eb239cf4fd3a25f14e0858a84b1", async() => {
                 BeginContext(97, 78, true);
                 WriteLiteral("\r\n        <div class=\"img\"></div>\r\n        <span>Расчет стоимости</span>\r\n    ");
                 EndContext();
