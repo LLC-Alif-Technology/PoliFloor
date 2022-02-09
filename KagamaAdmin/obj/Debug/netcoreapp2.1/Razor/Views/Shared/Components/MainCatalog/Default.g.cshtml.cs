@@ -85,7 +85,7 @@ WriteAttributeValue("", 423, item.ProductImg, 423, 16, false);
             WriteLiteral(" />\r\n                    </div>\r\n                    <div class=\"bottom\">\r\n                        <div class=\"text\">Узнать стоимость</div>\r\n                        <div class=\"arrow\">\r\n                            ");
             EndContext();
             BeginContext(654, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "1e739c26ee8648a6a99a534d0f3e0cdb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b0a12e4beab042c6b4a0faf42427e5f3", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

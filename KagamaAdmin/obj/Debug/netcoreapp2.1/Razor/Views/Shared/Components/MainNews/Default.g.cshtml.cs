@@ -76,7 +76,7 @@ using KagamaModels.Entities;
             WriteLiteral("                    <div class=\"swiper-slide\">\r\n                        ");
             EndContext();
             BeginContext(364, 315, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c48772f3ec0045d993a07f1bca29837d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ec5bc2feff94dcb8a5598d48d1624e8", async() => {
                 BeginContext(437, 34, true);
                 WriteLiteral("\r\n                            <img");
                 EndContext();
@@ -151,7 +151,7 @@ WriteAttributeValue("", 477, item.Img, 477, 9, false);
             WriteLiteral("            </div>\r\n            <div class=\"swiper-pagination\"></div>\r\n        </div>\r\n        <div class=\"btns-block\">\r\n            ");
             EndContext();
             BeginContext(861, 78, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96918dd7fb334af2acf042146d8ae87f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d3e039d1bc6f43c5be2a2f6aa3035fbf", async() => {
                 BeginContext(923, 12, true);
                 WriteLiteral("Смотреть все");
                 EndContext();

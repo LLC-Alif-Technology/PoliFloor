@@ -120,7 +120,7 @@ using KagamaModels.Entities;
             WriteLiteral("                </div>\r\n            </div>\r\n            <div class=\"footer\">\r\n                ");
             EndContext();
             BeginContext(1373, 121, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fa6fe672a95c4ec8a3f8f93664175b65", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b54eb7b9fbe4d848ab1f22f2e012ace", async() => {
                 BeginContext(1439, 51, true);
                 WriteLiteral("\r\n                    все вопросы\r\n                ");
                 EndContext();
