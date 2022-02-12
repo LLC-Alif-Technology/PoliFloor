@@ -1,0 +1,80 @@
+@model IEnumerable<KagamaModels.Entities.Review>
+
+<div class="main-reviews">
+    <p>
+    </p>
+    <div class="content swiper">
+        <h1>отзывы наших заказчиков</h1>
+        <div class="">
+            <div class="prev">
+            </div>
+            <div class="main-slider">
+               @foreach (var item in Model.Take(5))
+               {
+                   @if (item.IsAllowed)
+                   {
+                       <div class="slide ">
+                       <div class="info">
+                           <div class="name">@item.Name</div>
+                           <div class="city_name">@item.City</div>
+                       </div>
+                       <div class="info">
+                           <div class="rate">
+                               
+                               @if (item.Rating == 0)
+                               {
+                                   <img src="~/client/img/empty.png"/>
+                                   <img src="~/client/img/empty.png"/>
+                                   <img src="~/client/img/empty.png"/>
+                                   <img src="~/client/img/empty.png"/>
+                                   <img src="~/client/img/empty.png"/>
+                               }
+                               else
+                               {
+                                   @for (var i = 1; i <= @item.Rating; i++)
+                                   {
+                                       <img src="~/client/img/fullfilled.png"/>
+                                   }
+                                   @for (var i = 1; i <= 5-@item.Rating; i++)
+                                   {
+                                       <img src="~/client/img/empty.png"/>
+                                   }
+                               }
+                               
+                           </div>
+                           <div class="date">@item.CreationData</div>
+                       </div>
+                       <div class="description">
+                        @item.Title
+                       </div>
+                       <div class="image_desc">
+                           @if (item.Img != null)
+                           {
+                               <img src="@item.Img" alt="@item.Title" />
+                           }
+                           @if (item.Img2 != null)
+                           {
+                               <img src="@item.Img2" alt="@item.Title" />
+                           }
+                           
+                           @if (item.Img3 != null)
+                           {
+                               <img src="@item.Img3" alt="@item.Title" />
+                           }
+                           
+                           @if (item.Img4 != null)
+                           {
+                               <img src="@item.Img4" alt="@item.Title" />
+                           }
+                       </div>
+                   </div>
+                   }
+               }
+            </div>   
+            <div class="next">
+            </div>
+
+            <div class="swiper-pagination" style="margin-top:2rem"></div>
+        </div>
+    </div>
+</div>

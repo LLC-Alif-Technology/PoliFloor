@@ -558,7 +558,7 @@ $(document).ready(function () {
                     maxPlaceholderOpts: 1,
                     onOptionClick: function (element, option) {
                         setTimeout(function () {
-                            if ($('.ms-options-wrap>.ms-options>ul li.selected').length > 1) {
+                               if ($('.ms-options-wrap>.ms-options>ul li.selected').length > 1) {
                                 $('.ms-options-wrap>button>span').text('Выбрано - ' + $('.ms-options-wrap>.ms-options>ul li.selected').length)
                             }
                         }, 5);

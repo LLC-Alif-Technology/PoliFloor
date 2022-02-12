@@ -739,6 +739,17 @@ namespace KagamaModels
             _dbContext.SaveChanges();
         }
 
+        public void AddReview(Review review)
+        {
+            _dbContext.Reviews.Add(review);
+            _dbContext.SaveChanges();
+        }
+
+        private Review GetReview(int id)
+        {
+            return _dbContext.Reviews.Find(id);
+        }
+
         public void ProductSeo(int id, string seoTitle, string seoKeywords, string seoDescription)
         {
             Product product = GetProduct(id);
@@ -1951,6 +1962,38 @@ namespace KagamaModels
 
             _dbContext.SaveChanges();
         }
+
+        public void ReviewCreat(Review model)
+        {
+            _dbContext.Reviews.Add(model);
+            _dbContext.SaveChanges();
+        }
+
+        public async Task<List<Review>> GetAllReview()
+        {
+            return await _dbContext.Reviews.ToListAsync();
+        }
+        public Task<List<Service>> GetAllServices()
+        {
+            return _dbContext.Services.ToListAsync();
+        }
+
+        public async Task<Review> GetReviewById(int Id)
+        {
+            var Find = await _dbContext.Reviews.FirstOrDefaultAsync(x=>x.Id == Id);
+            return Find;
+        } 
+        public async Task<List<Review>> GetOnlyFalseReview()
+        {
+            return await _dbContext.Reviews.Where(x => x.IsAllowed == true).ToListAsync();
+        }
+
+        public async Task<List<Tv>> GetAllTv()
+        {
+            return await _dbContext.Tvs.ToListAsync();
+        }
+
+        public Review ReviewGet(int id)=>_dbContext.Reviews.SingleOrDefault(x => x.Id == id);
 
         #endregion
     }

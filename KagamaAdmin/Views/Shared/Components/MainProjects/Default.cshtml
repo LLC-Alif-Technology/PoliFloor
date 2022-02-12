@@ -2,8 +2,64 @@
 @if (Model.Any())
 {
     <div class="main-projects">
-        <h2>Наши проекты</h2>
-        <ul>
+        <h2 style="margin:0">Кейсы</h2>
+        <div class='description'>За 12 лет выполнили и сдали более 700 объектов.</div>
+        <div class="content">
+            <div class="cards">
+                @foreach (var project in Model)
+                {
+                    <div class="card ">
+                        <div class="card-image">
+                            <div class="play-content">
+                                <div class="play-button">
+                                    <img src="~/client/img/play-button.png" />
+                                </div>
+                                <div class="text">Смотрите видеоотзыв клиента</div>
+                            </div>
+                            <img src="@project.Img" />
+                        </div>
+                        <div class="card-title">
+                            <p class="title">@project.Title</p>
+                            
+                            <div class="card-description">
+                                @project.TitleH1
+                            </div>
+                            <!-- <div cs -->
+                        </div>
+                    </div>
+                }
+                
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="control-bar">
+                <div class="control-pag">
+                  <div class="prev" class="button-prev">
+                    <img src="~/client/img/arrowLeft.png" />
+                  </div>  
+                  <div class='panel'>
+                    <span id="current">1</span>
+                    <span class="slash"> / </span>
+                    <span id="total">0</span>
+                  </div>
+                  <div class="next" class="button-next">
+                    <img src="~/client/img/arrowRight.png" />
+                  </div>
+                </div>
+                <div class="last-el">
+                    <div class="button">
+                        <div class="image">
+                            <img src="~/client/img/list-logo.png" />
+                        </div>
+                        <div class="text">У меня подобная задача, Получить КП</div>
+                    </div>
+                    <div style="position:relative">
+                        <a href-"#" style="background-color:transparent">подробнее</a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+        <!-- <ul>
             @foreach (var project in Model)
             {
                 <li>
@@ -21,12 +77,13 @@
                     </p>
                 </a>
             </li>
-        </ul>
+        </ul> -->
+
         <div class="swiper-container swiper-main-projects">
             <div class="swiper-wrapper">
                 @foreach (var project in Model)
                 {
-                    <div class="swiper-slide">
+                    <div class="swiper- ">
                         <a asp-action="ProjectOpen" asp-controller="Home" asp-route-alias="@project.Alias">
                             <img src="@project.Img" alt="">
                             <p class="prop">@project.City, @project.Square м2</p>
@@ -39,4 +96,9 @@
         </div>
         <a asp-controller="Home" asp-action="Projects" asp-route-alias="" class="m-all-projects">Смотреть все проекты</a>
     </div>
+
+
+
 }
+
+

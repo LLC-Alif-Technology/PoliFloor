@@ -8,24 +8,33 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace KagamaAdmin.Controllers
 {
     public class HomeController : Controller
     {
+        private IHostingEnvironment _appEnvironment;
         private IKagamaRepository _repository;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly EFDBContext _context;
+
         private ISession _session => _httpContextAccessor.HttpContext.Session;
         readonly IMapper _mapper;
 
-        public HomeController(IKagamaRepository repository, IHttpContextAccessor httpContextAccessor, IMapper mapper)
+        public HomeController(IKagamaRepository repository, IHttpContextAccessor httpContextAccessor, IMapper mapper, IHostingEnvironment appEnvironment, EFDBContext context)
         {
             _repository = repository;
             _httpContextAccessor = httpContextAccessor;
             _mapper = mapper;
+            _appEnvironment = appEnvironment;
+            _context = context;
         }
 
         protected T GetSession<T>(ISession session, string name)
@@ -1289,6 +1298,93 @@ namespace KagamaAdmin.Controllers
                 model.TotalSum += Convert.ToDecimal(p.PrPriceKg * model.EUR) * ((Convert.ToDecimal(p.Kg, CultureInfo.InvariantCulture) / 1000) * model.Area);
             }
             return View(model);
+        }
+
+        [Route("ReviewGet")]
+        public async Task<List<Review>> GetReview()
+        {
+            var list = await _repository.GetAllReview();
+            return list;
+        }
+        [HttpGet("Review")]
+        public async Task<IActionResult> Review()
+        {
+            Page page = await _repository.GetPageAsync("Otzyv");
+            if (page == null)
+                return NotFound();
+            ReviewView model = new ReviewView
+            {
+                Review = await _repository.GetOnlyFalseReview()
+            };
+
+
+            return View(model);
+
+        }
+        
+        [HttpGet]
+        public async Task<List<Review>> GetServicId(int id,int reviewId)
+        {
+            //var review = await _context.Reviews.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
+            var ServiceList = await _context.Reviews.Where(x=>x.ServiceId == id).ToListAsync();
+            
+            //review.ServiceId = await _context.Reviews.ToList();
+            // await _context.SaveChangesAsync();
+            
+            return ServiceList;
+        }
+        [Route("ReviewPost")]
+        public async Task<IActionResult> ReviewPost(ReviewView model)
+        {
+            // Page page = await _repository.GetPageAsync("Otzyv");
+            if (ModelState.IsValid)
+            {
+                List<string> imgs = new List<string>();
+                try
+                {
+                    if (model.Images != null)
+                    {
+                        foreach (var image in model.Images)
+                        {
+                            string fullPath = _appEnvironment.WebRootPath + image.FileName;
+
+                            if (System.IO.File.Exists(fullPath))
+                                System.IO.File.Delete(fullPath);
+
+                            var path = "/uploads/" + Guid.NewGuid() + image.FileName.ToLower();
+                            path = path.Replace(" ", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
+                            using (var stream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+                            {
+                                image.CopyTo(stream);
+                            }
+
+                            imgs.Add(path);
+                        }
+                    }
+
+
+                    var review = new Review
+                    {
+                        City = model.City,
+                        Img = imgs.Count > 0 ? imgs[0] : null,
+                        Img2 = imgs.Count > 1 ? imgs[1] : null,
+                        Img3 = imgs.Count > 2 ? imgs[2] : null,
+                        Img4 = imgs.Count > 3 ? imgs[3] : null,
+                        Name = model.Name,
+                        CreationData = DateTime.Now.Date,
+                        Title = model.Title,
+                        Rating = model.Rating,
+                        IsAllowed = false
+                    };
+                    _repository.AddReview(review);
+                }
+                catch (Exception e)
+                {
+                    ModelState.AddModelError("", e.Message);
+                }
+            }
+
+            return RedirectToAction("Review");
         }
     }
 }
