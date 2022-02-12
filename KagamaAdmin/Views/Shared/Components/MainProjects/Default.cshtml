@@ -8,7 +8,7 @@
             <div class="cards">
                 @foreach (var project in Model)
                 {
-                    <div class="card ">
+                    <div class="card " data-alias="@project.Alias">
                         <div class="card-image">
                             <div class="play-content">
                                 <div class="play-button">
@@ -19,31 +19,34 @@
                             <img src="@project.Img" />
                         </div>
                         <div class="card-title">
+
                             <p class="title">@project.Title</p>
-                            
+
                             <div class="card-description">
                                 @project.TitleH1
                             </div>
                             <!-- <div cs -->
-                        </div>
+                </div>
                     </div>
                 }
-                
+
                 <div class="swiper-pagination"></div>
             </div>
             <div class="control-bar">
                 <div class="control-pag">
-                  <div class="prev" class="button-prev">
-                    <img src="~/client/img/arrowLeft.png" />
-                  </div>  
-                  <div class='panel'>
-                    <span id="current">1</span>
-                    <span class="slash"> / </span>
-                    <span id="total">0</span>
-                  </div>
-                  <div class="next" class="button-next">
-                    <img src="~/client/img/arrowRight.png" />
-                  </div>
+                    <div class="prev" class="button-prev">
+                        <div class="cover"></div>
+                        <img src="~/client/img/arrowLeft.png" />
+                    </div>
+                    <div class='panel'>
+                        <span id="current">1</span>
+                        <span class="slash"> / </span>
+                        <span id="total">0</span>
+                    </div>
+                    <div class="next" class="button-next">
+                        <div class="cover"></div>
+                        <img src="~/client/img/arrowRight.png" />
+                    </div>
                 </div>
                 <div class="last-el">
                     <div class="button">
@@ -56,30 +59,30 @@
                         <a href-"#" style="background-color:transparent">подробнее</a>
                     </div>
                 </div>
-            </div>   
+            </div>
         </div>
 
         <!-- <ul>
-            @foreach (var project in Model)
-            {
-                <li>
-                    <a asp-action="ProjectOpen" asp-controller="Home" asp-route-alias="@project.Alias">
-                        <img src="@project.Img"/>
-                        <p class="prop">@project.City, @project.Square м2</p>
-                        <p class="desc">@project.Title</p>
-                    </a>
-                </li>
-            }
-            <li>
-                <a asp-action="Projects" asp-controller="Home" asp-route-alias="" class="all_projects">
-                    <p>
-                        <span>Смотреть все <br> проекты</span>
-                    </p>
-                </a>
-            </li>
-        </ul> -->
+        @foreach (var project in Model)
+        {
+                                <li>
+                                    <a asp-action="ProjectOpen" asp-controller="Home" asp-route-alias="@project.Alias">
+                                        <img src="@project.Img"/>
+                                        <p class="prop">@project.City, @project.Square м2</p>
+                                        <p class="desc">@project.Title</p>
+                                    </a>
+                                </li>
+        }
+                    <li>
+                        <a asp-action="Projects" asp-controller="Home" asp-route-alias="" class="all_projects">
+                            <p>
+                                <span>Смотреть все <br> проекты</span>
+                            </p>
+                        </a>
+                    </li>
+                </ul> -->
 
-        <div class="swiper-container swiper-main-projects">
+    <div class="swiper-container swiper-main-projects">
             <div class="swiper-wrapper">
                 @foreach (var project in Model)
                 {
@@ -100,5 +103,3 @@
 
 
 }
-
-

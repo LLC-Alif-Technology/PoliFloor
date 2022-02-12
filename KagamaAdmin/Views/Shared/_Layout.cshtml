@@ -28,6 +28,7 @@
 
     @await Component.InvokeAsync("Header")
     @await Component.InvokeAsync("MainBanner")
+    <div class="img-preview-modal"></div>
     @RenderBody()
     @await Component.InvokeAsync("Footer")
     <div class="wrap-modal">
@@ -51,12 +52,13 @@
 <script src="~/client/js/scripts.min.js"></script>
     <script src="~/client/js/QnaModal.js"></script>
     <script src="~/client/js/common.js"></script>
+    <script src="~/client/js/img-preview.js"></script>
+    <script src="~/client/js/calculator.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="~/cp/js/slider.js"></script>
     <script src="~/cp/js/accord.js"></script>
     <script src="~/cp/js/slick.js"></script>
-
 
     @RenderSection("Scripts",false/*required*/)
 <script src="~/client/js/Tv.js"></script>

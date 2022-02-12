@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\projects\\workProjects\\PoliFloor\\KagamaAdmin\\KagamaAdmin.csproj",
+  "FilePath": "c:\\Users\\admin\\Desktop\\PoliFloor_new\\PoliFloor_new\\KagamaAdmin\\KagamaAdmin.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2757,6 +2757,23 @@
         }
       },
       {
+        "HashCode": 491246883,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainTvViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-tv"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainTvViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainTv"
+        }
+      },
+      {
         "HashCode": 339225171,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__ModalCallViewComponentTagHelper",
@@ -2856,23 +2873,6 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__StageOfWorkViewComponentTagHelper",
           "MVC.ViewComponent.Name": "StageOfWork"
-        }
-      },
-      {
-        "HashCode": 491246883,
-        "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__MainTvViewComponentTagHelper",
-        "AssemblyName": "KagamaAdmin",
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:main-tv"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__MainTvViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "MainTv"
         }
       }
     ],

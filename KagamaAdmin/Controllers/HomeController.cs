@@ -1300,6 +1300,48 @@ namespace KagamaAdmin.Controllers
             return View(model);
         }
 
+
+        [HttpGet]
+        [Route("calculat")]
+        public async Task<JsonResult> Calculat(int id, string varnish, string surface, int thick, int area)
+        {
+            CalculatorView model = new CalculatorView();
+
+            model.CalcCategory = _repository.GetCalcCategory(id);
+            model.CalcThicks = _repository.CalcThicks(id);
+
+
+            model.CalcProducts = _repository.CalcProductsFilter(id, varnish, surface);
+
+
+            model.EUR = _repository.GetEurCourse("eur").Course;
+
+            foreach (var p in model.CalcProducts)
+            {
+                var arr = p.Kg.Split(';');
+                string str = "";
+                for (var i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i].StartsWith(thick.ToString()))
+                    {
+                        str = arr[i];
+                        break;
+                    }
+                }
+
+                if (!string.IsNullOrWhiteSpace(str))
+                {
+                    p.Kg = str.Substring(str.IndexOf('-') + 1);
+                }
+                model.AllKg += float.Parse(p.Kg, CultureInfo.InvariantCulture);
+
+                model.TotalSum += Convert.ToDecimal(p.PrPriceKg * model.EUR) * ((Convert.ToDecimal(p.Kg, CultureInfo.InvariantCulture) / 1000) * area);
+                model.TotalSum_1m2 += (Convert.ToDecimal(p.Kg, CultureInfo.InvariantCulture) / 1000) *
+                            (p.PrPriceKg * model.EUR).Value;
+            }
+            return Json(model);
+        }
+
         [Route("ReviewGet")]
         public async Task<List<Review>> GetReview()
         {
@@ -1321,16 +1363,16 @@ namespace KagamaAdmin.Controllers
             return View(model);
 
         }
-        
+
         [HttpGet]
-        public async Task<List<Review>> GetServicId(int id,int reviewId)
+        public async Task<List<Review>> GetServicId(int id, int reviewId)
         {
             //var review = await _context.Reviews.AsNoTracking().FirstOrDefaultAsync(x => x.Id == id);
-            var ServiceList = await _context.Reviews.Where(x=>x.ServiceId == id).ToListAsync();
-            
+            var ServiceList = await _context.Reviews.Where(x => x.ServiceId == id).ToListAsync();
+
             //review.ServiceId = await _context.Reviews.ToList();
             // await _context.SaveChangesAsync();
-            
+
             return ServiceList;
         }
         [Route("ReviewPost")]

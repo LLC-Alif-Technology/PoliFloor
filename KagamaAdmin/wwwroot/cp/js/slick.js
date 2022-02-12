@@ -11,11 +11,7 @@ window.onload = function () {
       arrows: true,
     });
 
-    $(".main-catalog .catalogs").slick({
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      arrows: true,
-    });
+    
 
     $(".main-projects .cards").slick({
       slidesToShow: 1,

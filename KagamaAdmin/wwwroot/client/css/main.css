@@ -2032,15 +2032,20 @@ header .header-contact a:last-child {
   margin-bottom: 60px;
 }
 
+.main-projects .prev .cover,
+.main-projects .next .cover {
+  height: 35px;
+  width: 19px;
+  background-color: transparent;
+}
+
 .main-projects .prev img,
 .main-projects .next img {
   top: 30% !important;
   height: auto;
+  top: 0;
 }
 
-.main-projects .next img {
-  left: 190px;
-}
 
 .main-projects .content {
   position: relative;
@@ -2124,6 +2129,7 @@ header .header-contact a:last-child {
   margin: 0;
   padding: 26px 43px;
   align-items: center;
+  position: relative;
 }
 
 .main-projects .control-bar .control-pag .panel {
@@ -3141,6 +3147,7 @@ select {
 .main-reviews .slide .image_desc img,
 .reviews-main .slide .image_desc img {
   margin-right: 17px;
+  cursor: pointer;
 }
 
 .fileInput input {
@@ -3252,6 +3259,8 @@ select {
 .main-catalog .catalogs,
 .services-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .services-wrapper {
@@ -3260,13 +3269,55 @@ select {
 
 .main-catalog .card,
 .main-calculator .services .service {
-  margin: 0 11px;
+  margin: 12px 15px;
 }
+
+.main-calculator .services .service {
+  margin: 12px 8px;
+}
+
+.main-catalog .card .top {
+  position: relative;
+  width: 380px;
+  height: 320px;
+}
+
+.img-preview-modal {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.637);
+  z-index: 99;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-catalog .card .top .back {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(93, 106, 30, 0) 100%
+  );
+  padding: 0 0 1.6rem 2rem;
+  color: #fff;
+  font-size: 16px;
+}
+
 
 .main-catalog .card .top img,
 .top img {
-  width: 301px;
-  height: 421px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -3277,7 +3328,7 @@ select {
 .main-catalog .card .bottom,
 .main-calculator .service .bottom {
   display: flex;
-  width: 301px;
+  width: 100%;
   color: white;
   align-items: center;
   text-align: center;
@@ -3351,10 +3402,6 @@ select {
   padding: 24px 0;
   display: block;
   border-radius: 0 50px 50px 0;
-}
-
-.another-content .ytp-cued-thumbnail-overlay-image {
-  /* thumbnail */
 }
 
 .another-content .container .video {
@@ -6891,23 +6938,23 @@ select {
   margin-right: 0;
 }
 
-.price-calc .input,
-.price-calc .select {
+.input,
+.select {
   position: relative;
   width: 130px;
 }
 
-.price-calc .input label,
-.price-calc .select label {
+ .input label,
+ .select label {
   color: #fff;
   display: block;
   margin-bottom: 8px;
 }
 
-.price-calc .input input,
-.price-calc .input select,
-.price-calc .select input,
-.price-calc .select select {
+ .input input,
+ .input select,
+ .select input,
+ .select select {
   width: 100%;
   height: 47px;
   border: none;
@@ -6916,8 +6963,8 @@ select {
   font-size: 18px;
 }
 
-.price-calc .input select,
-.price-calc .select select {
+ .input select,
+ .select select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -6928,19 +6975,19 @@ select {
   padding-right: 55px;
 }
 
-.price-calc .input .ph,
-.price-calc .select .ph {
+ .input .ph,
+ .select .ph {
   position: absolute;
   bottom: 17px;
   right: 10px;
 }
 
-.price-calc .radios-block {
+ .radios-block {
   position: relative;
   width: 440px;
 }
 
-.price-calc .radios-block.w290 {
+ .radios-block.w290 {
   width: 290px;
 }
 
@@ -7099,6 +7146,12 @@ select {
 .contacts-page .city {
   position: relative;
   margin-bottom: 50px;
+}
+
+.main-calculator .results {
+  background-color: #343333;
+  padding: 30px 20px;
+  color: #fff;
 }
 
 .contacts-page .city iframe {
