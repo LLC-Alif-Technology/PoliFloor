@@ -97,12 +97,12 @@ using KagamaAdmin.Models;
             WriteLiteral("</td>\r\n            <td class=\"td_btns\">\r\n                <div class=\"wrap-btn\">\r\n                    ");
             EndContext();
             BeginContext(452, 265, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3ddd6c2997f14011add2372d101264fc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "038f090db1434dc6927b88b2be864442", async() => {
                 BeginContext(620, 26, true);
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(646, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "132ab382b86d44aaa3d78fbbe2f0c1af", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "dbd8d081fca745ce99ec03179a8257a3", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

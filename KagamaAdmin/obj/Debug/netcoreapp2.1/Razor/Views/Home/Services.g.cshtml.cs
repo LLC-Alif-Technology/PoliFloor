@@ -75,7 +75,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n<div class=\"bread\">\r\n    ");
             EndContext();
             BeginContext(244, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae27f45184f640eab6f97de13530d987", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1fc6668f6a384c92a1fde67c857d2c63", async() => {
                 BeginContext(307, 7, true);
                 WriteLiteral("Главная");
                 EndContext();
@@ -105,7 +105,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(324, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a4244b6ee5ba44de826d3c090849efa3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ac80c39dfb8142b5b76d32b9405bceb2", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -162,7 +162,7 @@ using KagamaModels.Entities;
             WriteLiteral("                    <li>\r\n                        ");
             EndContext();
             BeginContext(840, 225, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "58a48422e9b34eceb5bf391926648bf4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd67a0be662243aa990b0879b468f9c7", async() => {
                 BeginContext(917, 34, true);
                 WriteLiteral("\r\n                            <img");
                 EndContext();

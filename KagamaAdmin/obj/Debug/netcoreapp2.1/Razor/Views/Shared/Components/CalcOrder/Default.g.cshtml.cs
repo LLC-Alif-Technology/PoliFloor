@@ -65,7 +65,7 @@ using KagamaModels.Entities;
             WriteLiteral("    ");
             EndContext();
             BeginContext(48, 1272, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7fd92e2894d54b53a57bc6457423f074", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e593c872f7954b9d955410c58d7b157b", async() => {
                 BeginContext(54, 33, true);
                 WriteLiteral("\r\n        <p class=\"block-title\">");
                 EndContext();
@@ -100,7 +100,7 @@ WriteAttributeValue("", 201, ViewData.ModelState["Name"]?.Errors.Count > 0 ? "in
                 WriteLiteral(">\r\n                ");
                 EndContext();
                 BeginContext(295, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "dee2ebd579e1417eadc953bceec1b805", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "23ae7b140a8c4759bb95d78d9a5eed4b", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -136,7 +136,7 @@ WriteAttributeValue("", 436, ViewData.ModelState["Email"]?.Errors.Count > 0 ? "i
                 WriteLiteral(">\r\n                ");
                 EndContext();
                 BeginContext(531, 55, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a5d5c85895bb4313bd3757c862fa7ae4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "de182cab69b0452eb70531029587e8fb", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -172,7 +172,7 @@ WriteAttributeValue("", 675, ViewData.ModelState["Phone"]?.Errors.Count > 0 ? "i
                 WriteLiteral(">\r\n                ");
                 EndContext();
                 BeginContext(770, 57, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "41ad564085534b528aea6a932f7b8e7d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "605df827784f4d5e9a5b5f8c41aff403", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -198,7 +198,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                <i class=\"required\">*</i>\r\n            </div>\r\n        </div>\r\n        <div class=\"flex-input\">\r\n            <div class=\"input\">\r\n                ");
                 EndContext();
                 BeginContext(991, 67, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "d247f51aaa57489d93510f7f368535db", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a14f4636a000485eb33fa0ab828316a9", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

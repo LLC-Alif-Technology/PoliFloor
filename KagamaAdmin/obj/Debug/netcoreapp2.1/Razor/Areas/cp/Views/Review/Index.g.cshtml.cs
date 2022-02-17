@@ -78,7 +78,7 @@ using KagamaAdmin.Models;
         ");
             EndContext();
             BeginContext(421, 2589, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fcda3ee5d6d745d0b0a94b63a9a3b0a8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b71bb7780d9c4861965019ba57238c17", async() => {
                 BeginContext(501, 19, true);
                 WriteLiteral("\r\n        <tbody>\r\n");
                 EndContext();
@@ -218,7 +218,7 @@ WriteAttributeValue("", 1294, item.Id, 1294, 8, false);
                 WriteLiteral("                                ");
                 EndContext();
                 BeginContext(1567, 52, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f2348b3fda5d4e70892f563580d07a56", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "64a19955d1aa407ba1b7fa8e755f8fa4", async() => {
                     BeginContext(1601, 9, false);
 #line 42 "C:\Users\admin\Desktop\PoliFloor_new\PoliFloor_new\KagamaAdmin\Areas\cp\Views\Review\Index.cshtml"
                                                             Write(ite.Title);
@@ -266,7 +266,7 @@ WriteAttributeValue("", 1294, item.Id, 1294, 8, false);
                 WriteLiteral("                                ");
                 EndContext();
                 BeginContext(1765, 43, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44805bb36d1a4dfea8e761329c0b9af3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8de560ac8dff40a4ac0f41962584f8a4", async() => {
                     BeginContext(1790, 9, false);
 #line 48 "C:\Users\admin\Desktop\PoliFloor_new\PoliFloor_new\KagamaAdmin\Areas\cp\Views\Review\Index.cshtml"
                                                    Write(ite.Title);
@@ -326,7 +326,7 @@ WriteAttributeValue("", 1294, item.Id, 1294, 8, false);
                 WriteLiteral("                            <td class=\"reviews-admin-allow\">\r\n                                ");
                 EndContext();
                 BeginContext(2302, 150, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "28d761dcbc624f84b9dac0edb048e8d0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9c6361907bcd4fe78ace908d5c509492", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper>();
@@ -372,7 +372,7 @@ WriteAttributeValue("", 1294, item.Id, 1294, 8, false);
                 WriteLiteral("                            <td class=\"reviews-admin-cancle\">\r\n                                ");
                 EndContext();
                 BeginContext(2668, 148, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6a488a26a2cf491cba0164935f35b09f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "a5b89fefb3404996b70f9dfc7d28fde6", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_FormActionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper>();

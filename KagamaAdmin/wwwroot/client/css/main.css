@@ -2039,13 +2039,22 @@ header .header-contact a:last-child {
   background-color: transparent;
 }
 
+.rotate {
+  transform: rotate(180deg);
+}
+
+.main-projects div[class^='button-']:hover img {
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: none;
+}
+
 .main-projects .prev img,
 .main-projects .next img {
   top: 30% !important;
   height: auto;
   top: 0;
 }
-
 
 .main-projects .content {
   position: relative;
@@ -3313,7 +3322,6 @@ select {
   font-size: 16px;
 }
 
-
 .main-catalog .card .top img,
 .top img {
   width: 100%;
@@ -3379,15 +3387,20 @@ select {
   background-color: #879d1a;
   padding: 72px 34px;
   width: 478px;
+  height: 522px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .another-content .container .info .title {
   color: #eafe8c;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .another-content .container .info .body {
-  font-size: 30px;
+  font-size: 22px;
+  line-height: 1.8rem;
   color: #fff;
   padding: 48px 0;
 }
@@ -3760,6 +3773,18 @@ select {
   background: center / cover no-repeat;
 }
 
+.our-team-cards-contain .out-team-carusel li {
+  width: 301px !important;
+}
+
+.our-team-cards-contain .slick-list {
+  width: 100% !important;
+}
+
+.our-team-cards-contain .slick-track {
+  width: 960px !important;
+}
+ 
 .our-team-cards-contain .out-team-carusel .first {
   background-image: url("../img/OurTeam/Rectangle73.png");
 }
@@ -6941,20 +6966,23 @@ select {
 .input,
 .select {
   position: relative;
+}
+
+#area, #thickVal {
   width: 130px;
 }
 
- .input label,
- .select label {
+.input label,
+.select label {
   color: #fff;
   display: block;
   margin-bottom: 8px;
 }
 
- .input input,
- .input select,
- .select input,
- .select select {
+.input input,
+.input select,
+.select input,
+.select select {
   width: 100%;
   height: 47px;
   border: none;
@@ -6963,8 +6991,8 @@ select {
   font-size: 18px;
 }
 
- .input select,
- .select select {
+.input select,
+.select select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -6975,19 +7003,19 @@ select {
   padding-right: 55px;
 }
 
- .input .ph,
- .select .ph {
+.input .ph,
+.select .ph {
   position: absolute;
   bottom: 17px;
   right: 10px;
 }
 
- .radios-block {
+.radios-block {
   position: relative;
   width: 440px;
 }
 
- .radios-block.w290 {
+.radios-block.w290 {
   width: 290px;
 }
 
@@ -10631,6 +10659,8 @@ h3 {
     padding: 15px;
     font-size: 14px;
   }
+
+  
 
   .price-page .price-result {
     margin-bottom: 20px;

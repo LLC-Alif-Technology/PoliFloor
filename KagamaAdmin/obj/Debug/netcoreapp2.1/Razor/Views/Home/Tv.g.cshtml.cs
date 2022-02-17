@@ -76,7 +76,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n<div class=\"bread\">\r\n    ");
             EndContext();
             BeginContext(238, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8ede5378d1534487b4c6f5279093bb77", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "337552718ef740e8b9436c636a0ed1a0", async() => {
                 BeginContext(301, 7, true);
                 WriteLiteral("Главная");
                 EndContext();
@@ -106,7 +106,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(318, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f0ee0689ce3f41a6914ec3a63efda1f0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "aa2e4cd865134d61ae31cbb60e04fd37", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -169,7 +169,7 @@ WriteAttributeValue("", 1153, tv.Banner, 1153, 10, false);
             WriteLiteral(">\r\n                                ");
             EndContext();
             BeginContext(1201, 925, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "30c4f8096be243b29d27c23eafecd6f8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b0073d993614a598f4a228432f65054", async() => {
                 BeginContext(1274, 172, true);
                 WriteLiteral("\r\n                                    <div class=\"tv_lists-info\">\r\n                                        <p class=\"caption\">\r\n                                            ");
                 EndContext();

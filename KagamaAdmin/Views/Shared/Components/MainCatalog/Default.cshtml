@@ -10,14 +10,16 @@
                 @foreach (var item in Model.Take(6))
                 {
                     <div class="card">
-                        <div class="top">
-                            <div class="back">
-                                @item.Title
+                        <a href="@item.Alias" style="cursor: alias;">
+                            <div class="top">
+                                <div class="back">
+                                    @item.Title
+                                </div>
+                                <img src="@item.Banner" />
                             </div>
-                            <img src="@item.Banner" />
-                        </div>
+                        </a>
 
-                        <a href="@item.Alias">
+                        <a class="js-open-order">
                             <div class="bottom">
                                 <div class="text">Узнать стоимость</div>
                                 <div class="arrow">

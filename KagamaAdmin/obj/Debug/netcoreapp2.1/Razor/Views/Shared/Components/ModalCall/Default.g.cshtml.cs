@@ -63,7 +63,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n<p class=\"block-title\">Заказать звонок</p>\r\n");
             EndContext();
             BeginContext(90, 543, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "efade53799da4c51924131f22f229c65", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bda762934aa743a7aacf5d0ba8472ff9", async() => {
                 BeginContext(96, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
@@ -88,7 +88,7 @@ WriteAttributeValue("", 144, ViewData.ModelState["ModalCallName"]?.Errors.Count 
                 WriteLiteral(">\r\n        ");
                 EndContext();
                 BeginContext(239, 61, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "804c6cff95224d938d11253433aaa305", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "82568aeba8d747b282e8e72e76149629", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -124,7 +124,7 @@ WriteAttributeValue("", 365, ViewData.ModelState["ModalCallPhone"]?.Errors.Count
                 WriteLiteral(">\r\n        ");
                 EndContext();
                 BeginContext(461, 66, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f5b50a45a11245cba3f2b37d5102c3f9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3f66e0ccb94a4b44b5836d97c6afeb25", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

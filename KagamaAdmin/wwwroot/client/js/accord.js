@@ -35,14 +35,13 @@ for (let i = 0; i < calcButtonsEl.length; i++) {
     $("#thickVal").html(`<option>${dataThick}</option>`);
 
     updateResultEl.fadeOut();
-
     $.ajax(
       `calculat?id=${$(this).parent().parent().attr("data-id")}&area=${$(
         "#area"
-      ).val()}&thick=${dataThick}&varnish=Матовый`
+      ).val()}&thick=${dataThick}&varnish=${$(
+        'input[type="radio"]:checked'
+      ).val()}`
     ).then((res) => {
-      console.log(res);
-
       let result = "";
 
       let totalSumPerSquare = 0;

@@ -1,6 +1,7 @@
 @model IEnumerable<KagamaModels.Entities.Service>
 
-@if (Model.Any()) {
+@if (Model.Any())
+{
     <div class="main-selling-video">
         <div class="another-content">
             <img class="elem1" src="~/client/img/elem1.png" />
@@ -13,7 +14,7 @@
             <div class="container">
                 <div class="info">
                     <div class="title">
-                        Посмотрите видео про преимущества 
+                        Посмотрите видео про преимущества
                         и различия бесшовных полов
                     </div>
                     <div class="body">
@@ -23,7 +24,8 @@
                 </div>
                 <div class="video">
                     <div>
-                        @foreach (var item in Model.Take(1)) {
+                        @foreach (var item in Model.Take(1))
+                        {
                             <iframe src="@item.LinkVideo" allowFullScreen controls></iframe>
                         }
                     </div>
@@ -32,6 +34,6 @@
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
     </div>
 }

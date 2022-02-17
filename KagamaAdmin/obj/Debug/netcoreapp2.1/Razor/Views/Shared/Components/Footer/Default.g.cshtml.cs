@@ -82,7 +82,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n<footer>\r\n    <div>\r\n        <div class=\"menu\">\r\n            <div>\r\n                <b>Главное меню</b>\r\n                ");
             EndContext();
             BeginContext(174, 87, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e0de3f80d88421e8a17e3e586a617e3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3982b8d68c2c4cd5b00cf571dbe0c3a0", async() => {
                 BeginContext(237, 20, true);
                 WriteLiteral("<span>Главная</span>");
                 EndContext();
@@ -112,7 +112,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(279, 85, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb91417ed18d4069bb6f7cbc50491af1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d083fd3530594f7b8d2d0b01f8f38dfd", async() => {
                 BeginContext(342, 18, true);
                 WriteLiteral("<span>О нас</span>");
                 EndContext();
@@ -142,7 +142,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(382, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a129dbf172a4b32a20c5f19e9048522", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "22cc09dda24740989c1503ff999262d8", async() => {
                 BeginContext(448, 19, true);
                 WriteLiteral("<span>Услуги</span>");
                 EndContext();
@@ -172,7 +172,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(489, 76, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b380f5d82bf44b818aec51848d02f0f3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dc813203e92d49ffb37561b615fb98af", async() => {
                 BeginContext(554, 7, true);
                 WriteLiteral("Каталог");
                 EndContext();
@@ -202,7 +202,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(583, 80, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2534cf85089947a3840099430cf75bd5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce7c40bbf6e04bd0a56ede946120c7fa", async() => {
                 BeginContext(648, 11, true);
                 WriteLiteral("Фотогалерея");
                 EndContext();
@@ -232,7 +232,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(681, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e566aba01e141a08792588be2d08afc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a71b817e6794379802233c8f0707c6d", async() => {
                 BeginContext(741, 25, true);
                 WriteLiteral("<span>Видеогалерея</span>");
                 EndContext();
@@ -262,7 +262,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(788, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c2613d262b834fd387ca445a40fb7179", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a709c7c311e54a9c80163b0a860314e7", async() => {
                 BeginContext(850, 20, true);
                 WriteLiteral("<span>Новости</span>");
                 EndContext();
@@ -292,7 +292,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(892, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b6b132b58fe84e36802ef04adc9c62d8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c591ce09aab4c449b01895beefc4428", async() => {
                 BeginContext(955, 21, true);
                 WriteLiteral("<span>Обучение</span>");
                 EndContext();
@@ -322,7 +322,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(998, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19dbb4719e1e4388bba3cae494c1e184", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "79bbb4be72e44a6a862e0af267f35c41", async() => {
                 BeginContext(1064, 32, true);
                 WriteLiteral("<span>Полезная информация</span>");
                 EndContext();
@@ -352,7 +352,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(1118, 98, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ec6f40133a6416eb65ac8e951115c66", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0bf3acd3277a47fab5162cf1c9dac871", async() => {
                 BeginContext(1182, 30, true);
                 WriteLiteral("<span>Полы в помещениях</span>");
                 EndContext();
@@ -382,7 +382,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(1234, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "856edbe57fce46be9ce16fcec1d93f7f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "32f96700cc5f4c13896e993e0b928780", async() => {
                 BeginContext(1300, 25, true);
                 WriteLiteral("<span>Наши проекты</span>");
                 EndContext();
@@ -412,7 +412,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(1347, 85, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ceb0291cb9e2408c80eb10c9bd1dacf8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "39fafd640d99424398fbb65d28e643ee", async() => {
                 BeginContext(1407, 21, true);
                 WriteLiteral("<span>Мы на ТВ</span>");
                 EndContext();
@@ -442,7 +442,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(1450, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ed0787c44da43259d3e5456b721e00a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "caaddcb59c484b2489955634f9bdb019", async() => {
                 BeginContext(1515, 19, true);
                 WriteLiteral("<span>Дилеры</span>");
                 EndContext();
@@ -472,7 +472,7 @@ using KagamaModels.Entities;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(1556, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1fc33a333af14700877604f6e9ed48bd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "370a6a9175714c91b099b83e1a6d87d8", async() => {
                 BeginContext(1622, 21, true);
                 WriteLiteral("<span>Контакты</span>");
                 EndContext();
@@ -513,7 +513,7 @@ using KagamaModels.Entities;
             WriteLiteral("                        ");
             EndContext();
             BeginContext(1869, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b087196f09c74cde978be5cb8b26b90d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0256a50b38894ad58f352570582442a5", async() => {
                 BeginContext(1943, 6, true);
                 WriteLiteral("<span>");
                 EndContext();
@@ -569,7 +569,7 @@ using KagamaModels.Entities;
             WriteLiteral("            </div>\r\n        </div>\r\n        <div>\r\n            <ul class=\"soc\">\r\n                <li>\r\n                    <a href=\"https://vk.com/poli_floor\" target=\"_blank\">");
             EndContext();
             BeginContext(2190, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4bb54450682e4f799374dc5783a90607", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4c3637a6d51048459c2352648adb0359", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -588,7 +588,7 @@ using KagamaModels.Entities;
             WriteLiteral("</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://ok.ru/group/52108766675031\" target=\"_blank\">");
             EndContext();
             BeginContext(2370, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "05994baa3ae543039bd593d4b37a042c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "7c5265e23cbd417591fc06f1587d23d5", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -607,7 +607,7 @@ using KagamaModels.Entities;
             WriteLiteral("</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://instagram.com/polifloor\" target=\"_blank\">");
             EndContext();
             BeginContext(2547, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5c823b81b1c540559694b9ea28f5c1f7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "fc4db370f9de48a5915b464d433188f1", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -626,7 +626,7 @@ using KagamaModels.Entities;
             WriteLiteral("</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://twitter.com/polifloor\" target=\"_blank\">");
             EndContext();
             BeginContext(2722, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "7af3f5e4d8ce45708a4d09601bb8930a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c7291db807754f1c9b15fc394e27b8a0", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -645,7 +645,7 @@ using KagamaModels.Entities;
             WriteLiteral("</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://www.facebook.com/groups/polifloornomer1\" target=\"_blank\">");
             EndContext();
             BeginContext(2915, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "785007a975644992934977f2b96e9764", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "201af3623a024480909506c851e829c0", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -664,7 +664,7 @@ using KagamaModels.Entities;
             WriteLiteral("</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"https://www.youtube.com/channel/UCa3jeJBt5wM-xY6MmPi4VfQ\" target=\"_blank\">");
             EndContext();
             BeginContext(3117, 48, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "446293d3ef164d38abf09b6339e92127", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "13e72a755a63432bbb3abcf28f524706", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -683,7 +683,7 @@ using KagamaModels.Entities;
             WriteLiteral("</a>\r\n                </li>\r\n            </ul>\r\n            <div class=\"btns-block\">\r\n                <a class=\"js-open-call-footer\">Заказать звонок</a>\r\n                <a class=\"js-open-order-footer\">Оставить заявку</a>\r\n                ");
             EndContext();
             BeginContext(3404, 88, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8508c7954b447d5a65316c2b2c7df21", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "42a41425f47a498bac7de204136f6689", async() => {
                 BeginContext(3472, 16, true);
                 WriteLiteral("Расчет стоимости");
                 EndContext();
