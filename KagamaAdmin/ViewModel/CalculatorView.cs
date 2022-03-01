@@ -35,5 +35,8 @@ namespace KagamaAdmin.ViewModel
         public decimal TotalSum { get; set; }
 
         public decimal EUR { get; set; }
+        public Dictionary<int,List<CalcThick>> TicksDictionary { get; set; }
+        public Dictionary<int,string> CalcImages {get;set;}
+        public List<decimal> Prices {get;set;}
     }
 }

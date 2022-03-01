@@ -1,0 +1,39 @@
+@model IEnumerable<KagamaModels.Entities.Service>
+
+@if (Model.Any())
+{
+    <div class="main-selling-video">
+        <div class="another-content">
+            <img class="elem1" src="~/client/img/elem1.png" />
+            <img class="elem2" src="~/client/img/elem2.png" />
+            <img class="elem3" src="~/client/img/elem3.png" />
+            <img class="elem4" src="~/client/img/elem4.png" />
+            <img class="elem5" src="~/client/img/elem5.png" />
+            <img class="elem6" src="~/client/img/elem6.png" />
+            <img class="elem7" src="~/client/img/elem7.png" />
+            <div class="container">
+                <div class="info">
+                    <div class="title">
+                        Посмотрите видео про преимущества
+                        и различия бесшовных полов
+                    </div>
+                    <div class="body">
+                        Реализуем даже самые сложные архитектурно-дизайнерский проекты.
+                    </div>
+                    <a href=#>оставить заявку</a>
+                </div>
+                <div class="video">
+                    <div>
+                        @foreach (var item in Model.Take(1))
+                        {
+                            <iframe src="@item.LinkVideo" allowFullScreen controls></iframe>
+                        }
+                    </div>
+                    <div class="play-button catalog">
+                        <img src="~/client/img/play-button.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

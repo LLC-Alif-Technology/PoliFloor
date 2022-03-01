@@ -1,24 +1,48 @@
 ﻿@model IEnumerable<KagamaModels.Entities.Article>
 @if (Model.Any())
 {
-    <div class="main-questions">
-        <h2>Популярные вопросы</h2>
-        <div class="swiper-container swiper-main-questions">
-            <div class="swiper-wrapper">
-                @foreach (var item in Model)
-                {
-                    <div class="swiper-slide">
-                        <p class="date">@item.CreationDate.ToString("dd MMMM yyyy")</p>
-                        <a asp-controller="Home" asp-action="Articles" asp-route-alias="@item.Alias" class="caption">@item.Title</a>
-                        <p class="desc">@item.SubTitle</p>
-                    </div>
-                }
+    <div class="main-qna">
+        <h1 style="margin-bottom:17px">Ответы на вопросы</h1>
+        <p class="subtitle">Ответы на часто задаваемые вопросы</p>
+
+        <div class="content">
+            <div class="accord">
+                <div class="accord-wrapper">
+                    @foreach (var item in Model)
+                    {
+                        <div class="item">
+                            <div class="question">
+                                <div class="value">@item.Title</div>
+                                <div class="arrow">
+                                    <svg width="40" height="20" viewBox="0 0 44 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 2L22 22L42 2" stroke="#5D6A1E" stroke-width="3" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="answer">
+                                <div>@item.SubTitle</div>
+                                <a href="faq/@item.Alias">
+                                    <h4>Подробнее</h4>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="btns-block">
-            <a asp-controller="Home" asp-action="Articles" asp-route-alias="">Смотреть все</a>
-            <a asp-controller="Home" asp-action="Articles" asp-route-alias="" asp-fragment="questions-tab">Задать вопрос</a>
+            <div class="footer">
+                <a asp-controller="Home" asp-action="Articles" asp-route-alias="">
+                    все вопросы
+                </a>
+                <div class="button js-open-order" id="qna-modal-button">
+                    <svg width="23" height="35" viewBox="0 0 23 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                        d="M10.656 23.808H14.208C14.208 16.944 22.992 16.56 22.992 8.352C22.992 3.216 18.672 0 11.952 0C6.576 0 2.592 1.824 0 4.992L2.544 6.912C4.656 4.368 7.632 3.024 11.712 3.024C16.608 3.024 19.44 5.424 19.44 8.88C19.44 15.168 10.656 15.888 10.656 23.808ZM12.432 34.128C13.872 34.128 14.976 32.976 14.976 31.632C14.976 30.24 13.872 29.184 12.432 29.184C11.04 29.184 9.936 30.24 9.936 31.632C9.936 32.976 11.04 34.128 12.432 34.128Z"
+                        fill="white" />
+                    </svg>
+                    <a style="margin-left: 1rem">задать свой вопрос</a>
+                </div>
+            </div>
         </div>
     </div>
 }

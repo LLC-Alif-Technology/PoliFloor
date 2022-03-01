@@ -1,0 +1,36 @@
+@model IEnumerable<KagamaModels.Entities.Service>
+
+@if (Model.Any())
+{
+    <div class="main-catalog">
+        <div class="content">
+            <h1 style="margin-bottom: 1rem">Каталог услуг</h1>
+            <h4>Виды бесшовных наливных полов:</h4>
+            <div class="catalogs">
+                @foreach (var item in Model.Take(6))
+                {
+                    <div class="card">
+                        <a href="@item.Alias" style="cursor: alias;">
+                            <div class="top">
+                                <div class="back">
+                                    @item.Title
+                                </div>
+                                <img src="@item.Banner" />
+                            </div>
+                        </a>
+
+                        <a class="js-open-order">
+                            <div class="bottom">
+                                <div class="text">Узнать стоимость</div>
+                                <div class="arrow">
+                                    <img src="~/client/img/arrow-right-small.png" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+
+    </div>
+}

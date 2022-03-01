@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\AlifTech\\KagamaAdmin\\KagamaAdmin.csproj",
+  "FilePath": "c:\\Users\\admin\\Desktop\\PoliFloor_new\\PoliFloor_new\\KagamaAdmin\\KagamaAdmin.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2247,6 +2247,108 @@
         }
       },
       {
+        "HashCode": 307586485,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainCalculatorViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-calculator"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainCalculatorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainCalculator"
+        }
+      },
+      {
+        "HashCode": 2092664963,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainPropertiesViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-properties"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainPropertiesViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainProperties"
+        }
+      },
+      {
+        "HashCode": 17415197,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainQNAViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-qna"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainQNAViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainQNA"
+        }
+      },
+      {
+        "HashCode": 1965036423,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainReviewsViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-reviews"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainReviewsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainReviews"
+        }
+      },
+      {
+        "HashCode": -1674798461,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainRewardsViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-rewards"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainRewardsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainRewards"
+        }
+      },
+      {
+        "HashCode": -1144543468,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__OurTeamViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:our-team"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__OurTeamViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "OurTeam"
+        }
+      },
+      {
         "HashCode": 731621958,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__CalcOrderViewComponentTagHelper",
@@ -2366,6 +2468,23 @@
         }
       },
       {
+        "HashCode": 507136480,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__FormCTAViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:form-cta"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__FormCTAViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "FormCTA"
+        }
+      },
+      {
         "HashCode": -1890968209,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__HeaderViewComponentTagHelper",
@@ -2397,6 +2516,40 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__MainBannerViewComponentTagHelper",
           "MVC.ViewComponent.Name": "MainBanner"
+        }
+      },
+      {
+        "HashCode": -280650750,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainCatalogViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-catalog"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainCatalogViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainCatalog"
+        }
+      },
+      {
+        "HashCode": -916204167,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainCTAViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-cta"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainCTAViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainCTA"
         }
       },
       {
@@ -2519,6 +2672,23 @@
         }
       },
       {
+        "HashCode": -1641588776,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainOurTeamViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-our-team"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainOurTeamViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainOurTeam"
+        }
+      },
+      {
         "HashCode": 655436369,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__MainProjectsViewComponentTagHelper",
@@ -2550,6 +2720,57 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__MainQuestionsViewComponentTagHelper",
           "MVC.ViewComponent.Name": "MainQuestions"
+        }
+      },
+      {
+        "HashCode": -1048713664,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainRegionViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-region"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainRegionViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainRegion"
+        }
+      },
+      {
+        "HashCode": 1131522881,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainSellingVideoViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-selling-video"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainSellingVideoViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainSellingVideo"
+        }
+      },
+      {
+        "HashCode": 491246883,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MainTvViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:main-tv"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MainTvViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "MainTv"
         }
       },
       {
@@ -2636,822 +2857,28 @@
           "Common.TypeName": "__Generated__ServiceFormViewComponentTagHelper",
           "MVC.ViewComponent.Name": "ServiceForm"
         }
+      },
+      {
+        "HashCode": 975672492,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__StageOfWorkViewComponentTagHelper",
+        "AssemblyName": "KagamaAdmin",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:stage-of-work"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__StageOfWorkViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "StageOfWork"
+        }
       }
     ],
     "CSharpLanguageVersion": 703
   },
   "RootNamespace": "KagamaAdmin",
-  "Documents": [
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Calc\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Calc\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\CalcOrder\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\CalcOrder\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Product\\Buy.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Product\\Buy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Material.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Material.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\Header\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\Header\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Tv.cshtml",
-      "TargetPath": "Views\\Home\\Tv.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Project\\Video.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Project\\Video.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Product\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Product\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Project\\Album.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Project\\Album.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\_LayoutCp.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\_LayoutCp.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Calc\\Product.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Calc\\Product.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainBanner\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainBanner\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Services.cshtml",
-      "TargetPath": "Views\\Home\\Services.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\ModalLead\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\ModalLead\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Video\\Category.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Video\\Category.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\FloorQuestions\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\FloorQuestions\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\ProductCategory\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\ProductCategory\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Contacts\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Contacts\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\FloorOpen.cshtml",
-      "TargetPath": "Views\\Home\\FloorOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Gallery\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Gallery\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Gallery\\CategoryCreate.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Gallery\\CategoryCreate.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Articles.cshtml",
-      "TargetPath": "Views\\Home\\Articles.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Video\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Video\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\FloorProducts\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\FloorProducts\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\GalleryAlbum\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\GalleryAlbum\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Gallery.cshtml",
-      "TargetPath": "Views\\Home\\Gallery.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\_MainCalc.cshtml",
-      "TargetPath": "Views\\Home\\_MainCalc.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Home\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Home\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Question.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Question.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\GalleryCategory\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\GalleryCategory\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Project\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Project\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\Material.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\Material.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Contacts\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Contacts\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Product\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Product\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Home\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Home\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainFloors\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainFloors\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Article\\CategoryEdit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Article\\CategoryEdit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Schema.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Schema.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Regions.cshtml",
-      "TargetPath": "Views\\Home\\Regions.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Floor\\Material.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Floor\\Material.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Album.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Album.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Floors.cshtml",
-      "TargetPath": "Views\\Home\\Floors.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Tv\\Video.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Tv\\Video.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\About.cshtml",
-      "TargetPath": "Views\\Home\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Projects.cshtml",
-      "TargetPath": "Views\\Home\\Projects.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Cart.cshtml",
-      "TargetPath": "Views\\Home\\Cart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\MainPage.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\MainPage.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Product\\Image.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Product\\Image.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\ObuchenieOpen.cshtml",
-      "TargetPath": "Views\\Home\\ObuchenieOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\Category.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\Category.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Calc\\Thick.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Calc\\Thick.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\ProductBuy\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\ProductBuy\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainProjects\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainProjects\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\CounterMetaTag\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\CounterMetaTag\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Calc.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Calc.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Calc\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Calc\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\ArticleCategory\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\ArticleCategory\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Article\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Article\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Project\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Project\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\VideoOpen.cshtml",
-      "TargetPath": "Views\\Home\\VideoOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\TvOpen.cshtml",
-      "TargetPath": "Views\\Home\\TvOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\ServiceForm\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\ServiceForm\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\CounterCodeTop\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\CounterCodeTop\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\CounterCodeBottom\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\CounterCodeBottom\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Contacts.cshtml",
-      "TargetPath": "Views\\Home\\Contacts.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Catalog.cshtml",
-      "TargetPath": "Views\\Home\\Catalog.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\ServiceQuestions\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\ServiceQuestions\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainLead\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainLead\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Gallery\\AlbumEdit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Gallery\\AlbumEdit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Tv\\Album.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Tv\\Album.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainNews\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainNews\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Gallery\\ItemList.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Gallery\\ItemList.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Service.cshtml",
-      "TargetPath": "Views\\Home\\Service.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\CategoryEdit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\CategoryEdit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Floor\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Floor\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\ArticleOpen.cshtml",
-      "TargetPath": "Views\\Home\\ArticleOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Counter\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Counter\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainMap\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainMap\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Product\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Counter\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Counter\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\_MainSoc.cshtml",
-      "TargetPath": "Views\\Home\\_MainSoc.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Counter\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Counter\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Project\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Project\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Video.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Video.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainQuestions\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainQuestions\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Tv\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Tv\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainLeadSuccess\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainLeadSuccess\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Calculator.cshtml",
-      "TargetPath": "Views\\Home\\Calculator.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Home\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Home\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\RegionForm\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\RegionForm\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainGallery\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainGallery\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Floor\\Album.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Floor\\Album.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\CartOrder\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\CartOrder\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\Footer\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\Footer\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Gallery\\CategoryEdit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Gallery\\CategoryEdit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Floor\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Floor\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\CartSuccess\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\CartSuccess\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Floor\\Question.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Floor\\Question.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\ServiceProjects\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\ServiceProjects\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Product\\CategoryEdit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Product\\CategoryEdit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Calc\\CalcProdEdit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Calc\\CalcProdEdit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Tv\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Tv\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\ServiceFloors\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\ServiceFloors\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Article\\Image.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Article\\Image.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Article\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Article\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Tv\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Tv\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Video.cshtml",
-      "TargetPath": "Views\\Home\\Video.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\CatalogOpen.cshtml",
-      "TargetPath": "Views\\Home\\CatalogOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Area.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Area.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\_ModalCartLink.cshtml",
-      "TargetPath": "Views\\Home\\_ModalCartLink.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Contacts\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Contacts\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Sign\\In.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Sign\\In.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Article\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Article\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\ModalCall\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\ModalCall\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Product\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Product\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\RegionCategory\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\RegionCategory\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\RegionOpen.cshtml",
-      "TargetPath": "Views\\Home\\RegionOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\Obuchenie.cshtml",
-      "TargetPath": "Views\\Home\\Obuchenie.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\News.cshtml",
-      "TargetPath": "Views\\Home\\News.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Video\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Video\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Floor\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Floor\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\VideoCategory\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\VideoCategory\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Video\\Edit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Video\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\NewsOpen.cshtml",
-      "TargetPath": "Views\\Home\\NewsOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\ServiceProducts\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\ServiceProducts\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Tv\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Tv\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\MainMaterials\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\MainMaterials\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Gallery\\ItemEdit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Gallery\\ItemEdit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Article\\Create.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Article\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Shared\\Components\\QuestionsTab\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\QuestionsTab\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Views\\Home\\ProjectOpen.cshtml",
-      "TargetPath": "Views\\Home\\ProjectOpen.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Floor\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Floor\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Base\\FileBrowse.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Base\\FileBrowse.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Video\\CategoryEdit.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Video\\CategoryEdit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Project\\Image.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Project\\Image.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Article\\Category.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Article\\Category.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Service\\Object.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Service\\Object.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\Video.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\Video.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Region\\Album.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Region\\Album.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Gallery\\AlbumCreate.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Gallery\\AlbumCreate.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Video\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Video\\Seo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Shared\\Components\\RegionProducts\\Default.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Shared\\Components\\RegionProducts\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Project\\Index.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Project\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Product\\Category.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Product\\Category.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\AlifTech\\KagamaAdmin\\Areas\\cp\\Views\\Calc\\Seo.cshtml",
-      "TargetPath": "Areas\\cp\\Views\\Calc\\Seo.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.2"
 }

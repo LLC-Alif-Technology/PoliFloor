@@ -1,65 +1,195 @@
 ﻿@model IEnumerable<KagamaModels.Entities.Service>
-@if (Model.Any())
+@if (ViewContext.RouteData.Values["action"].ToString() != "Service" && ViewContext.RouteData.Values["action"].ToString()
+!= "Index" && ViewContext.RouteData.Values["alias"] == null)
 {
-    <div class="main-banner">
-        <div class="swiper-container gallery-top">
-            <div class="swiper-wrapper">
-                @foreach (var item in Model.OrderBy(x => x.SortHeader))
-                {
-                    <div class="swiper-slide" style="background-image: url(@item.Banner);">
-                        <div class="slide-content">
-                            <div>
-                                <p class="subtitle">@item.SubTitleBanner</p>
-                                <p class="title">@(string.IsNullOrEmpty(item.TitleBanner) ? item.Title : item.TitleBanner)</p>
-                                @if (!string.IsNullOrEmpty(item.TitleH2))
-                                {
-                                    <p class="title title-small">@item.TitleH2</p>
-                                }
-                                @if (!string.IsNullOrEmpty(item.TitleH3))
-                                {
-                                    <p class="title title-small">@item.TitleH3</p>
-                                }
-                                @if (!string.IsNullOrEmpty(item.BannerLinkName))
-                                {
-                                    <a class="link" href="@item.BannerLink">@item.BannerLinkName</a>
-                                }
-                                <a class="calc_btn" asp-action="Calculator" asp-controller="Home" asp-route-alias="">
-                                    <img src="~/client/img/calculator.png" alt="">
-                                    <span>Расчет стоимости</span>
-                                </a>
-                            </div>
-                            <div>
-                                @if (!string.IsNullOrEmpty(item.ProductImg))
-                                {
-                                    <img src="@item.ProductImg" alt="">
-                                }
-                                @if (!string.IsNullOrEmpty(item.LinkProduct))
-                                {
-                                    <a href="@item.LinkProduct" class="link_store">Перейти в магазин</a>
-                                }
-                                <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias" class="link_store m-link_store">Подробнее</a>
-                            </div>
-                        </div>
-                    </div>
-                }
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="swiper-container gallery-thumbs">
-            <div class="swiper-wrapper">
-                @foreach (var item in Model.OrderBy(x => x.SortHeader))
-                {
-                    <div class="swiper-slide" style="background-image: url(@item.Thumb);">
-                        @if (item.Hide == "999")
-                        {
-                            <a>@item.Title</a>
-                        }
-                        else
-                        {
+    <div class="main-banner main-banner-other" style="background-image: url(@Model.First().Banner);">
+        <div class="main-background-opacity-others"></div>
+        <div class="swiper-container" id="swiper-container">
+            <div class="main-banner-others">
+                <ul>
+                    @foreach (var item in Model)
+                    {
+                        <li style="background-image: url(@item.Banner);">
                             <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias">@item.Title</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="mobi-swiper-wrapper">
+                <div class="keys-reference-data">
+                    <h2>
+                        Производим и монтируем всю линейку бесшовных полов ключ:
+                    </h2>
+                    <ul>
+                        @{
+                            int mobiIndex = 0;
+                            @foreach (var item in Model)
+                            {
+                                mobiIndex++;
+                                if (mobiIndex <= 5)
+                                {
+                                    <li>
+                                        <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias">
+                                            @item.Title
+                                        </a>
+                                    </li>
+                                }
+                            }
                         }
+                    </ul>
+                </div>
+                <div class="main-swiper-video-action">
+                    <a class="main-swiper-video-action-button" href="@Model.First().LinkVideo"></a>
+                    <p>
+                        Смотрите видеоотзыв клиента
+                    </p>
+                </div>
+                <div class="sentence-reference-data js-open-order">
+                    <div class="sentence-before"></div>
+                    <p>
+                        <a>
+                            Получить коммерческое предложение в течение 14 часов
+                        </a>
+                    </p>
+                </div>
+                <div class="main-bottom-static-items">
+                    <div class="item before-url1">
+                        <p>
+                            Воплощаем самые сложные задачи дизайна в реальности
+                        </p>
                     </div>
-                }
+                    <div class="item before-url2">
+                        <p>
+                            Опыт укладки полов более 13 лет
+                        </p>
+                    </div>
+                    <div class="item before-url3">
+                        <p>
+                            2020 цветов на выбор и вкус
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@if (ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["alias"] == null)
+{
+    <div class="main-banner" style="background-image: url(@Model.First().Banner);">
+        <div class="main-background-opacity"></div>
+        <div class="swiper-container" id="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="main-swiper-video">
+                    <div class="main-swiper-video-action">
+                        <a class="main-swiper-video-action-button" id="main-swiper-video-action-button">
+                        </a>
+                        <p>
+                            Смотрите видеоотзыв клиента
+                        </p>
+                    </div>
+                    <div class="main-swiper-video-fon" style="background-image: url(@Model.First().Banner);">
+                    </div>
+                    @if (@Model.First().LinkVideo != null)
+                    {
+                        <iframe src="@Model.First().LinkVideo" id="main-swiper-video-iframe">
+                        </iframe>
+                    }
+                    else
+                    {
+                        <div class="main-swiper-video-Error" id="main-swiper-video-iframe"
+                    style="background-image: url(@Model.First().Banner);">
+                            Пока тут нет видеоотзыв клиента
+                        </div>
+                    }
+                </div>
+                <div class="reference-data">
+                    <div class="keys-reference-data">
+                        <h2>
+                            Производим и монтируем всю линейку бесшовных полов ключ:
+                        </h2>
+                        <ul>
+                            @{
+                                int index = 0;
+                                @foreach (var item in Model)
+                                {
+                                    index++;
+                                    if (index <= 5)
+                                    {
+                                        <li>
+                                            <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias">
+                                                @item.Title
+                                            </a>
+                                        </li>
+                                    }
+                                }
+                            }
+                        </ul>
+                    </div>
+                    <div class="sentence-reference-data js-open-order">
+                        <div class="sentence-before">
+                        </div>
+                        <p>
+                            <a>
+                                Получить коммерческое предложение в течение 14 часов
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobi-swiper-wrapper">
+                <div class="keys-reference-data">
+                    <h2>
+                        Производим и монтируем всю линейку бесшовных полов ключ:
+                    </h2>
+                    <ul>
+                        @{
+                            int mobiIndex = 0;
+                            @foreach (var item in Model)
+                            {
+                                mobiIndex++;
+                                if (mobiIndex <= 5)
+                                {
+                                    <li>
+                                        <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias">
+                                            @item.Title
+                                        </a>
+                                    </li>
+                                }
+                            }
+                        }
+                    </ul>
+                </div>
+                <div class="main-swiper-video-action">
+                    <a class="main-swiper-video-action-button" href="@Model.First().LinkVideo"></a>
+                    <p>
+                        Смотрите видеоотзыв клиента
+                    </p>
+                </div>
+                <div class="sentence-reference-data js-open-order">
+                    <div class="sentence-before"></div>
+                    <p>
+                        <a>
+                            Получить коммерческое предложение в течение 14 часов
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="main-bottom-static-items">
+                <div class="item before-url1">
+                    <p>
+                        Воплощаем самые сложные задачи дизайна в реальности
+                    </p>
+                </div>
+                <div class="item before-url2">
+                    <p>
+                        Опыт укладки полов более 13 лет
+                    </p>
+                </div>
+                <div class="item before-url3">
+                    <p>
+                        2020 цветов на выбор и вкус
+                    </p>
+                </div>
             </div>
         </div>
     </div>

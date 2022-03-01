@@ -24,7 +24,7 @@ namespace KagamaModels.Entities
         [Display(Name = "Заголовок для альбома")]
         public string TitleAlbum { get; set; }
 
-        [Display(Name = "Id альбома")]
+        [Display(Name = "Id альбома")]                             
         public int AlbumId { get; set; }
 
         [Display(Name = "Ссылка на альбом")]

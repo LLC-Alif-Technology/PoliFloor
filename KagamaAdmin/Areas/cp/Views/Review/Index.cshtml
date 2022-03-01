@@ -1,0 +1,77 @@
+﻿@model KagamaAdmin.ViewModel.ReviewView;
+
+<div class="reviews-admin">
+    <table>
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Город</th>
+                <th>Оценка</th>
+                <th>Отзыв</th>
+                <th>Фото</th>
+                <th>Услуги</th>
+                <th>Запрос</th>
+                <th>Дата</th>
+            </tr>
+        </thead>
+        <form method="post" id="form" asp-controller="Review" asp-action="UpdateReview">
+        <tbody>
+            @foreach (var item in Model.Review)
+            {
+                <tr class="reviews-admin-main-tr">
+                    <td>@item.Name</td>
+                    <td>@item.City</td>
+                    <td>@item.Rating</td>
+                    <td class="desc">@item.Title</td>
+                    <td class="reviews-admin-img">
+                        @if (@item.Img != null)
+                        {
+                            <img src="@item.Img" />
+                            <img src="@item.Img2" />
+                            <img src="@item.Img3" />
+                            <img src="@item.Img4" />
+                        }
+                    </td>
+                    <td>
+                        <select onchange="change(this,'@item.Id')" id="select" name="SelectedId">
+                            @foreach (var ite in Model.Services)
+                            {
+                                @if(item.ServiceId == ite.Id)
+                                {
+
+                                <option selected value="@ite.Id">@ite.Title</option>
+
+                                }
+                                else
+                                {
+
+                                <option value="@ite.Id">@ite.Title</option>
+                                }
+
+                            }
+                        @* <input id="serviceId" type="submit" asp-for="SelectedId" asp-controller="Review" asp-action="UpdateReview" /> *@
+                        </select>
+                    </td>
+                    <td>
+                    </td>
+                        @if (!item.IsAllowed)
+                        {
+                            <td class="reviews-admin-allow">
+                                <input asp-action="UpdateReview" asp-controller="Review" type="submit"
+                            asp-route-ReviewId="@item.Id" value="Подтвердить">
+                            </td>
+                        }
+                        else
+                        {
+                            <td class="reviews-admin-cancle">
+                                <input asp-action="UpdateReview" asp-controller="Review" type="submit"
+                            asp-route-ReviewId="@item.Id" value="Отклонить">
+                            </td>
+                        }
+                    <td class="created">@item.CreationData</td>
+                </tr>
+            }
+                    </form>
+        </tbody>
+    </table>
+</div>

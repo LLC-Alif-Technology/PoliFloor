@@ -1,18 +1,21 @@
 ﻿@model KagamaAdmin.ViewModel.HeaderView
 
-@if (ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["alias"] == null)
+@if (ViewContext.RouteData.Values["action"].ToString() == "Index" ||
+ViewContext.RouteData.Values["action"].ToString() == "Service" && ViewContext.RouteData.Values["alias"] == null)
 {
     <header>
+        <div class="top-block-menu" id="top-block-menu">
+            <img src="~/client/img/top-menu-open.png" />
+        </div>
         <div class="top-block">
-            <a asp-action="Index" asp-controller="Home" class="logo" asp-route-alias="">
-                <img src="~/client/img/logo2.jpg" alt="">
-            </a>
-            @* <a class="menu-btn">
-                <div class="img"></div>
-                Меню
-                </a> *@
 
-            <div class="header-lists">
+            <div class="logo" id="logo">
+                <a asp-action="Index" asp-controller="Home" asp-route-alias="">
+                    <img src="~/client/img/logo2.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="header-lists" id="header-lists">
                 <div class="header-contact">
                     <a asp-action="Regions" asp-controller="Home" class="region" asp-route-alias="">Мы в регионах</a>
                     <a class="call" href="tel:@Model.Phone">@Model.Phone</a>
@@ -26,78 +29,75 @@
                     <li><a asp-action="Projects" asp-controller="Home" asp-route-alias="">Наши проекты</a></li>
                     <li><a asp-action="Video" asp-controller="Home" asp-route-alias="">Обучение</a></li>
                     <li><a asp-controller="Home" asp-action="Contacts" asp-route-alias="">Контакты</a></li>
+                    <li><a asp-controller="Home" asp-action="Review" asp-route-alias="">Отзывы</a></li>
                 </ul>
             </div>
 
             <div class="bottom-block">
-                <a asp-action="Cart" asp-controller="Home" class="cart" asp-route-alias=""><img src="~/client/img/cart.png"
-                    alt=""><i>@Model.CartView.CountProducts</i></a>
+                <a asp-action="Cart" asp-controller="Home" class="cart" asp-route-alias="">
+                    <span class="cart-block">
+                        <span class="cart-image">
+                            <img src="~/client/img/new-cart.png" alt="" />
+                        </span>
+                        <span class="CartIcon">
+                            @Model.CartView.CountProducts
+                        </span>
+                    </span>
+                </a>
                 <a asp-action="Calculator" asp-controller="Home" asp-route-alias="" class="calc"><img
-                    src="~/client/img/calculator.png" alt=""></a>
+                    src="~/client/img/new-calc.png" alt="">
+                </a>
             </div>
-
         </div>
     </header>
 }
 else
 {
-    <div class="header2">
-        <div class="top-btns-block">
-            <a asp-action="Regions" asp-controller="Home" asp-route-alias="">Мы в регионах</a>
-            <a class="js-open-call">Заказать звонок</a>
-            <a class="js-open-order">Оставить заявку</a>
-            <a class="call" href="tel:@Model.Phone">@Model.Phone</a>
+    <header>
+        <div class="top-block-menu" id="top-block-menu">
+            <img src="~/client/img/top-menu-open.png" />
         </div>
         <div class="top-block">
-            <a asp-action="Index" asp-controller="Home" class="logo" asp-route-alias="">
-                <img src="~/client/img/logo.png" alt="">
-                <span>poli floor</span>
-            </a>
-            <a class="menu-btn">
-                <div class="img"></div>
-                Меню
-            </a>
-            <ul>
-                <li><a asp-controller="Home" asp-action="About" asp-route-alias="">О нас</a></li>
-                <li><a asp-controller="Home" asp-action="Services" asp-route-alias="">Услуги</a></li>
-                <li><a asp-controller="Home" asp-action="Catalog" asp-route-alias="">Магазин</a></li>
-                <li><a asp-controller="Home" asp-action="Gallery" asp-route-alias="">Фотогалерея</a></li>
-                <li><a asp-action="Tv" asp-controller="Home" asp-route-alias="">Мы на тв</a></li>
-                <li><a asp-action="Projects" asp-controller="Home" asp-route-alias="">Наши проекты</a></li>
-                <li><a asp-action="Video" asp-controller="Home" asp-route-alias="">Обучение</a></li>
-                <li><a asp-controller="Home" asp-action="Contacts" asp-route-alias="">Контакты</a></li>
-            </ul>
-            <div>
-                <a class="call" href="tel:@Model.Phone">@Model.Phone</a>
-            </div>
-        </div>
-        <div class="bottom-block">
-            <ul class="services">
-                @if (Model.Services.Any())
-                {
-                    foreach (var item in Model.Services.OrderBy(x => x.SortHeader))
-                    {
-                        <li>
-                            <a asp-controller="Home" asp-action="Index" asp-route-alias="@item.Alias"
-                    style="background-image: url(@item.Thumb);">
-                                <p>@item.Title</p>
-                            </a>
-                        </li>
-                    }
-                }
-            </ul>
-            <div class="btns-block">
-                <a class="lead js-open-call">Заказать звонок</a>
-                <a class="lead js-open-order">Оставить заявку</a>
-                <a asp-action="Calculator" asp-controller="Home" asp-route-alias="" class="calc">
-                    <img src="~/client/img/calculator.png" alt="">
-                    <span>Калькулятор</span>
+
+            <div class="logo-other" id="logo">
+                <a asp-action="Index" asp-controller="Home" asp-route-alias="">
+                    <img src="~/client/img/logo2.jpg" alt="">
                 </a>
+            </div>
+
+            <div class="header-lists" id="header-lists">
+                <div class="header-contact">
+                    <a asp-action="Regions" asp-controller="Home" class="region" asp-route-alias="">Мы в регионах</a>
+                    <a class="call" href="tel:@Model.Phone">@Model.Phone</a>
+                </div>
+                <ul>
+                    <li><a asp-controller="Home" asp-action="About" asp-route-alias="">О нас</a></li>
+                    <li><a asp-controller="Home" asp-action="Services" asp-route-alias="">Услуги</a></li>
+                    <li><a asp-controller="Home" asp-action="Catalog" asp-route-alias="">Магазин</a></li>
+                    <li><a asp-controller="Home" asp-action="Gallery" asp-route-alias="">Фотогалерея</a></li>
+                    <li><a asp-action="Tv" asp-controller="Home" asp-route-alias="">Мы на тв</a></li>
+                    <li><a asp-action="Projects" asp-controller="Home" asp-route-alias="">Наши проекты</a></li>
+                    <li><a asp-action="Video" asp-controller="Home" asp-route-alias="">Обучение</a></li>
+                    <li><a asp-controller="Home" asp-action="Contacts" asp-route-alias="">Контакты</a></li>
+                    <li><a asp-controller="Home" asp-action="Review" asp-route-alias="">Отзывы</a></li>
+                </ul>
+            </div>
+
+            <div class="bottom-block">
                 <a asp-action="Cart" asp-controller="Home" class="cart" asp-route-alias="">
-                    <img src="~/client/img/cart.png" alt="">
-                    <i>@Model.CartView.CountProducts</i><span>@Model.CartView.TotalSumProducts.Value.ToString("N0")</span>
+                    <span class="cart-block">
+                        <span class="cart-image">
+                            <img src="~/client/img/new-cart.png" alt="" />
+                        </span>
+                        <span class="CartIcon">
+                            @Model.CartView.CountProducts
+                        </span>
+                    </span>
                 </a>
+                <a asp-action="Calculator" asp-controller="Home" asp-route-alias="" class="calc"><img
+                    src="~/client/img/new-calc.png" alt=""></a>
             </div>
+
         </div>
-    </div>
+    </header>
 }

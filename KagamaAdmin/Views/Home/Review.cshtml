@@ -1,0 +1,97 @@
+﻿@model KagamaAdmin.ViewModel.ReviewView
+
+
+<div class="reviews-main">
+
+    <h1>
+        отзывы наших заказчиков
+    </h1>
+    <div class="reviews">
+        @foreach (var item in Model.Review)
+        {
+            <div class="slide">
+                <div class="info">
+                    <div class="name">@item.Name</div>
+                    <div class="city_name">@item.City</div>
+                </div>
+                <div class="info">
+                    <div class="rate">
+                        @if (item.Rating == 0)
+                        {
+                           <img src="~/client/img/empty.png"/>
+                           <img src="~/client/img/empty.png"/>
+                           <img src="~/client/img/empty.png"/>
+                           <img src="~/client/img/empty.png"/>
+                           <img src="~/client/img/empty.png"/>
+                       }
+                       else
+                       {
+                           @for (var i = 1; i <= @item.Rating; i++)
+                           {
+                               <img src="~/client/img/fullfilled.png"/>
+                           }
+                           @for (var i = 1; i <= 5-@item.Rating; i++)
+                           {
+                               <img src="~/client/img/empty.png"/>
+                           }
+                       }
+                    </div>
+                    <div class="date">@item.CreationData.ToString("dd/MM/yyyy")</div>
+                </div>
+                <div class="description">
+                    @item.Title
+                </div>
+                <div class="image_desc">
+                    @if (@item.Img != null)
+                    {
+                        <img src="@item.Img" />
+                        <img src="@item.Img2" />
+                        <img src="@item.Img3" />
+                        <img src="@item.Img4" />
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div id="mainLead2" class="review_page_content main-lead" style="background-color:#E5E5E5">
+    <div class="wrapper lead">
+        <form class="form" asp-action="ReviewPost" asp-controller="Home" enctype="multipart/form-data">
+            <h1>Оставить отзыв</h1>
+            <input type="hidden" name="Id" value="@Model.Id">
+            <div class="flex-input">
+                <div class="@(ViewData.ModelState["Name"]?.Errors.Count > 0 ? "input error" : "input")">
+                    <input type="text" placeholder="Имя" asp-for="Name">
+                    <i class="required">*</i>
+                </div>
+                <div class="@(ViewData.ModelState["City"]?.Errors.Count > 0 ? "input error" : "input")">
+                    <input type="text" asp-for="City" placeholder="Город">
+                </div>
+                <div class="rate">
+                    <div class="text">Оценка </div>
+                    <div>
+                        <img src="~/client/img/fullfilled.png" />
+                        <img src="~/client/img/fullfilled.png" />
+                        <img src="~/client/img/fullfilled.png" />
+                        <img src="~/client/img/fullfilled.png" />
+                        <img src="~/client/img/fullfilled.png" />
+                    </div>
+                    <input type="hidden" asp-for="Rating" id="rating" />
+                </div>
+            </div>
+            <div class="@(ViewData.ModelState["Title"]?.Errors.Count > 0 ? "area error" : "area")">
+                <textarea cols="30" rows="10" asp-for="Title" placeholder="Отзыв"></textarea>
+            </div>
+            <div class="fileInput">
+                <label for="file">
+                    <img src="~/client/img/file.png" />
+                    <div>Прикрепите фото</div>
+                </label>
+                <input type="file" id="file" multiple name="Images" />
+            </div>
+            <div>
+                <input type="submit" value="Оставить отзыв" style="background-image:none">
+            </div>
+        </form>
+    </div>
+</div>

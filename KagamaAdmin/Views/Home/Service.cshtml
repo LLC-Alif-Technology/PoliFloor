@@ -3,63 +3,288 @@
 
 @{
     ViewData["SeoTitle"] = string.IsNullOrEmpty(Model.Service.SeoTitle) ? Model.Page.SeoTitle : Model.Service.SeoTitle;
-    ViewData["SeoKeywords"] = string.IsNullOrEmpty(Model.Service.SeoKeywords) ? Model.Page.SeoKeywords : Model.Service.SeoKeywords;
-    ViewData["SeoDescription"] = string.IsNullOrEmpty(Model.Service.SeoDescription) ? Model.Page.SeoDescription : Model.Service.SeoDescription;
+    ViewData["SeoKeywords"] = string.IsNullOrEmpty(Model.Service.SeoKeywords) ? Model.Page.SeoKeywords :
+    Model.Service.SeoKeywords;
+    ViewData["SeoDescription"] = string.IsNullOrEmpty(Model.Service.SeoDescription) ? Model.Page.SeoDescription :
+    Model.Service.SeoDescription;
 }
-<div class="bread">
-    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
-    <img src="~/client/img/bread.png" alt="">
-    <a asp-controller="Home" asp-action="Services" asp-route-alias="">@(string.IsNullOrEmpty(Model.Page.TitleH1) ? Model.Page.Title : Model.Page.TitleH1)</a>
-</div>
 
-<div class="service-page">
-    <div class="service-banner" style="background-image: url(@Model.Service.ImgServicePage);">
-        <div class="info">
-            <h1>@(string.IsNullOrEmpty(Model.Service.TitleH1) ? Model.Service.Title : Model.Service.TitleH1)</h1>
-            @if (!string.IsNullOrEmpty(Model.Service.TitleH2))
-            {
-                <p class="title title-small">@Model.Service.TitleH2</p>
-            }
-            @if (!string.IsNullOrEmpty(Model.Service.TitleH3))
-            {
-                <p class="title title-small">@Model.Service.TitleH3</p>
-            }
-            @if (!string.IsNullOrEmpty(Model.Service.BannerLinkName))
-            {
-                <a class="link" href="@Model.Service.BannerLink">@Model.Service.BannerLinkName</a>
-            }
-            <div class="btns-block">
-                @if (Model.GalleryItems.Any())
-                {
-                    <a class="photos js_service_anchor" href="#anchor_photos">
-                        <img src="~/client/img/photo-camera.png" alt="">
-                        <i>@Model.GalleryItems.Count()</i>
-                        <span>Фотографии</span>
-                    </a>
-                }
-                @if (Model.Products.Any())
-                {
-                    <a class="material js_service_anchor" href="#anchor_material">
-                        <img src="~/client/img/cement.png" alt="">
-                        <span>Материал</span>
-                    </a>
-                }
-                @if (Model.Service.CalcId != null)
-                {
-                    <a class="calc js_service_anchor" href="#CalcForm">
-                        <img src="~/client/img/calculator.png" alt="">
-                        <span>Расчет стоимости по кв</span>
-                    </a>
-                }
+<div>
+    <div class="main-banner" style="background-image: url(@Model.Service.ImgServicePage);">
+        <div class="main-background-opacity"></div>
+        <div class="swiper-container" id="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="main-swiper-video">
+                    <div class="main-swiper-video-action">
+                        <a class="main-swiper-video-action-button" id="main-swiper-video-action-button">
+                        </a>
+                        <p>
+                            Смотрите видеоотзыв клиента
+                        </p>
+                    </div>
+                    <div class="main-swiper-video-fon" style="background-image: url(@Model.Service.ImgServicePage);">
+                    </div>
+                    @if (@Model.Service.LinkVideo != null)
+                    {
+                        <iframe src="@Model.Service.LinkVideo" id="main-swiper-video-iframe">
+                        </iframe>
+                    }
+                    else
+                    {
+                        <div class="main-swiper-video-Error" id="main-swiper-video-iframe"
+                        style="background-image: url(@Model.Service.ImgServicePage);">
+                            Пока тут нет видеоотзыв клиента
+                        </div>
+                    }
+                </div>
+                <div class="reference-data">
+                    <div class="keys-reference-data">
+                        <h2>
+                            Производим и монтируем декоративные и промышленные наливные полы под ключ
+                        </h2>
+                        <ul>
+                            <li>
+                                @(string.IsNullOrEmpty(Model.Service.TitleH1) ? Model.Service.Title :
+                                Model.Service.TitleH1)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sentence-reference-data js-open-order">
+                        <div class="sentence-before">
+                        </div>
+                        <p>
+                            <a>
+                                Получить коммерческое предложение в течение 14 часов
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mobi-swiper-wrapper">
+                <div class="keys-reference-data">
+                    <h2>
+                        Производим и монтируем всю линейку бесшовных полов ключ:
+                    </h2>
+                    <ul>
+                    </ul>
+                </div>
+                <div class="main-swiper-video-action">
+                    <div class="main-swiper-video-action-button"></div>
+                    <p>
+                        Смотрите видеоотзыв клиента
+                    </p>
+                </div>
+                <div class="sentence-reference-data js-open-order">
+                    <div class="sentence-before"></div>
+                    <p>
+                        <a>
+                            Получить коммерческое предложение в течение 14 часов
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="main-bottom-static-items">
+                <div class="item before-url1">
+                    <p>
+                        Воплощаем самые сложные задачи дизайна в реальности
+                    </p>
+                </div>
+                <div class="item before-url2">
+                    <p>
+                        Опыт укладки полов более 13 лет
+                    </p>
+                </div>
+                <div class="item before-url3">
+                    <p>
+                        2020 цветов на выбор и вкус
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="flex-service">
-        <div class="ck-edit">@Html.Raw(Model.Service.Description1)</div>
-        <div id="serviceForm">
-            @await Component.InvokeAsync("ServiceForm")
+</div>
+
+<div class="bread">
+    <a asp-controller="Home" asp-action="Index" asp-route-alias="">Главная</a>
+    <img src="~/client/img/bread.png" alt="">
+    <a asp-controller="Home" asp-action="Services" asp-route-alias="">@(string.IsNullOrEmpty(Model.Page.TitleH1) ?
+        Model.Page.Title : Model.Page.TitleH1)</a>
+</div>
+
+@await Component.InvokeAsync("MainProjects")
+
+@await Component.InvokeAsync("OurTeam")
+
+@if (Model.Products.Any())
+{
+    <div class="main-materials" id="anchor_material">
+        <h2>@(string.IsNullOrEmpty(Model.Service.TitleProducts) ? "C этим товаром покупают" : Model.Service.TitleProducts)
+        </h2>
+        <div class="swiper-container swiper-main-materials">
+            <div class="swiper-wrapper">
+                @foreach (var product in Model.Products)
+                {
+                    <div class="swiper-slide" data-item-id="@product.Id">
+                        <a asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias" class="img"
+                    style="background-image: url(@product.Img1); display:block;"></a>
+                        <p class="caption"><a asp-action="Catalog" asp-controller="Home"
+                        asp-route-alias="@product.Alias">@product.Title</a></p>
+                        <p class="desc">@product.SubTitle</p>
+                        <p class="stock">
+                            @if (product.Stock)
+                            {
+                                <img src="~/client/img/stock.png" alt="">
+                            }
+                            else
+                            {
+                                <img src="~/client/img/no_stock.png" alt="">
+                            }
+                            <span>Есть в наличии</span>
+                        </p>
+                        <div class="price-block">
+                            <p class="price">
+                                Цена за 1 кг
+                                <b>@((product.PriceKg * Model.EUR).Value.ToString("N0")) р.</b>
+                            </p>
+                            @if (product.PriceKit != null)
+                            {
+                                <p class="price">
+                                    Вес комплекта (кг)
+                                    <b>@((product.PriceKit * Model.EUR).Value.ToString("N0")) р.</b>
+                                </p>
+                            }
+                        </div>
+                        <div class="flex-block">
+                            @if (Model.CartView.Items.Any(x => x.IdProduct == product.Id))
+                            {
+                                <div class="counter counterIsCart">
+                                    <span class="minus" data-item-id="@product.Id"></span>
+                                    <input type="number" min="1"
+                            value="@(Model.CartView.Items.SingleOrDefault(x=>x.IdProduct == product.Id).Count)">
+                                    <span class="plus" data-item-id="@product.Id"></span>
+                                </div>
+                                <a style="display: none;" data-product="@product.Id" class="cart_btn js_AddInCart">
+                                    <img src="~/client/img/cart.png" alt="">
+                                    <span>В корзину</span>
+                                </a>
+                                <a data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart"
+                        asp-controller="Home" asp-route-alias="">
+                                    <span>Оформить заказ</span>
+                                </a>
+                            }
+                            else
+                            {
+                                <div class="counter counterNoCart">
+                                    <span class="minus" data-item-id="@product.Id"></span>
+                                    <input type="number" min="1" value="1">
+                                    <span class="plus" data-item-id="@product.Id"></span>
+                                </div>
+                                <a data-product="@product.Id" class="cart_btn js_AddInCart">
+                                    <img src="~/client/img/cart.png" alt="">
+                                    <span>В корзину</span>
+                                </a>
+                                <a style="display: none;" data-product="@product.Id" class="cart_btn js_DeleteInCart"
+                        asp-action="Cart" asp-controller="Home" asp-route-alias="">
+                                    <span>Оформить заказ</span>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
+        <div class="btns-block" style="margin-bottom: 30px;">
+            <div class="swiper-arrows">
+                <a class="left"></a>
+                <a class="right"></a>
+            </div>
+            <a class="cat" asp-action="Catalog" asp-controller="Home" asp-route-alias="">Каталог</a>
+            @*<a class="calc">Расчет стоимости по кв</a>*@
+        </div>
+        <div class="ck-edit">@Html.Raw(Model.Service.Description4)</div>
     </div>
+}
+
+@await Component.InvokeAsync("MainProperties")
+
+@await Component.InvokeAsync("MainRewards")
+
+@await Component.InvokeAsync("MainSellingVideo")
+
+@if (!string.IsNullOrEmpty(Model.Service.LinkVideo))
+{
+    <div class="tv-page">
+        <h2>@(string.IsNullOrEmpty(Model.Service.TitleVideo) ? "Видео терраццо" : Model.Service.TitleVideo)</h2>
+        <div class="tv-open-video">
+            <div class="video">
+                <img src="@Model.Service.PreviewVideo" alt="">
+                <iframe src="@Model.Service.LinkVideo" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                <a class="play-button"><img src="~/client/img/play-button.png" alt=""></a>
+            </div>
+            <div class="link-block">
+                <img src="~/client/img/youtube.png" alt="">
+                <p>Наш YouTube канал</p>
+                <a href="https://www.youtube.com/channel/UCa3jeJBt5wM-xY6MmPi4VfQ" target="_blank">
+                    <img src="~/client/img/video_icon.png" alt="">
+                    <span>Видеогалерея</span>
+                </a>
+            </div>
+        </div>
+        <div class="ck-edit">@Html.Raw(Model.Service.Description3)</div>
+    </div>
+}
+
+<div class="service-page">
+    @* <div class="service-banner" style="background-image: url(@Model.Service.ImgServicePage);"> *@
+    @* <div class="info"> *@
+    @* <h1>@(string.IsNullOrEmpty(Model.Service.TitleH1) ? Model.Service.Title : Model.Service.TitleH1)</h1> *@
+    @* @if (!string.IsNullOrEmpty(Model.Service.TitleH2)) *@
+    @* { *@
+    @* <p class="title title-small">@Model.Service.TitleH2</p> *@
+    @* } *@
+    @* @if (!string.IsNullOrEmpty(Model.Service.TitleH3)) *@
+    @* { *@
+    @* <p class="title title-small">@Model.Service.TitleH3</p> *@
+    @* } *@
+    @* @if (!string.IsNullOrEmpty(Model.Service.BannerLinkName)) *@
+    @* { *@
+    @* <a class="link" href="@Model.Service.BannerLink">@Model.Service.BannerLinkName</a> *@
+    @* } *@
+    @* <div class="btns-block"> *@
+    @* @if (Model.GalleryItems.Any()) *@
+    @* { *@
+    @* <a class="photos js_service_anchor" href="#anchor_photos"> *@
+    @* <img src="~/client/img/photo-camera.png" alt=""> *@
+    @* <i>@Model.GalleryItems.Count()</i> *@
+    @* <span>Фотографии</span> *@
+    @* </a> *@
+    @* } *@
+    @* @if (Model.Products.Any()) *@
+    @* { *@
+    @* <a class="material js_service_anchor" href="#anchor_material"> *@
+    @* <img src="~/client/img/cement.png" alt=""> *@
+    @* <span>Материал</span> *@
+    @* </a> *@
+    @* } *@
+    @* @if (Model.Service.CalcId != null) *@
+    @* { *@
+    @* <a class="calc js_service_anchor" href="#CalcForm"> *@
+    @* <img src="~/client/img/calculator.png" alt=""> *@
+    @* <span>Расчет стоимости по кв</span> *@
+    @* </a> *@
+    @* } *@
+    @* </div> *@
+    @* </div> *@
+    @* </div> *@
+    @* <div class="flex-service"> *@
+    @* <div class="ck-edit">@Html.Raw(Model.Service.Description1)</div> *@
+    @* <div id="serviceForm"> *@
+    @* @await Component.InvokeAsync("ServiceForm") *@
+    @* </div> *@
+    @* </div> *@
     @if (Model.GalleryItems.Any())
     {
         <div class="photos" id="anchor_photos">
@@ -122,116 +347,28 @@
         </div>
     }
 </div>
-<div class="services-page">
-    <div class="ck-edit">@Html.Raw(Model.Service.Description2)</div>
-</div>
-@if (!string.IsNullOrEmpty(Model.Service.LinkVideo))
+
+@if (Model.Services.Any())
 {
-    <div class="tv-page">
-        <h2>@(string.IsNullOrEmpty(Model.Service.TitleVideo) ? "Видео терраццо" : Model.Service.TitleVideo)</h2>
-        <div class="tv-open-video">
-            <div class="video">
-                <img src="@Model.Service.PreviewVideo" alt="">
-                <iframe src="@Model.Service.LinkVideo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <a class="play-button"><img src="~/client/img/play-button.png" alt=""></a>
+    <div class="main-reviews" style="margin: 6rem auto">
+        <h1>Отзывы услуги</h1>
+        <div>
+            <div class="prev"></div>
+            <div class="reviews main-slider" id="reviews" data-serviceId="@Model.Service.Id">
             </div>
-            <div class="link-block">
-                <img src="~/client/img/youtube.png" alt="">
-                <p>Наш YouTube канал</p>
-                <a href="https://www.youtube.com/channel/UCa3jeJBt5wM-xY6MmPi4VfQ" target="_blank">
-                    <img src="~/client/img/video_icon.png" alt="">
-                    <span>Видеогалерея</span>
-                </a>
-            </div>
+            <div class="next"></div>
         </div>
-        <div class="ck-edit">@Html.Raw(Model.Service.Description3)</div>
     </div>
 }
 
-@if (Model.Products.Any())
-{
-    <div class="main-materials" id="anchor_material">
-        <h2>@(string.IsNullOrEmpty(Model.Service.TitleProducts) ? "C этим товаром покупают" : Model.Service.TitleProducts)</h2>
-        <div class="swiper-container swiper-main-materials">
-            <div class="swiper-wrapper">
-                @foreach (var product in Model.Products)
-                {
-                    <div class="swiper-slide" data-item-id="@product.Id">
-                        <a asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias" class="img" style="background-image: url(@product.Img1); display:block;"></a>
-                        <p class="caption"><a asp-action="Catalog" asp-controller="Home" asp-route-alias="@product.Alias">@product.Title</a></p>
-                        <p class="desc">@product.SubTitle</p>
-                        <p class="stock">
-                            @if (product.Stock)
-                            {
-                                <img src="~/client/img/stock.png" alt="">
-                            }
-                            else
-                            {
-                                <img src="~/client/img/no_stock.png" alt="">
-                            }
-                            <span>Есть в наличии</span>
-                        </p>
-                        <div class="price-block">
-                            <p class="price">
-                                Цена за 1 кг
-                                <b>@((product.PriceKg * Model.EUR).Value.ToString("N0")) р.</b>
-                            </p>
-                            @if (product.PriceKit != null)
-                            {
-                                <p class="price">
-                                    Вес комплекта (кг)
-                                    <b>@((product.PriceKit * Model.EUR).Value.ToString("N0")) р.</b>
-                                </p>
-                            }
-                        </div>
-                        <div class="flex-block">
-                            @if (Model.CartView.Items.Any(x => x.IdProduct == product.Id))
-                            {
-                                <div class="counter counterIsCart">
-                                    <span class="minus" data-item-id="@product.Id"></span>
-                                    <input type="number" min="1" value="@(Model.CartView.Items.SingleOrDefault(x=>x.IdProduct == product.Id).Count)">
-                                    <span class="plus" data-item-id="@product.Id"></span>
-                                </div>
-                                <a style="display: none;" data-product="@product.Id" class="cart_btn js_AddInCart">
-                                    <img src="~/client/img/cart.png" alt="">
-                                    <span>В корзину</span>
-                                </a>
-                                <a data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">
-                                    <span>Оформить заказ</span>
-                                </a>
-                            }
-                            else
-                            {
-                                <div class="counter counterNoCart">
-                                    <span class="minus" data-item-id="@product.Id"></span>
-                                    <input type="number" min="1" value="1">
-                                    <span class="plus" data-item-id="@product.Id"></span>
-                                </div>
-                                <a data-product="@product.Id" class="cart_btn js_AddInCart">
-                                    <img src="~/client/img/cart.png" alt="">
-                                    <span>В корзину</span>
-                                </a>
-                                <a style="display: none;" data-product="@product.Id" class="cart_btn js_DeleteInCart" asp-action="Cart" asp-controller="Home" asp-route-alias="">
-                                    <span>Оформить заказ</span>
-                                </a>
-                            }
-                        </div>
-                    </div>
-                }
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="btns-block" style="margin-bottom: 30px;">
-            <div class="swiper-arrows">
-                <a class="left"></a>
-                <a class="right"></a>
-            </div>
-            <a class="cat" asp-action="Catalog" asp-controller="Home" asp-route-alias="">Каталог</a>
-            @*<a class="calc">Расчет стоимости по кв</a>*@
-        </div>
-        <div class="ck-edit">@Html.Raw(Model.Service.Description4)</div>
-    </div>
-}
+@await Component.InvokeAsync("FormCTA")
+
+@await Component.InvokeAsync("StageOfWork")
+
+
+@* <div class="services-page"> *@
+@* <div class="ck-edit">@Html.Raw(Model.Service.Description2)</div> *@
+@* </div> *@
 
 @if (!string.IsNullOrEmpty(Model.Service.SchemaCode))
 {
@@ -247,13 +384,14 @@
 @if (Model.Service.CalcId != null)
 {
     <div class="price-page" id="CalcForm">
-        <h2>@(string.IsNullOrEmpty(Model.Service.TitleCalc) ? "Расчет стоимости по квадратуре" : Model.Service.TitleCalc)</h2>
+        <h2>@(string.IsNullOrEmpty(Model.Service.TitleCalc) ? "Расчет стоимости по квадратуре" : Model.Service.TitleCalc)
+        </h2>
     </div>
     @if (ViewBag.Section != null)
     {
         <script>
             document.addEventListener("DOMContentLoaded", function () {
-               var elmnt = document.getElementById("@ViewBag.Section");
+                var elmnt = document.getElementById("@ViewBag.Section");
                 elmnt.scrollIntoView();
             });
         </script>
@@ -278,7 +416,8 @@
                         @if (Model.CalcCategory.Matt)
                         {
                             <div class="checkbox">
-                                <input type="checkbox" id="radio_3" name="Varnish" @(!string.IsNullOrEmpty(Model.Varnish) ? "checked" : "") value="Матовый">
+                                <input type="checkbox" id="radio_3" name="Varnish" @(!string.IsNullOrEmpty(Model.Varnish) ?
+                            "checked" : "") value="Матовый">
                                 <label for="radio_3">Матовый</label>
                                 <div class="check"></div>
                             </div>
@@ -299,6 +438,30 @@
             </form>
         </div>
     </div>
+
+
+    @if (Model.Floors.Any())
+    {
+        <div class="main-floors">
+            <h2>@(string.IsNullOrEmpty(Model.Service.TitleOblast) ? "Полы в помещениях" : Model.Service.TitleOblast)</h2>
+            <ul>
+                @foreach (var item in Model.Floors)
+                {
+                    <li>
+                        <a asp-action="FloorOpen" asp-controller="Home" asp-route-alias="@item.Alias">
+                            <div class="img" style="background-image: url(@item.Icon);"></div>
+                            <p>@item.Title</p>
+                        </a>
+                    </li>
+                }
+            </ul>
+            @*<a class="all_floors" asp-action="Floors" asp-controller="Home" asp-route-alias="">Все помещения</a>*@
+            <div class="ck-edit">@Html.Raw(Model.Service.Description8)</div>
+        </div>
+    }
+
+    @await Component.InvokeAsync("MainQuestions")
+
     <div class="price-page">
         @if (Model.CalcProducts != null && Model.CalcProducts.Any())
         {
@@ -315,11 +478,18 @@
                     <tr>
                         <td>@product.PrTitle</td>
                         <td>@(Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000)</td>
-                        @{ float kg = float.Parse(product.Kg, CultureInfo.InvariantCulture); }
+                        @{
+                            float kg = float.Parse(product.Kg, CultureInfo.InvariantCulture);
+                        }
                         <td>@(((kg / 1000) * Model.Area).ToString("N1").TrimEnd('0').TrimEnd(','))</td>
-                        <td>@(((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg * Model.EUR).Value).ToString("N1").TrimEnd('0').TrimEnd(','))</td>
-                        <td>@((((kg / 1000) * Model.Area) * (float)(product.PrPriceKg * Model.EUR)).ToString("N1").TrimEnd('0').TrimEnd(','))</td>
-                        @{ Model.TotalSum_1m2 += (Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg * Model.EUR).Value; }
+                        <td>@(((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg *
+                Model.EUR).Value).ToString("N1").TrimEnd('0').TrimEnd(','))</td>
+                        <td>@((((kg / 1000) * Model.Area) * (float)(product.PrPriceKg *
+                Model.EUR)).ToString("N1").TrimEnd('0').TrimEnd(','))</td>
+                        @{
+                            Model.TotalSum_1m2 += (Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) *
+                                    (product.PrPriceKg * Model.EUR).Value;
+                        }
                     </tr>
                 }
             </table>
@@ -333,30 +503,37 @@
                         <p>Реком-й расход на 1 м2 (кг)</p>
                         <p class="val">@((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000))</p>
                         <p>Необх-е кол-во (кг)</p>
-                        @{ float kg = float.Parse(product.Kg, CultureInfo.InvariantCulture); }
+                        @{
+                            float kg = float.Parse(product.Kg, CultureInfo.InvariantCulture);
+                        }
                         <p class="val">@(((kg / 1000) * Model.Area).ToString("N1").TrimEnd('0').TrimEnd(','))</p>
                         <p>Цена на 1 м2 (руб.)</p>
-                        <p class="val">@(((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg * Model.EUR).Value).ToString("N1").TrimEnd('0').TrimEnd(','))</p>
+                        <p class="val">@(((Convert.ToDecimal(product.Kg, CultureInfo.InvariantCulture) / 1000) * (product.PrPriceKg
+                * Model.EUR).Value).ToString("N1").TrimEnd('0').TrimEnd(','))</p>
                         <p>Всего</p>
-                        <p class="val">@((((kg / 1000) * Model.Area) * (float)(product.PrPriceKg * Model.EUR)).ToString("N1").TrimEnd('0').TrimEnd(','))</p>
+                        <p class="val">@((((kg / 1000) * Model.Area) * (float)(product.PrPriceKg *
+                Model.EUR)).ToString("N1").TrimEnd('0').TrimEnd(','))</p>
                     </li>
                 }
             </ul>
             <div class="price-result">
                 <p>
                     <span style="width: 200px; display: inline-block;">Итого за материал:</span>
-                    <i style="font-style: normal;" class="price-result-1">1 м2 - на сумму @Model.TotalSum_1m2.ToString("N1").TrimEnd('0').TrimEnd(',') руб.</i>
+                    <i style="font-style: normal;" class="price-result-1">1 м2 - на сумму
+                        @Model.TotalSum_1m2.ToString("N1").TrimEnd('0').TrimEnd(',') руб.</i>
                 </p>
                 <p>
                     <span style="width: 200px; display: inline-block;"></span>
-                    <i style="font-style: normal;" class="price-result-2">@Model.Area м2 - на сумму @Model.TotalSum.ToString("N1").TrimEnd('0').TrimEnd(',') руб.</i>
+                    <i style="font-style: normal;" class="price-result-2">@Model.Area м2 - на сумму
+                        @Model.TotalSum.ToString("N1").TrimEnd('0').TrimEnd(',') руб.</i>
                 </p>
                 <div class="btns-block">
                     <a class="js_calc_open_form">Оформить заказ</a>
                     <a class="js_calc_open_form">Узнать сроки и стоимость выполнения работ</a>
                 </div>
             </div>
-            <p class="lbl">Калькулятор поможет вам сориентироваться в стоимости полов. Стоимость складывается, как из работы по устройству полов, так и из материалов.</p>
+            <p class="lbl">Калькулятор поможет вам сориентироваться в стоимости полов. Стоимость складывается, как из работы по
+                устройству полов, так и из материалов.</p>
             <div class="cart-order" id="calcOrder">
                 @await Component.InvokeAsync("CalcOrder")
             </div>
@@ -384,47 +561,6 @@
             <div class="swiper-pagination"></div>
         </div>
         <div class="ck-edit">@Html.Raw(Model.Service.Description7)</div>
-    </div>
-}
-
-@if (Model.Floors.Any())
-{
-    <div class="main-floors">
-        <h2>@(string.IsNullOrEmpty(Model.Service.TitleOblast) ? "Полы в помещениях" : Model.Service.TitleOblast)</h2>
-        <ul>
-            @foreach (var item in Model.Floors)
-            {
-                <li>
-                    <a asp-action="FloorOpen" asp-controller="Home" asp-route-alias="@item.Alias">
-                        <div class="img" style="background-image: url(@item.Icon);"></div>
-                        <p>@item.Title</p>
-                    </a>
-                </li>
-            }
-        </ul>
-        @*<a class="all_floors" asp-action="Floors" asp-controller="Home" asp-route-alias="">Все помещения</a>*@
-        <div class="ck-edit">@Html.Raw(Model.Service.Description8)</div>
-    </div>
-}
-
-@if (Model.Articles.Any())
-{
-    <div class="main-questions">
-        <h2>@(string.IsNullOrEmpty(Model.Service.TitleQuestion) ? "Популярные вопросы" : Model.Service.TitleQuestion)</h2>
-        <div class="swiper-container swiper-main-questions">
-            <div class="swiper-wrapper">
-                @foreach (var item in Model.Articles)
-                {
-                    <div class="swiper-slide">
-                        <p class="date">@item.CreationDate.ToString("dd MMMM")</p>
-                        <a asp-controller="Home" asp-action="Articles" asp-route-alias="@item.Alias" class="caption">@item.Title</a>
-                        <p class="desc">@item.SubTitle</p>
-                    </div>
-                }
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="ck-edit">@Html.Raw(Model.Service.Description9)</div>
     </div>
 }
 

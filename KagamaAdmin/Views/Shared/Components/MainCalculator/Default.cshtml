@@ -1,0 +1,156 @@
+@model KagamaAdmin.ViewModel.CalculatorView
+
+<div class="main-calculator">
+    <div class="content">
+        <h1>Узнайте стоимость услуг и материалов</h1>
+
+        <div class="control-bar">
+            <div class="input">
+                <label>Площадь</label>
+                <input type="text" value="0" id="area" />
+                <p class="ph">м2</p>
+            </div>
+            <div class="select" style="margin-left:.5rem">
+                <label>Толщина</label>
+                <select id="thickVal">
+                </select>
+                <p class="ph">мм</p>
+            </div>
+            <div class="input-section">
+                <div class="title">Лак</div>
+                <div class="radios">
+
+                    <div class="label">
+                        <div class="radio">
+                            <input type="radio" name="lak" id="glyantseviy" value="Глянцевый" checked />
+                        </div>
+                        <label for="glyantseviy">Глянцевый</label>
+                    </div>
+                    <div class="label" style="margin-right: 12px;">
+                        <div class="radio">
+                            <input type="radio" name="lak" id="matoviy" value="Матовый" />
+                        </div>
+                        <label for="matoviy">Матовый</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            <div class="services-wrapper">
+                @foreach (var item in Model.CalcCategories)
+                {
+
+                    <div class="service" tabindex="1" data-id="@item.Id"
+                    data-thick="@Model.TicksDictionary[item.Id].Select(x => x.Mm).FirstOrDefault()">
+                        <div class="decoration" id="dt"></div>
+                        <div class="top">
+                            <div class="text">@item.Title</div>
+                        </div>
+
+                        <img src="@Model.CalcImages[@item.Id]" />
+                        <div class="bottom">
+                            <div class="text">Узнать стоимость</div>
+                        </div>
+                        <div class="decoration" id="db"></div>
+                    </div>
+                }
+                @* <div class="service" tabindex="1">
+                    <div class="decoration" id="dt"></div>
+                    <div class="top">
+                    <div class="text">Декоративные эпоксидные полы</div>
+                    </div>
+
+                    <img src="~/client/img/static.png" />
+                    <div class="bottom">
+                    <div class="text">Узнать стоимость</div>
+                    </div>
+                    <div class="decoration" id="db"></div>
+                    </div>
+                    <div class="service" tabindex="1">
+                    <div class="decoration" id="dt"></div>
+                    <div class="top">
+                    <div class="text">Декоративные эпоксидные полы</div>
+                    </div>
+
+                    <img src="~/client/img/static.png" />
+                    <div class="bottom">
+                    <div class="text">Узнать стоимость</div>
+                    </div>
+                    <div class="decoration" id="db"></div>
+                    </div>
+                    <div class="service" tabindex="1">
+                    <div class="decoration" id="dt"></div>
+                    <div class="top">
+                    <div class="text">Декоративные эпоксидные полы</div>
+                    </div>
+
+                    <img src="~/client/img/static.png" />
+                    <div class="bottom">
+                    <div class="text">Узнать стоимость</div>
+                    </div>
+                    <div class="decoration" id="db"></div>
+                    </div>
+                    <div class="service" tabindex="1">
+                    <div class="decoration" id="dt"></div>
+                    <div class="top">
+                    <div class="text">Декоративные эпоксидные полы</div>
+                    </div>
+
+                    <img src="~/client/img/static.png" />
+                    <div class="bottom">
+                    <div class="text">Узнать стоимость</div>
+                    </div>
+                    <div class="decoration" id="db"></div>
+                    </div>
+                    <div class="service" tabindex="1">
+                    <div class="decoration" id="dt"></div>
+                    <div class="top">
+                    <div class="text">Декоративные эпоксидные полы</div>
+                    </div>
+
+                    <img src="~/client/img/static.png" />
+                    <div class="bottom">
+                    <div class="text">Узнать стоимость</div>
+                    </div>
+                    <div class="decoration" id="db"></div>
+                    </div> *@
+
+            </div>
+        </div>
+    </div>
+    <div class="result">
+        <table>
+            <thead>
+                <tr>
+                    <th>Наименование</th>
+                    <th>Реком-й расход на 1 м2 (кг)</th>
+                    <th>Необх-е кол-во (кг)</th>
+                    <th>Цена на 1 м2 (руб.)</th>
+                    <th>Всего</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <div class="price-page" style="display: none;">
+        <div class="price-result">
+            <p>
+                <span style="width: 200px; display: inline-block;">Итого за материал:</span>
+                <i style="font-style: normal;" class="price-result-1">1 м2 - на сумму <span id="totalPricePSEl"
+                        style="color: #fff;"></span>&nbsp;руб.</i>
+            </p>
+            <p>
+                <span style="width: 200px; display: inline-block;"></span>
+                <i style="font-style: normal;" class="price-result-2"><span style="color: #fff;" id="totalCount"
+                        style="color: #fff;"></span>&nbsp;м2 - на сумму <span id="totalSum"
+                        style="color: #fff;"></span>&nbsp;руб.</i>
+            </p>
+            <div class="btns-block">
+                <a class="js_calc_open_form">Оформить заказ</a>
+                <a class="js_calc_open_form2">Узнать сроки и стоимость выполнения работ</a>
+            </div>
+        </div>
+    </div>
+</div>
